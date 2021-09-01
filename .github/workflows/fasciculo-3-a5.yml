@@ -13,9 +13,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Construir PDFs
-        uses: lbssousa/lualatex-docker-action@v2
+        uses: lbssousa/lualatex-docker-action@v3
         with:
-          document: 'fasciculo-3/a5'
+          directory: 'fasciculo-3'
+          file: 'a5'
         env:
           OUT_DIR: public
 

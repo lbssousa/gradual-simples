@@ -15,8 +15,8 @@ jobs:
       - name: Construir PDFs
         uses: lbssousa/lualatex-docker-action@v3
         with:
-          directory: 'fasciculo-3'
-          file: 'a4-alt'
+          directory: 'fasciculo-4'
+          file: 'a6'
         env:
           OUT_DIR: public
 

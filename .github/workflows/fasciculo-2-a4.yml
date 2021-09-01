@@ -1,0 +1,27 @@
+name: "Fascículo 2 / Layout A4"
+on:
+  push:
+    branches: [main]
+defaults:
+  run:
+    working-directory: .
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Construir PDFs
+        uses: lbssousa/lualatex-docker-action@v6
+        with:
+          directory: 'fasciculo-2'
+          file: 'a4'
+        env:
+          OUT_DIR: public
+
+      - name: Fazer upload dos artefatos
+        uses: actions/upload-artifact@v2
+        with:
+          name: files
+          path: public/

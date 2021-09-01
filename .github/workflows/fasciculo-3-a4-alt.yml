@@ -1,4 +1,4 @@
-name: "Construir os documentos"
+name: "Fascículo 3 / Layout A4 alternativo"
 on:
   push:
     branches: [main]

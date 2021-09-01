@@ -1,0 +1,14 @@
+% !TeX root = ./mini.tex
+\titleformat{\chapter}[display]{\scshape\centering}{}{0pt}{\Huge#1}[\clearpage]
+\titleformat{\section}[block]{\bfseries\centering}{}{0pt}{\Large#1}
+\titleformat{\subsection}[block]{\bfseries\centering}{}{0pt}{\large#1}
+\titleformat{\subsubsection}[block]{\bfseries\centering}{}{0pt}{#1}
+%\titlespacing*{\section}{0pt}{0pt}{0pt}
+\titlespacing*{\subsection}{0pt}{5pt}{0pt}
+\newcommand{\sectionbreak}{\clearpage}
+\newcommand{\subsectionbreak}{\clearpage}
+\newcommand{\nobreaksubsection}[1]{%
+    \renewcommand{\subsectionbreak}{}
+    \subsection{#1}
+    \renewcommand{\subsectionbreak}{\clearpage}
+}

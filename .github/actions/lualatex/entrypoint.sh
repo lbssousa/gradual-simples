@@ -33,8 +33,7 @@ fileName=${2}
 
         if [ -f "${fileName}.log" ]
         then
-            grep Rerun ${fileName}.log
-            if [[ $(grep -c Rerun ${fileName}.log 2>/dev/null) > 0 ]]
+            if grep -q "Rerun to" ${fileName}.log
             then
                 echo ">>> Some hashes have changed. Rerun needed."
             else

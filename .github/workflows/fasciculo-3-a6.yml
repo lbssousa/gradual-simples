@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Construir PDFs
-        uses: lbssousa/lualatex-docker-action@v1
+        uses: lbssousa/lualatex-docker-action@v2
         with:
           document: 'fasciculo-3/a6'
         env:

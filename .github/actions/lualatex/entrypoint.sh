@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 workDir=$(pwd)
 
 echo ">>> Creating output directory ${OUT_DIR}..."
@@ -18,32 +20,18 @@ fileName=${2}
 
 cd ${dirName}
 
-rerunNeeded=true
-iteration=0
+rerunNeeded=1
 
-while ${rerunNeeded}
+for (( i = 0; i < 10, rerunNeeded; i++ ))
 do
-(( iteration++ ))
-    echo ">>> [Iteration #${iteration}] Building PDF document for file ${dirName}/${fileName}..."
+    echo ">>> [Iteration #$(( i + 1 ))] Building PDF document for file ${dirName}/${fileName}..."
     lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${fileName}
 
-    if [[ ${?} != 0 ]]
+    if [[ $(grep -c "Rerun to" ${fileName}.log) > 0 ]]
     then
-        echo ">>> LuaLaTeX build failed!"
-        exit 1
-    fi
-
-    if [ -f "${fileName}.log" ]
-    then
-        if grep -q "Rerun to" ${fileName}.log
-        then
-            echo ">>> Some hashes have changed. Rerun needed."
-        else
-            rerunNeeded=false
-        fi
+        echo ">>> Some hashes have changed. Rerun needed."
     else
-        echo ">>> ${fileName}.log not found! Something went wrong!"
-        exit 1
+        rerunNeeded=0
     fi
 done
 

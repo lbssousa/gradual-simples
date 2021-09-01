@@ -1,0 +1,24 @@
+name: "Generate document"
+on:
+  push:
+    branches: [main]
+defaults:
+  run:
+    working-directory: .
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build PDF
+        uses: ./actions/lualatex
+        env:
+          OUT_DIR: public
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: files
+          path: public/

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+workDir=$(pwd)
+
 echo ">>> Creating output directory ${OUT_DIR}..."
 mkdir --parent ${OUT_DIR}
 
@@ -14,37 +16,38 @@ mkdir --parent ${OUT_DIR}
 dirName=${1}
 fileName=${2}
 
-(
-    cd ${dirName}
-    rerunNeeded=true
-    iteration=0
+cd ${dirName}
 
-    while ${rerunNeeded}
-    do
-	(( iteration++ ))
-        echo ">>> [Iteration #${iteration}] Building PDF document for file ${dirName}/${fileName}..."
-        lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${fileName}
+rerunNeeded=true
+iteration=0
 
-        if [[ ${?} != 0 ]]
+while ${rerunNeeded}
+do
+(( iteration++ ))
+    echo ">>> [Iteration #${iteration}] Building PDF document for file ${dirName}/${fileName}..."
+    lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${fileName}
+
+    if [[ ${?} != 0 ]]
+    then
+        echo ">>> LuaLaTeX build failed!"
+        exit 1
+    fi
+
+    if [ -f "${fileName}.log" ]
+    then
+        if grep -q "Rerun to" ${fileName}.log
         then
-            echo ">>> LuaLaTeX build failed!"
-            exit 1
-        fi
-
-        if [ -f "${fileName}.log" ]
-        then
-            if grep -q "Rerun to" ${fileName}.log
-            then
-                echo ">>> Some hashes have changed. Rerun needed."
-            else
-                rerunNeeded=false
-            fi
+            echo ">>> Some hashes have changed. Rerun needed."
         else
-            echo ">>> ${fileName}.log not found! Something went wrong!"
-            exit 1
+            rerunNeeded=false
         fi
-    done
-)
+    else
+        echo ">>> ${fileName}.log not found! Something went wrong!"
+        exit 1
+    fi
+done
+
+cd ${workDir}
 
 echo ">>> Copying file ${dirName}/${fileName}.pdf to ${OUT_DIR}"
 cp ${dirName}/${fileName}.pdf ${OUT_DIR}/${dirName}-${fileName}.pdf

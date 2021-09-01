@@ -1,0 +1,9 @@
+{
+  "editor.wordWrap": "bounded",
+  "latex-workshop.chktex.enabled": true,
+  "latex-workshop.chktex.run": "onType",
+  "latex-workshop.intellisense.package.enabled": true,
+  "latex-workshop.kpsewhich.enabled": true,
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.synctex.afterBuild.enabled": true
+}

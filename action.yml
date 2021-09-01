@@ -1,6 +1,0 @@
-# action.yml
-name: 'LuaLaTeX'
-description: 'Compila o documento usando LuaLaTeX'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'

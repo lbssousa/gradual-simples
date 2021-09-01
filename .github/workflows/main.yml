@@ -1,4 +1,4 @@
-name: "Generate document"
+name: "Construir os documentos"
 on:
   push:
     branches: [main]
@@ -12,12 +12,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Build PDF
+      - name: Construir PDFs
         uses: ./actions/lualatex
         env:
           OUT_DIR: public
 
-      - name: Upload artifacts
+      - name: Fazer upload dos artefatos
         uses: actions/upload-artifact@v2
         with:
           name: files

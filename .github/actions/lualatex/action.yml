@@ -1,0 +1,18 @@
+# action.yml
+name: 'Build with LuaLaTeX'
+description: 'Builds document with LuaLaTeX'
+inputs:
+  directory:
+    description: 'Directory of TeX entry files'
+    required: true
+    default: '.'
+  file:
+    description: 'Document file to be built'
+    required: true
+    default: 'a4'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.directory }}
+    - ${{ inputs.file }}

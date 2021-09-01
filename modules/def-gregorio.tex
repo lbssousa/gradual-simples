@@ -1,0 +1,233 @@
+% !TeX root = ./main.tex
+% chktex-file 1
+\gresetbarspacing{old}
+\grechangedim{baselineskip}{66pt plus 5pt minus 5pt}{scalable}
+\grechangestyle{initial}{\fontsize{40}{40}\selectfont\color{gregoriocolor}}
+\grechangestyle{abovelinestext}{\scshape\fontsize{9}{9}\selectfont}
+
+%\setlength{\columnseprule}{0.4pt}
+
+\ExplSyntaxOn
+\DeclareExpandableDocumentCommand{\IfNoValueOrEmptyTF}{m m m}{%
+  \IfNoValueTF{#1}%
+  {#2}% true
+  {\tl_if_empty:nTF{#1}{#2}{#3}}% false
+}
+\ExplSyntaxOff
+
+\NewDocumentEnvironment{rubrica}{}{%
+  \color{gregoriocolor}\scshape%
+}{}
+\NewDocumentEnvironment{greenumerate}{}{%
+  \begin{enumerate}[label=\textcolor{gregoriocolor}{\protect\Vbar. \arabic*.}]%
+    }{%
+  \end{enumerate}%
+}
+
+\NewDocumentCommand{\Antiphona}{s m o}{%
+  \allowbreak\textcolor{gregoriocolor}{\Abar.}~\IfNoValueTF{#3}{#2}{\nottoggle{disablehyperlinks}{\hyperlink{#3}{#2}}{#2}}\IfBooleanF{#1}{.}%
+}
+
+\NewDocumentCommand{\Responsorium}{s m o}{%
+  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~\IfNoValueTF{#3}{#2}{\nottoggle{disablehyperlinks}{\hyperlink{#3}{#2}}{#2}}\IfBooleanF{#1}{.}%
+}
+
+\NewDocumentCommand{\ResponsoriumC}{s m o}{%
+  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~\IfNoValueTF{#3}{#2}{\nottoggle{disablehyperlinks}{\hyperlink{#3}{#2}}{#2}}\IfBooleanF{#1}{.}
+  {\GreStar}%
+}
+
+\NewDocumentCommand{\Versum}{s m o}{%
+  \allowbreak\textcolor{gregoriocolor}{\Vbar.}~\IfNoValueTF{#3}{#2}{\nottoggle{disablehyperlinks}{\hyperlink{#3}{#2}}{#2}}\IfBooleanF{#1}{.}%
+}
+
+\NewDocumentEnvironment{annotation}{}{\begin{flushright}\iftoggle{compact}{\scriptsize}{\footnotesize}}{\end{flushright}\vspace{-20pt}}
+
+\DeclareDocumentCommand{\Annotation}{}{}
+
+\NewDocumentCommand{\MakeAnnotation}{m m}{%
+  \IfNoValueOrEmptyTF{#1}{}{\Antiphona*{#1}\IfNoValueOrEmptyTF{#2}{}{\\}}
+  \IfNoValueOrEmptyTF{#2}{}{\Versum*{#2}}%
+}
+
+\NewDocumentCommand{\Elisio}{m}{\textit{\small#1}}
+
+\NewDocumentCommand{\CantusID}{o m o}{%
+  Cantus ID \href{http://cantusindex.org/id/#2}{%
+    #2%
+    \IfValueT{#1}{(#1)}%
+  }
+  \IfValueT{#3}{\textit{cf.} #3}%
+}
+
+\NewDocumentCommand{\Inchoatio}{m o m}{%
+  \IfNoValueTF{#2}{%
+    \textit{#1#3}%
+  }{%
+    \textit{#1}#2\textit{#3}%
+  }%
+}
+
+\NewDocumentCommand{\Flexa}{s m o}{%
+  \IfBooleanTF{#1}
+  {\IfValueTF{#3}{#2#3}{#2} {\large'}}
+  {\IfValueTF{#3}{\textbf{#2}#3}{\textbf{#2}} \GreDagger}%
+}
+
+\NewDocumentCommand{\MediatioI}{m m m O{}}{%
+  \textbf{#1}#2\textbf{#3}#4 \GreStar%
+}
+\NewDocumentCommand{\TerminatioI}{m O{} m O{} m}{%
+  \IfNoValueTF{#2}{%
+    \textit{#1#3}%
+  }{%
+    \textit{#1}#2\textit{#3}%
+  }%
+  #4\textbf{#5}%
+}
+
+\NewDocumentCommand{\MediatioII}{m O{}}{%
+  \textbf{#1}#2 \GreStar%
+}
+\NewDocumentCommand{\TerminatioII}{m O{} m}{%
+  \textit{#1}#2\textbf{#3}%
+}
+
+\NewDocumentCommand{\MediatioIII}{m m m O{}}{%
+  \textbf{#1}#2\textbf{#3}#4 \GreStar%
+}
+\NewDocumentCommand{\TerminatioIIIa}{m O{} m}{%
+  \textit{#1}#2\textbf{#3}%
+}
+\NewDocumentCommand{\TerminatioIIIg}{m o m O{} m}{%
+  \TerminatioI{#1}[#2]{#3}[#4]{#5}%
+}
+
+\NewDocumentCommand{\MediatioIV}{m o m O{} m O{}}{%
+  \IfNoValueTF{#2}{%
+    \textit{#1#3}%
+  }{%
+    \textit{#1}#2\textit{#3}%
+  }%
+  #4\textbf{#5}#6 \GreStar%
+}
+\NewDocumentCommand{\TerminatioIV}{m o m o m O{} m}{%
+  \IfNoValueTF{#2}{%
+    \IfNoValueTF{#4}{%
+      \textit{#1#3#5}%
+    }{%
+      \textit{#1#3}#4\textit{#5}%
+    }%
+  }{%
+    \IfNoValueTF{#4}{%
+      \textit{#1}#2\textit{#3#5}%
+    }{%
+      \textit{#1}#2\textit{#3}#4\textit{#5}%
+    }%
+  }%
+  #6\textbf{#7}%
+}
+\NewDocumentCommand{\TerminatioIVc}{m}{%
+  \textbf{#1}%
+}
+
+\NewDocumentCommand{\MediatioV}{m O{}}{%
+  \MediatioII{#1}[#2]%
+}
+\NewDocumentCommand{\TerminatioV}{m m m}{%
+  \textbf{#1}#2\textbf{#3}%
+}
+
+\NewDocumentCommand{\MediatioVI}{m O{} m O{}}{%
+  \textit{#1}#2\textbf{#3}#4 \GreStar%
+}
+\NewDocumentCommand{\TerminatioVI}{m o m O{} m}{%
+  \TerminatioI{#1}[#2]{#3}[#4]{#5}%
+}
+
+\NewDocumentCommand{\MediatioVII}{m m m O{}}{%
+  \textbf{#1}#2\textbf{#3}#4 \GreStar%
+}
+\NewDocumentCommand{\TerminatioVII}{m m m}{%
+  \TerminatioV{#1}{#2}{#3}%
+}
+
+\NewDocumentCommand{\MediatioVIII}{m o}{%
+  \MediatioII{#1}[#2]%
+}
+\NewDocumentCommand{\TerminatioVIII}{m o m O{} m}{%
+  \TerminatioI{#1}[#2]{#3}[#4]{#5}%
+}
+
+\NewDocumentCommand{\MediatioC}{m O{}}{%
+  \MediatioII{#1}[#2]%
+}
+\NewDocumentCommand{\TerminatioCI}{m O{} m}{%
+  \TerminatioII{#1}[#2]{#3}%
+}
+\NewDocumentCommand{\TerminatioCII}{m}{%
+  \textbf{#1}%
+}
+\NewDocumentCommand{\InchoatioC}{O{} m}{%
+  #1\textbf{#2}%
+}
+
+\NewDocumentCommand{\MediatioCS}{m O{} m O{} m}{%
+  \MediatioIV{#1}[#2]{#3}[#4]{#5}%
+}
+\NewDocumentCommand{\TerminatioCS}{m}{%
+  \textbf{#1}%
+}
+
+\NewDocumentCommand{\MediatioD}{m O{}}{%
+  \MediatioII{#1}[#2]%
+}
+\NewDocumentCommand{\TerminatioDI}{m}{%
+  \textbf{#1}%
+}
+\NewDocumentCommand{\TerminatioDIe}{m O{} m O{} m}{%
+  \TerminatioI{#1}[#2]{#3}[#4]{#5}%
+}
+\NewDocumentCommand{\TerminatioDS}{m O{} m}{%
+  \TerminatioII{#1}[#2]{#3}%
+}
+
+\NewDocumentCommand{\MediatioE}{m O{}}{%
+  \MediatioII{#1}[#2]%
+}
+\NewDocumentCommand{\TerminatioEI}{m O{} m}{%
+  \textit{#1}#2\textbf{#3}%
+}
+
+\NewDocumentCommand{\TerminatioEII}{m}{%
+  \textbf{#1}%
+}
+
+\NewDocumentCommand{\TerminatioES}{m O{} m}{%
+  \TerminatioEI{#1}[#2]{#3}%
+}
+
+\NewDocumentCommand{\InchoatioE}{O{} m}{%
+  #1\textbf{#2}%
+}
+
+\NewDocumentCommand{\MediatioTA}{m o m O{} m O{}}{%
+  \MediatioIV{#1}[#2]{#3}[#4]{#5}[#6]%
+}
+\NewDocumentCommand{\TerminatioTA}{m}{%
+  \textbf{#1}%
+}
+
+\NewDocumentCommand{\MediatioTB}{m m m O{}}{%
+  \MediatioVII{#1}{#2}{#3}[#4]%
+}
+\NewDocumentCommand{\TerminatioTB}{m m m}{%
+  \TerminatioV{#1}{#2}{#3}%
+}
+
+\NewDocumentCommand{\MediatioTC}{m O{}}{%
+  \MediatioII{#1}[#2]%
+}
+\NewDocumentCommand{\TerminatioTC}{m O{} m}{%
+  \TerminatioII{#1}[#2]{#3}%
+}

@@ -1,0 +1,530 @@
+% chktex-file 1
+\makeatletter
+\newcommand{\Map}[2]{\@for\p:={#2}\do{\expandafter#1\p}} % chktex 41
+\makeatother
+
+\newcommand{\MakeVerseL}[2]{#1}
+\newcommand{\MakeVerseR}[2]{#2}
+\newcommand{\MakeVerseLR}[2]{#1\switchcolumn[1] #2\switchcolumn[0]*}
+
+\newcommand{\MakeVerseItemL}[2]{\MakeVerseL{\item #1}{\item #2}}
+\newcommand{\MakeVerseItemR}[2]{\MakeVerseR{\item #1}{\item #2}}
+\newcommand{\MakeVerseItemLR}[2]{\MakeVerseLR{\item #1}{\item #2}}
+
+\newcommand{\MakeVerseItemVoidL}[2]{\MakeVerseL{\item[] #1}{\item[] #2}}
+\newcommand{\MakeVerseItemVoidR}[2]{\MakeVerseR{\item[] #1}{\item[] #2}}
+\newcommand{\MakeVerseItemVoidLR}[2]{\MakeVerseLR{\item[] #1}{\item[] #2}}
+
+\newcommand{\MakeVerseListL}[1]{\Map{\MakeVerseItemL}{#1}}
+\newcommand{\MakeVerseListR}[1]{\Map{\MakeVerseItemR}{#1}}
+\newcommand{\MakeVerseListLR}[1]{\Map{\MakeVerseItemLR}{#1}}
+
+\DeclareDocumentCommand{\AllowPageFlush}{}{
+  \nottoggle{compact}{%
+    \clearpage%
+  }{}
+}
+
+\DeclareDocumentCommand{\AllowPageBreak}{}{
+  \nottoggle{compact}{%
+    \clearpage\hbox{}\newpage%
+  }{}
+}
+
+\NewDocumentCommand{\GregorioImportL}{s m m m m}{
+  \bgroup
+  \IfBooleanT{#1}{\gresetinitiallines{0}}
+  \iftoggle{disablehyperlinks}{
+    \gregorioscore{#2#3#4}
+  }{
+    \hypertarget{#2#3#4}{}\gregorioscore{#2#3#4}
+  }
+  \egroup
+}
+
+\NewDocumentCommand{\GregorioImportR}{s m m m m}{
+  \bgroup
+  \IfBooleanT{#1}{\gresetinitiallines{0}}
+  \iftoggle{disablehyperlinks}{
+    \gregorioscore{#2#3#5}
+  }{
+    \hypertarget{#2#3#5}{\gregorioscore{#2#3#5}}
+  }
+  \egroup
+}
+
+\NewDocumentCommand{\GregorioImportLR}{s m m m m}{
+  \bgroup
+  \IfBooleanT{#1}{\gresetinitiallines{0}}
+  \gregorioscore{#2#3#4}
+  \switchcolumn[1]
+  \gregorioscore{#2#3#5}
+  \switchcolumn[0]*
+  \egroup
+}
+
+\NewDocumentCommand{\GregorioImport}{s m m m m}{%
+  \iftoggle{compact}{
+    \IfBooleanTF{#1}{
+      \GregorioImportL*{#2}{#3}{#4}{#5}
+    }{
+      \GregorioImportL{#2}{#3}{#4}{#5}
+    }
+    \IfBooleanTF{#1}{
+      \GregorioImportR*{#2}{#3}{#4}{#5}
+    }{
+      \GregorioImportR{#2}{#3}{#4}{#5}
+    }
+  }{
+    \begin{paracol}{2}
+      \IfBooleanTF{#1}{
+        \GregorioImportLR*{#2}{#3}{#4}{#5}
+      }{
+        \GregorioImportLR{#2}{#3}{#4}{#5}
+      }
+    \end{paracol}
+  }
+}
+
+\NewDocumentCommand{\MakeChantPsalmOneVerse}{s m m}{
+  \input{#3/psalmus}
+
+  \begin{annotation}
+    \Annotation
+  \end{annotation}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{1}
+      \MakeVerseListL{\VersePairs}
+      \IfBooleanT{#1}{\Map{\MakeVerseItemVoidL}{\GloriaPatriPair}}
+    \end{greenumerate}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }
+    \makeatother
+    \GregorioImportR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{1}
+      \MakeVerseListR{\VersePairs}
+      \IfBooleanT{#1}{\Map{\MakeVerseItemVoidR}{\GloriaPatriPair}}
+    \end{greenumerate}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \end{paracol}
+
+    \begin{greenumerate}
+      \begin{paracol}{2}
+        \synccounter{enumi}
+        \setcounter{enumi}{1}
+        \switchcolumn[1]
+        \setcounter{enumi}{1}
+        \switchcolumn[0]*
+        \MakeVerseListLR{\VersePairs}
+        \IfBooleanT{#1}{\Map{\MakeVerseItemVoidLR}{\GloriaPatriPair}}
+      \end{paracol}
+    \end{greenumerate}
+  }
+}
+
+\NewDocumentCommand{\MakeChantPsalmTwoVerses}{s m m}{
+  \input{#3/psalmus}
+
+  \begin{annotation}
+    \Annotation
+  \end{annotation}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportL*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{2}
+      \MakeVerseListL{\VersePairs}
+    \end{greenumerate}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \makeatother
+    \GregorioImportR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportR*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{2}
+      \MakeVerseListR{\VersePairs}
+    \end{greenumerate}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+      \GregorioImportLR*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+    \end{paracol}
+
+    \begin{greenumerate}
+      \begin{paracol}{2}
+        \synccounter{enumi}
+        \setcounter{enumi}{2}
+        \switchcolumn[1]
+        \setcounter{enumi}{2}
+        \switchcolumn[0]*
+        \MakeVerseListLR{\VersePairs}
+      \end{paracol}
+    \end{greenumerate}
+  }
+}
+
+\NewDocumentCommand{\MakeChantPsalmThreeVerses}{s m m}{
+  \input{#3/psalmus}
+
+  \begin{annotation}
+    \Annotation
+  \end{annotation}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportL*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+    \GregorioImportL*{#2}{#3}{psalmus-v3}{psalmus-v3-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{3}
+      \MakeVerseListL{\VersePairs}
+    \end{greenumerate}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \makeatother
+    \GregorioImportR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportR*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+    \GregorioImportR*{#2}{#3}{psalmus-v3}{psalmus-v3-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{3}
+      \MakeVerseListR{\VersePairs}
+    \end{greenumerate}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+      \GregorioImportLR*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+      \GregorioImportLR*{#2}{#3}{psalmus-v3}{psalmus-v3-pt}
+    \end{paracol}
+
+    \begin{greenumerate}
+      \begin{paracol}{2}
+        \synccounter{enumi}
+        \setcounter{enumi}{3}
+        \switchcolumn[1]
+        \setcounter{enumi}{3}
+        \switchcolumn[0]*
+        \MakeVerseListLR{\VersePairs}
+      \end{paracol}
+    \end{greenumerate}
+  }
+}
+
+\NewDocumentCommand{\MakeChantLitany}{m m}{
+  \input{#2/litany}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#1#2kyrie-pt}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL{#1}{#2}{kyrie}{kyrie-pt}
+    \GregorioImportL*{#1}{#2}{sancta-maria}{sancta-maria-pt}
+
+    \begin{itemize}
+      \Map{\MakeVerseItemVoidL}{\SaintsPairs}
+    \end{itemize}
+
+    \GregorioImportL*{#1}{#2}{propitius}{propitius-pt}
+
+    \begin{itemize}
+      \Map{\MakeVerseItemVoidL}{\PropitiusPairs}
+    \end{itemize}
+
+    \GregorioImportL*{#1}{#2}{peccatores}{peccatores-pt}
+
+    \begin{itemize}
+      \Map{\MakeVerseItemVoidL}{\PeccatoresPairs}
+    \end{itemize}
+
+    \GregorioImportL*{#1}{#2}{christe}{christe-pt}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#1#2kyrie}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportR{#1}{#2}{kyrie}{kyrie-pt}
+    \GregorioImportR*{#1}{#2}{sancta-maria}{sancta-maria-pt}
+
+    \begin{itemize}
+      \Map{\MakeVerseItemVoidR}{\SaintsPairs}
+    \end{itemize}
+
+    \GregorioImportR*{#1}{#2}{propitius}{propitius-pt}
+
+    \begin{itemize}
+      \Map{\MakeVerseItemVoidR}{\PropitiusPairs}
+    \end{itemize}
+
+    \GregorioImportR*{#1}{#2}{peccatores}{peccatores-pt}
+
+    \begin{itemize}
+      \Map{\MakeVerseItemVoidR}{\PeccatoresPairs}
+    \end{itemize}
+
+    \GregorioImportR*{#1}{#2}{christe}{christe-pt}
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{#1}{#2}{kyrie}{kyrie-pt}
+      \GregorioImportLR*{#1}{#2}{sancta-maria}{sancta-maria-pt}
+    \end{paracol}
+
+    \begin{itemize}
+      \begin{paracol}{2}
+        \Map{\MakeVerseItemVoidLR}{\SaintsPairs}
+      \end{paracol}
+    \end{itemize}
+
+    \begin{paracol}{2}
+      \GregorioImportLR*{#1}{#2}{propitius}{propitius-pt}
+    \end{paracol}
+
+    \begin{itemize}
+      \begin{paracol}{2}
+        \Map{\MakeVerseItemVoidLR}{\PropitiusPairs}
+      \end{paracol}
+    \end{itemize}
+
+    \begin{paracol}{2}
+      \GregorioImportLR*{#1}{#2}{peccatores}{peccatores-pt}
+    \end{paracol}
+
+    \begin{itemize}
+      \begin{paracol}{2}
+        \Map{\MakeVerseItemVoidLR}{\PeccatoresPairs}
+      \end{paracol}
+    \end{itemize}
+
+    \begin{paracol}{2}
+      \GregorioImportLR*{#1}{#2}{christe}{christe-pt}
+    \end{paracol}
+  }
+}
+
+\NewDocumentCommand{\MakeChantAntiphonPsalm}{s m m O{}}{
+  \input{#3/psalmus}
+
+  \begin{annotation}
+    \Annotation
+  \end{annotation}
+
+  \iftoggle{compact}{
+    \makeatletter
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3antiphona-pt}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL{#2}{#3}{antiphona}{antiphona-pt}
+    \GregorioImportL*{#2}{#3}{psalmus}{psalmus-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{1}
+      \MakeVerseListL{\VersePairs}
+      \IfBooleanT{#1}{\Map{\MakeVerseItemVoidL}{\GloriaPatriPair}}
+    \end{greenumerate}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3antiphona}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \makeatother
+    \GregorioImportR{#2}{#3}{antiphona}{antiphona-pt}
+    \GregorioImportR*{#2}{#3}{psalmus}{psalmus-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{1}
+      \MakeVerseListR{\VersePairs}
+      \IfBooleanT{#1}{\\ \Map{\MakeVerseItemVoidR}{\GloriaPatriPair}}
+    \end{greenumerate}
+    
+    #4\clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{#2}{#3}{antiphona}{antiphona-pt}
+      \GregorioImportLR*{#2}{#3}{psalmus}{psalmus-pt}
+    \end{paracol}
+
+    \begin{greenumerate}
+      \begin{paracol}{2}
+        \synccounter{enumi}
+        \setcounter{enumi}{1}
+        \switchcolumn[1]
+        \setcounter{enumi}{1}
+        \switchcolumn[0]*
+        \MakeVerseListLR{\VersePairs}
+        \IfBooleanT{#1}{\Map{\MakeVerseItemVoidLR}{\GloriaPatriPair}}
+      \end{paracol}
+    \end{greenumerate}
+    
+    #4
+  }
+}
+
+\NewDocumentCommand{\MakeChantAntiphon}{s m m}{
+  \input{#3/psalmus}
+
+  \begin{annotation}
+    \Annotation
+  \end{annotation}
+
+  \iftoggle{compact}{
+    \makeatletter
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3antiphona-pt}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL{#2}{#3}{antiphona}{antiphona-pt}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3antiphona}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \makeatother
+    \GregorioImportR{#2}{#3}{antiphona}{antiphona-pt}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{#2}{#3}{antiphona}{antiphona-pt}
+    \end{paracol}
+  }
+}
+
+\NewDocumentCommand{\MakeChantPsalm}{s m m}{
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }
+    \makeatother
+    \GregorioImportR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \end{paracol}
+  }
+}
+
+\newcommand{\DoGregorioImportL}{}
+\newcommand{\DoGregorioImportR}{}
+\newcommand{\DoGregorioImportLR}{}
+\newtoggle{biginitial}
+\NewDocumentCommand{\MakeChantLongPsalm}{s m m m}{
+  \IfBooleanTF{#1}{\togglefalse{biginitial}}{\toggletrue{biginitial}}
+  \renewcommand{\DoGregorioImportL}[2]{\iftoggle{biginitial}{\GregorioImportL{#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportL*{#2}{#3}{##1}{##2}}}
+  \renewcommand{\DoGregorioImportR}[2]{\iftoggle{biginitial}{\GregorioImportR{#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportR*{#2}{#3}{##1}{##2}}}
+  \renewcommand{\DoGregorioImportLR}[2]{\iftoggle{biginitial}{\GregorioImportLR{#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportLR*{#2}{#3}{##1}{##2}}}
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \Map{\DoGregorioImportL}{#4}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \Map{\DoGregorioImportR}{#4}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \Map{\DoGregorioImportLR}{#4}
+    \end{paracol}
+  }
+}

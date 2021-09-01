@@ -1,0 +1,13 @@
+% A5: 148mm x 210mm
+\newlength{\AVwidth}\setlength{\AVwidth}{148mm}
+\newlength{\AVheight}\setlength{\AVheight}{210mm}
+
+% A6: 105mm x 148mm
+\newlength{\AVIwidth}\setlength{\AVIwidth}{105mm}
+\newlength{\AVIheight}\setlength{\AVIheight}{148mm}
+
+\newcommand{\scaledmargin}[2]{\dimexpr(#2-#1) / 200 * \marginscale\relax}
+
+\newlength{\xmargin}\setlength{\xmargin}{\scaledmargin{\AVIwidth}{\AVwidth}}
+
+\newlength{\ymargin}\setlength{\ymargin}{\scaledmargin{\AVIheight}{\AVheight}}

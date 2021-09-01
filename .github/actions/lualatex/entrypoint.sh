@@ -25,11 +25,15 @@ fileName=${2}
         echo ">>> [Iteration #${iteration}] Building PDF document for file ${dirName}/${fileName}..."
         lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${fileName}
 
-        if grep -q Rerun ${fileName}.log
+        if [ -f "${fileName}" ]
         then
-            echo ">>> Some hashes have changed. Rerun needed."
-        else
-            rerunNeeded=false
+            grep Rerun ${fileName}.log
+            if [[ $(grep -c Rerun ${fileName}.log 2>/dev/null) > 0 ]]
+            then
+                echo ">>> Some hashes have changed. Rerun needed."
+            else
+                rerunNeeded=false
+            fi
         fi
     done
 )

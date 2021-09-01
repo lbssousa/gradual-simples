@@ -1,0 +1,74 @@
+% !TeX program = lualatex
+\documentclass[12pt,extrafontsizes]{memoir}
+
+\usepackage[top=7mm,bottom=7mm,inner=15mm,outer=10mm,headheight=15pt,includehead,includefoot]{geometry}
+\usepackage{import}
+\usepackage{indentfirst}
+\usepackage[autocompile]{gregoriotex}
+\usepackage[latin,brazil]{babel}
+\usepackage[explicit]{titlesec}
+\usepackage{ebgaramond}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{paracol}
+\usepackage{microtype}
+\usepackage[pagebackref]{hyperref}
+
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=gregoriocolor}
+
+\input{def-gregorio-common}
+\input{def-gregorio}
+\input{def-titles}
+\input{def-headings}
+\input{def-titlepage}
+
+\title{I \\ Tempo do Advento \\ Tempo do Natal}
+
+\author{Laércio de Sousa}
+
+\begin{document}
+
+\maketitle
+
+\frontmatter
+
+\tableofcontents
+
+\mainmatter%
+
+\tocchapter{Tempo do Advento}\label{chapter:tempus-adventus}
+
+\tocsection{Missa I}\label{section:tempus-adventus/missa-1}
+\import{tempus-adventus/missa-1/}{index}
+
+\tocsection{Missa II}\label{section:tempus-adventus/missa-2}
+\input{tempus-adventus/missa-2/index}
+
+\tocchapter{Tempo do Natal}\label{chapter:tempus-nativitatis}
+
+\solenidade{Natal do Senhor}{25 de dezembro}\label{section:tempus-nativitatis/in-nativitatis-domini}
+\input{tempus-nativitatis/in-nativitatis-domini/index}
+
+\festa{Sagrada Família: Jesus, Maria e José}{Domingo dentro da Oitava do Natal}\label{section:tempus-nativitatis/sanctae-familiae}
+\input{tempus-nativitatis/sanctae-familiae/index}
+
+\solenidade{Santa Maria, Mãe de Deus}{1 de janeiro}\label{section:tempus-nativitatis/sanctae-dei-genetricis-mariae}
+\input{tempus-nativitatis/sanctae-dei-genetricis-mariae/index}
+
+\solenidade{Epifania do Senhor}{6 de janeiro (domingo entre 2 e 8 de janeiro, no Brasil)}\label{section:tempus-nativitatis/in-epiphania-domini}
+\input{tempus-nativitatis/in-epiphania-domini/index}
+
+\festa{Batismo do Senhor}{Domingo após 6 de janeiro (domingo entre 9 e 13 de janeiro, no Brasil)}\label{section:tempus-nativitatis/in-baptismate-domini}
+\input{tempus-nativitatis/in-baptismate-domini/index}
+
+\appendix
+
+\tocchapter{Apêndices}
+
+\tocsectioncomplex[Te Deum]{Te Deum (Tonus Simplex)}{Para ser cantado no último dia do ano}{}\label{appendix:te-deum}
+\import{appendices/te-deum/}{index}
+
+\tocsectioncomplex[Veni Creator Spiritus]{Veni Creator Spiritus}{Para ser cantado no primeiro dia do ano}{}\label{appendix:veni-creator-spiritus}
+\import{appendices/veni-creator-spiritus/}{index}
+
+\end{document}

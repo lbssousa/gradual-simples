@@ -25,7 +25,13 @@ fileName=${2}
         echo ">>> [Iteration #${iteration}] Building PDF document for file ${dirName}/${fileName}..."
         lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${fileName}
 
-        if [ -f "${fileName}" ]
+        if [[ ${?} != 0 ]]
+        then
+            echo ">>> LuaLaTeX build failed!"
+            exit 1
+        fi
+
+        if [ -f "${fileName}.log" ]
         then
             grep Rerun ${fileName}.log
             if [[ $(grep -c Rerun ${fileName}.log 2>/dev/null) > 0 ]]
@@ -34,6 +40,9 @@ fileName=${2}
             else
                 rerunNeeded=false
             fi
+        else
+            echo ">>> ${fileName}.log not found! Something went wrong!"
+            exit 1
         fi
     done
 )

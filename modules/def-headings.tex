@@ -1,4 +1,4 @@
-% !TeX root = ./main.tex
+% !TeX root = ./a4.tex
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE,RO]{\thepage}
@@ -9,40 +9,40 @@
 \renewcommand{\sectionmark}[1]{\markright{#1}}
 
 \newcommand{\tocchapter}[2][]{%
-  \def\FirstArg{#1}
-  \chapter*{#2}
-  \ifx\FirstArg\empty%
-    \phantomsection\addcontentsline{toc}{chapter}{#2}\markboth{#2}{}
-  \else
-    \phantomsection\addcontentsline{toc}{chapter}{#1}\markboth{#1}{}
-  \fi
+    \def\FirstArg{#1}
+    \chapter*{#2}
+    \ifx\FirstArg\empty%
+        \phantomsection\addcontentsline{toc}{chapter}{#2}\markboth{#2}{}
+    \else
+        \phantomsection\addcontentsline{toc}{chapter}{#1}\markboth{#1}{}
+    \fi
 }
 
 \newcommand{\tocsection}[2][]{%
-  \def\FirstArg{#1}
-  \section*{#2}
-  \ifx\FirstArg\empty%
-    \phantomsection\addcontentsline{toc}{section}{#2}\markright{#2}
-  \else
-    \phantomsection\addcontentsline{toc}{section}{#1}\markright{#1}
-  \fi
+    \def\FirstArg{#1}
+    \section*{#2}
+    \ifx\FirstArg\empty%
+        \phantomsection\addcontentsline{toc}{section}{#2}\markright{#2}
+    \else
+        \phantomsection\addcontentsline{toc}{section}{#1}\markright{#1}
+    \fi
 }
 
 \newcommand{\tocsectioncomplex}[4][]{%
-  \def\FirstArg{#1}
-  \def\LastArg{#4}
-  \section*{{\normalfont\normalsize\color{gregoriocolor}#3} \\[-6pt] #2 \if\LastArg\empty\else \\[-6pt] {\normalfont\normalsize\color{gregoriocolor}#4} \fi}
-  \ifx\FirstArg\empty%
-    \phantomsection\addcontentsline{toc}{section}{#2}\markright{#2}
-  \else
-    \phantomsection\addcontentsline{toc}{section}{#1}\markright{#1}
-  \fi
+    \def\FirstArg{#1}
+    \def\LastArg{#4}
+    \section*{{\normalfont\normalsize\color{gregoriocolor}#3} \\[-6pt] #2 \if\LastArg\empty\else \\[-6pt] {\normalfont\normalsize\color{gregoriocolor}#4} \fi}
+    \ifx\FirstArg\empty%
+        \phantomsection\addcontentsline{toc}{section}{#2}\markright{#2}
+    \else
+        \phantomsection\addcontentsline{toc}{section}{#1}\markright{#1}
+    \fi
 }
 
 \newcommand{\subsectioncomplex}[4][]{%
-  \def\FirstArg{#1}
-  \def\LastArg{#4}
-  \subsection*{{\normalfont\normalsize\color{gregoriocolor}#3} \\[-5pt] #2 \if\LastArg\empty\else \\[-5pt] {\normalfont\normalsize\color{gregoriocolor}#4} \fi}
+    \def\FirstArg{#1}
+    \def\LastArg{#4}
+    \subsection*{{\normalfont\normalsize\color{gregoriocolor}#3} \\[-5pt] #2 \if\LastArg\empty\else \\[-5pt] {\normalfont\normalsize\color{gregoriocolor}#4} \fi}
 }
 
 \newcommand{\Solemnitas}[3][]{\tocsectioncomplex[#1]{#2}{#3}{Solenidade}}

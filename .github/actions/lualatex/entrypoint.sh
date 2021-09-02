@@ -22,7 +22,7 @@ cd ${dirName}
 
 rerunNeeded=1
 
-for (( i = 0; i < 10, rerunNeeded; i++ ))
+for (( i = 0; i < 5, rerunNeeded; i++ ))
 do
     echo ">>> [Iteration #$(( i + 1 ))] Building PDF document for file ${dirName}/${fileName}..."
     lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${fileName}

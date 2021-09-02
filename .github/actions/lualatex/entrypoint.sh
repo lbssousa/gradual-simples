@@ -24,12 +24,17 @@ rerunNeeded=1
 
 for (( i = 0; i < 5 && rerunNeeded; i++ ))
 do
-    echo ">>> [Iteration #$(( i + 1 ))] Building PDF document for file ${dirName}/${fileName}..."
+    echo ">>> [Run #$(( i + 1 ))] Building PDF document for file ${dirName}/${fileName}..."
     lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${fileName}
 
     if [[ $(grep -c "Rerun to" ${fileName}.log) > 0 ]]
     then
-        echo ">>> Some hashes have changed. Rerun needed."
+        if (( i = 4 ))
+        then
+            echo ">>> Rerun limit reached, but there may still be changed hashes."
+        else
+            echo ">>> Some hashes have changed. Rerun triggered."
+        fi
     else
         rerunNeeded=0
     fi

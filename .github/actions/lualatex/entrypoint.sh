@@ -36,5 +36,5 @@ do
     fi
 done
 
-echo ">>> Copying file ${dirName}/${fileName}.pdf to ${OUT_DIR}"
-cp ${dirName}/${fileName}.pdf ${OUT_DIR}/${dirName}-${fileName}.pdf
+echo ">>> Copying file ${fileName}.pdf to ${OUT_DIR}"
+cp ${fileName}.pdf ${OUT_DIR}/${dirName}-${fileName}.pdf

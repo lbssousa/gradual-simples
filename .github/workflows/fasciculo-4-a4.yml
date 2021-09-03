@@ -23,5 +23,5 @@ jobs:
       - name: Fazer upload dos artefatos
         uses: actions/upload-artifact@v2
         with:
-          name: files
+          name: fasciculo-4-a4
           path: public/

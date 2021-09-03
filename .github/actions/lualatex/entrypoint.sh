@@ -21,7 +21,12 @@ rerunNeeded=1
 for (( i = 0; i < 5 && rerunNeeded; i++ ))
 do
     echo ">>> [Run #$(( i + 1 ))] Building PDF document for file ${dirName}/${fileName}..."
-    lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${dirName}/${fileName}
+    lualatex \
+        --synctex=1 \
+        --interaction=nonstopmode \
+        --file-line-error \
+        --halt-on-first-error \
+        ${dirName}/${fileName}
 
     if [[ $(grep -c "Rerun to" ${fileName}.log) > 0 ]]
     then

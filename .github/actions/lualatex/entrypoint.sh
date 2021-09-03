@@ -2,8 +2,6 @@
 
 set -e
 
-workDir=$(pwd)
-
 echo ">>> Creating output directory ${OUT_DIR}..."
 mkdir --parent ${OUT_DIR}
 
@@ -18,14 +16,12 @@ mkdir --parent ${OUT_DIR}
 dirName=${1}
 fileName=${2}
 
-cd ${dirName}
-
 rerunNeeded=1
 
 for (( i = 0; i < 5 && rerunNeeded; i++ ))
 do
     echo ">>> [Run #$(( i + 1 ))] Building PDF document for file ${dirName}/${fileName}..."
-    lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${fileName}
+    lualatex -synctex=1 -interaction=nonstopmode -file-line-error ${dirName}/${fileName}
 
     if [[ $(grep -c "Rerun to" ${fileName}.log) > 0 ]]
     then
@@ -39,8 +35,6 @@ do
         rerunNeeded=0
     fi
 done
-
-cd ${workDir}
 
 echo ">>> Copying file ${dirName}/${fileName}.pdf to ${OUT_DIR}"
 cp ${dirName}/${fileName}.pdf ${OUT_DIR}/${dirName}-${fileName}.pdf

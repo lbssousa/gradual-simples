@@ -1,4 +1,4 @@
-name: "Fascículo 2 / Layout A4"
+name: "Fascículo 1 / Layout A4"
 on:
   push:
     branches: [main]

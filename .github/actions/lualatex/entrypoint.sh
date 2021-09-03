@@ -2,6 +2,8 @@
 
 set -e
 
+rerunLimit=5
+
 echo ">>> Creating output directory ${OUT_DIR}..."
 mkdir --parent ${OUT_DIR}
 
@@ -18,7 +20,7 @@ fileName=${2}
 
 rerunNeeded=1
 
-for (( i = 0; i < 5 && rerunNeeded; i++ ))
+for (( i = 0; i < rerunLimit && rerunNeeded; i++ ))
 do
     echo ">>> [Run #$(( i + 1 ))] Building PDF document for file ${dirName}/${fileName}..."
     lualatex \
@@ -30,11 +32,11 @@ do
 
     if [[ $(grep -c "Rerun to" ${fileName}.log) > 0 ]]
     then
-        if (( i = 4 ))
+        if (( i < rerunLimit - 1 ))
         then
-            echo ">>> Rerun limit reached, but there may still be changed hashes."
-        else
             echo ">>> Some hashes have changed. Rerun triggered."
+        else
+            echo ">>> Rerun limit reached, but there may still be changed hashes."
         fi
     else
         rerunNeeded=0

@@ -107,7 +107,6 @@
     \begin{greenumerate}
       \setcounter{enumi}{1}
       \MakeVerseListL{\VersePairs}
-      \IfBooleanT{#1}{\Map{\MakeVerseItemVoidL}{\GloriaPatriPair}}
     \end{greenumerate}
 
     \clearpage
@@ -124,7 +123,6 @@
     \begin{greenumerate}
       \setcounter{enumi}{1}
       \MakeVerseListR{\VersePairs}
-      \IfBooleanT{#1}{\Map{\MakeVerseItemVoidR}{\GloriaPatriPair}}
     \end{greenumerate}
 
     \clearpage
@@ -141,7 +139,6 @@
         \setcounter{enumi}{1}
         \switchcolumn[0]*
         \MakeVerseListLR{\VersePairs}
-        \IfBooleanT{#1}{\Map{\MakeVerseItemVoidLR}{\GloriaPatriPair}}
       \end{paracol}
     \end{greenumerate}
   }

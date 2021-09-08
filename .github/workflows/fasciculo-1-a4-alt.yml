@@ -6,7 +6,7 @@ defaults:
   run:
     working-directory: .
 jobs:
-  build_deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

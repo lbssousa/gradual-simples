@@ -7,13 +7,31 @@
 \newcommand{\MakeVerseR}[2]{#2}
 \newcommand{\MakeVerseLR}[2]{#1\switchcolumn[1] #2\switchcolumn[0]*}
 
-\newcommand{\MakeVerseItemL}[2]{\MakeVerseL{\item #1}{\item #2}}
-\newcommand{\MakeVerseItemR}[2]{\MakeVerseR{\item #1}{\item #2}}
-\newcommand{\MakeVerseItemLR}[2]{\MakeVerseLR{\item #1}{\item #2}}
+\DeclareDocumentCommand{\MakeVerseItemL}{o m o m}{%
+  \MakeVerseL{%
+    \IfNoValueTF{#1}{\item}{\item[#1]} #2%
+  }{%
+    \IfNoValueTF{#3}{\item}{\item[#3]} #4%
+  }%
+}
+\DeclareDocumentCommand{\MakeVerseItemR}{o m o m}{%
+  \MakeVerseR{%
+    \IfNoValueTF{#1}{\item}{\item[#1]} #2%
+  }{%
+    \IfNoValueTF{#3}{\item}{\item[#3]} #4%
+  }%
+}
+\DeclareDocumentCommand{\MakeVerseItemLR}{o m o m}{%
+  \MakeVerseLR{%
+    \IfNoValueTF{#1}{\item}{\item[#1]} #2%
+  }{%
+    \IfNoValueTF{#3}{\item}{\item[#3]} #4%
+  }%
+}
 
-\newcommand{\MakeVerseItemVoidL}[2]{\MakeVerseL{\item[] #1}{\item[] #2}}
-\newcommand{\MakeVerseItemVoidR}[2]{\MakeVerseR{\item[] #1}{\item[] #2}}
-\newcommand{\MakeVerseItemVoidLR}[2]{\MakeVerseLR{\item[] #1}{\item[] #2}}
+\newcommand{\MakeVerseItemVoidL}[2]{\MakeVerseL[]{#1}[]{#2}}
+\newcommand{\MakeVerseItemVoidR}[2]{\MakeVerseR[]{#1}[]{#2}}
+\newcommand{\MakeVerseItemVoidLR}[2]{\MakeVerseLR[]{#1}[]{#2}}
 
 \newcommand{\MakeVerseListL}[1]{\Map{\MakeVerseItemL}{#1}}
 \newcommand{\MakeVerseListR}[1]{\Map{\MakeVerseItemR}{#1}}

@@ -87,10 +87,12 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmOneVerse}{s m m}{
-  \input{#2#3psalmus}
+  \def\LinkLA{#2#3psalmus-v1}
+  \def\LinkPT{#2#3psalmus-v1-pt}
+  \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \Annotation
+    \MakeAnnotation{}{\PsalmAnnotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -100,7 +102,7 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
@@ -117,7 +119,7 @@
       \vspace{-10pt}
     }
     \makeatother
-    \GregorioImportR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
@@ -128,7 +130,7 @@
     \clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
     \end{paracol}
 
     \begin{greenumerate}
@@ -146,10 +148,12 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmTwoVerses}{s m m}{
-  \input{#2#3psalmus}
+  \def\LinkLA{#2#3psalmus-v1}
+  \def\LinkPT{#2#3psalmus-v1-pt}
+  \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \Annotation
+    \MakeAnnotation{}{\PsalmAnnotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -159,8 +163,8 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-    \GregorioImportL*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{2}
@@ -176,8 +180,8 @@
       \vspace{-10pt}
     }{}
     \makeatother
-    \GregorioImportR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-    \GregorioImportR*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{2}
@@ -187,8 +191,8 @@
     \clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-      \GregorioImportLR*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
     \end{paracol}
 
     \begin{greenumerate}
@@ -205,10 +209,12 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmThreeVerses}{s m m}{
-  \input{#2#3psalmus}
+  \def\LinkLA{#2#3psalmus-v1}
+  \def\LinkPT{#2#3psalmus-v1-pt}
+  \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \Annotation
+    \MakeAnnotation{}{\PsalmAnnotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -218,9 +224,9 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-    \GregorioImportL*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
-    \GregorioImportL*{#2}{#3}{psalmus-v3}{psalmus-v3-pt}
+    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v3}{psalmus-v3-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{3}
@@ -236,9 +242,9 @@
       \vspace{-10pt}
     }{}
     \makeatother
-    \GregorioImportR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-    \GregorioImportR*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
-    \GregorioImportR*{#2}{#3}{psalmus-v3}{psalmus-v3-pt}
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v3}{psalmus-v3-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{3}
@@ -248,9 +254,9 @@
     \clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-      \GregorioImportLR*{#2}{#3}{psalmus-v2}{psalmus-v2-pt}
-      \GregorioImportLR*{#2}{#3}{psalmus-v3}{psalmus-v3-pt}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v3}{psalmus-v3-pt}
     \end{paracol}
 
     \begin{greenumerate}
@@ -364,52 +370,54 @@
 }
 
 \NewDocumentCommand{\MakeChantAntiphonPsalm}{s m m O{}}{
-  \input{#2#3psalmus}
+  \def\AntiphonLA{antiphona\IfBooleanT{#1}{-cum-alleluia}}
+  \def\AntiphonPT{\AntiphonLA-pt}
+  \def\LinkLA{#2#3\AntiphonLA}
+  \def\LinkPT{#2#3\AntiphonPT}
+  \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \Annotation
+    \MakeAnnotation{\AntiphonAnnotation}{\PsalmAnnotation}
   \end{annotation}
 
   \iftoggle{compact}{
     \makeatletter
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3antiphona-pt}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\LinkPT}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{#2}{#3}{antiphona}{antiphona-pt}
-    \GregorioImportL*{#2}{#3}{psalmus}{psalmus-pt}
+    \GregorioImportL{index-cantuum/antiphonae/}{\AntiphonScore}{\AntiphonLA}{\AntiphonPT}
+    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
       \MakeVerseListL{\VersePairs}
-      \IfBooleanT{#1}{\Map{\MakeVerseItemVoidL}{\GloriaPatriPair}}
     \end{greenumerate}
 
     \clearpage
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3antiphona}{Ir para o original em latim}
+        \noindent\hyperlink{\LinkLA}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }{}
     \makeatother
-    \GregorioImportR{#2}{#3}{antiphona}{antiphona-pt}
-    \GregorioImportR*{#2}{#3}{psalmus}{psalmus-pt}
+    \GregorioImportR{index-cantuum/antiphonae/}{\AntiphonScore}{\AntiphonLA}{\AntiphonPT}
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
       \MakeVerseListR{\VersePairs}
-      \IfBooleanT{#1}{\\ \Map{\MakeVerseItemVoidR}{\GloriaPatriPair}}
     \end{greenumerate}
-    
+
     #4\clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{#2}{#3}{antiphona}{antiphona-pt}
-      \GregorioImportLR*{#2}{#3}{psalmus}{psalmus-pt}
+      \GregorioImportLR{index-cantuum/antiphonae/}{\AntiphonScore}{\AntiphonLA}{\AntiphonPT}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
     \end{paracol}
 
     \begin{greenumerate}
@@ -420,46 +428,47 @@
         \setcounter{enumi}{1}
         \switchcolumn[0]*
         \MakeVerseListLR{\VersePairs}
-        \IfBooleanT{#1}{\Map{\MakeVerseItemVoidLR}{\GloriaPatriPair}}
       \end{paracol}
     \end{greenumerate}
-    
+
     #4
   }
 }
 
 \NewDocumentCommand{\MakeChantAntiphon}{s m m}{
+  \def\AntiphonLA{antiphona\IfBooleanT{#1}{-cum-alleluia}}
+  \def\AntiphonPT{\AntiphonLA-pt}
   \input{#2#3psalmus}
 
   \begin{annotation}
-    \Annotation
+    \MakeAnnotation{\AntiphonAnnotation}{}
   \end{annotation}
 
   \iftoggle{compact}{
     \makeatletter
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3antiphona-pt}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{#2#3\AntiphonPT}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{#2}{#3}{antiphona}{antiphona-pt}
+    \GregorioImportL{#2}{#3}{\AntiphonLA}{\AntiphonPT}
 
     \clearpage
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3antiphona}{Ir para o original em latim}
+        \noindent\hyperlink{#2#3\AntiphonLA}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }{}
     \makeatother
-    \GregorioImportR{#2}{#3}{antiphona}{antiphona-pt}
+    \GregorioImportR{#2}{#3}{\AntiphonLA}{\AntiphonPT}
 
     \clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{#2}{#3}{antiphona}{antiphona-pt}
+      \GregorioImportLR{#2}{#3}{\AntiphonLA}{\AntiphonPT}
     \end{paracol}
   }
 }
@@ -499,9 +508,9 @@
 \newtoggle{biginitial}
 \NewDocumentCommand{\MakeChantLongPsalm}{s m m m}{
   \IfBooleanTF{#1}{\togglefalse{biginitial}}{\toggletrue{biginitial}}
-  \renewcommand{\DoGregorioImportL}[2]{\iftoggle{biginitial}{\GregorioImportL{#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportL*{#2}{#3}{##1}{##2}}}
-  \renewcommand{\DoGregorioImportR}[2]{\iftoggle{biginitial}{\GregorioImportR{#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportR*{#2}{#3}{##1}{##2}}}
-  \renewcommand{\DoGregorioImportLR}[2]{\iftoggle{biginitial}{\GregorioImportLR{#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportLR*{#2}{#3}{##1}{##2}}}
+  \renewcommand{\DoGregorioImportL}[2]{\iftoggle{biginitial}{\GregorioImportL{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}}}
+  \renewcommand{\DoGregorioImportR}[2]{\iftoggle{biginitial}{\GregorioImportR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}}}
+  \renewcommand{\DoGregorioImportLR}[2]{\iftoggle{biginitial}{\GregorioImportLR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}}}
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}

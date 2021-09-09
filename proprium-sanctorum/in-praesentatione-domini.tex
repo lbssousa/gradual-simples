@@ -1,16 +1,14 @@
-% !TeX root = ../../main.tex
+% !TeX root = ../../a4.tex
 % chktex-file 1
-\def\Prefix{proprium-sanctorum/in-praesentatione-domini/}
 
 \subsection{Antífona para a benção das velas}\label{subsection:proprium-sanctorum/in-praesentatione-domini/ad-benedictionem-candelarum}
-\def\OfficePart{ad-benedictionem-candelarum/}
 
 \begin{annotation}
   \MakeAnnotation{\CantusID{002508}[Is 35,4--5; Mt 24,30; Mc 13,26; 1 Esr 9,8]}{}
 \end{annotation}
 
 \iftoggle{compact}{%
-  \GregorioImportL{\Prefix}{\OfficePart}{antiphona}{antiphona-pt}
+  \GregorioImportL{index-cantuum/antiphonae/}{ecce-dominus-noster.3/}{antiphona}{antiphona-pt}
 
   \nobreaksubsection{Convite para a procissão}
 
@@ -22,7 +20,7 @@
 
   \vspace{-20pt}
 
-  \GregorioImportL{\Prefix}{\OfficePart}{ad-processionem}{ad-processionem-pt}
+  \GregorioImportL{index-cantuum/varia/}{procedamus-in-pace/}{versum}{versum-pt}
 
   \begin{rubrica}
     \begin{center}
@@ -32,11 +30,11 @@
 
   \vspace{-20pt}
 
-  \GregorioImportL{\Prefix}{\OfficePart}{ad-processionem-responsorium}{ad-processionem-responsorium-pt}
+  \GregorioImportL{index-cantuum/varia/}{procedamus-in-pace/}{responsorium}{responsorium-pt}
 
   \clearpage
 
-  \GregorioImportR{\Prefix}{\OfficePart}{antiphona}{antiphona-pt}
+  \GregorioImportR{index-cantuum/antiphonae/}{ecce-dominus-noster.3/}{antiphona}{antiphona-pt}
 
   \nobreaksubsection{Convite para a procissão}
 
@@ -48,7 +46,7 @@
 
   \vspace{-20pt}
 
-  \GregorioImportR{\Prefix}{\OfficePart}{ad-processionem}{ad-processionem-pt}
+  \GregorioImportR{index-cantuum/varia/}{procedamus-in-pace/}{versum}{versum-pt}
 
   \begin{rubrica}
     \begin{center}
@@ -58,10 +56,10 @@
 
   \vspace{-20pt}
 
-  \GregorioImportR{\Prefix}{\OfficePart}{ad-processionem-responsorium}{ad-processionem-responsorium-pt}
+  \GregorioImportR{index-cantuum/varia/}{procedamus-in-pace/}{responsorium}{responsorium-pt}
 }{%
   \begin{paracol}{2}
-    \GregorioImportLR{\Prefix}{\OfficePart}{antiphona}{antiphona-pt}
+    \GregorioImportLR{index-cantuum/antiphonae/}{ecce-dominus-noster.3/}{antiphona}{antiphona-pt}
   \end{paracol}
 
   \nobreaksubsection{Convite para a procissão}
@@ -75,7 +73,7 @@
   \vspace{-20pt}
 
   \begin{paracol}{2}
-    \GregorioImportLR{\Prefix}{\OfficePart}{ad-processionem}{ad-processionem-pt}
+    \GregorioImportLR{index-cantuum/varia/}{procedamus-in-pace/}{versum}{versum-pt}{ad-processionem-pt}
   \end{paracol}
 
   \begin{rubrica}
@@ -87,19 +85,23 @@
   \vspace{-20pt}
 
   \begin{paracol}{2}
-    \GregorioImportLR{\Prefix}{\OfficePart}{ad-processionem-responsorium}{ad-processionem-responsorium-pt}
+    \GregorioImportLR{index-cantuum/varia/}{procedamus-in-pace/}{responsorium}{responsorium-pt}
   \end{paracol}
 }
 
 \AllowPageFlush
 
 \subsection{Procissão I}\label{subsection:proprium-sanctorum/in-praesentatione-domini/ad-processionem-1}
-\MakeChantAntiphonPsalm{\Prefix}{ad-processionem-1/}
+\def\AntiphonAnnotation{\CantusID{003645}[Lc 2,32]}
+\def\AntiphonScore{lumen-ad-revelationem.8G/}
+\MakeChantAntiphonPsalm{ad-processionem/}{lumen-ad-revelationem.8G/}
 
 \AllowPageFlush
 
 \subsection{Procissão II}\label{subsection:proprium-sanctorum/in-praesentatione-domini/ad-processionem-2}
-\MakeChantAntiphonPsalm{\Prefix}{ad-processionem-2/}
+\def\AntiphonAnnotation{\CantusID{004104}[Lc 2,24]}
+\def\AntiphonScore{obtulerunt.8G/}
+\MakeChantAntiphonPsalm{ad-processionem/}{obtulerunt.8G/}
 
 \subsection{Procissão III}
 \begin{rubrica}
@@ -109,7 +111,9 @@
 \AllowPageFlush
 
 \subsection{Entrada}\label{subsection:proprium-sanctorum/in-praesentatione-domini/introitus}
-\MakeChantAntiphonPsalm{\Prefix}{introitus/}
+\def\AntiphonAnnotation{\CantusID{005084}[Sl 48(47),10]}
+\def\AntiphonScore{suscepimus-deus.8G/}
+\MakeChantAntiphonPsalm{introitus/}{suscepimus-deus.8G.2/}
 
 \nobreaksubsection{Salmo Responsorial}
 
@@ -118,22 +122,27 @@
 \end{rubrica}
 
 \subsection{Aleluia}\label{subsection:proprium-sanctorum/in-praesentatione-domini/alleluia}
-\MakeChantAntiphonPsalm{\Prefix}{alleluia/}
+\def\AntiphonScore{alleluia.4E.1/}
+\MakeChantAntiphonPsalm{alleluia/}{fundamenta-eius.4E/}
 
 \AllowPageFlush
 
 \subsection[Salmo Aleluiático]{Salmo Aleluiático \textmd{E 2 d}}\label{subsection:proprium-sanctorum/in-praesentatione-domini/psalmus-alleluiaticus}
-\MakeChantPsalmOneVerse{\Prefix}{psalmus-alleluiaticus/}
+\MakeChantPsalmOneVerse{psalmi-alleluiatici/}{fundamenta-eius.E2d/}
 
 \AllowPageFlush
 
 \subsection{Ofertório}\label{subsection:proprium-sanctorum/in-praesentatione-domini/offertorium}
-\MakeChantAntiphonPsalm{\Prefix}{offertorium/}
+\def\AntiphonAnnotation{\CantusID{002216}[Sl 45(44),3]}
+\def\AntiphonScore{diffusa-est-gratia.1g4/}
+\MakeChantAntiphonPsalm{offertorium/}{diffusa-est-gratia.1g4.1/}
 
 \AllowPageFlush
 
 \subsection{Comunhão}\label{subsection:proprium-sanctorum/in-praesentatione-domini/communio}
-\MakeChantAntiphonPsalm{\Prefix}{communio/}[%
+\def\AntiphonAnnotation{\CantusID{004639}[Lc 2,26]}
+\def\AntiphonScore{responsum-accepit-simeon.7a/}
+\MakeChantAntiphonPsalm{communio/}{responsum-accepit-simeon.7a/}[%
   \begin{rubrica}
     Pode-se complementar com um cântico de comunhão à escolha da página~\pageref{appendix:communio-ad-libitum/communio-1} e seguintes.
   \end{rubrica}%

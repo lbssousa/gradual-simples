@@ -1,8 +1,10 @@
 % chktex-file 1
 \makeatletter
 \newcommand{\Map}[2]{\@for\p:={#2}\do{\expandafter#1\p}} % chktex 41
+\def\@Antiphon@Score{} % chktex 21
 \def\@Antiphon@Annotation{} % chktex 21
 \def\@Verse@Annotation{} % chktex 21
+\newcommand{\SetAntiphonScore}[1]{\def\@Antiphon@Score{#1}} % chktex 21
 \newcommand{\SetAntiphonAnnotation}[1]{\def\@Antiphon@Annotation{#1}} % chktex 21
 \newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}} % chktex 21
 \makeatother
@@ -394,7 +396,8 @@
   }
 }
 
-\NewDocumentCommand{\MakeChantAntiphonPsalm}{s m m O{}}{
+\makeatletter
+\NewDocumentCommand{\MakeChantAntiphonPsalm}{s m O{\@Antiphon@Score} O{}}{
   \def\AntiphonLA{antiphona\IfBooleanT{#1}{-cum-alleluia}}
   \def\AntiphonPT{\AntiphonLA-pt}
   \def\LinkLA{#2#3\AntiphonLA}
@@ -402,20 +405,17 @@
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \makeatletter
     \MakeAnnotation{\@Antiphon@Annotation}{\@Verse@Annotation}
-    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
-    \makeatletter
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\LinkPT}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{index-cantuum/antiphonae/}{\AntiphonScore}{\AntiphonLA}{\AntiphonPT}
+    \GregorioImportL{index-cantuum/antiphonae/}{\@Antiphon@Score}{\AntiphonLA}{\AntiphonPT}
     \GregorioImportL*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
@@ -431,8 +431,7 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \makeatother
-    \GregorioImportR{index-cantuum/antiphonae/}{\AntiphonScore}{\AntiphonLA}{\AntiphonPT}
+    \GregorioImportR{index-cantuum/antiphonae/}{\@Antiphon@Score}{\AntiphonLA}{\AntiphonPT}
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
@@ -443,7 +442,7 @@
     #4\clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/antiphonae/}{\AntiphonScore}{\AntiphonLA}{\AntiphonPT}
+      \GregorioImportLR{index-cantuum/antiphonae/}{\@Antiphon@Score}{\AntiphonLA}{\AntiphonPT}
       \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
     \end{paracol}
 
@@ -462,19 +461,23 @@
   }
 }
 
-\NewDocumentCommand{\MakeChantAntiphon}{s m m}{
+\NewDocumentCommand{\MakeChantAntiphonPsalmExtended}{s m O{\@Antiphon@Score} m}{%
+  \IfBooleanTF{#1}{%
+    \MakeChantAntiphonPsalm*{#2}[#3][#4]%
+  }{%
+    \MakeChantAntiphonPsalm{#2}[#3][#4]}%
+}
+
+\NewDocumentCommand{\MakeChantAntiphon}{s m O{\@Antiphon@Score}}{
   \def\AntiphonLA{antiphona\IfBooleanT{#1}{-cum-alleluia}}
   \def\AntiphonPT{\AntiphonLA-pt}
   \input{#2#3psalmus}
 
   \begin{annotation}
-    \makeatletter
     \MakeAnnotation{\@Antiphon@Annotation}{}
-    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
-    \makeatletter
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{#2#3\AntiphonPT}{Ir para a adaptação para o vernáculo}
@@ -491,7 +494,6 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \makeatother
     \GregorioImportR{#2}{#3}{\AntiphonLA}{\AntiphonPT}
 
     \clearpage
@@ -501,6 +503,7 @@
     \end{paracol}
   }
 }
+\makeatother
 
 \NewDocumentCommand{\MakeChantPsalm}{s m m}{
   \iftoggle{compact}{
@@ -520,7 +523,6 @@
       \end{small}
       \vspace{-10pt}
     }
-    \makeatother
     \GregorioImportR*{#2}{#3}{psalmus-v1}{psalmus-v1-pt}
 
     \clearpage

@@ -27,6 +27,7 @@ do
         --synctex=1 \
         --interaction=nonstopmode \
         --file-line-error \
+        --halt-on-error \
         ${dirName}/${fileName}
 
     if [[ $(grep -c "Rerun to" ${fileName}.log) > 0 ]]

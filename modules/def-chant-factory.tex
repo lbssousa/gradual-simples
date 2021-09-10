@@ -1,6 +1,10 @@
 % chktex-file 1
 \makeatletter
 \newcommand{\Map}[2]{\@for\p:={#2}\do{\expandafter#1\p}} % chktex 41
+\def\@Antiphon@Annotation{} % chktex 21
+\def\@Verse@Annotation{} % chktex 21
+\newcommand{\SetAntiphonAnnotation}[1]{\def\@Antiphon@Annotation{#1}} % chktex 21
+\newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}} % chktex 21
 \makeatother
 
 \newcommand{\MakeVerseL}[2]{#1}
@@ -110,7 +114,9 @@
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{}{\PsalmAnnotation}
+    \makeatletter
+    \MakeAnnotation{}{\@Verse@Annotation}
+    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
@@ -168,7 +174,9 @@
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{}{\PsalmAnnotation}
+    \makeatletter
+    \MakeAnnotation{}{\@Verse@Annotation}
+    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
@@ -229,7 +237,9 @@
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{}{\PsalmAnnotation}
+    \makeatletter
+    \MakeAnnotation{}{\@Verse@Annotation}
+    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
@@ -392,7 +402,9 @@
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{\AntiphonAnnotation}{\PsalmAnnotation}
+    \makeatletter
+    \MakeAnnotation{\@Antiphon@Annotation}{\@Verse@Annotation}
+    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
@@ -456,7 +468,9 @@
   \input{#2#3psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{\AntiphonAnnotation}{}
+    \makeatletter
+    \MakeAnnotation{\@Antiphon@Annotation}{}
+    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{

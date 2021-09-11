@@ -1,15 +1,14 @@
-% !TeX root = ../../main.tex
+% !TeX root = ../../a4.tex
 % chktex-file 1
-\def\Prefix{appendices/communio-ad-libitum/}
 
 \subsection{Comunhão I}\label{appendix:communio-ad-libitum/communio-1}
 
 \begin{annotation}
-  \MakeAnnotation{}{Sl 34(33)}
+  \SetVerseAnnotation{}{Sl 34(33)}
 \end{annotation}
 
 \grechangedim{baselineskip}{55pt plus 5pt minus 5pt}{scalable}
-\MakeChantLongPsalm*{appendices/communio-ad-libitum/}{communio-1/}{
+\MakeChantLongPsalm*{communio-ad-libitum/}{communio-1/}{
   {psalmus-v1}{psalmus-v1-pt},
   {psalmus-v02}{psalmus-v02-pt},
   {psalmus-v03}{psalmus-v03-pt},
@@ -40,12 +39,14 @@
 \subsectioncomplex{Comunhão II}{}{Para uso preferencial durante o Tempo da Quaresma}\label{appendix:communio-ad-libitum/communio-2}
 
 \grechangedim{baselineskip}{66pt plus 5pt minus 5pt}{scalable}
-\MakeChantPsalmOneVerse*{\Prefix}{communio-2/}
+\MakeChantPsalmOneVerse*{communio-ad-libitum/}{communio-2/}
 
 \AllowPageFlush
 
 \nobreaksubsection{Comunhão III}\label{appendix:communio-ad-libitum/communio-3}
-\MakeChantAntiphonPsalm{\Prefix}{communio-3/}
+\SetAntiphonAnnotation{\CantusID{002595}[Jo 6,51]}
+\SetAntiphonScore{ego-sum-panis-vivus.1f/}
+\MakeChantAntiphonPsalm{communio/}
 
 \subsection{Comunhão IV}
 \begin{rubrica}
@@ -58,7 +59,7 @@
 \begin{annotation}
   Missal Romano, 2ª Edição Típica (CNBB)
 \end{annotation}
-\MakeChantLongPsalm{\Prefix}{communio-5/}{
+\MakeChantLongPsalm{varia/}{ubi-caritas/}{
   {psalmus-v1}{psalmus-v1-pt},
   {psalmus-v2}{psalmus-v2-pt},
   {psalmus-v3}{psalmus-v3-pt}

@@ -1,17 +1,39 @@
 % chktex-file 1
-\makeatletter
-\newcommand{\Map}[2]{\@for\p:={#2}\do{\expandafter#1\p}} % chktex 41
-\def\@Antiphon@Score{} % chktex 21
-\def\@Antiphon@Annotation{} % chktex 21
-\def\@Verse@Annotation{} % chktex 21
-\newcommand{\SetAntiphonScore}[1]{\def\@Antiphon@Score{#1}} % chktex 21
-\newcommand{\SetAntiphonAnnotation}[1]{\def\@Antiphon@Annotation{#1}} % chktex 21
-\newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}} % chktex 21
-\makeatother
+% chktex-file 21
 
-\newcommand{\MakeVerseL}[2]{#1}
-\newcommand{\MakeVerseR}[2]{#2}
-\newcommand{\MakeVerseLR}[2]{#1\switchcolumn[1] #2\switchcolumn[0]*}
+\makeatletter
+
+\newcommand{\Map}[2]{\@for\p:={#2}\do{\expandafter#1\p}} % chktex 41
+\def\@Antiphon@Score{}
+\def\@Antiphon@Annotation{}
+\def\@Verse@Annotation{}
+\def\@Link@Text@L{}
+\def\@Link@Text@R{}
+\def\@Link@Ref@L{}
+\def\@Link@Ref@R{}
+\newcommand{\SetAntiphonScore}[1]{\def\@Antiphon@Score{#1}}
+\newcommand{\SetAntiphonAnnotation}[1]{\def\@Antiphon@Annotation{#1}}
+\newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}}
+\newcommand{\SetLinkTextL}[1]{\def\@Link@Text@L{#1}}
+\newcommand{\SetLinkTextR}[1]{\def\@Link@Text@R{#1}}
+
+\newcommand{\MakeVerseL}[2]{%
+  #1
+  \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@L}{\@Link@Text@L}}{\@Link@Text@L}%
+}
+\newcommand{\MakeVerseR}[2]{%
+  #2
+  \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@R}{\@Link@Text@R}}{\@Link@Text@R}%
+}
+\newcommand{\MakeVerseLR}[2]{%
+  #1
+  \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@L}{\@Link@Text@L}}{\@Link@Text@L}
+  \switchcolumn[1]
+  #2
+  \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@R}{\@Link@Text@R}}{\@Link@Text@R}
+  \switchcolumn[0]*
+}
+
 
 \DeclareDocumentCommand{\MakeVerseItemL}{o m o m}{%
   \MakeVerseL{%
@@ -61,7 +83,7 @@
   \iftoggle{disablehyperlinks}{
     \gregorioscore{#2#3#4}
   }{
-    \hypertarget{#2#3#4}{}\gregorioscore{#2#3#4}
+    \hypertarget{\@Link@Ref@L}{}\gregorioscore{#2#3#4}
   }
   \egroup
 }
@@ -72,7 +94,7 @@
   \iftoggle{disablehyperlinks}{
     \gregorioscore{#2#3#5}
   }{
-    \hypertarget{#2#3#5}{\gregorioscore{#2#3#5}}
+    \hypertarget{\@Link@Ref@R}{\gregorioscore{#2#3#5}}
   }
   \egroup
 }
@@ -111,20 +133,18 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmOneVerse}{s m m}{
-  \def\LinkLA{#2#3psalmus-v1}
-  \def\LinkPT{#2#3psalmus-v1-pt}
+  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \makeatletter
     \MakeAnnotation{}{\@Verse@Annotation}
-    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -139,11 +159,11 @@
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }
-    \makeatother
+
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
 
     \begin{greenumerate}
@@ -171,20 +191,18 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmTwoVerses}{s m m}{
-  \def\LinkLA{#2#3psalmus-v1}
-  \def\LinkPT{#2#3psalmus-v1-pt}
+  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \makeatletter
     \MakeAnnotation{}{\@Verse@Annotation}
-    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -200,11 +218,11 @@
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }{}
-    \makeatother
+
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
 
@@ -234,20 +252,18 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmThreeVerses}{s m m}{
-  \def\LinkLA{#2#3psalmus-v1}
-  \def\LinkPT{#2#3psalmus-v1-pt}
+  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
-    \makeatletter
     \MakeAnnotation{}{\@Verse@Annotation}
-    \makeatother
   \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -264,11 +280,11 @@
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }{}
-    \makeatother
+
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v3}{psalmus-v3-pt}
@@ -305,7 +321,7 @@
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#1#2kyrie-pt}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -334,7 +350,7 @@
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#1#2kyrie}{Ir para o original em latim}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -396,12 +412,12 @@
   }
 }
 
-\makeatletter
+
 \NewDocumentCommand{\MakeChantAntiphonPsalm}{s m O{\@Antiphon@Score} O{}}{
   \def\AntiphonLA{antiphona\IfBooleanT{#1}{-cum-alleluia}}
   \def\AntiphonPT{\AntiphonLA-pt}
-  \def\LinkLA{#2#3\AntiphonLA}
-  \def\LinkPT{#2#3\AntiphonPT}
+  \def\@Link@Ref@L{index-cantuum/#2#3\AntiphonLA}
+  \def\@Link@Ref@R{index-cantuum/#2#3\AntiphonPT}
   \input{index-cantuum/#2#3psalmus}
 
   \begin{annotation}
@@ -411,7 +427,7 @@
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{\LinkPT}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -427,7 +443,7 @@
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{\LinkLA}{Ir para o original em latim}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -471,6 +487,8 @@
 \NewDocumentCommand{\MakeChantAntiphon}{s m O{\@Antiphon@Score}}{
   \def\AntiphonLA{antiphona\IfBooleanT{#1}{-cum-alleluia}}
   \def\AntiphonPT{\AntiphonLA-pt}
+  \def\@Link@Ref@L{index-cantuum/#2#3\AntiphonLA}
+  \def\@Link@Ref@R{index-cantuum/#2#3\AntiphonPT}
   \input{#2#3psalmus}
 
   \begin{annotation}
@@ -480,7 +498,7 @@
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3\AntiphonPT}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -490,7 +508,7 @@
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3\AntiphonLA}{Ir para o original em latim}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -503,13 +521,15 @@
     \end{paracol}
   }
 }
-\makeatother
+
 
 \NewDocumentCommand{\MakeChantPsalm}{s m m}{
+  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -519,7 +539,7 @@
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }
@@ -542,10 +562,12 @@
   \renewcommand{\DoGregorioImportL}[2]{\iftoggle{biginitial}{\GregorioImportL{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}}}
   \renewcommand{\DoGregorioImportR}[2]{\iftoggle{biginitial}{\GregorioImportR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}}}
   \renewcommand{\DoGregorioImportLR}[2]{\iftoggle{biginitial}{\GregorioImportLR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}}}
+  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1-pt}{Ir para a adaptação para o vernáculo}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -555,7 +577,7 @@
 
     \nottoggle{disablehyperlinks}{
       \begin{small}
-        \noindent\hyperlink{#2#3psalmus-v1}{Ir para o original em latim}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
       \end{small}
       \vspace{-10pt}
     }{}
@@ -568,3 +590,5 @@
     \end{paracol}
   }
 }
+
+\makeatother

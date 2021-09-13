@@ -24,21 +24,21 @@
   \end{enumerate}%
 }
 
-\NewDocumentCommand{\Antiphona}{s m o}{%
-  \allowbreak\textcolor{gregoriocolor}{\Abar.}~\IfNoValueTF{#3}{#2}{\nottoggle{disablehyperlinks}{\hyperlink{#3}{#2}}{#2}}\IfBooleanF{#1}{.}%
+\NewDocumentCommand{\Antiphona}{s m}{%
+  \allowbreak\textcolor{gregoriocolor}{\Abar.}~#2\IfBooleanF{#1}{.}%
 }
 
-\NewDocumentCommand{\Responsorium}{s m o}{%
-  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~\IfNoValueTF{#3}{#2}{\nottoggle{disablehyperlinks}{\hyperlink{#3}{#2}}{#2}}\IfBooleanF{#1}{.}%
+\NewDocumentCommand{\Responsorium}{s m}{%
+  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~#2\IfBooleanF{#1}{.}%
 }
 
-\NewDocumentCommand{\ResponsoriumC}{s m o}{%
-  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~\IfNoValueTF{#3}{#2}{\nottoggle{disablehyperlinks}{\hyperlink{#3}{#2}}{#2}}\IfBooleanF{#1}{.}
-  {\GreStar}%
+\NewDocumentCommand{\ResponsoriumC}{m}{%
+  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~#1
+  \GreStar%
 }
 
-\NewDocumentCommand{\Versum}{s m o}{%
-  \allowbreak\textcolor{gregoriocolor}{\Vbar.}~\IfNoValueTF{#3}{#2}{\nottoggle{disablehyperlinks}{\hyperlink{#3}{#2}}{#2}}\IfBooleanF{#1}{.}%
+\NewDocumentCommand{\Versum}{s m}{%
+  \allowbreak\textcolor{gregoriocolor}{\Vbar.}~#2\IfBooleanF{#1}{.}%
 }
 
 \NewDocumentEnvironment{annotation}{}{\begin{flushright}\iftoggle{compact}{\scriptsize}{\footnotesize}}{\end{flushright}\vspace{-20pt}}

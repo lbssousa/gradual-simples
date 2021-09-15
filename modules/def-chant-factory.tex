@@ -4,14 +4,12 @@
 \makeatletter
 
 \newcommand{\Map}[2]{\@for\p:={#2}\do{\expandafter#1\p}} % chktex 41
-\def\@Antiphon@Score{}
 \def\@Antiphon@Annotation{}
 \def\@Verse@Annotation{}
 \def\@Link@Text@L{}
 \def\@Link@Text@R{}
 \def\@Link@Ref@L{}
 \def\@Link@Ref@R{}
-\newcommand{\SetAntiphonScore}[1]{\def\@Antiphon@Score{#1}}
 \newcommand{\SetAntiphonAnnotation}[1]{\def\@Antiphon@Annotation{#1}}
 \newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}}
 \newcommand{\SetLinkTextL}[1]{\def\@Link@Text@L{#1}}
@@ -413,12 +411,13 @@
 }
 
 
-\NewDocumentCommand{\MakeChantAntiphonPsalm}{s m O{\@Antiphon@Score} O{}}{
-  \def\AntiphonLA{antiphona\IfBooleanT{#1}{-cum-alleluia}}
-  \def\AntiphonPT{\AntiphonLA-pt}
-  \def\@Link@Ref@L{index-cantuum/#2#3\AntiphonLA}
-  \def\@Link@Ref@R{index-cantuum/#2#3\AntiphonPT}
-  \input{index-cantuum/#2#3psalmus}
+\NewDocumentCommand{\MakeChantAntiphonPsalm}{s m m O{#2} O{}}{
+  \def\@Antiphon@L{antiphona\IfBooleanT{#1}{-cum-alleluia}}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/#3#4\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3#4\@Antiphon@R}
+  \input{index-cantuum/antiphonae/#2antiphona}
+  \input{index-cantuum/#3#4psalmus}
 
   \begin{annotation}
     \MakeAnnotation{\@Antiphon@Annotation}{\@Verse@Annotation}
@@ -431,8 +430,8 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{index-cantuum/antiphonae/}{\@Antiphon@Score}{\AntiphonLA}{\AntiphonPT}
-    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
+    \GregorioImportL{index-cantuum/antiphonae/}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportL*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
@@ -447,8 +446,8 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportR{index-cantuum/antiphonae/}{\@Antiphon@Score}{\AntiphonLA}{\AntiphonPT}
-    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
+    \GregorioImportR{index-cantuum/antiphonae/}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
@@ -458,8 +457,8 @@
     #4\clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/antiphonae/}{\@Antiphon@Score}{\AntiphonLA}{\AntiphonPT}
-      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
+      \GregorioImportLR{index-cantuum/antiphonae/}{#2}{\@Antiphon@L}{\@Antiphon@R}
+      \GregorioImportLR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
     \end{paracol}
 
     \begin{greenumerate}
@@ -473,23 +472,25 @@
       \end{paracol}
     \end{greenumerate}
 
-    #4
+    #5
   }
 }
 
-\NewDocumentCommand{\MakeChantAntiphonPsalmExtended}{s m O{\@Antiphon@Score} m}{%
+\NewDocumentCommand{\MakeChantAntiphonPsalmExtended}{s m m O{#2} m}{%
   \IfBooleanTF{#1}{%
-    \MakeChantAntiphonPsalm*{#2}[#3][#4]%
+    \MakeChantAntiphonPsalm*{#1}{#2}{#3}[#4][#5]%
   }{%
-    \MakeChantAntiphonPsalm{#2}[#3][#4]}%
+    \MakeChantAntiphonPsalm{#2}{#3}[#4][#5]%
+  }%
 }
 
-\NewDocumentCommand{\MakeChantAntiphon}{s m O{\@Antiphon@Score}}{
-  \def\AntiphonLA{antiphona\IfBooleanT{#1}{-cum-alleluia}}
-  \def\AntiphonPT{\AntiphonLA-pt}
-  \def\@Link@Ref@L{index-cantuum/#2#3\AntiphonLA}
-  \def\@Link@Ref@R{index-cantuum/#2#3\AntiphonPT}
-  \input{#2#3psalmus}
+\NewDocumentCommand{\MakeChantAntiphon}{s m m O{#2}}{
+  \def\@Antiphon@L{antiphona\IfBooleanT{#2}{-cum-alleluia}}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/#3#4\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3#4\@Antiphon@R}
+  \input{index-cantuum/antiphonae/#2antiphona}
+  \input{#3#4psalmus}
 
   \begin{annotation}
     \MakeAnnotation{\@Antiphon@Annotation}{}
@@ -502,7 +503,7 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{#2}{#3}{\AntiphonLA}{\AntiphonPT}
+    \GregorioImportL{#2}{#3}{\@Antiphon@L}{\@Antiphon@R}
 
     \clearpage
 
@@ -512,16 +513,80 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportR{#2}{#3}{\AntiphonLA}{\AntiphonPT}
+    \GregorioImportR{#2}{#3}{\@Antiphon@L}{\@Antiphon@R}
 
     \clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{#2}{#3}{\AntiphonLA}{\AntiphonPT}
+      \GregorioImportLR{#2}{#3}{\@Antiphon@L}{\@Antiphon@R}
     \end{paracol}
   }
 }
 
+\NewDocumentCommand{\MakeChantAlleluiaPsalm}{m m O{}}{
+  \def\@Antiphon@L{antiphona}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/alleluia/#2\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/alleluia/#2\@Antiphon@R}
+  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
+  \input{index-cantuum/alleluia/#2psalmus}
+
+  \begin{annotation}
+    \MakeAnnotation{}{\@Verse@Annotation}
+  \end{annotation}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL{index-cantuum/antiphonae/}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportL*{index-cantuum/alleluia/}{#2}{psalmus}{psalmus-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{1}
+      \MakeVerseListL{\VersePairs}
+    \end{greenumerate}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportR{index-cantuum/antiphonae/}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportR*{index-cantuum/alleluia/}{#2}{psalmus}{psalmus-pt}
+
+    \begin{greenumerate}
+      \setcounter{enumi}{1}
+      \MakeVerseListR{\VersePairs}
+    \end{greenumerate}
+
+    #3\clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{index-cantuum/antiphonae/}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+      \GregorioImportLR*{index-cantuum/alleluia/}{#2}{psalmus}{psalmus-pt}
+    \end{paracol}
+
+    \begin{greenumerate}
+      \begin{paracol}{2}
+        \synccounter{enumi}
+        \setcounter{enumi}{1}
+        \switchcolumn[1]
+        \setcounter{enumi}{1}
+        \switchcolumn[0]*
+        \MakeVerseListLR{\VersePairs}
+      \end{paracol}
+    \end{greenumerate}
+
+    #3
+  }
+}
 
 \NewDocumentCommand{\MakeChantPsalm}{s m m}{
   \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}

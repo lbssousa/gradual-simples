@@ -79,9 +79,9 @@
   \bgroup
   \IfBooleanT{#1}{\gresetinitiallines{0}}
   \iftoggle{disablehyperlinks}{
-    \gregorioscore{#2#3#4}
+    \gregorioscore{#2/#3/#4}
   }{
-    \hypertarget{\@Link@Ref@L}{}\gregorioscore{#2#3#4}
+    \hypertarget{\@Link@Ref@L}{}\gregorioscore{#2/#3/#4}
   }
   \egroup
 }
@@ -90,9 +90,9 @@
   \bgroup
   \IfBooleanT{#1}{\gresetinitiallines{0}}
   \iftoggle{disablehyperlinks}{
-    \gregorioscore{#2#3#5}
+    \gregorioscore{#2/#3/#5}
   }{
-    \hypertarget{\@Link@Ref@R}{\gregorioscore{#2#3#5}}
+    \hypertarget{\@Link@Ref@R}{\gregorioscore{#2/#3/#5}}
   }
   \egroup
 }
@@ -100,9 +100,9 @@
 \NewDocumentCommand{\GregorioImportLR}{s m m m m}{
   \bgroup
   \IfBooleanT{#1}{\gresetinitiallines{0}}
-  \gregorioscore{#2#3#4}
+  \gregorioscore{#2/#3/#4}
   \switchcolumn[1]
-  \gregorioscore{#2#3#5}
+  \gregorioscore{#2/#3/#5}
   \switchcolumn[0]*
   \egroup
 }
@@ -131,9 +131,9 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmOneVerse}{s m m}{
-  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
-  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
-  \input{index-cantuum/#2#3psalmus}
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
 
   \begin{annotation}
     \MakeAnnotation{}{\@Verse@Annotation}
@@ -189,9 +189,9 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmTwoVerses}{s m m}{
-  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
-  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
-  \input{index-cantuum/#2#3psalmus}
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
 
   \begin{annotation}
     \MakeAnnotation{}{\@Verse@Annotation}
@@ -250,9 +250,9 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalmThreeVerses}{s m m}{
-  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
-  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
-  \input{index-cantuum/#2#3psalmus}
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
 
   \begin{annotation}
     \MakeAnnotation{}{\@Verse@Annotation}
@@ -410,14 +410,13 @@
   }
 }
 
-
 \NewDocumentCommand{\MakeChantAntiphonPsalm}{s m m O{#2} O{}}{
   \def\@Antiphon@L{antiphona\IfBooleanT{#1}{-cum-alleluia}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/#3#4\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/#3#4\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#2antiphona}
-  \input{index-cantuum/#3#4psalmus}
+  \def\@Link@Ref@L{index-cantuum/#3/#4\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3/#4\@Antiphon@R}
+  \input{index-cantuum/antiphonae/#2/antiphona}
+  \input{index-cantuum/#3/#4/psalmus}
 
   \begin{annotation}
     \MakeAnnotation{\@Antiphon@Annotation}{\@Verse@Annotation}
@@ -430,7 +429,7 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{index-cantuum/antiphonae/}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportL{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
     \GregorioImportL*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
@@ -446,7 +445,7 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportR{index-cantuum/antiphonae/}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
     \GregorioImportR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
@@ -457,7 +456,7 @@
     #4\clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/antiphonae/}{#2}{\@Antiphon@L}{\@Antiphon@R}
+      \GregorioImportLR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
       \GregorioImportLR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
     \end{paracol}
 
@@ -487,10 +486,10 @@
 \NewDocumentCommand{\MakeChantAntiphon}{s m m O{#2}}{
   \def\@Antiphon@L{antiphona\IfBooleanT{#2}{-cum-alleluia}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/#3#4\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/#3#4\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#2antiphona}
-  \input{#3#4psalmus}
+  \def\@Link@Ref@L{index-cantuum/#3/#4\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3/#4\@Antiphon@R}
+  \input{index-cantuum/antiphonae/#2/antiphona}
+  \input{#3/#4/psalmus}
 
   \begin{annotation}
     \MakeAnnotation{\@Antiphon@Annotation}{}
@@ -529,7 +528,7 @@
   \def\@Link@Ref@L{index-cantuum/alleluia/#2\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/alleluia/#2\@Antiphon@R}
   \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
-  \input{index-cantuum/alleluia/#2psalmus}
+  \input{index-cantuum/alleluia/#2/psalmus}
 
   \begin{annotation}
     \MakeAnnotation{}{\@Verse@Annotation}
@@ -542,8 +541,8 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{index-cantuum/antiphonae/}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
-    \GregorioImportL*{index-cantuum/alleluia/}{#2}{psalmus}{psalmus-pt}
+    \GregorioImportL{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportL*{index-cantuum/alleluia}{#2}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
@@ -558,8 +557,8 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportR{index-cantuum/antiphonae/}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
-    \GregorioImportR*{index-cantuum/alleluia/}{#2}{psalmus}{psalmus-pt}
+    \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportR*{index-cantuum/alleluia}{#2}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
@@ -569,8 +568,8 @@
     #3\clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/antiphonae/}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
-      \GregorioImportLR*{index-cantuum/alleluia/}{#2}{psalmus}{psalmus-pt}
+      \GregorioImportLR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+      \GregorioImportLR*{index-cantuum/alleluia}{#2}{psalmus}{psalmus-pt}
     \end{paracol}
 
     \begin{greenumerate}
@@ -589,8 +588,8 @@
 }
 
 \NewDocumentCommand{\MakeChantPsalm}{s m m}{
-  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
-  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
@@ -627,8 +626,8 @@
   \renewcommand{\DoGregorioImportL}[2]{\iftoggle{biginitial}{\GregorioImportL{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}}}
   \renewcommand{\DoGregorioImportR}[2]{\iftoggle{biginitial}{\GregorioImportR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}}}
   \renewcommand{\DoGregorioImportLR}[2]{\iftoggle{biginitial}{\GregorioImportLR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}}}
-  \def\@Link@Ref@L{index-cantuum/#2#3psalmus-v1}
-  \def\@Link@Ref@R{index-cantuum/#2#3psalmus-v1-pt}
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}

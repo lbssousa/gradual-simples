@@ -413,8 +413,8 @@
 \NewDocumentCommand{\MakeChantAntiphonPsalm}{s m m O{#2} O{}}{
   \def\@Antiphon@L{antiphona\IfBooleanT{#1}{-cum-alleluia}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/#3/#4\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/#3/#4\@Antiphon@R}
+  \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
   \input{index-cantuum/antiphonae/#2/antiphona}
   \input{index-cantuum/#3/#4/psalmus}
 
@@ -486,8 +486,8 @@
 \NewDocumentCommand{\MakeChantAntiphon}{s m m O{#2}}{
   \def\@Antiphon@L{antiphona\IfBooleanT{#2}{-cum-alleluia}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/#3/#4\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/#3/#4\@Antiphon@R}
+  \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
   \input{index-cantuum/antiphonae/#2/antiphona}
   \input{#3/#4/psalmus}
 
@@ -525,8 +525,8 @@
 \NewDocumentCommand{\MakeChantAlleluiaPsalm}{m m O{}}{
   \def\@Antiphon@L{antiphona}
   \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/alleluia/#2\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/alleluia/#2\@Antiphon@R}
+  \def\@Link@Ref@L{index-cantuum/alleluia/#2/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/alleluia/#2/\@Antiphon@R}
   \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
   \input{index-cantuum/alleluia/#2/psalmus}
 

@@ -6,6 +6,7 @@
 \newcommand{\Map}[2]{\@for\p:={#2}\do{\expandafter#1\p}} % chktex 41
 \def\@Antiphon@Annotation{}
 \def\@Verse@Annotation{}
+\def\@Verse@Pairs{}
 \def\@Link@Text@L{}
 \def\@Link@Text@R{}
 \def\@Link@Ref@L{}
@@ -14,6 +15,7 @@
 \newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}}
 \newcommand{\SetLinkTextL}[1]{\def\@Link@Text@L{#1}}
 \newcommand{\SetLinkTextR}[1]{\def\@Link@Text@R{#1}}
+\newcommand{\SetVersePairs}[1]{\def\@Verse@Pairs{#1}}
 
 \newcommand{\MakeVerseL}[2]{%
   #1
@@ -150,7 +152,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
-      \MakeVerseListL{\VersePairs}
+      \MakeVerseListL{\@Verse@Pairs}
     \end{greenumerate}
 
     \clearpage
@@ -166,7 +168,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
-      \MakeVerseListR{\VersePairs}
+      \MakeVerseListR{\@Verse@Pairs}
     \end{greenumerate}
 
     \clearpage
@@ -182,7 +184,7 @@
         \switchcolumn[1]
         \setcounter{enumi}{1}
         \switchcolumn[0]*
-        \MakeVerseListLR{\VersePairs}
+        \MakeVerseListLR{\@Verse@Pairs}
       \end{paracol}
     \end{greenumerate}
   }
@@ -209,7 +211,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{2}
-      \MakeVerseListL{\VersePairs}
+      \MakeVerseListL{\@Verse@Pairs}
     \end{greenumerate}
 
     \clearpage
@@ -226,7 +228,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{2}
-      \MakeVerseListR{\VersePairs}
+      \MakeVerseListR{\@Verse@Pairs}
     \end{greenumerate}
 
     \clearpage
@@ -243,7 +245,7 @@
         \switchcolumn[1]
         \setcounter{enumi}{2}
         \switchcolumn[0]*
-        \MakeVerseListLR{\VersePairs}
+        \MakeVerseListLR{\@Verse@Pairs}
       \end{paracol}
     \end{greenumerate}
   }
@@ -271,7 +273,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{3}
-      \MakeVerseListL{\VersePairs}
+      \MakeVerseListL{\@Verse@Pairs}
     \end{greenumerate}
 
     \clearpage
@@ -289,7 +291,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{3}
-      \MakeVerseListR{\VersePairs}
+      \MakeVerseListR{\@Verse@Pairs}
     \end{greenumerate}
 
     \clearpage
@@ -307,7 +309,7 @@
         \switchcolumn[1]
         \setcounter{enumi}{3}
         \switchcolumn[0]*
-        \MakeVerseListLR{\VersePairs}
+        \MakeVerseListLR{\@Verse@Pairs}
       \end{paracol}
     \end{greenumerate}
   }
@@ -434,7 +436,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
-      \MakeVerseListL{\VersePairs}
+      \MakeVerseListL{\@Verse@Pairs}
     \end{greenumerate}
 
     \clearpage
@@ -450,7 +452,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
-      \MakeVerseListR{\VersePairs}
+      \MakeVerseListR{\@Verse@Pairs}
     \end{greenumerate}
 
     #4\clearpage
@@ -467,7 +469,7 @@
         \switchcolumn[1]
         \setcounter{enumi}{1}
         \switchcolumn[0]*
-        \MakeVerseListLR{\VersePairs}
+        \MakeVerseListLR{\@Verse@Pairs}
       \end{paracol}
     \end{greenumerate}
 
@@ -546,7 +548,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
-      \MakeVerseListL{\VersePairs}
+      \MakeVerseListL{\@Verse@Pairs}
     \end{greenumerate}
 
     \clearpage
@@ -562,7 +564,7 @@
 
     \begin{greenumerate}
       \setcounter{enumi}{1}
-      \MakeVerseListR{\VersePairs}
+      \MakeVerseListR{\@Verse@Pairs}
     \end{greenumerate}
 
     #3\clearpage
@@ -579,7 +581,7 @@
         \switchcolumn[1]
         \setcounter{enumi}{1}
         \switchcolumn[0]*
-        \MakeVerseListLR{\VersePairs}
+        \MakeVerseListLR{\@Verse@Pairs}
       \end{paracol}
     \end{greenumerate}
 

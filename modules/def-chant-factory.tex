@@ -412,12 +412,12 @@
   }
 }
 
-\NewDocumentCommand{\MakeChantAntiphonPsalm}{s m m O{#2} O{}}{
-  \def\@Antiphon@L{antiphona\IfBooleanT{#1}{-cum-alleluia}}
+\NewDocumentCommand{\MakeChantAntiphonPsalm}{m O{} m O{#1} O{}}{
+  \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#2/antiphona}
+  \input{index-cantuum/antiphonae/#1/antiphona}
   \input{index-cantuum/#3/#4/psalmus}
 
   \begin{annotation}
@@ -431,7 +431,7 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportL{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
     \GregorioImportL*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
@@ -447,7 +447,7 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
     \GregorioImportR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
 
     \begin{greenumerate}
@@ -458,7 +458,7 @@
     #4\clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+      \GregorioImportLR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
       \GregorioImportLR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
     \end{paracol}
 
@@ -477,20 +477,16 @@
   }
 }
 
-\NewDocumentCommand{\MakeChantAntiphonPsalmExtended}{s m m O{#2} m}{%
-  \IfBooleanTF{#1}{%
-    \MakeChantAntiphonPsalm*{#1}{#2}{#3}[#4][#5]%
-  }{%
-    \MakeChantAntiphonPsalm{#2}{#3}[#4][#5]%
-  }%
+\NewDocumentCommand{\MakeChantAntiphonPsalmExtended}{m O{} m O{#1} m}{%
+  \MakeChantAntiphonPsalm{#1}[#2]{#3}[#4][#5]%
 }
 
-\NewDocumentCommand{\MakeChantAntiphon}{s m m O{#2}}{
-  \def\@Antiphon@L{antiphona\IfBooleanT{#2}{-cum-alleluia}}
+\NewDocumentCommand{\MakeChantAntiphon}{m O{} m O{#1}}{
+  \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#2/antiphona}
+  \input{index-cantuum/antiphonae/#1/antiphona}
   \input{#3/#4/psalmus}
 
   \begin{annotation}
@@ -504,7 +500,7 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{#2}{#3}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportL{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
 
     \clearpage
 
@@ -514,12 +510,12 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportR{#2}{#3}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
 
     \clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{#2}{#3}{\@Antiphon@L}{\@Antiphon@R}
+      \GregorioImportLR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
     \end{paracol}
   }
 }

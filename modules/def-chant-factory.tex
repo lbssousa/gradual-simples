@@ -481,13 +481,12 @@
   \MakeChantAntiphonPsalm{#1}[#2]{#3}[#4][#5]%
 }
 
-\NewDocumentCommand{\MakeChantAntiphon}{m O{} m O{#1}}{
+\NewDocumentCommand{\MakeChantAntiphon}{m O{}}{
   \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
+  \def\@Link@Ref@L{index-cantuum/antiphonae/#1/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/amtiphonae/#1/\@Antiphon@R}
   \input{index-cantuum/antiphonae/#1/antiphona}
-  \input{#3/#4/psalmus}
 
   \begin{annotation}
     \MakeAnnotation{\@Antiphon@Annotation}{}

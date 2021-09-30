@@ -522,10 +522,10 @@
 \NewDocumentCommand{\MakeChantAlleluiaPsalm}{m m O{}}{
   \def\@Antiphon@L{antiphona}
   \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/alleluia/#2/\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/alleluia/#2/\@Antiphon@R}
+  \def\@Link@Ref@L{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
   \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
-  \input{index-cantuum/alleluia/#2/psalmus}
+  \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
 
   \begin{annotation}
     \MakeAnnotation{}{\@Verse@Annotation}

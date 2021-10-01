@@ -45,10 +45,8 @@
 
 \DeclareDocumentCommand{\Annotation}{}{}
 
-\NewDocumentCommand{\MakeAnnotation}{m m}{%
-  \IfNoValueOrEmptyTF{#1}{}{\Antiphona*{#1}\IfNoValueOrEmptyTF{#2}{}{\\}}
-  \IfNoValueOrEmptyTF{#2}{}{\Versum*{#2}}%
-}
+\newcommand{\MakeAntiphonAnnotation}[1]{\ifdefempty{#1}{}{\Antiphona*{#1}}}
+\newcommand{\MakeVerseAnnotation}[1]{\ifdefempty{#1}{}{\Versum*{#1}}}
 
 \NewDocumentCommand{\Elisio}{m}{\textit{\small#1}}
 

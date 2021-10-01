@@ -138,7 +138,7 @@
   \input{index-cantuum/#2/#3/psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{}{\@Verse@Annotation}
+    \MakeVerseAnnotation{\@Verse@Annotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -196,7 +196,7 @@
   \input{index-cantuum/#2/#3/psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{}{\@Verse@Annotation}
+    \MakeVerseAnnotation{\@Verse@Annotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -257,7 +257,7 @@
   \input{index-cantuum/#2/#3/psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{}{\@Verse@Annotation}
+    \MakeVerseAnnotation{\@Verse@Annotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -421,7 +421,11 @@
   \input{index-cantuum/#3/#4/psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{\@Antiphon@Annotation}{\@Verse@Annotation}
+    \ifdefempty{\@Antiphon@Annotation}{}{%
+      \MakeAntiphonAnnotation{\@Antiphon@Annotation}%
+      \ifdefempty{\@Verse@Annotation}{}{\\}%
+    }%
+    \MakeVerseAnnotation{\@Verse@Annotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -489,7 +493,7 @@
   \input{index-cantuum/antiphonae/#1/antiphona}
 
   \begin{annotation}
-    \MakeAnnotation{\@Antiphon@Annotation}{}
+    \MakeAntiphonAnnotation{\@Antiphon@Annotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -528,7 +532,7 @@
   \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
 
   \begin{annotation}
-    \MakeAnnotation{}{\@Verse@Annotation}
+    \MakeVerseAnnotation{\@Verse@Annotation}
   \end{annotation}
 
   \iftoggle{compact}{
@@ -625,6 +629,12 @@
   \renewcommand{\DoGregorioImportLR}[2]{\iftoggle{biginitial}{\GregorioImportLR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}}}
   \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  \begin{annotation}
+    \MakeVerseAnnotation{\@Verse@Annotation}
+  \end{annotation}
+
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
       \begin{small}

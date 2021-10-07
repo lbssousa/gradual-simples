@@ -57,9 +57,9 @@
   }%
 }
 
-\newcommand{\MakeVerseItemVoidL}[2]{\MakeVerseL[]{#1}[]{#2}}
-\newcommand{\MakeVerseItemVoidR}[2]{\MakeVerseR[]{#1}[]{#2}}
-\newcommand{\MakeVerseItemVoidLR}[2]{\MakeVerseLR[]{#1}[]{#2}}
+\newcommand{\MakeVerseItemVoidL}[2]{\MakeVerseItemL[]{#1}[]{#2}}
+\newcommand{\MakeVerseItemVoidR}[2]{\MakeVerseItemR[]{#1}[]{#2}}
+\newcommand{\MakeVerseItemVoidLR}[2]{\MakeVerseItemLR[]{#1}[]{#2}}
 
 \newcommand{\MakeVerseListL}[1]{\Map{\MakeVerseItemL}{#1}}
 \newcommand{\MakeVerseListR}[1]{\Map{\MakeVerseItemR}{#1}}
@@ -150,10 +150,12 @@
     }{}
     \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{1}
-      \MakeVerseListL{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{1}
+        \MakeVerseListL{\@Verse@Pairs}
+      \end{greenumerate}
+    }
 
     \clearpage
 
@@ -166,10 +168,12 @@
 
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{1}
-      \MakeVerseListR{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{1}
+        \MakeVerseListR{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     \clearpage
   }{
@@ -177,16 +181,18 @@
       \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
     \end{paracol}
 
-    \begin{greenumerate}
-      \begin{paracol}{2}
-        \synccounter{enumi}
-        \setcounter{enumi}{1}
-        \switchcolumn[1]
-        \setcounter{enumi}{1}
-        \switchcolumn[0]*
-        \MakeVerseListLR{\@Verse@Pairs}
-      \end{paracol}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \begin{paracol}{2}
+          \synccounter{enumi}
+          \setcounter{enumi}{1}
+          \switchcolumn[1]
+          \setcounter{enumi}{1}
+          \switchcolumn[0]*
+          \MakeVerseListLR{\@Verse@Pairs}
+        \end{paracol}
+      \end{greenumerate}%
+    }
   }
 }
 
@@ -209,10 +215,12 @@
     \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
     \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{2}
-      \MakeVerseListL{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{2}
+        \MakeVerseListL{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     \clearpage
 
@@ -226,10 +234,12 @@
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{2}
-      \MakeVerseListR{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{2}
+        \MakeVerseListR{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     \clearpage
   }{
@@ -238,16 +248,18 @@
       \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
     \end{paracol}
 
-    \begin{greenumerate}
-      \begin{paracol}{2}
-        \synccounter{enumi}
-        \setcounter{enumi}{2}
-        \switchcolumn[1]
-        \setcounter{enumi}{2}
-        \switchcolumn[0]*
-        \MakeVerseListLR{\@Verse@Pairs}
-      \end{paracol}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \begin{paracol}{2}
+          \synccounter{enumi}
+          \setcounter{enumi}{2}
+          \switchcolumn[1]
+          \setcounter{enumi}{2}
+          \switchcolumn[0]*
+          \MakeVerseListLR{\@Verse@Pairs}
+        \end{paracol}
+      \end{greenumerate}%
+    }
   }
 }
 
@@ -271,10 +283,12 @@
     \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
     \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v3}{psalmus-v3-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{3}
-      \MakeVerseListL{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{3}
+        \MakeVerseListL{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     \clearpage
 
@@ -289,10 +303,12 @@
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v2}{psalmus-v2-pt}
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v3}{psalmus-v3-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{3}
-      \MakeVerseListR{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{3}
+        \MakeVerseListR{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     \clearpage
   }{
@@ -302,21 +318,23 @@
       \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v3}{psalmus-v3-pt}
     \end{paracol}
 
-    \begin{greenumerate}
-      \begin{paracol}{2}
-        \synccounter{enumi}
-        \setcounter{enumi}{3}
-        \switchcolumn[1]
-        \setcounter{enumi}{3}
-        \switchcolumn[0]*
-        \MakeVerseListLR{\@Verse@Pairs}
-      \end{paracol}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \begin{paracol}{2}
+          \synccounter{enumi}
+          \setcounter{enumi}{3}
+          \switchcolumn[1]
+          \setcounter{enumi}{3}
+          \switchcolumn[0]*
+          \MakeVerseListLR{\@Verse@Pairs}
+        \end{paracol}
+      \end{greenumerate}
+    }%
   }
 }
 
 \NewDocumentCommand{\MakeChantLitany}{m m}{
-  \input{#2/litany}
+  \input{index-cantuum/#1/#2/litany}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
@@ -325,26 +343,26 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportL{#1}{#2}{kyrie}{kyrie-pt}
-    \GregorioImportL*{#1}{#2}{sancta-maria}{sancta-maria-pt}
+    \GregorioImportL{index-cantuum/#1}{#2}{kyrie}{kyrie-pt}
+    \GregorioImportL*{index-cantuum/#1}{#2}{sancta-maria}{sancta-maria-pt}
 
     \begin{itemize}
       \Map{\MakeVerseItemVoidL}{\SaintsPairs}
     \end{itemize}
 
-    \GregorioImportL*{#1}{#2}{propitius}{propitius-pt}
+    \GregorioImportL*{index-cantuum/#1}{#2}{propitius}{propitius-pt}
 
     \begin{itemize}
       \Map{\MakeVerseItemVoidL}{\PropitiusPairs}
     \end{itemize}
 
-    \GregorioImportL*{#1}{#2}{peccatores}{peccatores-pt}
+    \GregorioImportL*{index-cantuum/#1}{#2}{peccatores}{peccatores-pt}
 
     \begin{itemize}
       \Map{\MakeVerseItemVoidL}{\PeccatoresPairs}
     \end{itemize}
 
-    \GregorioImportL*{#1}{#2}{christe}{christe-pt}
+    \GregorioImportL*{index-cantuum/#1}{#2}{christe}{christe-pt}
 
     \clearpage
 
@@ -354,30 +372,30 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportR{#1}{#2}{kyrie}{kyrie-pt}
-    \GregorioImportR*{#1}{#2}{sancta-maria}{sancta-maria-pt}
+    \GregorioImportR{index-cantuum/#1}{#2}{kyrie}{kyrie-pt}
+    \GregorioImportR*{index-cantuum/#1}{#2}{sancta-maria}{sancta-maria-pt}
 
     \begin{itemize}
       \Map{\MakeVerseItemVoidR}{\SaintsPairs}
     \end{itemize}
 
-    \GregorioImportR*{#1}{#2}{propitius}{propitius-pt}
+    \GregorioImportR*{index-cantuum/#1}{#2}{propitius}{propitius-pt}
 
     \begin{itemize}
       \Map{\MakeVerseItemVoidR}{\PropitiusPairs}
     \end{itemize}
 
-    \GregorioImportR*{#1}{#2}{peccatores}{peccatores-pt}
+    \GregorioImportR*{index-cantuum/#1}{#2}{peccatores}{peccatores-pt}
 
     \begin{itemize}
       \Map{\MakeVerseItemVoidR}{\PeccatoresPairs}
     \end{itemize}
 
-    \GregorioImportR*{#1}{#2}{christe}{christe-pt}
+    \GregorioImportR*{index-cantuum/#1}{#2}{christe}{christe-pt}
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{#1}{#2}{kyrie}{kyrie-pt}
-      \GregorioImportLR*{#1}{#2}{sancta-maria}{sancta-maria-pt}
+      \GregorioImportLR{index-cantuum/#1}{#2}{kyrie}{kyrie-pt}
+      \GregorioImportLR*{index-cantuum/#1}{#2}{sancta-maria}{sancta-maria-pt}
     \end{paracol}
 
     \begin{itemize}
@@ -387,7 +405,7 @@
     \end{itemize}
 
     \begin{paracol}{2}
-      \GregorioImportLR*{#1}{#2}{propitius}{propitius-pt}
+      \GregorioImportLR*{index-cantuum/#1}{#2}{propitius}{propitius-pt}
     \end{paracol}
 
     \begin{itemize}
@@ -397,7 +415,7 @@
     \end{itemize}
 
     \begin{paracol}{2}
-      \GregorioImportLR*{#1}{#2}{peccatores}{peccatores-pt}
+      \GregorioImportLR*{index-cantuum/#1}{#2}{peccatores}{peccatores-pt}
     \end{paracol}
 
     \begin{itemize}
@@ -407,7 +425,7 @@
     \end{itemize}
 
     \begin{paracol}{2}
-      \GregorioImportLR*{#1}{#2}{christe}{christe-pt}
+      \GregorioImportLR*{index-cantuum/#1}{#2}{christe}{christe-pt}
     \end{paracol}
   }
 }
@@ -438,10 +456,12 @@
     \GregorioImportL{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
     \GregorioImportL*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{1}
-      \MakeVerseListL{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{1}
+        \MakeVerseListL{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     \clearpage
 
@@ -454,10 +474,12 @@
     \GregorioImportR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
     \GregorioImportR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{1}
-      \MakeVerseListR{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{1}
+        \MakeVerseListR{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     #4\clearpage
   }{
@@ -466,16 +488,18 @@
       \GregorioImportLR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
     \end{paracol}
 
-    \begin{greenumerate}
-      \begin{paracol}{2}
-        \synccounter{enumi}
-        \setcounter{enumi}{1}
-        \switchcolumn[1]
-        \setcounter{enumi}{1}
-        \switchcolumn[0]*
-        \MakeVerseListLR{\@Verse@Pairs}
-      \end{paracol}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \begin{paracol}{2}
+          \synccounter{enumi}
+          \setcounter{enumi}{1}
+          \switchcolumn[1]
+          \setcounter{enumi}{1}
+          \switchcolumn[0]*
+          \MakeVerseListLR{\@Verse@Pairs}
+        \end{paracol}
+      \end{greenumerate}%
+    }
 
     #5
   }
@@ -545,10 +569,12 @@
     \GregorioImportL{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
     \GregorioImportL*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{1}
-      \MakeVerseListL{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{1}
+        \MakeVerseListL{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     \clearpage
 
@@ -561,10 +587,12 @@
     \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
     \GregorioImportR*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
 
-    \begin{greenumerate}
-      \setcounter{enumi}{1}
-      \MakeVerseListR{\@Verse@Pairs}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{1}
+        \MakeVerseListR{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
 
     #3\clearpage
   }{
@@ -573,18 +601,56 @@
       \GregorioImportLR*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
     \end{paracol}
 
-    \begin{greenumerate}
-      \begin{paracol}{2}
-        \synccounter{enumi}
-        \setcounter{enumi}{1}
-        \switchcolumn[1]
-        \setcounter{enumi}{1}
-        \switchcolumn[0]*
-        \MakeVerseListLR{\@Verse@Pairs}
-      \end{paracol}
-    \end{greenumerate}
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \begin{paracol}{2}
+          \synccounter{enumi}
+          \setcounter{enumi}{1}
+          \switchcolumn[1]
+          \setcounter{enumi}{1}
+          \switchcolumn[0]*
+          \MakeVerseListLR{\@Verse@Pairs}
+        \end{paracol}
+      \end{greenumerate}%
+    }
 
     #3
+  }
+}
+
+\NewDocumentCommand{\MakeChantAlleluia}{m O{}}{
+  \def\@Antiphon@L{antiphona}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/antiphonae/#1/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/antiphonae/#1/\@Antiphon@R}
+  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+
+    #2\clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+    \end{paracol}
+
+    #2
   }
 }
 

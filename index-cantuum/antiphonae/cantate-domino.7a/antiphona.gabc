@@ -1,7 +1,8 @@
 name: Cantate Domino;
-office-part: Introitus;
 mode: 7;
 mode-differentia: a;
+cantus-id:  005139;
+commentary: Sl 76(75),9--10;
 book: Graduale Simplex, 1975, p. 172;
 
 %%

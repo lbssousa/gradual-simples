@@ -1,0 +1,27 @@
+name: "Fascículo 5 / Layout A5"
+on:
+  push:
+    branches: [main]
+defaults:
+  run:
+    working-directory: .
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Construir PDFs
+        uses: ./.github/actions/lualatex
+        with:
+          directory: 'fasciculo-5'
+          file: 'a5'
+        env:
+          OUT_DIR: public
+
+      - name: Fazer upload dos artefatos
+        uses: actions/upload-artifact@v2
+        with:
+          name: fasciculo-5-a5
+          path: public/

@@ -7,6 +7,9 @@
 \def\@Antiphon@Annotation{}
 \def\@Verse@Annotation{}
 \def\@Verse@Pairs{}
+\def\@First@Verse@Pair{}
+\def\@Second@Verse@Pair{}
+\def\@Third@Verse@Pair{}
 \def\@Link@Text@L{}
 \def\@Link@Text@R{}
 \def\@Link@Ref@L{}
@@ -16,6 +19,9 @@
 \newcommand{\SetLinkTextL}[1]{\def\@Link@Text@L{#1}}
 \newcommand{\SetLinkTextR}[1]{\def\@Link@Text@R{#1}}
 \newcommand{\SetVersePairs}[1]{\def\@Verse@Pairs{#1}}
+\newcommand{\SetFirstVersePair}[1]{\def\@First@Verse@Pair{#1}}
+\newcommand{\SetSecondVersePair}[1]{\def\@Second@Verse@Pair{#1}}
+\newcommand{\SetThirdVersePair}[1]{\def\@Third@Verse@Pair{#1}}
 
 \newcommand{\MakeVerseL}[2]{%
   #1
@@ -34,22 +40,21 @@
   \switchcolumn[0]*
 }
 
-
-\DeclareDocumentCommand{\MakeVerseItemL}{o m o m}{%
+\NewDocumentCommand{\MakeVerseItemL}{o m o m}{%
   \MakeVerseL{%
     \IfNoValueTF{#1}{\item}{\item[#1]} #2%
   }{%
     \IfNoValueTF{#3}{\item}{\item[#3]} #4%
   }%
 }
-\DeclareDocumentCommand{\MakeVerseItemR}{o m o m}{%
+\NewDocumentCommand{\MakeVerseItemR}{o m o m}{%
   \MakeVerseR{%
     \IfNoValueTF{#1}{\item}{\item[#1]} #2%
   }{%
     \IfNoValueTF{#3}{\item}{\item[#3]} #4%
   }%
 }
-\DeclareDocumentCommand{\MakeVerseItemLR}{o m o m}{%
+\NewDocumentCommand{\MakeVerseItemLR}{o m o m}{%
   \MakeVerseLR{%
     \IfNoValueTF{#1}{\item}{\item[#1]} #2%
   }{%
@@ -57,21 +62,52 @@
   }%
 }
 
+\NewDocumentCommand{\MakeVerseItemNoLinkTextL}{o m o m}{%
+  \IfNoValueTF{#1}{\item}{\item[#1]} #2%
+}
+\NewDocumentCommand{\MakeVerseItemNoLinkTextR}{o m o m}{%
+  \IfNoValueTF{#3}{\item}{\item[#3]} #4%
+}
+\NewDocumentCommand{\MakeVerseItemNoLinkTextLR}{o m o m}{%
+  \IfNoValueTF{#1}{\item}{\item[#1]} #2
+  \switchcolumn[1]
+  \IfNoValueTF{#3}{\item}{\item[#3]} #4
+  \switchcolumn[0]*
+}
+
 \newcommand{\MakeVerseItemVoidL}[2]{\MakeVerseItemL[]{#1}[]{#2}}
 \newcommand{\MakeVerseItemVoidR}[2]{\MakeVerseItemR[]{#1}[]{#2}}
 \newcommand{\MakeVerseItemVoidLR}[2]{\MakeVerseItemLR[]{#1}[]{#2}}
 
-\newcommand{\MakeVerseListL}[1]{\Map{\MakeVerseItemL}{#1}}
-\newcommand{\MakeVerseListR}[1]{\Map{\MakeVerseItemR}{#1}}
-\newcommand{\MakeVerseListLR}[1]{\Map{\MakeVerseItemLR}{#1}}
+\NewDocumentCommand{\MakeVerseListL}{s m}{%
+  \IfBooleanTF{#1}{%
+    \Map{\MakeVerseItemNoLinkTextL}{#2}%
+  }{%
+    \Map{\MakeVerseItemL}{#2}%
+  }%
+}
+\NewDocumentCommand{\MakeVerseListR}{s m}{%
+  \IfBooleanTF{#1}{%
+    \Map{\MakeVerseItemNoLinkTextR}{#2}%
+  }{%
+    \Map{\MakeVerseItemR}{#2}%
+  }%
+}
+\NewDocumentCommand{\MakeVerseListLR}{s m}{%
+  \IfBooleanTF{#1}{%
+    \Map{\MakeVerseItemNoLinkTextLR}{#2}%
+  }{%
+    \Map{\MakeVerseItemLR}{#2}%
+  }%
+}
 
-\DeclareDocumentCommand{\AllowPageFlush}{}{
+\NewDocumentCommand{\AllowPageFlush}{}{
   \nottoggle{compact}{%
     \clearpage%
   }{}
 }
 
-\DeclareDocumentCommand{\AllowPageBreak}{}{
+\NewDocumentCommand{\AllowPageBreak}{}{
   \nottoggle{compact}{%
     \clearpage\hbox{}\newpage%
   }{}
@@ -130,6 +166,128 @@
       }
     \end{paracol}
   }
+}
+
+\NewDocumentCommand{\MakeChantPsalmOneVerseFlyerL}{s m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  %\begin{annotation}
+  % \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{greenumerate}
+    \MakeVerseListL*{\@First@Verse@Pair} \\
+    \begin{minipage}[t]{84mm}
+      \GregorioImportL*{index-cantuum/#2}{#3}{responsorium}{responsorium-pt}
+    \end{minipage}
+    \MakeVerseListL{\@Verse@Pairs}
+  \end{greenumerate}
+}
+
+\NewDocumentCommand{\MakeChantPsalmOneVerseFlyerR}{s m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  %\begin{annotation}
+  % \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{greenumerate}
+    \MakeVerseListR*{\@First@Verse@Pair} \\
+    \begin{minipage}[t]{84mm}
+      \GregorioImportR*{index-cantuum/#2}{#3}{responsorium}{responsorium-pt}
+    \end{minipage}
+    \MakeVerseListR{\@Verse@Pairs}
+  \end{greenumerate}
+}
+
+\NewDocumentCommand{\MakeChantPsalmOneVerseFlyerLR}{s m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  %\begin{annotation}
+  % \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{greenumerate}
+    \begin{paracol}{2}
+      \MakeVerseListLR*{\@First@Verse@Pair}
+      \begin{minipage}[t]{84mm}
+        \GregorioImportL*{index-cantuum/#2}{#3}{responsorium}{responsorium-pt}
+      \end{minipage}
+      \switchcolumn[1]
+      \begin{minipage}[t]{84mm}
+        \GregorioImportR*{index-cantuum/#2}{#3}{responsorium}{responsorium-pt}
+      \end{minipage}
+      \switchcolumn[0]*
+      \MakeVerseListLR{\@Verse@Pairs}
+    \end{paracol}
+  \end{greenumerate}
+}
+
+\NewDocumentCommand{\MakeChantPsalmOneVerseAlleluiaFlyerL}{s m m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3.#4/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3.#4/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3.#4/psalmus}
+
+  %\begin{annotation}
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{greenumerate}
+    \MakeVerseListL*{\@First@Verse@Pair} \\
+    \begin{minipage}[t]{84mm}
+      \GregorioImportL*{index-cantuum/responsoria}{alleluia.#4}{responsorium}{responsorium-pt}
+    \end{minipage}
+    \MakeVerseListL{\@Verse@Pairs}
+  \end{greenumerate}
+}
+
+\NewDocumentCommand{\MakeChantPsalmOneVerseAlleluiaFlyerR}{s m m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3.#4/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3.#4/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3.#4/psalmus}
+
+  %\begin{annotation}
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{greenumerate}
+    \MakeVerseListR*{\@First@Verse@Pair} \\
+    \begin{minipage}[t]{84mm}
+      \GregorioImportR*{index-cantuum/responsoria}{alleluia.#4}{responsorium}{responsorium-pt}
+    \end{minipage}
+    \MakeVerseListR{\@Verse@Pairs}
+  \end{greenumerate}
+}
+
+\NewDocumentCommand{\MakeChantPsalmOneVerseAlleluiaFlyerLR}{s m m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3.#4/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3.#4/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3.#4/psalmus}
+
+  %\begin{annotation}
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{greenumerate}
+    \begin{paracol}{2}
+      \MakeVerseListLR*{\@First@Verse@Pair}
+      \begin{minipage}[t]{84mm}
+        \GregorioImportL*{index-cantuum/responsoria}{alleluia.#4}{responsorium}{responsorium-pt}
+      \end{minipage}
+      \switchcolumn[1]
+      \begin{minipage}[t]{84mm}
+        \GregorioImportR*{index-cantuum/responsoria}{alleluia.#4}{responsorium}{responsorium-pt}
+      \end{minipage}
+      \switchcolumn[0]*
+      \MakeVerseListLR{\@Verse@Pairs}
+    \end{paracol}
+  \end{greenumerate}
 }
 
 \NewDocumentCommand{\MakeChantPsalmOneVerse}{s m m}{
@@ -194,6 +352,44 @@
       \end{greenumerate}%
     }
   }
+}
+
+\NewDocumentCommand{\MakeChantPsalmTwoVersesFlyerL}{s m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  %\begin{annotation}
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{greenumerate}
+    \MakeVerseListR*{\@First@Verse@Pair} \\
+    \begin{minipage}[t]{84mm}
+      \GregorioImportL*{index-cantuum/#2}{#3}{responsorium}{responsorium-pt}
+    \end{minipage}
+    \MakeVerseListL{\@Second@Verse@Pair}
+    \MakeVerseListL{\@Verse@Pairs}
+  \end{greenumerate}
+}
+
+\NewDocumentCommand{\MakeChantPsalmTwoVersesFlyerR}{s m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  \begin{annotation}
+    \MakeVerseAnnotation{\@Verse@Annotation}
+  \end{annotation}
+
+  \begin{greenumerate}
+    \MakeVerseListR*{\@First@Verse@Pair} \\
+    \begin{minipage}[t]{84mm}
+      \GregorioImportR*{index-cantuum/#2}{#3}{responsorium}{responsorium-pt}
+    \end{minipage}
+    \MakeVerseListR{\@Second@Verse@Pair}
+    \MakeVerseListR{\@Verse@Pairs}
+  \end{greenumerate}
 }
 
 \NewDocumentCommand{\MakeChantPsalmTwoVerses}{s m m}{
@@ -261,6 +457,46 @@
       \end{greenumerate}%
     }
   }
+}
+
+\NewDocumentCommand{\MakeChantPsalmThreeVersesFlyerL}{s m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  %\begin{annotation}
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{greenumerate}
+    \MakeVerseListL*{\@First@Verse@Pair} \\
+    \begin{minipage}[t]{84mm}
+      \GregorioImportL*{index-cantuum/#2}{#3}{responsorium}{responsorium-pt}
+    \end{minipage}
+    \MakeVerseListL{\@Second@Verse@Pair}
+    \MakeVerseListL{\@Third@Verse@Pair}
+    \MakeVerseListL{\@Verse@Pairs}
+  \end{greenumerate}
+}
+
+\NewDocumentCommand{\MakeChantPsalmThreeVersesFlyerR}{s m m}{
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  \begin{annotation}
+    \MakeVerseAnnotation{\@Verse@Annotation}
+  \end{annotation}
+
+  \begin{greenumerate}
+    \MakeVerseListR*{\@First@Verse@Pair} \\
+    \begin{minipage}[t]{84mm}
+      \GregorioImportR*{index-cantuum/#2}{#3}{responsorium}{responsorium-pt}
+    \end{minipage}
+    \MakeVerseListR{\@Second@Verse@Pair}
+    \MakeVerseListR{\@Third@Verse@Pair}
+    \MakeVerseListR{\@Verse@Pairs}
+  \end{greenumerate}
 }
 
 \NewDocumentCommand{\MakeChantPsalmThreeVerses}{s m m}{
@@ -430,6 +666,89 @@
   }
 }
 
+\NewDocumentCommand{\MakeChantAntiphonPsalmFlyerL}{m O{} m O{#1} O{}}{
+  \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
+  \input{index-cantuum/antiphonae/#1/antiphona}
+  \input{index-cantuum/#3/#4/psalmus}
+
+  %\begin{annotation}
+  %  \ifdefempty{\@Antiphon@Annotation}{}{%
+  %    \MakeAntiphonAnnotation{\@Antiphon@Annotation}%
+  %    \ifdefempty{\@Verse@Annotation}{}{\\}%
+  %  }%
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \GregorioImportL{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
+
+  \ifdefempty{\@Verse@Pairs}{}{%
+    \begin{greenumerate}
+      \MakeVerseListL{\@First@Verse@Pair}
+      \MakeVerseListL{\@Verse@Pairs}
+    \end{greenumerate}%
+  }
+}
+
+\NewDocumentCommand{\MakeChantAntiphonPsalmFlyerR}{m O{} m O{#1} O{}}{
+  \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
+  \input{index-cantuum/antiphonae/#1/antiphona}
+  \input{index-cantuum/#3/#4/psalmus}
+
+  %\begin{annotation}
+  %  \ifdefempty{\@Antiphon@Annotation}{}{%
+  %    \MakeAntiphonAnnotation{\@Antiphon@Annotation}%
+  %    \ifdefempty{\@Verse@Annotation}{}{\\}%
+  %  }%
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \GregorioImportR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
+
+  \ifdefempty{\@Verse@Pairs}{}{%
+    \begin{greenumerate}
+      \MakeVerseListR{\@First@Verse@Pair}
+      \MakeVerseListR{\@Verse@Pairs}
+    \end{greenumerate}%
+  }
+}
+
+\NewDocumentCommand{\MakeChantAntiphonPsalmFlyerLR}{m O{} m O{#1} O{}}{
+  \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
+  \input{index-cantuum/antiphonae/#1/antiphona}
+  \input{index-cantuum/#3/#4/psalmus}
+
+  %\begin{annotation}
+  %  \ifdefempty{\@Antiphon@Annotation}{}{%
+  %    \MakeAntiphonAnnotation{\@Antiphon@Annotation}%
+  %    \ifdefempty{\@Verse@Annotation}{}{\\}%
+  %  }%
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{paracol}{2}
+    \GregorioImportLR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
+  \end{paracol}
+
+  \ifdefempty{\@Verse@Pairs}{}{%
+    \begin{greenumerate}
+      \begin{paracol}{2}
+        \MakeVerseListLR{\@First@Verse@Pair}
+        \switchcolumn[0]*
+        \MakeVerseListLR{\@Verse@Pairs}
+      \end{paracol}
+    \end{greenumerate}%
+  }
+}
+
 \NewDocumentCommand{\MakeChantAntiphonPsalm}{m O{} m O{#1} O{}}{
   \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
@@ -547,6 +866,82 @@
   }
 }
 
+\NewDocumentCommand{\MakeChantAlleluiaPsalmFlyerL}{m m O{}}{
+  \def\@Antiphon@L{antiphona}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
+  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
+  \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
+
+  %\begin{annotation}
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \GregorioImportL{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+  \noindent\begin{rubrica}Omnes:\end{rubrica} Allelúia, allelúia, allelúia.
+
+  \ifdefempty{\@Verse@Pairs}{}{%
+    \begin{greenumerate}
+      \MakeVerseListL{\@First@Verse@Pair}
+      \MakeVerseListL{\@Verse@Pairs}
+    \end{greenumerate}%
+  }
+}
+
+\NewDocumentCommand{\MakeChantAlleluiaPsalmFlyerR}{m m O{}}{
+  \def\@Antiphon@L{antiphona}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
+  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
+  \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
+
+  %\begin{annotation}
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+  \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
+
+  \ifdefempty{\@Verse@Pairs}{}{%
+    \begin{greenumerate}
+      \MakeVerseListR{\@First@Verse@Pair}
+      \MakeVerseListR{\@Verse@Pairs}
+    \end{greenumerate}%
+  }
+}
+
+\NewDocumentCommand{\MakeChantAlleluiaPsalmFlyerLR}{m m O{}}{
+  \def\@Antiphon@L{antiphona}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+  \def\@Link@Ref@L{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@L}
+  \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
+  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
+  \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
+
+  %\begin{annotation}
+  %  \MakeVerseAnnotation{\@Verse@Annotation}
+  %\end{annotation}
+
+  \begin{paracol}{2}
+    \GregorioImportLR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+    \noindent\begin{rubrica}Omnes:\end{rubrica} Allelúia, allelúia, allelúia.
+    \switchcolumn[1]
+    \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
+  \end{paracol}
+
+  \ifdefempty{\@Verse@Pairs}{}{%
+    \begin{greenumerate}
+      \begin{paracol}{2}
+        \MakeVerseListLR{\@First@Verse@Pair}
+        \switchcolumn[0]*
+        \MakeVerseListLR{\@Verse@Pairs}
+      \end{paracol}
+    \end{greenumerate}%
+  }
+}
+
 \NewDocumentCommand{\MakeChantAlleluiaPsalm}{m m O{}}{
   \def\@Antiphon@L{antiphona}
   \def\@Antiphon@R{\@Antiphon@L-pt}
@@ -567,6 +962,7 @@
       \vspace{-10pt}
     }{}
     \GregorioImportL{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+    \noindent\begin{rubrica}Omnes:\end{rubrica} Allelúia, allelúia, allelúia.
     \GregorioImportL*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
 
     \ifdefempty{\@Verse@Pairs}{}{%
@@ -584,7 +980,8 @@
       \end{small}
       \vspace{-10pt}
     }{}
-    \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+    \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@R}{\@Antiphon@R}
+    \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
     \GregorioImportR*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
 
     \ifdefempty{\@Verse@Pairs}{}{%
@@ -598,6 +995,10 @@
   }{
     \begin{paracol}{2}
       \GregorioImportLR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
+      \noindent\begin{rubrica}Omnes:\end{rubrica} Allelúia, allelúia, allelúia.
+      \switchcolumn[1]
+      \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
+      \switchcolumn[0]*
       \GregorioImportLR*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
     \end{paracol}
 

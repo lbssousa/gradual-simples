@@ -1,0 +1,58 @@
+% !TeX program = lualatex
+% chktex-file 1
+\documentclass[a4paper]{memoir}
+
+\usepackage[top=7mm,bottom=7mm,inner=10mm,outer=10mm,headheight=15pt,includehead,includefoot]{geometry}
+\input{modules/def-imports}
+
+\def\mytitle{Missa VI para o Tempo Comum}
+\def\mysubtitle{Do Graduale Simplex com adaptações para língua portuguesa}
+
+\input{modules/def-toggles}
+\input{modules/def-headings-flyer}
+\input{modules/def-titles-flyer}
+\input{modules/def-gregorio}
+\input{modules/def-gregorio-flyer}
+\input{modules/def-chant-factory}
+
+\toggletrue{disablehyperlinks}
+
+\title{\mytitle}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Entrada}
+\MakeChantAntiphonPsalmFlyerLR{da-pacem-domine.2D}{psalmi-ad-introitum}
+
+\section[Salmo Responsorial I]{Salmo Responsorial I \textmd{C 2 g}}\label{subsection:tempus-per-annum/missa-6/psalmus-responsorius-1}
+\MakeChantPsalmOneVerseFlyerLR{psalmi-responsorii}{spera-in-deo.C2g}
+
+\section[Salmo Responsorial II]{Salmo Responsorial II \textmd{E 4}}\label{subsection:tempus-per-annum/missa-6/psalmus-responsorius-2}
+\MakeChantPsalmOneVerseFlyerLR{psalmi-responsorii}{auribus-percipe-deus.E4}
+
+\section{Aleluia I}\label{subsection:tempus-per-annum/missa-6/alleluia-1}
+\MakeChantAlleluiaPsalmFlyerLR{2D.2}{confitebor-tibi-domine.2D}
+
+\section{Aleluia II}\label{subsection:tempus-per-annum/missa-6/alleluia-2}
+\MakeChantAlleluiaPsalmFlyerLR{7a}{in-te-domine-speravi.7a}
+
+\section[Salmo Aleluiático I]{Salmo Aleluiático I \textmd{E 2 d}}\label{subsection:tempus-per-annum/missa-6/psalmus-alleluiaticus-1}
+\MakeChantPsalmOneVerseAlleluiaFlyerLR{psalmi-alleluiatici}{confitebor-tibi-domine}{E2d}
+
+\section[Salmo Aleluiático II]{Salmo Aleluiático II \textmd{D 1 b}}\label{subsection:tempus-per-annum/missa-6/psalmus-alleluiaticus-2}
+\MakeChantPsalmOneVerseAlleluiaFlyerLR{psalmi-alleluiatici}{in-te-domine-speravi}{D1b}
+
+\AllowPageFlush
+
+\section{Ofertório}
+\MakeChantAntiphonPsalmFlyerLR{benefac-domine.8c}{psalmi-ad-offertorium}
+
+\section{Comunhão}
+\MakeChantAntiphonPsalmFlyerLR{adiuva-me.8G}{psalmi-ad-communionem}
+
+\end{document}

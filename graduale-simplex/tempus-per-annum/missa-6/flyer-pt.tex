@@ -1,0 +1,59 @@
+% !TeX program = lualatex
+% chktex-file 1
+\documentclass[a4paper]{memoir}
+
+\usepackage[top=7mm,bottom=7mm,inner=10mm,outer=10mm,headheight=15pt,includehead,includefoot]{geometry}
+\input{modules/def-imports}
+\usepackage{multicol}
+
+\def\mytitle{Missa VI para o Tempo Comum}
+\def\mysubtitle{Adaptado do Graduale Simplex para língua portuguesa}
+
+\input{modules/def-toggles}
+\input{modules/def-headings-flyer}
+\input{modules/def-titles-flyer}
+\input{modules/def-gregorio}
+\input{modules/def-gregorio-flyer}
+\input{modules/def-chant-factory}
+
+\toggletrue{disablehyperlinks}
+
+\title{\mytitle}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+  \section{Entrada}
+  \MakeChantAntiphonPsalmFlyerR{da-pacem-domine.2D}{psalmi-ad-introitum}
+
+  \section[Salmo Responsorial I]{Salmo Responsorial I \textmd{C 2 g}}\label{subsection:tempus-per-annum/missa-6/psalmus-responsorius-1}
+  \MakeChantPsalmOneVerseFlyerR{psalmi-responsorii}{spera-in-deo.C2g}
+
+  \section[Salmo Responsorial II]{Salmo Responsorial II \textmd{E 4}}\label{subsection:tempus-per-annum/missa-6/psalmus-responsorius-2}
+  \MakeChantPsalmOneVerseFlyerR{psalmi-responsorii}{auribus-percipe-deus.E4}
+
+  \section{Aleluia I}\label{subsection:tempus-per-annum/missa-6/alleluia-1}
+  \MakeChantAlleluiaPsalmFlyerR{2D.2}{confitebor-tibi-domine.2D}
+
+  \section{Aleluia II}\label{subsection:tempus-per-annum/missa-6/alleluia-2}
+  \MakeChantAlleluiaPsalmFlyerR{7a}{in-te-domine-speravi.7a}
+
+  \section[Salmo Aleluiático I]{Salmo Aleluiático I \textmd{E 2 d}}\label{subsection:tempus-per-annum/missa-6/psalmus-alleluiaticus-1}
+  \MakeChantPsalmOneVerseAlleluiaFlyerR{psalmi-alleluiatici}{confitebor-tibi-domine}{E2d}
+
+  \section[Salmo Aleluiático II]{Salmo Aleluiático II \textmd{D 1 b}}\label{subsection:tempus-per-annum/missa-6/psalmus-alleluiaticus-2}
+  \MakeChantPsalmOneVerseAlleluiaFlyerR{psalmi-alleluiatici}{in-te-domine-speravi}{D1b}
+
+  \section{Ofertório}
+  \MakeChantAntiphonPsalmFlyerR{benefac-domine.8c}{psalmi-ad-offertorium}
+
+  \section{Comunhão}
+  \MakeChantAntiphonPsalmFlyerR{adiuva-me.8G}{psalmi-ad-communionem}
+\end{multicols}
+
+\end{document}

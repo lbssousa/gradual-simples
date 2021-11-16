@@ -1,0 +1,50 @@
+% !TeX program = lualatex
+% chktex-file 1
+\documentclass[a4paper]{memoir}
+
+\usepackage[top=7mm,bottom=7mm,inner=10mm,outer=10mm,headheight=15pt,includehead,includefoot]{geometry}
+\input{modules/def-imports}
+\usepackage{multicol}
+
+\def\mytitle{Missa I para o Tempo do Advento}
+\def\mysubtitle{Adaptado do Graduale Simplex para língua portuguesa}
+
+\input{modules/def-toggles}
+\input{modules/def-headings-flyer}
+\input{modules/def-titles-flyer}
+\input{modules/def-gregorio}
+\input{modules/def-gregorio-flyer}
+\input{modules/def-chant-factory}
+
+\toggletrue{disablehyperlinks}
+
+\title{\mytitle}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols*}{2}
+  \section{Entrada}
+  \MakeChantAntiphonPsalmFlyerR{ad-te-domine.4c}{psalmi-ad-introitum}
+
+  \section[Salmo Responsorial]{Salmo Responsorial \textmd{E 1}}\label{subsection:tempus-adventus/missa-1/psalmus-responsorius}
+  \MakeChantPsalmOneVerseFlyerR{psalmi-responsorii}{veni-ad-liberandum-nos.E1}
+
+  \section{Aleluia}\label{subsection:tempus-adventus/missa-1/alleluia}
+  \MakeChantAlleluiaPsalmFlyerR{4E.1}{complacuisti-tibi-domine.4E}
+
+  \section[Salmo Aleluiático]{Salmo Aleluiático I \textmd{E \protect\GreStar}}\label{subsection:tempus-adventus/missa-1/psalmus-alleluiaticus}
+  \MakeChantPsalmOneVerseAlleluiaFlyerR{psalmi-alleluiatici}{complacuisti-tibi-domine}{ES}
+
+  \section{Ofertório}
+  \MakeChantAntiphonPsalmFlyerR{qui-te-exspectant.1f}{psalmi-ad-offertorium}
+
+  \section{Comunhão}
+  \MakeChantAntiphonPsalmFlyerR{benignitatem.8G}{psalmi-ad-communionem}
+\end{multicols*}
+
+\end{document}

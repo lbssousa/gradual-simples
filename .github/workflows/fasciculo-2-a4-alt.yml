@@ -1,7 +1,7 @@
 name: "Fascículo 2 / Layout A4 alternativo"
 on:
   push:
-    branches: [main]
+    branches: [biblia-oficial-cnbb]
 defaults:
   run:
     working-directory: .

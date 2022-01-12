@@ -1,9 +1,7 @@
-name: Benignitatem fecit Dominus;
+name: Com bondade agiu o Senhor;
 mode: 8;
 mode-differentia: G;
-cantus-id: a01124;
-commentary: Sl 85(84),13;
-book: Graduale Simplex, 1975, p. 57;
+phantom-commentary: Cantus ID a01124 cf. Sl 85(84),13;
 
 %%
 

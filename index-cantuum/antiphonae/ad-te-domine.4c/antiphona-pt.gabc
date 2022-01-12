@@ -1,9 +1,7 @@
-name: Ad te, Domine;
+name: Senhor, meu Deus;
 mode: 4;
 mode-differentia: c;
-cantus-id: 001255;
-commentary: Sl 143(142),8--9;
-book: Graduale Simplex, 1975, p. 53;
+phantom-commentary: Cantus ID 001255 cf. Sl 143(142),8d--9;
 
 %%
 

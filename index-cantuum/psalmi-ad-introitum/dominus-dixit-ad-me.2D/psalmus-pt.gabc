@@ -1,8 +1,7 @@
-name: Psalmus 2;
-office-part: Introitus;
+name: Salmo 2;
 mode: 2;
 mode-differentia: D;
-book: Graduale Simplex, 1975, p. 64;
+phantom-commentary: Sl 2,1.6.8.9.10.11.12b;
 
 %%
 

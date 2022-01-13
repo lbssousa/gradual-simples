@@ -1,8 +1,7 @@
-name: Psalmus 95;
-office-part: Psalmus;
+name: Salmo 96(95);
 mode: 4;
 mode-differentia: A;
-book: Graduale Simplex, 1975, p. 67;
+phantom-commentary: Sl 96(95),1.2.3.8bc.13bc;
 
 %%
 

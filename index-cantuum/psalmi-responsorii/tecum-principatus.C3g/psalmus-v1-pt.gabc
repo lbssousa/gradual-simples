@@ -1,7 +1,6 @@
-name: Psalmus 109;
-office-part: Psalmus responsorius;
+name: Salmo 110(109);
 mode: C 3 g;
-book: Graduale simplex, 1975, p. 60;
+phantom-commentary: Sl 110(109),3.1a.2a.2b.4a.4bc.5.7;
 
 %%
 

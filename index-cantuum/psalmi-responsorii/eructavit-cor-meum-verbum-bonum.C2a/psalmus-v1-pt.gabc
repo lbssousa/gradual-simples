@@ -1,12 +1,12 @@
-name: Psalmus 44;
+name: Salmo 45(44);
 mode: C 2 a;
-book: Graduale Simplex, 1975, p. 324;
+phantom-commentary: Sl 45(44),2ab.3bc.8.9.10.11.12.13.14.15;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Bro(f)ta(f) do(f) meu(f) co(f)ra(f)ç{ão}(f) um(f) be(f)lo(f) po(f)<b>e</b>(gr1 fr)ma,(f) *(:) eu(f) de(f)<nlba>(gr[ocba:1{])<b>di</b></nlba>(gh[ocba:0}])co.(h)
+<c><sp>V/</sp>. 1.</c>() Bro(f)ta(f) do(f) meu(f) co(f)ra(f)ção(f) um(f) be(f)lo(f) po(f)<b>e</b>(gr1 fr)ma,(f) *(:) eu(f) de(f)<nlba>(gr[ocba:1{])<b>di</b></nlba>(gh[ocba:0}])co.(h)
 
 (::)
 

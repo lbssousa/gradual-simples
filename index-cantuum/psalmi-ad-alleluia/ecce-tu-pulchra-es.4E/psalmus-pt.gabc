@@ -1,8 +1,7 @@
-name: Cánticum canticórum;
-office-part: Allelúia
+name: Cântico dos cânticos;
 mode: 4;
 mode-differentia: E;
-book: Graduale Simplex, 1975, p. 325;
+phantom-commentary: Ct 1,15.4,12;
 
 %%
 

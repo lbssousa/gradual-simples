@@ -1,14 +1,14 @@
 name: Psalmus 40(39);
 mode: 8;
 mode-differentia: G;
-commentary: Sl 40(39),1.7b-8a.8b-9a.9b.17;
+commentary: Sl 40(39),2.7b-9.17;
 book: Graduale Simplex, 1975, p. 73;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ex</i>(g)<i>spéc</i>(h)tans(j) ex(j)spec(j)tá(j)vi(j) <b>Dó</b>(kr1)mi(jr)num,(j) *(:) et(j) in(j)<i>tén</i>(i)<i>dit</i>(j) <b>mi</b>(hr1 gr)hi.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Ex</i>(g)<i>spéc</i>(h)tans(j) ex(j)spec(j)tá(j)vi(j) <b>Dó</b>(kr1)mi(jr)num,(j) *(:) et(j) in(j)<i>tén</i>(i)<i>dit</i>(j) <b>mi</b>(hr1 gr)hi.(g)
 
 (::)
 

@@ -1,13 +1,13 @@
 name: Psalmus 110(109);
 mode: C 3 g;
-commentary: Sl 110(109),3.1a.2a.2b.4a.4bc.5.7;
+commentary: Sl 110(109),1a.2-5.7;
 book: Graduale simplex, 1975, p. 60;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Te(f)cum(f) prin(f)ci(f)pá(f)tus(f) in(f) di(f)e(f) vir(f)tú(f)tis(f) <b>tu</b>(gr1 fr)æ(f) *(:) in(f) splen(f)dó(f)ri(f)bus(f) <nlba>(gr[ocba:1{])<b>sanc</b>(gh[ocba:0}])tis.</nlba>(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v>Te(f)cum(f) prin(f)ci(f)pá(f)tus(f) in(f) di(f)e(f) vir(f)tú(f)tis(f) <b>tu</b>(gr1 fr)æ(f) *(:) in(f) splen(f)dó(f)ri(f)bus(f) <nlba>(gr[ocba:1{])<b>sanc</b>(gh[ocba:0}])tis.</nlba>(hg)
 
 (::)
 

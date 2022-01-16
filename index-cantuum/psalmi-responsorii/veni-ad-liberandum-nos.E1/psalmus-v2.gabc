@@ -1,13 +1,13 @@
 name: Psalmus 80(79);
 mode: E 1;
-commentary: Sl 80(79),2ab.3bc.9.10.11.12.15;
+commentary: Sl 80(79),2ab.3bc.9-12.15;
 book: Graduale simplex, 1975, p. 54;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 2.</c>() Qui(e) pa(e)cis(e) Is(e)ra(e)el,(e) in(e)<b>tén</b>(er1f er)de,(e) *(:) qui(e) de(e)dú(e)cis(e) vel(e)ut(e) o(e)<i>vem</i>(fd) <b>Io</b>(er1 f)seph.(g)
+<c><sp>V/</sp>. 2.</c>() <v>\VSup{2ab}</v>Qui(e) pa(e)cis(e) Is(e)ra(e)el,(e) in(e)<b>tén</b>(er1f er)de,(e) *(:) qui(e) de(e)dú(e)cis(e) vel(e)ut(e) o(e)<i>vem</i>(fd) <b>Io</b>(er1 f)seph.(g)
 
 (::)
 

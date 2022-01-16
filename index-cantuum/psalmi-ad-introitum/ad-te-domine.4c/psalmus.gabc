@@ -1,13 +1,13 @@
 name: Psalmus 25(24);
 mode: 4;
 mode-differentia: c;
-commentary: Sl 25(24),2b-3a.4.5.7bc.8.9;
+commentary: Sl 25(24),2b-3a.4-5.7b-9;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ne</i><alt>\textcolor{gregoriocolor}{Cantor}</alt>(i)<i>que</i>(hi) ex(i)súl(i)tent(i) su(i)per(i) me(i) i(i)ni(i)<i>mí</i>(h)<i>ci</i>(i) <b>me</b>(jr1 ir)i,(i) *(:) ét(i)e(i)nim(i) u(i)ni(i)vér(i)si(i) qui(i) sús(i)ti(i)nent(i) te(i) non(i) con(i)fun(i)<b>dén</b>(ir1 hr)tur.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2b}</v><i>Ne</i><alt>\textcolor{gregoriocolor}{Cantor}</alt>(i)<i>que</i>(hi) ex(i)súl(i)tent(i) su(i)per(i) me(i) i(i)ni(i)<i>mí</i>(h)<i>ci</i>(i) <b>me</b>(jr1 ir)i,(i) *(:) <v>\VSup{3a}</v>ét(i)e(i)nim(i) u(i)ni(i)vér(i)si(i) qui(i) sús(i)ti(i)nent(i) te(i) non(i) con(i)fun(i)<b>dén</b>(ir1 hr)tur.(h)
 
 (::)
 

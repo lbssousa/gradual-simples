@@ -1,7 +1,6 @@
-name: Psalmus 121;
-office-part: Psalmus Alleluiaticus;
+name: Salmo 122(121);
 mode: C 1;
-book: Graduale simplex, 1975, p. 332;
+phantom-commentary: Sl 122(121);
 
 %%
 

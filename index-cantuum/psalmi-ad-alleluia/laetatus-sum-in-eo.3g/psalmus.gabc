@@ -1,12 +1,14 @@
-name: Psalmus 121;
+name: Psalmus 122(121);
 mode: 3;
 mode-differentia: g;
+commentary: Sl 122(121),1-2;
+book: Graduale Simplex, 1975, p. 332;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Læ</i>(g)<i>tá</i>(hj)tus(j) sum(j) in(j) e(j)o(j) quod(j) di(j)<b>xé</b>(kr1 jr)runt(j) <nlba>(ir[ocba:1{])<b>mi</b></nlba>(ih[ocba:0}])hi:(j) *(:) ``In(j) do(j)mum(j) Dó(j)<i>mi</i>(ji)<i>ni</i>(hi) <nlba><b>í</b>(hr1)bi(gr)mus''.</nlba>(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v><i>Læ</i>(g)<i>tá</i>(hj)tus(j) sum(j) in(j) e(j)o(j) quod(j) di(j)<b>xé</b>(kr1 jr)runt(j) <nlba>(ir[ocba:1{])<b>mi</b></nlba>(ih[ocba:0}])hi:(j) *(:) ``In(j) do(j)mum(j) Dó(j)<i>mi</i>(ji)<i>ni</i>(hi) <nlba><b>í</b>(hr1)bi(gr)mus''.</nlba>(g)
 
 (::)
 

@@ -1,9 +1,7 @@
-name: Domus mea;
+name: Minha casa;
 mode: 1;
 mode-differentia: D 2;
-cantus-id: 002428;
-commentary: Mt 21,13;
-book: Graduale Simplex, 1975, p. 334;
+phantom-commentary: Cantus ID 002428 cf. Mt 21,13;
 
 %%
 

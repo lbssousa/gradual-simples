@@ -1,14 +1,11 @@
-name: Psalmus 40;
-office-part: Tractus;
-book: Graduale Simplex, 1975, p. 93;
+name: Psalmus 112(111);
+commentary: Sl 112(111),1b-4.6b;
 
 %%
 
 (c4)
 
-% Beátus vir qui timet Dóminum. * In mandátis eius cupit nimis.
-
-<c><sp>V/</sp>. 1.</c>() Be(g)á(hi)tus(i) vir(i) qui(i) <b>ti</b>(kr1 jr)met(j) <nlba><b>Dó</b>(ir[ocba:1{])<b>mi</b></nlba>(ih[ocba:0}])num,(j) *(,) in(i) man(i)dá(i)tis(i) e(i)ius(i) <b>cu</b>(jr1 hr)pit(h) <b>ni</b>(jr1 ir)mis.(i)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v>Be(g)á(hi)tus(i) vir(i) qui(i) <b>ti</b>(kr1 jr)met(j) <nlba><b>Dó</b>(ir[ocba:1{])<b>mi</b></nlba>(ih[ocba:0}])num,(j) *(,) in(i) man(i)dá(i)tis(i) e(i)ius(i) <b>cu</b>(jr1 hr)pit(h) <b>ni</b>(jr1 ir)mis.(i)
 
 (::)
 

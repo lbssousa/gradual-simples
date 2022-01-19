@@ -1,9 +1,7 @@
 name: Ecce fidelis servus;
 mode: 8;
 mode-differentia: G;
-cantus-id: a02794;
-commentary: Mt 24,45;
-book: Graduale Simplex, 1975, p. 269;
+phantom-commentary: Cantus ID 000000 cf. Mt 24,45;
 
 %%
 

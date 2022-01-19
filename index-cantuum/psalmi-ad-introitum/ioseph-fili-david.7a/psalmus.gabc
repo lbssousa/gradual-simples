@@ -1,14 +1,14 @@
-name: Psalmus 91;
-office-part: Introitus;
+name: Psalmus 92(91);
 mode: 8;
 mode-differentia: G;
+commentary: Sl 92(91),2-3.5-6.13-16;
 book: Graduale Simplex, 1975, p. 267;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Bo</i>(hg)<i>num</i>(hi) est(i) con(i)fi(i)<b>té</b>(kr1 jr)ri(j) <b>Dó</b>(ir1)mi(jr)no:(j) *(:) et(i) psál(i)le(i)re(i) nó(i)mi(i)ni(i) <b>tu</b>(jr1)o,(ir) Al(i)<b>tís</b>(hr1)si(hr)me.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Bo</i>(hg)<i>num</i>(hi) est(i) con(i)fi(i)<b>té</b>(kr1 jr)ri(j) <b>Dó</b>(ir1)mi(jr)no:(j) *(:) et(i) psál(i)le(i)re(i) nó(i)mi(i)ni(i) <b>tu</b>(jr1)o,(ir) Al(i)<b>tís</b>(hr1)si(hr)me.(gf)
 
 (::)
 

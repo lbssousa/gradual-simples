@@ -1,9 +1,7 @@
-name: Introibo in domum tuam;
+name: Entrarei em vossa casa;
 mode: 4;
 mode-differentia: A;
-cantus-id: 003389;
-commentary: Sl 5,8;
-book: Graduale Simplex, 1975, p. 331;
+phantom-commentary: Cantus ID 003389 cf. Sl 5,8;
 
 %%
 

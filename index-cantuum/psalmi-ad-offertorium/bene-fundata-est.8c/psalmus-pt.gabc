@@ -1,8 +1,7 @@
-name: Psalmus 137;
-office-part: Offertorium;
+name: Salmo 138(137);
 mode: 8;
 mode-differentia: c;
-book: Graduale Simplex, 1975, p. 333;
+phantom-commentary: Sl 138(137),1b-3;
 
 %%
 

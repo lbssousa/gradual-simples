@@ -1,14 +1,14 @@
-name: Psalmus 18;
-office-part: Introitus;
+name: Psalmus 19(18);
 mode: 2;
 mode-differentia: D;
+commentary: Sl 19(18),1-4.6;
 book: Graduale Simplex, 1975, p. 339;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Cæ</i>(e)<i>li</i>(f) e(h)nár(h)rant(h) gló(h)ri(h)am(h) <b>De</b>(ir1 hr)i(h) *(:) et(h) ó(h)pe(h)ra(h) má(h)num(h) e(h)ius(h) an(h)nún(h)ti(h)at(h) fir(h)<i>ma</i>(g)<b>mén</b>(er1 fr)tum.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Cæ</i>(e)<i>li</i>(f) e(h)nár(h)rant(h) gló(h)ri(h)am(h) <b>De</b>(ir1 hr)i(h) *(:) et(h) ó(h)pe(h)ra(h) má(h)num(h) e(h)ius(h) an(h)nún(h)ti(h)at(h) fir(h)<i>ma</i>(g)<b>mén</b>(er1 fr)tum.(f)
 
 (::)
 

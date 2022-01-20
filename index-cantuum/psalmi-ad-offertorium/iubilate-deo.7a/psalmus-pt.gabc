@@ -1,8 +1,7 @@
-name: Psalmus 46;
-office-part: Offertorium;
+name: Salmo 47(46);
 mode: 7;
 mode-differentia: a;
-book: Graduale simplex, 1975, p. 218;
+phantom-commentary: Sl 47(46),3-5.7;
 
 %%
 

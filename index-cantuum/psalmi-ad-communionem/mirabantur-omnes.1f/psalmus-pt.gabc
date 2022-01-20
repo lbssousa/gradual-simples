@@ -1,8 +1,7 @@
-name: Psalmus 148;
-office-part: Communio;
+name: Salmo 148;
 mode: 1;
 mode-differentia: f;
-book: Graduale simplex, 1975, p. 219;
+phantom-commentary: Sl 148,1b-7.11.14bc;
 
 %%
 

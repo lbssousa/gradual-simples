@@ -1,13 +1,14 @@
-name: Psalmus 65;
-office-part: Introitus;
+name: Psalmus 66(65);
 mode: 4;
 mode-differentia: E;
+commentary: Sl 66(65),1b.2b.8-10.13-14a.16-20;
+book: Graduale Simplex, 1975, p. 215;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Iu</i>(h)<i>bi</i>(gh)lá(h)te(h) De(h)o,(h) <i>om</i>(g)<i>nis</i>(h) <b>ter</b>(ir1 hr)ra,(h) *(:) glo(h)ri(h)fi(h)cá(h)<i>te</i>(g) <i>lau</i>(h)<i>dem</i>(ih) <nlba>(gr[ocba:1{])<b>e</b></nlba>(gf[ocba:0}])ius.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v><i>Iu</i>(h)<i>bi</i>(gh)lá(h)te(h) De(h)o,(h) <i>om</i>(g)<i>nis</i>(h) <b>ter</b>(ir1 hr)ra,(h) *(:) <v>\VSup{2b}</v>glo(h)ri(h)fi(h)cá(h)<i>te</i>(g) <i>lau</i>(h)<i>dem</i>(ih) <nlba>(gr[ocba:1{])<b>e</b></nlba>(gf[ocba:0}])ius.(e)
 
 (::)
 

@@ -1,8 +1,7 @@
-name: Psalmus 44;
-office-part: Offertorium;
+name: Cântico da Sabedoria;
 mode: 2;
 mode-differentia: D;
-book: Graduale Simplex, 1975, p. 371;
+phantom-commentary: Sb 3,7-9;
 
 %%
 

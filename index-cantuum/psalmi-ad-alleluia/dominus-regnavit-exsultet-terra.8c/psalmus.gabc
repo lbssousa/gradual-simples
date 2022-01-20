@@ -1,14 +1,14 @@
-name: Psalmus 96;
-office-part: Alleluia;
+name: Psalmus 97(96);
 mode: 8;
 mode-differentia: c;
-book: Graduale simplex, 1975, p. 217;
+commentary: Sl 97(96),1.6;
+book: Graduale Simplex, 1975, p. 217;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Dó</i>(e)<i>mi</i>(f)nus(h) re(h)gná(h)vit,(h) ex(h)súl(h)tet(h) <b>ter</b>(ir1 hr)ra,(h) *(:) læ(h)tén(h)tur(h) ín(h)<i>su</i>(f)<i>læ</i>(h) <b>mul</b>(ir1 hr)tæ.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Dó</i>(e)<i>mi</i>(f)nus(h) re(h)gná(h)vit,(h) ex(h)súl(h)tet(h) <b>ter</b>(ir1 hr)ra,(h) *(:) læ(h)tén(h)tur(h) ín(h)<i>su</i>(f)<i>læ</i>(h) <b>mul</b>(ir1 hr)tæ.(h)
 
 (::)
 

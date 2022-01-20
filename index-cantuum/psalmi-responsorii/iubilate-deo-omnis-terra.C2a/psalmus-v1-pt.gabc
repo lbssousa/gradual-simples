@@ -1,7 +1,6 @@
-name: Psalmus 65;
-office-part: Psalmus Responsorius;
+name: Salmo 66(65);
 mode: C 2 a;
-book: Graduale simplex, 1975, p. 216;
+phantom-commentary: Sl 66(65),1b.2-7.20;
 
 %%
 

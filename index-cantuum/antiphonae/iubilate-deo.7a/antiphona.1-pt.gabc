@@ -1,9 +1,7 @@
-name: Iubilate Deo in voce;
+name: Aclamai a Deus;
 mode: 7;
 mode-differentia: a;
-commentary: Cantus ID 000000;
-commentary: Sl 46(47),2;
-book: Graduale Simplex, 1975, pp. 175, 218;
+phantom-commentary: Cantus ID 000000 cf. Sl 47(46),2;
 
 %%
 

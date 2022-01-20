@@ -1,14 +1,14 @@
 name: Psalmus 148;
-office-part: Communio;
 mode: 1;
 mode-differentia: f;
-book: Graduale simplex, 1975, p. 219;
+commentary: Sl 148,1b-7.11.14bc;
+book: Graduale Simplex, 1975, p. 219;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Lau</i>(f)<i>dá</i>(gh)te(h) Dó(h)mi(h)<b>num</b>(ixir1 hr) de(h) <b>cæ</b>(gr1 hr)lis,(h) *(:) lau(h)dá(h)te(h) e(h)um(h) <i>in</i>(g) <i>ex</i>(f)<b>cél</b>(gr1h gr)sis.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v><i>Lau</i>(f)<i>dá</i>(gh)te(h) Dó(h)mi(h)<b>num</b>(ixir1 hr) de(h) <b>cæ</b>(gr1 hr)lis,(h) *(:) lau(h)dá(h)te(h) e(h)um(h) <i>in</i>(g) <i>ex</i>(f)<b>cél</b>(gr1h gr)sis.(gf)
 
 (::)
 

@@ -1,8 +1,7 @@
-name: Psalmus 118;
-office-part: Offertorium;
+name: Salmo 119(118);
 mode: 1;
 mode-differentia: g;
-book: Graduale Simplex, 1975, p. 351;
+phantom-commentary: Sl 119(118),1b.17.23.46;
 
 %%
 

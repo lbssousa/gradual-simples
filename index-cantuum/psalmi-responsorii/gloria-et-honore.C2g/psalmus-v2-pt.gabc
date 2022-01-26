@@ -1,7 +1,6 @@
-name: Psalmus 8;
-office-part: Psalmus responsorius;
+name: Salmo 8;
 mode: C 2 g;
-book: Graduale Simplex, 1975, p. 345;
+phantom-commentary: Sl 8;
 
 %%
 

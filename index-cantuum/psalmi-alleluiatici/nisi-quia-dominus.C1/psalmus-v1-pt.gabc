@@ -1,7 +1,6 @@
-name: Psalmus 123;
-office-part: Psalmus Alleluiaticus;
+name: Salmo 124(123);
 mode: C 1;
-book: Graduale Simplex, 1975, p. 349;
+phantom-commentary: Sl 124(123);
 
 %%
 

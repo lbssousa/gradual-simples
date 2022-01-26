@@ -1,13 +1,12 @@
-name: Psalmus 8;
-office-part: Psalmus Responsorius;
+name: Salmo 8;
 mode: C 2 g;
-book: Graduale Simplex, 1975, p. 345;
+phantom-commentary: cf. Sl 8,6b;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() De(f) glória(f) e(f) de(f) <nlba>(gr[ocba:1{]) <b>hon</b></nlba>(gh[ocba:0}])ra.(hg)
+<c><sp>V/</sp>. 1.</c>() De(f) glória(f) e(f) de(f) <nlba>(gr[ocba:1{])<b>hon</b></nlba>(gh[ocba:0}])ra.(hg)
 
 (::)
 

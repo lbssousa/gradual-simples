@@ -1,8 +1,7 @@
-name: Psalmus 1;
-office-part: Introitus;
+name: Salmo 1;
 mode: 4;
 mode-differentia: E;
-book: Graduale Simplex, 1975, p. 356;
+phantom-commentary: Sl 1,1-2.3c-6;
 
 %%
 

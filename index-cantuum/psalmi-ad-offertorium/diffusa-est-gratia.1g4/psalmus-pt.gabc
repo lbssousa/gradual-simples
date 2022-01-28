@@ -1,8 +1,7 @@
-name: Psalmus 44;
-
+name: Salmo 45(44);
 mode: 1;
 mode-differentia: g 4;
-book: Graduale Simplex, 1975, p. 265;
+phantom-commentary: Sl 45(44),2.5bcd.7-8;
 
 %%
 

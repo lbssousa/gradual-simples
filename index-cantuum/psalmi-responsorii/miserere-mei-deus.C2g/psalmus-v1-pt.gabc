@@ -1,7 +1,6 @@
-name: Psalmus 50;
-office-part: Psalmus responsorius;
+name: Salmo 51(50);
 mode: C 2 g;
-book: Graduale Simplex, 1975, p. 83;
+phantom-commentary: Sl 51(50),3-5.9-14;
 
 %%
 

@@ -1,13 +1,13 @@
-name: Psalmus 40;
-office-part: Psalmus responsorius;
+name: Psalmus 41(40);
 mode: D 1 g;
+commentary: Sl 41(40),5-10;
 book: Graduale Simplex, 1975, p. 92;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() E(h)go(h) di(h)xi:(h) Dó(h)mi(h)ne,(h) mi(h)se(h)ré(h)re(h) <b>me</b>(ir1 hr)i;(h) *(,) sa(h)na(h) á(h)ni(h)mam(h) <b>me</b>(hr1 gr)am.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{5}</v>E(h)go(h) di(h)xi:(h) Dó(h)mi(h)ne,(h) mi(h)se(h)ré(h)re(h) <b>me</b>(ir1 hr)i;(h) *(,) sa(h)na(h) á(h)ni(h)mam(h) <b>me</b>(hr1 gr)am.(g)
 
 (::)
 

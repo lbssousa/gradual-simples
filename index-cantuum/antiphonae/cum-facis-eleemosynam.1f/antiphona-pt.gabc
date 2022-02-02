@@ -1,9 +1,7 @@
-name: Cum facis eleemosynam;
+name: Quando deres esmola;
 mode: 1;
 mode-differentia: f;
-cantus-id: 002005;
-commentary: Mt 6,3;
-book: Graduale Simplex, 1975, p. 94;
+phantom-commentary: Cantus ID 002005 cf. Mt 6,3;
 
 %%
 

@@ -1,9 +1,7 @@
-name: Vobis datum;
-mode:6;
+name: A vós foi dado;
+mode: 6;
 mode-differentia: F;
-cantus-id: 005483;
-commentary: Lc 8,10;
-book: Graduale Simplex, 1975, p. 93;
+phantom-commentary: Cantus ID 005483 cf. Lc 8,10;
 
 %%
 

@@ -1,8 +1,7 @@
-name: Psalmus 90;
-office-part: Introitus;
+name: Salmo 91(90);
 mode: 7;
 mode-differentia: a;
-book: Graduale Simplex, 1975, p. 90;
+phantom-commentary: Sl 91(90),1-2.4-5a.8-13;
 
 %%
 

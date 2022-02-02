@@ -1,9 +1,7 @@
-name: Tunc invocabis;
+name: Quando o invocares;
 mode: 7;
 mode-differentia: a;
-cantus-id: 005243;
-commentary: Is 58,9;
-book: Graduale Simplex, 1975, p. 90;
+phantom-commentary: Cantus ID 005243 cf. Is 58,9;
 
 %%
 

@@ -1,7 +1,6 @@
-name: Psalmus 40;
-office-part: Psalmus responsorius;
+name: Psalmus 41(40);
 mode: D 1 g;
-book: Graduale Simplex, 1975, p. 92;
+phantom-commentary: Sl 41(40),5-10;
 
 %%
 

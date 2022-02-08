@@ -1,7 +1,6 @@
-name: Psalmus 122;
-office-part: Psalmus responsorius;
+name: Salmo 123(122);
 mode: D 1 g;
-book: Graduale Simplex, 1975, p. 98;
+phantom-commentary: Sl 123(122);
 
 %%
 

@@ -1,14 +1,13 @@
-name: Psalmus 24;
-office-part: Introitus;
+name: Salmo 25(24);
 mode: 4;
 mode-differentia: E \GreStar;
-book: Graduale Simplex, 1975, p. 96;
+phantom-commentary: Sl 25(24),1.5-7.11.16-18.20;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(h) <i>vós</i>,(gh) Se(h)nhor,(h) e(h)le(h)vo(h) <i>mi</i>(g)<i>nha</i>(h) <b>al</b>(ir1 hr)ma.(h) *(,) Em(h) vós, (h) meu(h) Deus,(h) eu(h) con(h)fi(h)o,(h) não(h) fi(h)ca(h)rei(h) <i>en</i>(g)<i>ver</i>(h)<i>go</i>(i)<b>nha</b>(gr1 er)do.(e)
+<c><sp>V/</sp>. 1.</c>() <i>A</i>(h) <i>vós</i>,(gh) Se(h)nhor,(h) e(h)le(h)vo(h) <i>mi</i>(g)<i>nha</i>(h) <b>al</b>(ir1 hr)ma.(h) *(,) Em(h) vós,(h) meu(h) Deus,(h) eu(h) con(h)fi(h)o,(h) não(h) fi(h)ca(h)rei(h) <i>en</i>(g)<i>ver</i>(h)<i>go</i>(i)<b>nha</b>(gr1 er)do.(e)
 
 (::)
 

@@ -1,9 +1,8 @@
-name: Frange esurienti;
+name: Reparte com os famintos;
 mode: 4;
 mode-differentia: E;
-cantus-id: 002894;
-commentary: Is 58,7;
-book: Graduale Simplex, 1975, p. 100;
+phantom-commentary: Cantus ID 002894 cf. Is 58,7;
+
 %%
 
 (c4)

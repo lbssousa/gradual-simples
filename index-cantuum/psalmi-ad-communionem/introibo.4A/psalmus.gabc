@@ -1,14 +1,14 @@
-name: Psalmus 42;
-office-part: Offertorium;
+name: Psalmus 43(42);
 mode: 4;
 mode-differentia: A;
+commentary: Sl 43(42),1-3.4c-5;
 book: Graduale Simplex, 1975, p. 107;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Iú</i>(i)<i>di</i>(hi)ca(i) me,(i) <b>De</b>(ir1 hr)us,(h) +(,) et(i) di(i)scér(i)ne(i) cau(i)sam(i) me(i)am(i) de(i) gen(i)<i>te</i>(h) <i>non</i>(i) <b>sanc</b>(jr1 ir)ta;(i) *(,) ab(i) hó(i)mi(i)ne(i) in(i)í(i)quo(i) et(i) do(i)ló(i)<i>so</i>(h) <i>é</i>(i)<i>ru</i>(j) <b>e</b>(hr1 fr) me.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Iú</i>(i)<i>di</i>(hi)ca(i) me,(i) <b>De</b>(ir1 hr)us,(h) +(,) et(i) di(i)scér(i)ne(i) cau(i)sam(i) me(i)am(i) de(i) gen(i)<i>te</i>(h) <i>non</i>(i) <b>sanc</b>(jr1 ir)ta;(i) *(,) ab(i) hó(i)mi(i)ne(i) in(i)í(i)quo(i) et(i) do(i)ló(i)<i>so</i>(h) <i>é</i>(i)<i>ru</i>(j)<b>e</b>(hr1 fr) me.(f)
 
 (::)
 

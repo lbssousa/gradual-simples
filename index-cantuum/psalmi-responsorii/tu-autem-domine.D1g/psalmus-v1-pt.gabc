@@ -1,7 +1,6 @@
-name: Psalmus 21;
-office-part: Psalmus responsorius;
+name: Salmo 22(21);
 mode: D 1 g;
-book: Graduale Simplex, 1975, p. 109;
+phantom-commentary: Sl 22(21),2.7-9.12.15c-16.17c-18a.20.23;
 
 %%
 

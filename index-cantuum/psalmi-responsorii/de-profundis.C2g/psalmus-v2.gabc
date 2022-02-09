@@ -1,13 +1,11 @@
-name: Psalmus 129;
-office-part: Psalmus responsorius;
+name: Psalmus 130(129);
 mode: C 2 g;
-book: Graduale Simplex, 1975, p. 104;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Fi(f)ant(f) au(f)res(f) tu(f)æ(f) in(f)ten(f)<b>dén</b>(gr1 fr)tes(f) *(,) in(f) vo(f)cem(f) de(f)pre(f)ca(f)ti(f)ó(f)nis(f) (gr[ocba:1{])<b>me</b>(gh[ocba:0}])æ.(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2b}</v>Fi(f)ant(f) au(f)res(f) tu(f)æ(f) in(f)ten(f)<b>dén</b>(gr1 fr)tes(f) *(,) in(f) vo(f)cem(f) de(f)pre(f)ca(f)ti(f)ó(f)nis(f) (gr[ocba:1{])<b>me</b>(gh[ocba:0}])æ.(hg)
 
 (::)
 

@@ -1,7 +1,6 @@
-name: Psalmus 9;
-office-part: Psalmus responsorius;
+name: Salmo 9;
 mode: E 4;
-book: Graduale Simplex, 1975, p. 103;
+phantom-commentary: Sl 9,2-4.8-12.14.19.30;
 
 %%
 

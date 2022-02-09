@@ -1,8 +1,7 @@
-name: Psalmus 91;
-office-part: Offertorium;
+name: Salmo 92(91);
 mode: 4;
 mode-differentia: d;
-book: Graduale Simplex, 1975, p. 107;
+phantom-commentary: Sl 92(91),3.5-6.13;
 
 %%
 

@@ -1,9 +1,7 @@
-name: In tribulatione;
+name: Na tribulação;
 mode: 7;
 mode-differentia: c;
-cantus-id: 003297;
-commentary: Sl 118(117),5;
-book: Graduale Simplex, 1975, p. 102;
+phantom-commentary: Cantus ID 003297 cf. Sl 118(117),5;
 
 %%
 

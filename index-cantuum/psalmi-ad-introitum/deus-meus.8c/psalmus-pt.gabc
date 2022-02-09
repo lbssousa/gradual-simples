@@ -1,8 +1,7 @@
-name: Psalmus 70;
-office-part: Introitus;
+name: Salmo 71(70);
 mode: 8;
 mode-differentia: c;
-book: Graduale Simplex, 1975, p. 108;
+phantom-commentary: Sl 71(70),1-3ab.10-15ab.24;
 
 %%
 
@@ -16,6 +15,6 @@ book: Graduale Simplex, 1975, p. 108;
 
 (::)
 
-<c><sc>Flexa</sc>:</c>() fa<b>la</b>(hr1 fr)vam,(f) +(,) (h) (h)
+<nlba><c><sc>Flexa</sc>:</c>() fa</nlba><b>la</b>(hr1 fr)vam,(f) +(,) (h) (h)
 
 (::)

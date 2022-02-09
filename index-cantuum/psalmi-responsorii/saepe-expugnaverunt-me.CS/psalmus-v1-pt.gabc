@@ -1,7 +1,6 @@
-name: Psalmus 128;
-office-part: Psalmus responsorius;
+name: Salmo 129(128);
 mode: C\GreStar;
-book: Graduale Simplex, 1975, p. 110;
+phantom-commentary: Sl 129(128);
 
 %%
 

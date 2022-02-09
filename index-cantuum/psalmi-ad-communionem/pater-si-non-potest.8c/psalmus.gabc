@@ -1,14 +1,14 @@
-name: Psalmus 115;
-office-part: Communio;
+name: Psalmus 116(115);
 mode: 8;
 mode-differentia: c;
+commentary: Sl 116,10.12-19(115,1.3-10);
 book: Graduale Simplex, 1975, p. 113;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Cré</i>(e)<i>di</i>(f)di,(h) ét(h)i(h)am(h) cum(h) lo(h)<b>cú</b>(ir1)tus(hr) sum:(h) *(:) ``E(h)go(h) au(h)tem(h) hu(h)mi(h)li(h)á(h)<i>tus</i>(f) <i>sum</i>(h) <b>ni</b>(ir1 hr)mis''.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{10}</v><i>Cré</i>(e)<i>di</i>(f)di,(h) ét(h)i(h)am(h) cum(h) lo(h)<b>cú</b>(ir1)tus(hr) sum:(h) *(:) ``E(h)go(h) au(h)tem(h) hu(h)mi(h)li(h)á(h)<i>tus</i>(f) <i>sum</i>(h) <b>ni</b>(ir1 hr)mis''.(h)
 
 (::)
 

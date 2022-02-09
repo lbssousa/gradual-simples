@@ -1,8 +1,7 @@
-name: Psalmus 128;
-office-part: Tractus;
+name: Salmo 129(128);
 mode: 6;
 mode-differentia: F;
-book: Graduale Simplex, 1975, p. 112;
+phantom-commentary: Sl 129(128),1b-5.8bc;
 
 %%
 

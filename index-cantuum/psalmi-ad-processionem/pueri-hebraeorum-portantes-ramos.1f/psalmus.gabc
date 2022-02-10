@@ -1,14 +1,14 @@
 name: Psalmus 23;
-office-part: Antiphona ad processionem;
+
 mode: 1;
 mode-differentia: f;
-book: Graduale simplex, 1975, p. 116;
+book: Graduale Simplex, 1975, p. 116;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Dó</i>(f)<i>mi</i>(gh)ni(h) est(h) ter(h)ra(h) et(h) ple(h)ni(h)<b>tú</b>(ixir1 hr)do(h) <b>e</b>(gr1 hr)ius,(h) *(:) or(h)bis(h) ter(h)rá(h)rum(h) et(h) qui(h) há(h)bi(h)<i>tant</i>(g) <i>in</i>(f) <b>e</b>(gr1h gr)o.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v><i>Dó</i>(f)<i>mi</i>(gh)ni(h) est(h) ter(h)ra(h) et(h) ple(h)ni(h)<b>tú</b>(ixir1 hr)do(h) <b>e</b>(gr1 hr)ius,(h) *(:) or(h)bis(h) ter(h)rá(h)rum(h) et(h) qui(h) há(h)bi(h)<i>tant</i>(g) <i>in</i>(f) <b>e</b>(gr1h gr)o.(gf)
 
 (::)
 

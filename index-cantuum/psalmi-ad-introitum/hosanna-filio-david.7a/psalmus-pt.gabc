@@ -1,8 +1,7 @@
-name: Psalmus 117;
-office-part: Introitus;
+name: Salmo 118(117);
 mode: 7;
 mode-differentia: a;
-book: Graduale Simplex, 1975, p. 115;
+phantom-commentary: Sl 118(117),1bc.22-23.27-28;
 
 %%
 

@@ -1,24 +1,16 @@
-name: Psalmus 89;
-office-part: Psalmus Responsorius;
+name: Psalmus 89(88);
 mode: E 3;
-book: Graduale simplex, 1975, p. 405;
+commentary: Sl 89(88),2-3.6.8-9.15-18;
+book: Graduale Simplex, 1975, p. 405;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Mi(h)se(h)ri(h)cór(h)di(h)as(h) <b>Dó</b>(gr1)mi(fr)ni.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Mi(h)se(h)ri(h)cór(h)di(h)as(h) <b>Dó</b>(gr1)mi(fr)ni.(f)
 
 (::)
 
 <nlba><c><sp>R/</sp>.</c>() In</nlba>(f) æ(g)tér(h)num(ixi) can(g)tá(ixi)bo.(h)
-
-(::)
-
-<c><sp>V/</sp>. 2.</c>() In(h) ge(h)ne(h)ra(h)ti(h)ó(h)nem(h) et(h) ge(h)ne(h)ra(h)ti(h)<b>ó</b>(hr1 gr)nem(g) *(:) an(h)nun(h)ti(h)á(h)bo(h) ve(h)ri(h)tá(h)tem(h) tu(h)am(h) in(h) o(h)re(h) <b>me</b>(gr1 fr)o.(f)
-
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() In</nlba>(f) æ(g)tér(h)num.(ixi)
 
 (::)

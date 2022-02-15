@@ -1,5 +1,5 @@
 name: Psalmus 67;
-office-part: Introitus;
+
 mode: 7;
 mode-differentia: a;
 book: Graduale Simplex, 1975, p. 178;
@@ -8,7 +8,7 @@ book: Graduale Simplex, 1975, p. 178;
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Deus</i>(hg) <i>se</i>(hi) le(i)van(i)ta!(i) Seus(i) i(i)ni(i)mi(i)gos(i) <b>se</b>(kr1) (jr) dis(j)<b>per</b>(ir1)(jr)sam(j) *(:) e(i) fo(i)gem(i) da(i) su(i)a(i) fa(i)ce(i) os(i) que(i) <b>o</b>(jr1) (ir) o(i)<b>dei</b>(hr1)(hr)am.(gf)
+<c><sp>V/</sp>. 1.</c>() <i>Deus</i>(hg) <i>se</i>(hi) le(i)van(i)ta!(i) Seus(i) i(i)ni(i)mi(i)gos(i) <b>se</b>(kr1) (jr) dis(j)<b>per</b>(ir1 jr)sam(j) *(:) e(i) fo(i)gem(i) da(i) su(i)a(i) fa(i)ce(i) os(i) que(i) <b>o</b>(jr1) (ir) o(i)<b>dei</b>(hr1 hr)am.(gf)
 
 (::)
 

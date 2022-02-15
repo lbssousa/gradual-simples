@@ -1,13 +1,12 @@
-name: Psalmus 32;
-office-part: Psalmus responsorius;
+name: Salmo 33(32);
 mode: C 2 g;
-book: Graduale Simplex, 1975, p. 125;
+phantom-commentary: Sl 33(32),1.3.5.12.14.18.20-22;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() E(f)xul(f)tai,(f) ó(f) jus(f)tos,(f) no(f) Se(f)(gr[ocba:1{])<b>nhor</b>.(gh[ocba:0}] hg)
+<c><sp>V/</sp>. 1.</c>() E(f)xul(f)tai,(f) ó(f) jus(f)tos,(f) no(f) Se(f)<nlba>(gr[ocba:1{])<b>nhor</b>.</nlba>(gh[ocba:0}] hg)
 
 (::)
 

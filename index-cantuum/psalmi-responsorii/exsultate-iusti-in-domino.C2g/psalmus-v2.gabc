@@ -1,13 +1,11 @@
-name: Psalmus 32;
-office-part: Psalmus responsorius;
+name: Psalmus 33(32);
 mode: C 2 g;
-book: Graduale Simplex, 1975, p. 125;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 2.</c>() Can(f)tá(f)te(f) e(f)i(f) cán(f)ti(f)cum(f) <b>no</b>(gr1 fr)vum,(f) *(:) be(f)ne(f) psál(f)li(f)te(f) e(f)i(f) in(f) vo(f)ci(f)fe(f)ra(f)ti(f)(gr[ocba:1{])<b>ó</b>(gh[ocba:0}])ne.(hg)
+<c><sp>V/</sp>. 2.</c>() <v>\VSup{3}</v>Can(f)tá(f)te(f) e(f)i(f) cán(f)ti(f)cum(f) <b>no</b>(gr1 fr)vum,(f) *(:) be(f)ne(f) psál(f)li(f)te(f) e(f)i(f) in(f) vo(f)ci(f)fe(f)ra(f)ti(f)<nlba>(gr[ocba:1{])<b>ó</b>(gh[ocba:0}])ne.</nlba>(hg)
 
 (::)
 

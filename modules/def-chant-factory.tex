@@ -740,11 +740,44 @@
   \MakeChantAntiphonPsalm{#1}[#2]{#3}[#4][#5]%
 }
 
+\NewDocumentCommand{\MakeChantScore}{m m O{}}{
+  \def\@Score@L{score\IfNoValueOrEmptyTF{#3}{}{.#3}}
+  \def\@Score@R{\@Score@L-pt}
+  \def\@Link@Ref@L{index-cantuum/#1/#2/\@Score@L}
+  \def\@Link@Ref@R{index-cantuum/#1/#2/\@Score@R}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL{index-cantuum/#1}{#2}{\@Score@L}{\@Score@R}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportR{index-cantuum/#1}{#2}{\@Score@L}{\@Score@R}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{index-cantuum/#1}{#2}{\@Score@L}{\@Score@R}
+    \end{paracol}
+  }
+}
+
 \NewDocumentCommand{\MakeChantAntiphon}{m O{}}{
   \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/antiphonae/#1/\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/amtiphonae/#1/\@Antiphon@R}
+  \def\@Link@Ref@R{index-cantuum/antiphonae/#1/\@Antiphon@R}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{

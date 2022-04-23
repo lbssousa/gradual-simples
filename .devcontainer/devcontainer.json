@@ -1,0 +1,53 @@
+{
+  "name": "texlive-fedora-35",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.smoothScrolling": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.chktex.run": "onType",
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.kpsewhich.enabled": true,
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+    "latex-workshop.latex.external.build.args": [
+      "--shell-escape",
+      "--synctex=1",
+      "--interaction=nonstopmode",
+      "--file-line-error",
+      "--halt-on-error"
+    ],
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.texdoc.args": [
+      "--view",
+      "--shell-escape"
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "terminal.integrated.profiles.linux": {
+      "fish": {
+        "path": "fish"
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "fish"
+  },
+  "extensions": [
+    "eamodio.gitlens",
+    "GitHub.copilot",
+    "james-yu.latex-workshop",
+    "tecosaur.latex-utilities",
+    "valentjn.vscode-ltex",
+    "yzhang.markdown-all-in-one"
+  ],
+  "remoteUser": "texuser"
+}

@@ -1,3 +1,7 @@
+# IMPORTANTE: projeto arquivado!
+
+O desenvolvimento deste projeto foi migrado para https://gitlab.com/laerciosousa/gradual-simples
+
 # Gradual Simples (edição bilíngue latim-português)
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 

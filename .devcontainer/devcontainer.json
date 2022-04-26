@@ -1,5 +1,5 @@
 {
-  "name": "texlive-fedora-35",
+  "name": "gradual-simples",
   "build": {
     "dockerfile": "Dockerfile"
   },
@@ -18,7 +18,7 @@
     "latex-workshop.chktex.run": "onType",
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.kpsewhich.enabled": true,
-    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "onFailed",
     "latex-workshop.latex.clean.subfolder.enabled": true,
     "latex-workshop.latex.external.build.args": [
@@ -28,23 +28,42 @@
       "--file-line-error",
       "--halt-on-error"
     ],
+    "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "latexmk (lualatex)",
+        "tools": [
+          "lualatexmk"
+        ]
+      }
+    ],
+    "latex-workshop.latex.tools": [
+      {
+        "name": "lualatexmk",
+        "command": "latexmk",
+        "args": [
+          "-lualatex",
+          "--shell-escape",
+          "--synctex=1",
+          "--interaction=nonstopmode",
+          "--file-line-error",
+          "--halt-on-error"
+        ]
+      }
+    ],
     "latex-workshop.synctex.afterBuild.enabled": true,
     "latex-workshop.texdoc.args": [
       "--view",
       "--shell-escape"
     ],
-    "latex-workshop.view.pdf.viewer": "tab",
-    "terminal.integrated.profiles.linux": {
-      "fish": {
-        "path": "fish"
-      }
-    },
-    "terminal.integrated.defaultProfile.linux": "fish"
+    "latex-workshop.view.pdf.viewer": "tab"
   },
   "extensions": [
     "eamodio.gitlens",
     "GitHub.copilot",
     "james-yu.latex-workshop",
+    "jeandeaual.lilypond-syntax",
+    "softaware.abc-music",
     "tecosaur.latex-utilities",
     "valentjn.vscode-ltex",
     "yzhang.markdown-all-in-one"

@@ -1,2 +1,3 @@
-ARG REVISION=20220426
-FROM registry.gitlab.com/laerciosousa/texlive-music:workspace-${REVISION}
+ARG RELEASE=TL2022
+ARG REVISION=20220427
+FROM registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-${RELEASE}-${REVISION}

@@ -1,10 +1,58 @@
 {
   "editor.bracketPairColorization.enabled": true,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
   "editor.wordWrap": "bounded",
+  "files.trimTrailingWhitespace": true,
   "latex-workshop.chktex.enabled": true,
   "latex-workshop.chktex.run": "onType",
   "latex-workshop.intellisense.package.enabled": true,
   "latex-workshop.kpsewhich.enabled": true,
-  "latex-workshop.latex.autoBuild.run": "never",
-  "latex-workshop.synctex.afterBuild.enabled": true
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoClean.run": "onFailed",
+  "latex-workshop.latex.clean.subfolder.enabled": true,
+  "latex-workshop.latex.external.build.args": [
+    "--shell-escape",
+    "--synctex=1",
+    "--interaction=nonstopmode",
+    "--file-line-error",
+    "--halt-on-error"
+  ],
+  "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (lualatex)",
+      "tools": [
+        "lualatexmk"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "lualatexmk",
+      "command": "latexmk",
+      "args": [
+        "--lualatex",
+        "--shell-escape",
+        "--synctex=1",
+        "--interaction=nonstopmode",
+        "--file-line-error",
+        "--halt-on-error"
+      ]
+    }
+  ],
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.texdoc.args": [
+    "--view",
+    "--shell-escape"
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "terminal.integrated.fontSize": 16,
 }

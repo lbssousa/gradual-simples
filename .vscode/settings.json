@@ -44,7 +44,8 @@
         "--synctex=1",
         "--interaction=nonstopmode",
         "--file-line-error",
-        "--halt-on-error"
+        "--halt-on-error",
+        "%DOC%"
       ]
     }
   ],

@@ -1,0 +1,11 @@
+image: registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-TL2022-20220427
+vscode:
+  extensions:
+    - eamodio.gitlens
+    - james-yu.latex-workshop
+    - jeandeaual.lilypond-syntax
+    - jeandeaual.scheme
+    - softaware.abc-music
+    - tecosaur.latex-utilities
+    - valentjn.vscode-ltex
+    - yzhang.markdown-all-in-one

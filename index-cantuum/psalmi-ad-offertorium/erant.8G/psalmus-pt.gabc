@@ -1,17 +1,20 @@
-name: Psalmus 39;
-office-part: Offertorium;
+name: Salmo 40(39);
 mode: 8;
 mode-differentia: G;
-book: Graduale Simplex, 1975, p. 73;
+phantom-commentary: Sl 40(39),2.7b-9.17;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Es</i>(g)<i>pe</i>(h)ran(j)do,(j) es(j)pe(j)rei(j) no(j) Se(j)<b>nhor</b>,(kr1 jr j) *(:) e(j) in(j)cli(j)nan(j)do-(j)se,(j) ou(j)viu(j) <i>meu</i>(i) <i>cla</i>(j)<b>mor</b>.(hr1 gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Es</i>(g)<i>pe</i>(h)ran(j)do,(j) es(j)pe(j)rei(j) no(j) Se(j)<b>nhor</b>,(kr1 jr j) *(:) e(j) in(j)cli(j)nan(j)do-(j)se,(j) ou(j)viu(j) <i>meu</i>(i) <i>cla</i>(j)<b>mor</b>.(hr1 gr g)
 
 (::)
 
 <nlba><c><sp>A/</sp>.</c>() Es</nlba>(f)ta(gh)vam.(g)
+
+(::)
+
+<nlba><c><sc>Flexa</sc>:</c>() <b>ví</b></nlba>(jr1)ti(hr)mas,(h) +(,) (j) (j)
 
 (::)

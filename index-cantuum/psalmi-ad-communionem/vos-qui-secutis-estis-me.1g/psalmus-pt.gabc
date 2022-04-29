@@ -1,8 +1,7 @@
-name: Psalmus 138;
-office-part: Communio;
+name: Salmo 139(138);
 mode: 1;
 mode-differentia: g;
-book: Graduale Simplex, 1975, p. 341;
+phantom-commentary: Sl 139(138),1b-6.17-18.23-24;
 
 %%
 

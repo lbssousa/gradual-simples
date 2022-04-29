@@ -1,13 +1,11 @@
-name: Psalmus 109;
-office-part: Psalmus responsorius;
+name: Salmo 110(109);
 mode: C 3 g;
-book: Graduale simplex, 1975, p. 60;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 2.</c>() (hr)<b>Pa</b>(ixhr1i)la(h)vra(h) do(h) Se(h)nhor(h) ao(h) meu(h) Se(h)<b>nhor</b>:(gr1h gr g) *(:) ``As(g)sen(g)ta(g)-te(g) ao(g) meu(g) la(g)do(g) <i>di</i>(f)<nlba>(gr[ocba:1{])<b>rei</b>(gh[ocba:0}])to''.</nlba>(hg)
+<c><sp>V/</sp>. 2.</c>() <v>\VSup{1ab}</v>Pa(hr)<b>la</b>(ixhr1i)vra(h) do(h) Se(h)nhor(h) ao(h) meu(h) Se(h)<b>nhor</b>:(gr1h gr g) *(:) ``As(g)sen(g)ta(g)-te(g) ao(g) meu(g) la(g)do(g) <i>di</i>(f)<nlba>(gr[ocba:1{])<b>rei</b>(gh[ocba:0}])to''.</nlba>(hg)
 
 (::)
 

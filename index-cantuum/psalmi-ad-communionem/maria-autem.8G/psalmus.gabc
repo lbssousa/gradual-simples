@@ -1,14 +1,14 @@
-name: Psalmus 77;
-office-part: Communio;
+name: Psalmus 78(77);
 mode: 8;
 mode-differentia: G;
+commentary: Sl 78(77),1-5.23-25.29.71bc.72;
 book: Graduale Simplex, 1975, p. 74;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>At</i>(g)<i>tén</i>(h)di(j)te,(j) pó(j)pu(j)le(j) me(j)us,(j) doc(j)tri(j)nam(j) <b>me</b>(k jr)am:(j) *(:) in(j)cli(j)ná(j)te(j) au(j)rem(j) ves(j)tram(j) in(j) ver(j)ba(j) <i>o</i>(i)<i>ris</i>(j) <b>me</b>(h gr)i.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>At</i>(g)<i>tén</i>(h)di(j)te,(j) pó(j)pu(j)le(j) me(j)us,(j) doc(j)trí(j)nam(j) <b>me</b>(k jr)am:(j) *(:) in(j)cli(j)ná(j)te(j) au(j)rem(j) ves(j)tram(j) in(j) ver(j)ba(j) <i>o</i>(i)<i>ris</i>(j) <b>me</b>(hr1 gr)i.(g)
 
 (::)
 

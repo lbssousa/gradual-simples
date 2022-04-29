@@ -1,8 +1,7 @@
-name: Canticum Simeonis;
-office-part: Antiphona ad processionem;
+name: Cântico de Simeão;
 mode: 8;
 mode-differentia: G;
-book: Graduale simplex, 1975, p. 260;
+phantom-commentary: Lc 2,29-31;
 
 %%
 

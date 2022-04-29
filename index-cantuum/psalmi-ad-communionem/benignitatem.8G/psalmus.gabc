@@ -1,14 +1,14 @@
-name: Benignitátem fecit Dóminus;
-office-part: Communio;
+name: Psalmus 85(84);
 mode: 8;
 mode-differentia: G;
-book: Graduale simplex, 1975, p. 57;
+commentary: Sl 85(84),9-12.14;
+book: Graduale Simplex, 1975, p. 57;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Au</i>(g)<i>di</i>(h)am(j) quid(j) lo(j)quá(j)tur(j) Dó(j)mi(j)nus(j) <b>De</b>(jr1 hr)us,(h) +(,) quón(j)i(j)am(j) lo(j)qué(j)tur(j) pa(j)cem(j) ad(j) ple(j)bem(j) su(j)am(j) et(j) sanc(j)tos(j) <b>su</b>(kr1 jr)os,(j) *(:) et(j) ad(j) e(j)os(j) qui(j) con(j)ver(j)<i>tún</i>(i)<i>tur</i>(j) <b>cor</b>(hr1 gr)de.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{9}</v><i>Áu</i>(g)<i>di</i>(h)am(j) quid(j) lo(j)quá(j)tur(j) Dó(j)mi(j)nus(j) <b>De</b>(jr1 hr)us,(h) +(,) quó(j)ni(j)am(j) lo(j)qué(j)tur(j) pa(j)cem(j) ad(j) ple(j)bem(j) su(j)am(j) et(j) sanc(j)tos(j) <b>su</b>(kr1 jr)os,(j) *(:) et(j) ad(j) e(j)os(j) qui(j) con(j)ver(j)<i>tún</i>(i)<i>tur</i>(j) <b>cor</b>(hr1 gr)de.(g)
 
 (::)
 

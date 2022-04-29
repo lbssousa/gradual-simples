@@ -1,9 +1,7 @@
 name: Qui mihi ministrat;
 mode: 1;
 mode-differentia: f;
-cantus-id: 000000;
-commentary: Jo 12,26;
-book: Graduale Simplex, 1975, p. 365;
+phantom-commentary: Cantus ID 004485 cf. Jo 12,26;
 
 %%
 

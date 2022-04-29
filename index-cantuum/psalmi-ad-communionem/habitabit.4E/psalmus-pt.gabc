@@ -1,8 +1,7 @@
-name: Psalmus 14;
-office-part: Communio;
+name: Salmo 15(14);
 mode: 4;
 mode-differentia: E;
-book: Graduale Simplex, 1975, p. 353;
+phantom-commentary: Sl 15(14);
 
 %%
 
@@ -12,7 +11,7 @@ book: Graduale Simplex, 1975, p. 353;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Ha</nlba>(f)bi(e)ta(d)rá.(fe)
+<nlba><c><sp>A/</sp>.</c>() Ha</nlba>(fe)bi(d)ta(f)rá.(e)
 
 (::)
 

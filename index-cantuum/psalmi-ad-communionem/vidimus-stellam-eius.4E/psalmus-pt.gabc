@@ -1,21 +1,16 @@
-name: Psalmus 95;
-office-part: Communio;
+name: Salmo 96(95);
 mode: 8;
 mode-differentia: G;
-book: Graduale Simplex, 1975, p. 80;
+phantom-commentary: Sl 96(95),1-4.6-7.9-10.12b-13;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Can</i>(h)<i>tai</i>(gh) ao(h) Se(h)nhor(h) Deus(h) um(h) <i>can</i>(g)<i>to</i>(h) <b>no</b>(ir1 hr)vo,(h) *(:) can(h)tai(h) ao(h) Se(h)nhor(h) Deus,(h) ó(h) <i>ter</i>(g)<i>ra</i>(h) <i>in</i>(ih)<nlba>(gr[ocba:1{])<b>tei</b>(gf[ocba:0}])ra.</nlba>(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Can</i>(h)<i>tai</i>(gh) ao(h) Se(h)nhor(h) Deus(h) um(h) can(h)to(h) <b>no</b>(hr1 gr)vo,(g) +(,) <v>\VSup{2}</v>can(h)tai(h) ao(h) Se(h)nhor(h) Deus,(h) ó(h) ter(h)<i>ra</i>(g) <i>in</i>(h)<b>tei</b>(ir1 hr)ra!(h) *(:)  Can(h)tai(h) e(h) ben(h)di(h)zei(h) <i>seu</i>(g) <i>san</i>(h)<i>to</i>(ih) <nlba>(gr[ocba:1{])<b>no</b>(gf[ocba:0}])me!</nlba>(e)
 
 (::)
 
 <nlba><c><sp>A/</sp>.</c>() Vi</nlba>(fe)mos.(d)
-
-(::)
-
-<nlba><c><sc>Flexa</sc>:</c>() Se(h)</nlba><b>nhor</b>,(hr1 gr g) +(,) (h) (h)
 
 (::)

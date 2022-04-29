@@ -1,13 +1,13 @@
-name: Psalmus 83;
-office-part: Psalmus responsorius;
+name: Psalmus 84(83);
 mode: D 1 b;
-book: Graduale simplex, 1975, p. 71;
+commentary: Sl 84(83),1-5.9-10.12-13;
+book: Graduale Simplex, 1975, p. 71;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Quam(h) di(h)léc(h)ta(h) ta(h)ber(h)ná(h)cu(h)la(h) tu(h)a,(h) Dó(h)mi(h)ne(h) vir(h)<b>tú</b>(ir1 hr)tum.(h) *(:) Con(h)cu(h)pí(h)scit(h) et(h) dé(h)fi(h)cit(h) á(h)ni(h)ma(h) <nlba><b>me</b>(gr1 gr)a.</nlba>(i)
+<c><sp>V/</sp>. 1.</c> <v>\VSup{1}</v>Quam(h) di(h)léc(h)ta(h) ta(h)ber(h)ná(h)cu(h)la(h) tu(h)a,(h) Dó(h)mi(h)ne(h) vir(h)<b>tú</b>(ir1 hr)tum.(h) *(:) Con(h)cu(h)pí(h)scit(h) et(h) dé(h)fi(h)cit(h) á(h)ni(h)ma(h) <nlba><b>me</b>(gr1 gr)a.</nlba>(i)
 
 (::)
 

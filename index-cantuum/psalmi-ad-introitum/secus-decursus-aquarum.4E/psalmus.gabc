@@ -1,14 +1,14 @@
 name: Psalmus 1;
-office-part: Introitus;
 mode: 4;
 mode-differentia: E;
+commentary: Sl 1,1-2.3c-6;
 book: Graduale Simplex, 1975, p. 356;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Be</i>(h)<i>á</i>(gh)tur(h) vir,(h) qui(h) non(h) á(h)bi(h)it(h) in(h) con(h)sí(h)li(h)o(h) im(h)pi(h)<b>ó</b>(hr1 gr)rum(g) +(,) et(h) in(h) vi(h)a(h) pec(h)ca(h)tó(h)<i>rum</i>(g) <i>non</i>(h) <b>ste</b>(ir1 hr)tit,(h) *(:) et(h) in(h) con(h)vén(h)tu(h) de(h)ri(h)<i>só</i>(g)<i>rum</i>(h) <i>non</i>(ih) <nlba>(gr[ocba:1{])<b>se</b></nlba>(gf[ocba:0}])dit.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Be</i>(h)<i>á</i>(gh)tur(h) vir,(h) qui(h) non(h) á(h)bi(h)it(h) in(h) con(h)sí(h)li(h)o(h) im(h)pi(h)<b>ó</b>(hr1 gr)rum(g) +(,) et(h) in(h) vi(h)a(h) pec(h)ca(h)tó(h)<i>rum</i>(g) <i>non</i>(h) <b>ste</b>(ir1 hr)tit,(h) *(:) et(h) in(h) con(h)vén(h)tu(h) de(h)ri(h)<i>só</i>(g)<i>rum</i>(h) <i>non</i>(ih) <nlba>(gr[ocba:1{])<b>se</b></nlba>(gf[ocba:0}])dit.(e)
 
 (::)
 

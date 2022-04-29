@@ -1,13 +1,13 @@
-name: Psalmus 128;
-office-part: Psalmus responsorius;
+name: Psalmus 129(128);
 mode: C\GreStar;
+commentary: Sl 129(128);
 book: Graduale Simplex, 1975, p. 110;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() Sæ(h)pe(h) ex(h)pu(h)gna(h)vé(h)runt(h) me(h) a(h) iu(h)ven(h)<i>tú</i>(g)<i>te</i>(f) <b>me</b>(hr1 hr)a,(h) *(:) di(h)cat(h) nunc(h) <b>Is</b>(hr1)ra(fr)el.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v>Sæ(h)pe(h) ex(h)pu(h)gna(h)vé(h)runt(h) me(h) a(h) iu(h)ven(h)<i>tú</i>(g)<i>te</i>(f) <b>me</b>(hr1 hr)a,(h) *(:) di(h)cat(h) nunc(h) <b>Is</b>(hr1)ra(fr)el.(f)
 
 (::)
 

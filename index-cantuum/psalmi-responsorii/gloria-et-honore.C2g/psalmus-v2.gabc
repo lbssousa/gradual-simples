@@ -1,13 +1,13 @@
 name: Psalmus 8;
-office-part: Psalmus responsorius;
 mode: C 2 g;
+commentary: Sl 8;
 book: Graduale Simplex, 1975, p. 345;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 2.</c>() Dó(f)mi(f)ne,(f) Dó(f)mi(f)nus(f) <b>nos</b>(gr1 fr)ter,(f) *(:) quam(f) ad(f)mi(f)rá(f)bi(f)le(f) est(f) no(f)men(f)tu(f)um(f) in(f) u(f)ni(f)vér(f)sa(f) <nlba>(gr[ocba:1{])<b>ter</b></nlba>(gh[ocba:0}])ra.(hg)
+<c><sp>V/</sp>. 2.</c>() <v>\VSup{2}</v>Dó(f)mi(f)ne,(f) Dó(f)mi(f)nus(f) <b>no</b>(gr1 fr)ster,(f) *(:) quam(f) ad(f)mi(f)rá(f)bi(f)le(f) est(f) no(f)men(f) tu(f)um(f) in(f) u(f)ni(f)vér(f)sa(f) <nlba>(gr[ocba:1{])<b>ter</b></nlba>(gh[ocba:0}])ra.(hg)
 
 (::)
 

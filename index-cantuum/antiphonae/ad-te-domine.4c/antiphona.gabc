@@ -1,15 +1,15 @@
 name: Ad te, Domine;
 mode: 4;
 mode-differentia: c;
-cantus-id: 001255;
-commentary: Sl 143(142),8--9;
+commentary: Cantus ID 001255 cf. Sl 143(142),8d-9;
 book: Graduale Simplex, 1975, p. 53;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Ad<alt>\textcolor{gregoriocolor}{Cantor}</alt>(f) te,(h) Dó(hi)mi(i)ne,(i) *(,) le<alt>\textcolor{gregoriocolor}{Omnes}</alt>(i)vá(i)vi(h) á(ij)ni(h)mam(ij) me(i)am:(i) (;) ve(f)ni,(i) et(h) é(g)ri(f)pe(e) me,(fe) (,) Dó(d)mi(e)ne,(f) ad(gxg) te(h) con(gxg)fú(f)gi.(f)
+Ad(f|ta) te,(h|vi) Dó(hi|pe)mi(i|vi)ne,(i|vi) *(,) le(i|vi)vá(i|vi)vi(h|ta) á(ij|pe)ni(h|ta)mam(ij|pe>) me(i|ta)am:(i|ta) (;) ve(f|talsi7)ni,(i|vi) et(h|vi) é(g|vi)ri(f|vi)pe(e|ta) me,(fe|cl-) (,) Dó(d|ta)mi(e|vi)ne,(f|vi) ad(gxg|////vi) te(h|vi) con(gxg|////vi)fú(f|ta)gi.(f|ta)
 
 (::)
 

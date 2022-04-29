@@ -1,14 +1,14 @@
-name: Psalmus 128;
-office-part: Tractus;
+name: Psalmus 129(128);
 mode: 6;
 mode-differentia: F;
+commentary: Sl 129(128),1b-5.8bc;
 book: Graduale Simplex, 1975, p. 112;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Sæ(f)pe(gh) ex(h)pu(h)gna(h)vé(h)runt(h) me(h) a(h) iu(h)ven(h)tú(h)<i>te</i>(g) <b>me</b>(hr1 fr)a,(f) *(:) di(h)<i>cat</i>(f) <i>nunc</i>(gh) <b>Is</b>(gr1)ra(fr)el.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v>Sæ(f)pe(gh) ex(h)pu(h)gna(h)vé(h)runt(h) me(h) a(h) iu(h)ven(h)tú(h)<i>te</i>(g) <b>me</b>(hr1 fr)a,(f) *(:) di(h)<i>cat</i>(f) <i>nunc</i>(gh) <b>Is</b>(gr1)ra(fr)el.(f)
 
 (::)
 

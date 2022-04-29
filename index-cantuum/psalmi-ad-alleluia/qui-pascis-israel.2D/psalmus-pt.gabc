@@ -1,17 +1,20 @@
-name: Ó Pastor de Israel;
-office-part: Alleluia;
+name: Salmo 80(79);
 mode: 2;
 mode-differentia: D;
-book: Graduale simplex, 1975, p. 61;
+phantom-commentary: Sl 80(79),1.15;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ó</i>(e) <i>Pas</i>(f)tor(h) de(h) Is(h)ra(h)el,(h) pres(h)tai(h) ou(h)<b>vi</b>(ir1 hr)dos.(h) *(:) Vós,(h) que(h) a(h) Jo(h)sé(h) a(h)pas(h)cen(h)tais(h) qual(h) um(h) <i>re</i>(g)<b>ba</b>(er1 fr)nho!(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2ab}</v><i>Ó</i>(e) <i>Pas</i>(f)tor(h) de(h) Is(h)ra(h)el,(h) pres(h)tai(h) ou(h)<b>vi</b>(ir1 hr)dos.(h) *(:) Vós,(h) que(h) a(h) Jo(h)sé(h) a(h)pas(h)cen(h)tais(h) qual(h) um(h) <i>re</i>(g)<b>ba</b>(er1 fr)nho!(f)
 
 (::)
 
 <nlba><c><sc>Todos</sc>:</c>() A</nlba>(f)le(h)lu(hg)ia.(f)
+
+(::)
+
+<nlba><c><sc>Flexa</sc>:</c>() u</nlba>(h)ni(h)<b>ver</b>(hr1 fr)so!(f) +(,) (h) (h)
 
 (::)

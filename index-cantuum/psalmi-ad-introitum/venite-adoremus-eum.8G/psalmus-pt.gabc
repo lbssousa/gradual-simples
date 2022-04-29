@@ -1,17 +1,20 @@
-name: Psalmus 94;
-office-part: Introitus;
+name: Salmo 95(94);
 mode: 8;
 mode-differentia: G;
-book: Graduale Simplex, 1975, p. 76;
+phantom-commentary: Sl 95(94),1-6.7bc;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Vin</i>(g)<i>de</i>,(h) e(j)xul(j)te(j)mos(j) de(j) a(j)le(j)gri(j)a(j) no(j) Se(j)<b>nhor</b>,(kr1 jr j) *(:) a(j)cla(j)me(j)mos(j) o(j) ro(j)che(j)do(j) <i>que</i>(i) <i>nos</i>(j) <b>sal</b>(hr1 gr)va.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Vin</i>(g)<i>de</i>,(h) e(j)xul(j)te(j)mos(j) de(j) a(j)le(j)gri(j)a(j) no(j) Se(j)<b>nhor</b>,(kr1 jr j) *(:) a(j)cla(j)me(j)mos(j) o(j) ro(j)che(j)do(j) <i>que</i>(i) <i>nos</i>(j) <b>sal</b>(hr1 gr)va.(g)
 
 (::)
 
 <nlba><c><sp>A/</sp>.</c>() Vin</nlba>(gj)de.(ig)
+
+(::)
+
+<nlba><c><sc>Flexa</sc>:</c>() par</nlba>(j)<b>tor</b>,(jr1 hr h) +(,) (j) (j)
 
 (::)

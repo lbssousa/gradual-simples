@@ -1,13 +1,12 @@
-name: Psalmus 79;
-office-part: Psalmus Responsorius;
+name: Salmo 80(79);
 mode: E 1;
-book: Graduale simplex, 1975, p. 54;
+phantom-commentary: Sl 80(79),2ab.3bc.9-12.15;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 2.</c>() Ó(e) Pas(e)tor(e) de(e) Is(e)ra(e)el,(e) pres(e)tai(e) ou(e)<b>vi</b>(er1f er)dos.(e) *(:) Vós,(e) que(e) a(e) Jo(e)sé(e) a(e)pas(e)cen(e)tais(e) qual(e) um(e) <i>re</i>(fd)<b>ba</b>(er1 f)nho!(g)
+<c><sp>V/</sp>. 2.</c>() <v>\VSup{2ab}</v>Ó(e) Pas(e)tor(e) de(e) Is(e)ra(e)el,(e) pres(e)tai(e) ou(e)<b>vi</b>(er1f er)dos.(e) *(:) Vós,(e) que(e) a(e) Jo(e)sé(e) a(e)pas(e)cen(e)tais(e) qual(e) um(e) <i>re</i>(fd)<b>ba</b>(er1 f)nho!(g)
 
 (::)
 

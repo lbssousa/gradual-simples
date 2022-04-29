@@ -1,14 +1,13 @@
-name: Psalmus 18;
-office-part: Introitus;
+name: Salmo 19(18);
 mode: 2;
 mode-differentia: D;
-book: Graduale Simplex, 1975, p. 339;
+phantom-commentary: Sl 19(18),1-4.6;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Os</i>(e) <i>céus</i>(f) pro(h)cla(h)mam(h) a(h) gló(h)ria(h) de(h) <b>Deus</b>(ir1 hr h) *(:) e(h) o(h) fir(h)ma(h)men(h)to(h) a(h)nun(h)ci(h)a(h) as(h) o(h)bras(h) de(h) su(h)<i>as</i>(g) <b>m{ão}s</b>.(er1 fr f)
+<c><sp>V/</sp>. 1.</c>() <i>Os</i>(e) <i>céus</i>(f) pro(h)cla(h)mam(h) a(h) gló(h)ria(h) de(h) <b>Deus</b>(ir1 hr h) *(:) e(h) o(h) fir(h)ma(h)men(h)to(h) a(h)nun(h)ci(h)a(h) as(h) o(h)bras(h) de(h) su(h)<i>as</i>(g) <b>mãos</b>.(er1 fr f)
 
 (::)
 

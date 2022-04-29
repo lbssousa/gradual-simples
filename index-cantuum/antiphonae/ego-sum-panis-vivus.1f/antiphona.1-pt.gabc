@@ -1,9 +1,7 @@
-name: Ego sum panis vivus;
+name: Eu sou o pão vivo;
 mode: 1;
 mode-differentia: f;
-cantus-id: 002595;
-commentary: Jo 6,51;
-book: Graduale Simplex, 1975, p. 207;
+phantom-commentary: Cantus ID 002595 cf. Jo 6,51;
 
 %%
 

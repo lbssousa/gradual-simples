@@ -1,9 +1,7 @@
-name: Psalmus 4;
-office-part: Introitus;
+name: Salmo 4;
 mode: 1;
 mode-differentia: f;
-book: Graduale Simplex, 1975, p. 123;
-
+phantom-commentary: Sl 4,2-4.6-7.9;
 %%
 
 (c4)

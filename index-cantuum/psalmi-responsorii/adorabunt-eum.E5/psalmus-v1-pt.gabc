@@ -1,13 +1,12 @@
-name: Psalmus 71;
-office-part: Psalmus Responsorius;
+name: Salmo 72(71);
 mode: E 5;
-book: Graduale Simplex, 1975, p. 77;
+phantom-commentary: Sl 72(71),1bc-4.10-13.17;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Os(e) reis(e) de(e) to(e)da(e) a(e) <b>ter</b>(er1f er)ra(e) *(:) hão(e) de(e) a(e)<i>do</i>(fd)<b>rá</b>-(er1 f)lo.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{11}</v>Os(e) reis(e) de(e) to(e)da(e) a(e) <b>ter</b>(er1f er)ra(e) *(:) hão(e) de(e) a(e)<i>do</i>(fd)<b>rá</b>-(er1 f)lo.(g)
 
 (::)
 

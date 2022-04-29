@@ -1,14 +1,14 @@
-name: Psalmus 132;
-office-part: Offertorium;
+name: Psalmus 133(132);
 mode: 4;
 mode-differentia: A;
+commentary: Sl 133(132);
 book: Graduale Simplex, 1975, p. 292;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ec</i>(i)<i>ce</i>(hi) quam(i) bo(i)num(i) et(i) <i>quam</i>(h) <i>iu</i>(i)<b>cún</b>(jr1 ir)dum(i) *(,) ha(i)bi(i)tá(i)re(i) <i>fra</i>(h)<i>tres</i>(i) <i>in</i>(j) <b>u</b>(hr1 fr)num.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v><i>Ec</i>(i)<i>ce</i>(hi) quam(i) bo(i)num(i) et(i) <i>quam</i>(h) <i>iu</i>(i)<b>cún</b>(jr1 ir)dum(i) *(,) ha(i)bi(i)tá(i)re(i) <i>fra</i>(h)<i>tres</i>(i) <i>in</i>(j) <b>u</b>(hr1 fr)num.(f)
 
 (::)
 

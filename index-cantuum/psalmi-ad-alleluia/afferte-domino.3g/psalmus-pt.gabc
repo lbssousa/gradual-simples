@@ -1,14 +1,13 @@
-name: Psalmus 28;
-office-part: Alleluia;
+name: Salmo 29(28);
 mode: 3;
 mode-differentia: g;
-book: Graduale simplex, 1975, p. 78;
+phantom-commentary: Sl 29(28),1c-2.11;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Tri</i>(g)<i>bu</i>(hj)tai-(j)lhe(j) gló(j)ria(j) e(j) po(j)<b>der</b>!(jr1 hr h) +(,) Dai-(j)lhe(j) a(j) gló(j)ria(j) de(j)vi(j)da(j) <b>ao</b>(kr1 jr) seu(j) <nlba>(ir[ocba:1{])<b>no</b></nlba>(ih[ocba:0}])me,(j) *(:) a(j)do(j)rai-(j)o(j) com(j) san(j)to(j) <i>or</i>(ji)<i>na</i>(hi)<b>men</b>(hr1 gr)to!(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Fi</i>(g)<i>lhos</i>(hj) de(j) Deus,(j) tri(j)bu(j)tai(j) <b>ao</b>(kr1 jr) Se(j)<nlba>(ir[ocba:1{])<b>nhor</b>,</nlba>(ih[ocba:0}] j) *(:) Tri(j)bu(j)tai-(j)lhe(j) a gló(j)ria(j) e(j) <i>o</i>(ji) <i>po</i>(hi)<b>der</b>!(hr1 gr g)
 
 (::)
 

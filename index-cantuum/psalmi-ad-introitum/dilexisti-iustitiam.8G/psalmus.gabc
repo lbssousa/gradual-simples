@@ -1,14 +1,14 @@
-name: Psalmus 44;
-office-part: Introitus;
+name: Psalmus 45(44);
 mode: 8;
 mode-differentia: G;
+commentary: Sl 45(44),2.10-13.15-16;
 book: Graduale Simplex, 1975, p. 367;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>E</i>(g)<i>ruc</i>(h)tá(j)vit(j) cor(j) me(j)um(j) ver(j)bum(j) <b>bo</b>(jr1 hr)num,(h) +(,) di(j)co(j) e(j)go(j) ó(j)pe(j)ra(j) me(j)a(j) <b>re</b>(kr1 jr)gi.(j) *(:) Lin(j)gua(j) me(j)a(j) cá(j)la(j)mus(j) scri(j)bæ(j) ve(j)ló(j)ci(j)<i>ter</i>(i) <i>scri</i>(j)<b>bén</b>(hr1 gr)tis.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>E</i>(g)<i>ruc</i>(h)tá(j)vit(j) cor(j) me(j)um(j) ver(j)bum(j) <b>bo</b>(jr1 hr)num,(h) +(,) di(j)co(j) e(j)go(j) ó(j)pe(j)ra(j) me(j)a(j) <b>re</b>(kr1 jr)gi.(j) *(:) Lin(j)gua(j) me(j)a(j) cá(j)la(j)mus(j) scri(j)bæ(j) ve(j)ló(j)ci(j)<i>ter</i>(i) <i>scri</i>(j)<b>bén</b>(hr1 gr)tis.(g)
 
 (::)
 

@@ -1,14 +1,13 @@
-name: Psalmus 71;
-office-part: Offertorium;
+name: Salmo 72(71);
 mode: 8;
 mode-differentia: G;
-book: Graduale Simplex, 1975, p. 79;
+phantom-commentary: Sl 72(71),7-9.15-16ab;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Nos</i>(f) <i>seus</i>(gh) di(h)as(h) a(h) jus(h)ti(h)ça(h) <b>flo</b>(ixi hr)ri(h)<b>rá</b>(gr1 hr h) *(:) e(h) gran(h)de(h) paz,(h) a(h)té(h) que(h) a(h) lu(h)a(h) per(h)<i>ca</i>(g) <i>o</i>(f) <b>bri</b>(gr1 gr)lho!(gh)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{7}</v><i>Nos</i>(f) <i>seus</i>(gh) di(h)as(h) a(h) jus(h)ti(h)ça(h) <b>flo</b>(ixi hr)ri(h)<b>rá</b>(gr1 hr h) *(:) e(h) gran(h)de(h) paz,(h) a(h)té(h) que(h) a(h) lu(h)a(h) per(h)<i>ca</i>(g) <i>o</i>(f) <b>bri</b>(gr1 gr)lho!(gh)
 
 (::)
 

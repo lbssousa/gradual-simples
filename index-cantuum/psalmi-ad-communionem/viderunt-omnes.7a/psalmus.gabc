@@ -1,14 +1,14 @@
-name: Psalmus 97;
-office-part: Communio;
+name: Psalmus 98(97);
 mode: 7;
 mode-differentia: a;
+commentary: Sl 98(97),1.4-9;
 book: Graduale Simplex, 1975, p. 68;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Can</i>(hg)<i>tá</i>(hi)te(i) Dó(i)mi(i)no(i) <b>cán</b>(kr1)ti(jr)cum(j) <b>no</b>(ir1 jr)vum:(j) *(:) qui(i)a(i) mi(i)ra(i)<b>bí</b>(jr1)li(ir)a(i) <b>fe</b>(hr1 hr)cit.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Can</i>(hg)<i>tá</i>(hi)te(i) Dó(i)mi(i)no(i) <b>cán</b>(kr1)ti(jr)cum(j) <b>no</b>(ir1 jr)vum:(j) *(:) qui(i)a(i) mi(i)ra(i)<b>bí</b>(jr1)li(ir)a(i) <b>fe</b>(hr1 hr)cit.(gf)
 
 (::)
 

@@ -1,13 +1,13 @@
-name: Psalmus 18A;
+name: Salmo 19(18);
 mode: 4;
 mode-differentia: A;
-book: Graduale simplex, 1975, p. 59;
+phantom-commentary: Sl 19(18),2-7;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Os</i>(i) <i>céus</i>(hi) pro(i)cla(i)mam(i) a(i) gló(i)ria(i) <i>do</i>(h) <i>Se</i>(i)<b>nhor</b>,(jr1 ir i) *(:) e(i) o(i) fir(i)ma(i)men(i)to,(i) a(i) o(i)bra(i) <i>de</i>(h) <i>su</i>(i)<i>as</i>(j) <b>mãos</b>.(hr1 fr f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Os</i>(i) <i>céus</i>(hi) pro(i)cla(i)mam(i) a(i) gló(i)ria(i) <i>do</i>(h) <i>Se</i>(i)<b>nhor</b>,(jr1 ir i) *(:) e(i) o(i) fir(i)ma(i)men(i)to,(i) a(i) o(i)bra(i) <i>de</i>(h) <i>su</i>(i)<i>as</i>(j) <b>mãos</b>.(hr1 fr f)
 
 (::)
 

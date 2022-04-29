@@ -1,14 +1,13 @@
-name: Psalmus 84;
-office-part: Offertorium;
-mode: 1;
-mode-differentia: g;
-book: Graduale Simplex, 1975, p. 268;
+name: Salmo 85(84);
+mode: 8;
+mode-differentia: G;
+phantom-commentary: Sl 85(84),1.11.12.13;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Fa</i>(f)<i>vo</i>(gh)re(h)ces(h)tes,(h) ó(h) Se(h)nhor,(h) a(h) <b>vos</b>(ixir1 hr)sa(h) <b>ter</b>(gr1 hr)ra,(h) *(:) li(h)ber(h)tas(h)tes(h) os(h) ca(h)ti(h)vos(h) <i>de</i>(g) <i>Ja</i>(f)<b>có</b>.(gr1h gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Fa</i>(f)<i>vo</i>(gh)re(h)ces(h)tes,(h) ó(h) Se(h)nhor,(h) a(h) <b>vos</b>(ixir1 hr)sa(h) <b>ter</b>(gr1 hr)ra,(h) *(:) li(h)ber(h)tas(h)tes(h) os(h) ca(h)ti(h)vos(h) <i>de</i>(g) <i>Ja</i>(f)<b>có</b>.(gr1h gr g)
 
 (::)
 

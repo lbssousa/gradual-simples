@@ -1,15 +1,13 @@
-name: Non in solo pane;
+name: Não só de pão;
 mode: 5;
 mode-differentia: a;
-cantus-id: 003920;
-commentary: Dt 8,3;
-book: Graduale Simplex, 1975, p. 99;
+phantom-commentary: Cantus ID 003920 cf. Dt 8,3;
 
 %%
 
 (c3)
 
-Não(hf) só(hv/ijh) de(h) pão(hg/hih) *(,) vi(fe)ve(f) <e>o</e> ho(e)mem,(d) (;) mas(d) de(ef) to(fe)da(d) pa(d)la(ef)vra,(f) (,) que(f) pro(h)ce(f)de(efe) da(d) bo(e)ca(f) de(e) Deus.(dd)
+Não(hf) só(hv/ijh) de(h) pão(hg/hih) *(,) vi(f)ve(e) o(f) ho(e)mem,(d) (;) mas(d) de(ef) to(f)da(e) pa(d)la(ef)vra,(f) (,) que(f) pro(h)ce(f)de(efe) da(d) bo(e)ca(f) de(e) Deus.(dd)
 
 (::)
 

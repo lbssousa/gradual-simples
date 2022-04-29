@@ -1,13 +1,11 @@
-name: Psalmus 111;
-office-part: Psalmus Responsorius;
+name: Psalmus 112(111);
 mode: E *;
-book: Graduale Simplex, 1975, p. 357;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 2.</c>() Po(i)tens(i) in(i) ter(i)ra(i) e(i)rit(i) se(i)mens(i) <b>e</b>(jr1 ir)ius,(i) *(:) ge(i)ne(i)rá(i)ti(i)o(i) rec(i)tó(i)rum(i) be(i)ne(i)<i>di</i>(ih)<b>cé</b>(gr1 gr)tur.(g)
+<c><sp>V/</sp>. 2.</c>() <v>\VSup{2}</v>Po(i)tens(i) in(i) ter(i)ra(i) e(i)rit(i) se(i)mens(i) <b>e</b>(jr1 ir)ius,(i) *(:) ge(i)ne(i)rá(i)ti(i)o(i) rec(i)tó(i)rum(i) be(i)ne(i)<i>di</i>(ih)<b>cé</b>(gr1 gr)tur.(g)
 
 (::)
 

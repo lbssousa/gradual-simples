@@ -1,14 +1,13 @@
-name: Cánticum Beatae Mariae Vírginis;
-office-part: Communio;
+name: Cântico da Bem-Aventurada Virgem Maria;
 mode: 1;
 mode-differentia: g;
-book: Graduale Simplex, 1975, p. 338;
+phantom-commentary: Lc 1,46b-47.48.49.50.51.52.53.54.55;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(f) <i>mi</i>(gh)nha(h) al(h)ma(h) en(h)gran(h)de(h)ce(h) <b>o</b>(ixir1 hr) Se(h)<b>nhor</b>(gr1 hr h) *(:) e(h) se(h) a(h)le(h)grou(h) o(h) meu(h) es(h)pí(h)ri(h)to(h) em(h) Deus,(h) meu(h) <i>Sal</i>(g)<i>va</i>(f)<b>dor</b>.(gr1h gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{46}</v><i>A</i>(f) <i>mi</i>(gh)nha(h) al(h)ma(h) en(h)gran(h)de(h)ce(h) <b>o</b>(ixir1 hr) Se(h)<b>nhor</b>(gr1 hr h) *(:) <v>\VSup{47}</v>e(h) se(h) a(h)le(h)grou(h) o(h) meu(h) es(h)pí(h)ri(h)to(h) em(h) Deus,(h) meu(h) <i>Sal</i>(g)<i>va</i>(f)<b>dor</b>.(gr1h gr g)
 
 (::)
 

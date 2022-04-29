@@ -2,8 +2,15 @@
 % chktex-file 1
 \gresetbarspacing{old}
 \grechangedim{baselineskip}{66pt plus 5pt minus 5pt}{scalable}
+\grechangedim{commentaryraise}{0.8cm}{scalable}
 \grechangestyle{initial}{\fontsize{40}{40}\selectfont\color{gregoriocolor}}
 \grechangestyle{abovelinestext}{\scshape\fontsize{9}{9}\selectfont}
+\gresetheadercapture{commentary}{grecommentary}{string}
+\gresetheadercapture{phantom-commentary}{grephantomcommentary}{string}
+
+\newcommand{\grephantomcommentary}[1]{\grecommentary{\phantom{#1}}}
+
+\newcommand{\VSup}[1]{\(^{\mathrm{#1}}\)}
 
 %\setlength{\columnseprule}{0.4pt}
 
@@ -71,6 +78,8 @@
   {\IfValueTF{#3}{#2#3}{#2} {\large'}}
   {\IfValueTF{#3}{\textbf{#2}#3}{\textbf{#2}} \GreDagger}%
 }
+
+\NewDocumentCommand{\MediatioNil}{m}{#1 \GreStar}
 
 \NewDocumentCommand{\MediatioI}{m m m O{}}{%
   \textbf{#1}#2\textbf{#3}#4 \GreStar%

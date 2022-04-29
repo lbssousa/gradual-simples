@@ -1,12 +1,12 @@
-name: Psalmus 44;
+name: Salmo 45(44);
 mode: C 2 a;
-book: Graduale Simplex, 1975, p. 324;
+phantom-commentary: Sl 45(44),2ab.3b.8-15;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Trans(f)bor(f)da(f) um(f) po(f)e(f)ma(f) do(f) meu(f) co(f)ra(f)<b>ção</b>,(gr1 fr f) *(:) vou(f) can(f)<nlba>(gr[ocba:1{])<b>tar</b>-</nlba>(gh[ocba:0}])vos.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2ab}</v>Trans(f)bor(f)da(f) um(f) po(f)e(f)ma(f) do(f) meu(f) co(f)ra(f)<b>ção</b>,(gr1 fr f) *(:) vou(f) can(f)<nlba>(gr[ocba:1{])<b>tar</b>-</nlba>(gh[ocba:0}])vos.(h)
 
 (::)
 

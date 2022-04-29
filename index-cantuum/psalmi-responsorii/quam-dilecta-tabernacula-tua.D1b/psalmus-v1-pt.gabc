@@ -1,16 +1,15 @@
-name: Psalmus 83;
-office-part: Psalmus responsorius;
+name: Salmo 84(83);
 mode: D 1 b;
-book: Graduale simplex, 1975, p. 71;
+phantom-commentary: Sl 84(83),1-5.9-10.12-13;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Quão(h) a(h)má(h)vel,(h) ó(h) Se(h)nhor,(h) é(h) vos(h)sa(h) ca(h)sa,(h) quan(h)to(h) a(h) a(h)mo,(h) Se(h)nhor(h) Deus(h) do(h) u(h)ni(h)<b>ver</b>(ir1 hr)so!(h) *(:) Mi(h)nha(h) al(h)ma(h) des(h)fa(h)le(h)ce(h) de(h) sau(h)da(h)des(h) e(h) an(h)<b>sei</b>(gr1 gr)a.(i)
+<c><sp>V/</sp>. 1.</c> <v>\VSup{2}</v>Quão(h) a(h)má(h)vel,(h) ó(h) Se(h)nhor,(h) é(h) vos(h)sa(h) ca(h)sa,(h) <v>\large'</v>(,) quan(h)to(h) a(h) a(h)mo,(h) Se(h)nhor(h) Deus(h) do(h) u(h)ni(h)<b>ver</b>(ir1 hr)so!(h) *(:) <v>\VSup{3}</v>Mi(h)nha(h) al(h)ma(h) des(h)fa(h)le(h)ce(h) de(h) sau(h)<b>da</b>(gr1 gr)des.(i)
 
 (::)
 
-<c><sp>R/</sp>.</c>() Pe(i)los(j) á(i)trios(hg) do(hi) Se(i)nhor.(h)
+<c><sp>R/</sp>.</c>() E(i) an(i)sei(i)a(j) pe(i)los(h) á(g)trios(h) do(i) Se(i)nhor.(h)
 
 (::)

@@ -1,8 +1,7 @@
-name: Psalmus 20;
-office-part: Communio;
+name: Salmo 21(20);
 mode: 8;
 mode-differentia: G;
-book: Graduale simplex, 1975, p. 269;
+phantom-commentary: Sl 21(20),2-8.14;
 
 %%
 

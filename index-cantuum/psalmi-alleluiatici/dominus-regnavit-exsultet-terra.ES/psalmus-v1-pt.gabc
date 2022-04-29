@@ -1,13 +1,12 @@
-name: Psalmus 96;
-office-part: Psalmus Alleluiáticus;
-mode: E *
-book: Graduale simplex, 1975, p. 217;
+name: Salmo 97(96);
+mode: E *;
+phantom-commentary: Sl 97(96),1-4.6.7c.8-9.12;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() O(i) Se(i)nhor(i) rei(i)na!(i) E(i)xul(i)te(i)a(i) <b>ter</b>(jr1 ir)ra,(i) *(,) a(i)le(i)grem-(i)se(i) as(i) i(i)lhas(i) nu(i)<i>me</i>(ih)<b>ro</b>(gr1 gr)sas.(g)
+<c><sp>V/</sp>. 1.</c>() O(i) Se(i)nhor(i) rei(i)na!(i) E(i)xul(i)te(i) a(i) <b>ter</b>(jr1 ir)ra,(i) *(,) a(i)le(i)grem-(i)se(i) as(i) i(i)lhas(i) nu(i)<i>me</i>(ih)<b>ro</b>(gr1 gr)sas.(g)
 
 (::)
 

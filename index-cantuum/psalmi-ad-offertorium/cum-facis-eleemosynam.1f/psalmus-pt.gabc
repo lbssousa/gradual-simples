@@ -1,8 +1,7 @@
-name: Psalmus 50;
-office-part: Offertorium;
+name: Psalmus 51(50);
 mode: 1;
 mode-differentia: f;
-book: Graduale Simplex, 1975, p. 94;
+phantom-commentary: Sl 51(50),3-5;
 
 %%
 

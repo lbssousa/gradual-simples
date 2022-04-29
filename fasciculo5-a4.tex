@@ -1,0 +1,29 @@
+% chktex-file 1
+\documentclass[a4paper,12pt,extrafontsizes]{memoir}
+
+\usepackage[top=5mm,bottom=5mm,inner=15mm,outer=10mm,headheight=15pt,includehead,includefoot]{geometry}
+\input{modules/def-imports}
+
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=gregoriocolor}
+
+\input{modules/def-toggles}
+\input{modules/def-gregorio}
+\input{modules/def-chant-factory}
+\input{modules/def-titles}
+\input{modules/def-headings}
+\input{modules/def-titlepage}
+
+% Descomente as duas linhas abaixo para separar as versões em
+% latim e vernáculo em páginas distintas.
+%\toggletrue{compact}
+\toggletrue{disablehyperlinks}
+
+\title{Fascículo V:\@ Missas Rituais, por Diversas Necessidades e Votivas}
+
+\author{Laércio de Sousa}
+
+\begin{document}
+
+\input{fasciculo-5/def-contents}
+
+\end{document}

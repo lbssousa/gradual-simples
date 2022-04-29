@@ -1,14 +1,14 @@
-name: Psalmus 71;
-office-part: Offertorium;
+name: Psalmus 72(71);
 mode: 8;
 mode-differentia: G;
+commentary: Sl 72(71),7-9.15-16ab;
 book: Graduale Simplex, 1975, p. 79;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Flo</i>(f)<i>ré</i>(gh)bit(h) in(h) di(h)<b>é</b>(ixi hr)bus(h) <b>e</b>(gr1 hr)ius,(h) *(:) iu(h)stí(h)ti(h)a(h) et(h) a(h)bun(h)dán(h)<i>ti</i>(g)<i>a</i>(f) <b>pa</b>(gr1 gr)cis.(gh)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{7}</v><i>Flo</i>(f)<i>ré</i>(gh)bit(h) in(h) di(h)<b>é</b>(ixi hr)bus(h) <b>e</b>(gr1 hr)ius,(h) *(:) iu(h)stí(h)ti(h)a(h) et(h) a(h)bun(h)dán(h)<i>ti</i>(g)<i>a</i>(f) <b>pa</b>(gr1 gr)cis.(gh)
 
 (::)
 

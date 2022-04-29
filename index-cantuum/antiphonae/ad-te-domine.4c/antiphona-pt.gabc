@@ -1,15 +1,13 @@
-name: Ad te, Domine;
+name: Senhor, meu Deus;
 mode: 4;
 mode-differentia: c;
-cantus-id: 001255;
-commentary: Sl 143(142),8--9;
-book: Graduale Simplex, 1975, p. 53;
+phantom-commentary: Cantus ID 001255 cf. Sl 143(142),8d--9;
 
 %%
 
 (c3)
 
-Se<alt>\textcolor{gregoriocolor}{Cantor}</alt>(f)nhor,(h) meu(hi~) Deus,(ii) *(,) a<alt>\textcolor{gregoriocolor}{Todos}</alt>(i) vós(i) e(h)le(i)vo(j) a(h) mi(i)nha(j) al(i)ma:(i) (;) vin(fi~)de(h) e(g) sal(f)vai-(e)me,(fe) (,) pois(d) em(e) vós(f) me(gxg) re(h)fu(gxg)gi(f)o!(f)
+A(f) vós,(h) Se(h)nhor,(hi) *(,) a(i) mi(i)nha(h) al(ij)ma(h) e(ij)le(i)vo:(i) (;) vin(f)de(i) e(h) li(g)vrai-(fe)me,(fe) (,) Se(d)nhor,(e) pois(f) em(gxg) vós(h) m<e>e</e> a(gxg)bri(f)go!(f)
 
 (::)
 

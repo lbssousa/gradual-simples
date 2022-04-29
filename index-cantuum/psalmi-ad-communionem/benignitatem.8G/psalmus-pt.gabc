@@ -1,14 +1,13 @@
-name: Com bondade agiu o Senhor;
-office-part: Communio;
+name: Salmo 85(84);
 mode: 8;
 mode-differentia: G;
-book: Graduale simplex, 1975, p. 57;
+phantom-commentary: Sl 85(84),9-12.14;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Que</i>(g)<i>ro</i>(h) ou(j)vir(j) o(j) que(j) o(j) Se(j)nhor(j) i(j)rá(j) fa(j)<b>lar</b>:(jr1 hr h) +(,) é(j) a(j) paz(j) que(j) e(j)le(j) vai(j) a(j)nun(j)ci(j)ar;(j) a(j) paz(j) pa(j)ra(j) o(j) seu(j) po(j)vo(j) e(j) seus(j) a(j)<b>mi</b>(kr1 jr)gos,(j) *(:) pa(j)ra(j) os(j) que(j) vol(j)tam(j) ao(j) Se(j)nhor(j) seu(j) <i>co</i>(i)<i>ra</i>(j)<b>ção</b>.(hr1 gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{9}</v><i>Que</i>(g)<i>ro</i>(h) ou(j)vir(j) o(j) que(j) o(j) Se(j)nhor(j) i(j)rá(j) fa(j)<b>lar</b>:(kr1 jr j) *(Ç) é(j) a(j) paz(j) que(j) e(j)le(j) vai(j) a(j)<i>nun</i>(i)<i>ci</i>(j)<b>ar</b>.(hr1 gr g)
 
 (::)
 

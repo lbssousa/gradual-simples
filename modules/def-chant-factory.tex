@@ -23,43 +23,35 @@
 \newcommand{\SetSecondVersePair}[1]{\def\@Second@Verse@Pair{#1}}
 \newcommand{\SetThirdVersePair}[1]{\def\@Third@Verse@Pair{#1}}
 
-\newcommand{\MakeVerseL}[2]{%
-  #1
+\NewDocumentCommand{\MakeVerseItemL}{o m o m}{%
+  \IfNoValueTF{#1}{\item}{\item[#1]} #2
   \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@L}{\@Link@Text@L}}{\@Link@Text@L}%
 }
-\newcommand{\MakeVerseR}[2]{%
-  #2
+\NewDocumentCommand{\MakeVerseItemR}{o m o m}{%
+  \IfNoValueTF{#3}{\item}{\item[#3]} #4
   \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@R}{\@Link@Text@R}}{\@Link@Text@R}%
 }
-\newcommand{\MakeVerseLR}[2]{%
-  #1
-  \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@L}{\@Link@Text@L}}{\@Link@Text@L}
-  \switchcolumn[1]
-  #2
-  \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@R}{\@Link@Text@R}}{\@Link@Text@R}
-  \switchcolumn[0]*
-}
-
-\NewDocumentCommand{\MakeVerseItemL}{o m o m}{%
-  \MakeVerseL{%
-    \IfNoValueTF{#1}{\item}{\item[#1]} #2%
-  }{%
-    \IfNoValueTF{#3}{\item}{\item[#3]} #4%
-  }%
-}
-\NewDocumentCommand{\MakeVerseItemR}{o m o m}{%
-  \MakeVerseR{%
-    \IfNoValueTF{#1}{\item}{\item[#1]} #2%
-  }{%
-    \IfNoValueTF{#3}{\item}{\item[#3]} #4%
-  }%
-}
 \NewDocumentCommand{\MakeVerseItemLR}{o m o m}{%
-  \MakeVerseLR{%
-    \IfNoValueTF{#1}{\item}{\item[#1]} #2%
-  }{%
-    \IfNoValueTF{#3}{\item}{\item[#3]} #4%
-  }%
+  \def\@@Verse@L{#2}
+  \def\@@Verse@R{#4}
+  \ifdefempty{\@@Verse@L}{}{%
+    \IfNoValueTF{#1}{\item}{\item[#1]} #2
+    \nottoggle{disablehyperlinks}{%
+      \hyperlink{\@Link@Ref@L}{\@Link@Text@L}%
+    }{%
+      \@Link@Text@L%
+    }%
+  }
+  \switchcolumn[1]%
+  \ifdefempty{\@@Verse@R}{}{%
+    \IfNoValueTF{#3}{\item}{\item[#3]} #4
+    \nottoggle{disablehyperlinks}{%
+      \hyperlink{\@Link@Ref@R}{\@Link@Text@R}%
+    }{%
+      \@Link@Text@R%
+    }%
+  }
+  \switchcolumn[0]*%
 }
 
 \NewDocumentCommand{\MakeVerseItemNoLinkTextL}{o m o m}{%
@@ -173,10 +165,6 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  %\begin{annotation}
-  % \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
-
   \begin{greenumerate}
     \MakeVerseListL*{\@First@Verse@Pair} \\
     \begin{minipage}[t]{84mm}
@@ -191,10 +179,6 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  %\begin{annotation}
-  % \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
-
   \begin{greenumerate}
     \MakeVerseListR*{\@First@Verse@Pair} \\
     \begin{minipage}[t]{84mm}
@@ -208,10 +192,6 @@
   \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
-
-  %\begin{annotation}
-  % \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
 
   \begin{greenumerate}
     \begin{paracol}{2}
@@ -234,10 +214,6 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3.#4/psalmus-v1-pt}
   \input{index-cantuum/#2/#3.#4/psalmus}
 
-  %\begin{annotation}
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
-
   \begin{greenumerate}
     \MakeVerseListL*{\@First@Verse@Pair} \\
     \begin{minipage}[t]{84mm}
@@ -252,10 +228,6 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3.#4/psalmus-v1-pt}
   \input{index-cantuum/#2/#3.#4/psalmus}
 
-  %\begin{annotation}
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
-
   \begin{greenumerate}
     \MakeVerseListR*{\@First@Verse@Pair} \\
     \begin{minipage}[t]{84mm}
@@ -269,10 +241,6 @@
   \def\@Link@Ref@L{index-cantuum/#2/#3.#4/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3.#4/psalmus-v1-pt}
   \input{index-cantuum/#2/#3.#4/psalmus}
-
-  %\begin{annotation}
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
 
   \begin{greenumerate}
     \begin{paracol}{2}
@@ -294,10 +262,6 @@
   \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
-
-  \begin{annotation}
-    \MakeVerseAnnotation{\@Verse@Annotation}
-  \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
@@ -359,10 +323,6 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  %\begin{annotation}
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
-
   \begin{greenumerate}
     \MakeVerseListR*{\@First@Verse@Pair} \\
     \begin{minipage}[t]{84mm}
@@ -378,10 +338,6 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  \begin{annotation}
-    \MakeVerseAnnotation{\@Verse@Annotation}
-  \end{annotation}
-
   \begin{greenumerate}
     \MakeVerseListR*{\@First@Verse@Pair} \\
     \begin{minipage}[t]{84mm}
@@ -396,10 +352,6 @@
   \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
-
-  \begin{annotation}
-    \MakeVerseAnnotation{\@Verse@Annotation}
-  \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
@@ -464,10 +416,6 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  %\begin{annotation}
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
-
   \begin{greenumerate}
     \MakeVerseListL*{\@First@Verse@Pair} \\
     \begin{minipage}[t]{84mm}
@@ -484,10 +432,6 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  \begin{annotation}
-    \MakeVerseAnnotation{\@Verse@Annotation}
-  \end{annotation}
-
   \begin{greenumerate}
     \MakeVerseListR*{\@First@Verse@Pair} \\
     \begin{minipage}[t]{84mm}
@@ -503,10 +447,6 @@
   \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
-
-  \begin{annotation}
-    \MakeVerseAnnotation{\@Verse@Annotation}
-  \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
@@ -671,16 +611,7 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#1/antiphona}
   \input{index-cantuum/#3/#4/psalmus}
-
-  %\begin{annotation}
-  %  \ifdefempty{\@Antiphon@Annotation}{}{%
-  %    \MakeAntiphonAnnotation{\@Antiphon@Annotation}%
-  %    \ifdefempty{\@Verse@Annotation}{}{\\}%
-  %  }%
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
 
   \GregorioImportL{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
 
@@ -697,16 +628,7 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#1/antiphona}
   \input{index-cantuum/#3/#4/psalmus}
-
-  %\begin{annotation}
-  %  \ifdefempty{\@Antiphon@Annotation}{}{%
-  %    \MakeAntiphonAnnotation{\@Antiphon@Annotation}%
-  %    \ifdefempty{\@Verse@Annotation}{}{\\}%
-  %  }%
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
 
   \GregorioImportR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
 
@@ -723,16 +645,7 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#1/antiphona}
   \input{index-cantuum/#3/#4/psalmus}
-
-  %\begin{annotation}
-  %  \ifdefempty{\@Antiphon@Annotation}{}{%
-  %    \MakeAntiphonAnnotation{\@Antiphon@Annotation}%
-  %    \ifdefempty{\@Verse@Annotation}{}{\\}%
-  %  }%
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
 
   \begin{paracol}{2}
     \GregorioImportLR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
@@ -754,16 +667,7 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/#3/#4/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#1/antiphona}
   \input{index-cantuum/#3/#4/psalmus}
-
-  \begin{annotation}
-    \ifdefempty{\@Antiphon@Annotation}{}{%
-      \MakeAntiphonAnnotation{\@Antiphon@Annotation}%
-      \ifdefempty{\@Verse@Annotation}{}{\\}%
-    }%
-    \MakeVerseAnnotation{\@Verse@Annotation}
-  \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
@@ -800,7 +704,7 @@
       \end{greenumerate}%
     }
 
-    #4\clearpage
+    #5\clearpage
   }{
     \begin{paracol}{2}
       \GregorioImportLR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
@@ -828,16 +732,44 @@
   \MakeChantAntiphonPsalm{#1}[#2]{#3}[#4][#5]%
 }
 
+\NewDocumentCommand{\MakeChantScore}{m m O{}}{
+  \def\@Score@L{score\IfNoValueOrEmptyTF{#3}{}{.#3}}
+  \def\@Score@R{\@Score@L-pt}
+  \def\@Link@Ref@L{index-cantuum/#1/#2/\@Score@L}
+  \def\@Link@Ref@R{index-cantuum/#1/#2/\@Score@R}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportL{index-cantuum/#1}{#2}{\@Score@L}{\@Score@R}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \GregorioImportR{index-cantuum/#1}{#2}{\@Score@L}{\@Score@R}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{index-cantuum/#1}{#2}{\@Score@L}{\@Score@R}
+    \end{paracol}
+  }
+}
+
 \NewDocumentCommand{\MakeChantAntiphon}{m O{}}{
   \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/antiphonae/#1/\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/amtiphonae/#1/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/#1/antiphona}
-
-  \begin{annotation}
-    \MakeAntiphonAnnotation{\@Antiphon@Annotation}
-  \end{annotation}
+  \def\@Link@Ref@R{index-cantuum/antiphonae/#1/\@Antiphon@R}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
@@ -871,12 +803,7 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
   \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
-
-  %\begin{annotation}
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
 
   \GregorioImportL{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
   \noindent\begin{rubrica}Omnes:\end{rubrica} Allelúia, allelúia, allelúia.
@@ -894,12 +821,7 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
   \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
-
-  %\begin{annotation}
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
 
   \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
   \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
@@ -917,12 +839,7 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
   \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
-
-  %\begin{annotation}
-  %  \MakeVerseAnnotation{\@Verse@Annotation}
-  %\end{annotation}
 
   \begin{paracol}{2}
     \GregorioImportLR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
@@ -947,12 +864,7 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
   \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
-
-  \begin{annotation}
-    \MakeVerseAnnotation{\@Verse@Annotation}
-  \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
@@ -1024,7 +936,6 @@
   \def\@Antiphon@R{\@Antiphon@L-pt}
   \def\@Link@Ref@L{index-cantuum/antiphonae/#1/\@Antiphon@L}
   \def\@Link@Ref@R{index-cantuum/antiphonae/#1/\@Antiphon@R}
-  \input{index-cantuum/antiphonae/alleluia.#1/antiphona}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{
@@ -1097,10 +1008,6 @@
   \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
-
-  \begin{annotation}
-    \MakeVerseAnnotation{\@Verse@Annotation}
-  \end{annotation}
 
   \iftoggle{compact}{
     \nottoggle{disablehyperlinks}{

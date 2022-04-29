@@ -1,16 +1,15 @@
-name: Psalmus 84;
-office-part: Psalmus Alleluiaticus;
-mode: E *
-book: Graduale Simplex, 1975, p. 56;
+name: Salmo 85(84);
+mode: E *;
+phantom-commentary: Sl 85(84),2-8;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() Fa<alt>\textcolor{gregoriocolor}{Cantor}</alt>(i)vo(i)re(i)ces(i)tes,(i) ó(i) Se(i)nhor,(i) a(i) vos(i)sa(i) <b>ter</b>(jr1 ir)ra,(i) *(:) li(i)ber(i)tas(i)tes(i) os(i) ca(i)ti(i)vos(i) de(i) <i>Ja</i>(ih)<b>có</b>.(gr1 gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Fa(i)vo(i)re(i)ces(i)tes,(i) ó(i) Se(i)nhor,(i) a(i) vos(i)sa(i) <b>ter</b>(jr1 ir)ra,(i) *(:) li(i)ber(i)tas(i)tes(i) os(i) ca(i)ti(i)vos(i) de(i) <i>Ja</i>(ih)<b>có</b>.(gr1 gr g)
 
 (::)
 
-<c><sp>R/</sp>.</c>() A<alt>\textcolor{gregoriocolor}{Todos}</alt>(h)le(g)lu(hi)ia,(hhg) a(f)le(e)lu(fg~)ia.(g)
+<c><sp>R/</sp>.</c>() A(h)le(g)lu(hi)ia,(hhg) a(f)le(e)lu(fg~)ia.(g)
 
 (::)

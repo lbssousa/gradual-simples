@@ -1,8 +1,7 @@
-name: Psalmus 132;
-office-part: Offertorium;
+name: Salmo 133(132);
 mode: 4;
 mode-differentia: A;
-book: Graduale Simplex, 1975, p. 292;
+phantom-commentary: Sl 133(132);
 
 %%
 
@@ -12,6 +11,6 @@ book: Graduale Simplex, 1975, p. 292;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Fa</nlba>(ef)ça(h)mos(h) a(i)qui.(i)
+<nlba><c><sp>A/</sp>.</c>() Fa</nlba>(e)ça(f)mos(h) a(hi)qui.(i)
 
 (::)

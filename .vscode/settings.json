@@ -1,7 +1,7 @@
 {
   "editor.bracketPairColorization.enabled": true,
   "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -55,5 +55,5 @@
     "--shell-escape"
   ],
   "latex-workshop.view.pdf.viewer": "tab",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
 }

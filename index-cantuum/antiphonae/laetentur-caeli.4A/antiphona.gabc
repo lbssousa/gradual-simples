@@ -1,14 +1,15 @@
-name: Lætentur cæli;
+name: Laetentur caeli;
 mode: 4;
 mode-differentia: A;
 commentary: Cantus ID 003567 cf. Sl 96(95),11.13;
 book: Graduale Simplex, 1975, p. 67;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Læ(f)tén(e)tur(f) cæ(hi)li(ii) *(,) et(h) ex(i)súl(j)tet(ih) ter(i)ra(i) (;) an(f)te(i) fá(h)ci(g)em(f) Dó(f)mi(e)ni,(fe) (,) quó(de)ni(f)am(h) ve(f)nit.(f)
+Læ(f|vi)tén(e|ta)tur(f|vi) cæ(hi|peS)li(ii|vs) *(,) et(h|ta) ex(i|vi)súl(j|vi)tet(ih|cllsc3) ter(i|vi-)ra(i|vi-) (;) an(f|ta)te(i|vi) fá(h|vi)ci(g|vi)em(f|ta) Dó(f|vi)mi(e|ta)ni,(fe|cl-) (,) quó(de|peS)ni(f|vi)am(h|vi>) ve(f|ta)nit.(f|ta)
 
 (::)
 

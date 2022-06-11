@@ -3,12 +3,13 @@ mode: 8;
 mode-differentia: G;
 commentary: Cantus ID 003696 cf. Lc 2,19;
 book: Graduale Simplex, 1975, p. 74;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ma(g)rí(i)a(h) au(ji~)tem(gh) *(,) con(f)ser(h)vá(j)bat(k) óm(i)ni(j)a(h) ver(h)ba(g) hæc(h) (;) cón(h)fe(g)rens(e) in(f) cor(gh)de(h) su(g)o.(g)
+Ma(g|ta)rí(i|vi)a(h|ta) au(ji~|cl-)tem(gh|pq) *(,) con(f|talsi7)ser(h|vi)vá(j|vi)bat(k|vihilss3) óm(i|ta)ni(j|vi)a(h|ta) ver(h|vi>)ba(g|ta) hæc(h|vi-) (;) cón(h|vi>)fe(g|cllsc3)rens(e|ta) in(f|vi) cor(gh|pe)de(h|vi) su(g|ta)o.(g|ta)
 
 (::)
 

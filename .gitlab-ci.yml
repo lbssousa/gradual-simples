@@ -6,7 +6,7 @@ fasciculo1-a4:
   image: registry.gitlab.com/laerciosousa/texlive-music:base-TL2022-20220427
   stage: building
   script:
-    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo1-a4
+    - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo1-a4
   artifacts:
     paths:
       - fasciculo1-a4.pdf
@@ -20,7 +20,7 @@ fasciculo2-a4:
   image: registry.gitlab.com/laerciosousa/texlive-music:base-TL2022-20220427
   stage: building
   script:
-    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo2-a4
+    - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo2-a4
   artifacts:
     paths:
       - fasciculo2-a4.pdf
@@ -34,7 +34,7 @@ fasciculo3-a4:
   image: registry.gitlab.com/laerciosousa/texlive-music:base-TL2022-20220427
   stage: building
   script:
-    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo3-a4
+    - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo3-a4
   artifacts:
     paths:
       - fasciculo3-a4.pdf
@@ -48,7 +48,7 @@ fasciculo4-a4:
   image: registry.gitlab.com/laerciosousa/texlive-music:base-TL2022-20220427
   stage: building
   script:
-    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo4-a4
+    - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo4-a4
   artifacts:
     paths:
       - fasciculo4-a4.pdf
@@ -62,7 +62,7 @@ fasciculo5-a4:
   image: registry.gitlab.com/laerciosousa/texlive-music:base-TL2022-20220427
   stage: building
   script:
-    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo5-a4
+    - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo5-a4
   artifacts:
     paths:
       - fasciculo5-a4.pdf
@@ -76,7 +76,7 @@ fasciculo6-a4:
   image: registry.gitlab.com/laerciosousa/texlive-music:base-TL2022-20220427
   stage: building
   script:
-    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo6-a4
+    - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo6-a4
   artifacts:
     paths:
       - fasciculo6-a4.pdf

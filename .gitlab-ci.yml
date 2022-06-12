@@ -1,0 +1,73 @@
+stages:
+  - building
+  - production
+
+fasciculo1-a4:
+  image: registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-TL2022-20220501
+  stage: building
+  script:
+    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo1-a4
+  artifacts:
+    paths:
+      - fasciculo1-a4.pdf
+      - fasciculo1-a4.log
+    expire_in: 1 days
+    when: always
+  only:
+    - branches
+
+fasciculo2-a4:
+  image: registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-TL2022-20220501
+  stage: building
+  script:
+    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo2-a4
+  artifacts:
+    paths:
+      - fasciculo2-a4.pdf
+      - fasciculo2-a4.log
+    expire_in: 1 days
+    when: always
+  only:
+    - branches
+
+fasciculo3-a4:
+  image: registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-TL2022-20220501
+  stage: building
+  script:
+    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo3-a4
+  artifacts:
+    paths:
+      - fasciculo3-a4.pdf
+      - fasciculo3-a4.log
+    expire_in: 1 days
+    when: always
+  only:
+    - branches
+
+fasciculo4-a4:
+  image: registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-TL2022-20220501
+  stage: building
+  script:
+    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo4-a4
+  artifacts:
+    paths:
+      - fasciculo4-a4.pdf
+      - fasciculo4-a4.log
+    expire_in: 1 days
+    when: always
+  only:
+    - branches
+
+fasciculo5-a4:
+  image: registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-TL2022-20220501
+  stage: building
+  script:
+    - latexmk --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo5-a4
+  artifacts:
+    paths:
+      - fasciculo5-a4.pdf
+      - fasciculo5-a4.log
+    expire_in: 1 days
+    when: always
+  only:
+    - branches

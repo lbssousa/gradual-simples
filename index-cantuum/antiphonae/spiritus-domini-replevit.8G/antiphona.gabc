@@ -3,12 +3,13 @@ mode: 8;
 mode-differentia: G;
 commentary: Cantus ID 004998 cf. Sb 1,7;
 book: Graduale Simplex, 1975, p. 395;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Spí(d)ri(fhg)tus(gh~) Dó(h)mi(g)ni(fe) *(,) re(d)plé(fg)vit(gd) or(fg)bem(hg) ter(f)rá(gh)rum,(h) (;) al(gvFD)le(ef)lú(gh)ia.(g)
+Spí(d|gr-)ri(fhg|to)tus(gh~|ta>) Dó(h|vi)mi(g|vi)ni(fe|cl-) *(,) re(d|gr)plé(fg|peSlse3)vit(gd|cl-) or(fg|talss1lsp2ta>)bem(hg>|cl>lst2) ter(f|talse1)rá(gh|pelse1)rum,(h|vilss3) (;) al(gvFD|visut1sux1lsi2lsp3)le(ef|peS)lú(gh|pe>)ia.(g|ta)
 
 (::)
 

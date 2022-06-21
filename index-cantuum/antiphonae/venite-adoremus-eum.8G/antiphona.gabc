@@ -3,12 +3,13 @@ mode: 8;
 mode-differentia: G;
 commentary: Cantus ID 005348 cf. Sl 95(94),6-7;
 book: Graduale Simplex, 1975, p. 76;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ve(g)ní(j)te,(ig) *(,) ad(i)o(j)ré(h)mus(g) e(hg)um,(f) (;) qui(g)a(fh) ip(j)se(j) est(ig) (,) Dó(i)mi(j)nus(h) De(i)us(h) nos(g)ter.(g)
+Ve(g|vi)ní(j|vi-)te,(ig|cllsc3) *(,) ad(i|vi)o(j|vi)ré(h|vi)mus(g|ta) e(hg|cl-)um,(f|ta) (;) qui(g|cl-)a(fh|peS) ip(j|vi)se(j|vi) est(ig|vi) (,) Dó(i|ta)mi(j|vi)nus(h|vi) De(i|ta)us(h|vi) no(g|ta)ster.(g|ta)
 
 (::)
 

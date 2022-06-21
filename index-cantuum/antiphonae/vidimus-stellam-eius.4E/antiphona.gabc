@@ -3,12 +3,13 @@ mode: 4;
 mode-differentia: E;
 commentary: Cantus ID 005411 cf. Mt 2,2;
 book: Graduale Simplex, 1975, p. 80;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ví(f)di(e)mus(d) * stel(e)lam(f) e(gh)ius(g) in(h) O(f)ri(g)én(fe)te,(d) (;) et(f) vé(f)ni(e)mus(d) cum(e) mu(f)né(g)ri(h)bus(g) (,) ad(g)o(h)rá(f)re(g) Dó(e)mi(e)num.(e)
+Ví(f|vi)di(e|vi)mus(d|ta) * stel(e|vi)lam(f|vi) e(gh|````pe>lsal1)ius(g|ta) in(h|vi) O(f|ta)ri(g|vi)én(fe|cl>lst3)te,(d|ta-) (;) et(f|vi) vé(f|vi)ni(e|vi)mus(d|ta-) cum(e|vi) mu(f|vi)né(g|vi)ri(h|vi)bus(g|ta) (,) ad(g|ta)o(h|vi)rá(f|ta)re(g|vi) Dó(e|vi)mi(e|pe)num.(e|ta)
 
 (::)
 

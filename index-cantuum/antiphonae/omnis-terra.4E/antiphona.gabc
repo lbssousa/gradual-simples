@@ -3,12 +3,13 @@ mode: 4;
 mode-differentia: E;
 commentary: Cantus ID 004155 cf. Sl 66(65),4;
 book: Graduale Simplex, 1975, p. 215;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Om(f)nis(d) ter(f)ra(ed) * ad(ef)ó(g)ret(f) te,(f) De(g)us,(e) (,) et(f) psal(d)lat(c) ti(d)bi,(d) (;) psal(c)mum(d) di(f)cat(f) nó(f)mi(f)ni(f) tu(f)o,(f) Dó(d)mi(f)ne.(e)
+Om(f|vi>)nis(d|ta) ter(f|vi)ra(ed|cl-lsa3) * ad(ef|peS)ó(g|vi)ret(f|vi) te,(f|vi) De(g|vi)us,(e|ta) (,) et(f|vi) psal(d|vi>)lat(c|ta) ti(d|vi-)bi,(d|vi-) (;) psal(c|ta)mum(d|vi) di(f|vi)cat(f|vi) nó(f|vi)mi(f|vi)ni(f|vi) tu(f|vi)o,(f|vi) Dó(d|ta)mi(f|vi)ne.(e|ta)
 
 (::)
 

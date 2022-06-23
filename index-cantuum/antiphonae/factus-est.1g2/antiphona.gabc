@@ -3,12 +3,13 @@ mode: 1;
 mode-differentia: g 2;
 commentary: Cantus ID 002846 cf. Sl 29(28),11;
 book: Graduale Simplex, 1975, pp. 88, 220;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Fac(f)tus(ghg) est(h) *(,) ad(f)iú(h)tor(g) me(g)us(ef) De(g)us(fe) me(d)us.(d)
+Fac(f|vi)tus(ghg|to) est(h|vi) *(,) ad(f|ta)iú(h|vi)tor(g|vi) me(g|vi)us(ef|peS) De(g|vi)us(fe|cl) me(d|ta)us.(d|ta)
 
 (::)
 

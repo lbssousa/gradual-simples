@@ -4,12 +4,13 @@ mode-differentia: G;
 cantus-id: 001290;
 commentary: Sl 96(95),9;
 book: Graduale Simplex, 1975, p. 235;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ad(f)o(fg)rá(g)te(fh) Dó(j)mi(k)num(j) *(,) in(j) au(ji)la(h) sanc(i)ta(h) e(g)ius,(g)
+Ad(f|ta)o(fg|pe)rá(g|vi-)te(fh|peS) Dó(j|vi)mi(k|vi)num(j|ta-lsx6) *(,) in(j|vi) au(ji|vi>)la(h|ta) sanc(i|vi>-)ta(h|vi) e(g|ta)ius.(g|ta)
 
 (::)
 

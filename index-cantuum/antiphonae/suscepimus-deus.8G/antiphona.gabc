@@ -3,12 +3,13 @@ mode: 8;
 mode-differentia: G;
 commentary: Cantus ID 005084 cf. Sl 48(47),10;
 book: Graduale Simplex, 1975, pp. 231, 261;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Su(g)scé(g)pi(h)mus,(h) De(g)us(g) *(,) mi(f)se(g)ri(h)cór(j)di(i)am(h) tu(j)am,(i) (,) in(h) me(g)di(g)o(h) tem(f)pli(h) su(g)i.(g)
+Su(g|vi)scé(g|vi-)pi(h|vi)mus,(h|````orlse1) De(g|vi-)us(g|or) *(,) mi(f|talsc1)se(g|vi)ri(h|vi)cór(j|vi)di(i|vi)am(h|ta) tu(j|vi)am,(i|vi) (,) in(h|vi>) me(g|ta)di(g|ta)o(h|vi) tem(f|ta)pli(h|vi) su(g|ta)i.(g|ta)
 
 (::)
 

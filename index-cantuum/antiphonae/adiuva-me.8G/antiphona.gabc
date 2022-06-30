@@ -4,12 +4,13 @@ mode-differentia: G;
 cantus-id: 001281;
 commentary: Sl 119(118),117;
 book: Graduale Simplex, 1975, p. 244;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Ad(e)iu(h)va(h) me,(g) *(,) et(e) sal(g)vus(h) e(f)ro,(f) Dó(g)mi(f)ne.(e)
+Ad(e|ta)iu(h|vi)va(h|vi) me,(g|vi) *(,) et(e|ta) sal(g|vi)vus(h|vi) e(f|vi)ro,(f|vi) Dó(g|vi)mi(f|vi)ne.(e|ta)
 
 (::)
 

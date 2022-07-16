@@ -1,3 +1,5 @@
-ARG RELEASE=TL2022
-ARG REVISION=20220501
-FROM registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-${RELEASE}-${REVISION}
+ARG TEXLIVE_RELEASE=2022
+ARG TEXLIVE_SNAPSHOT=2022.07.10
+ARG LILYPOND_RELEASE=2.22.2
+ARG REVISION=2
+FROM ghcr.io/lbssousa/texlive-music-gitpod-workspace:TL${RELEASE}-${TEXLIVE_SNAPSHOT}-LilyPond-${LILYPOND_RELEASE}-${REVISION}

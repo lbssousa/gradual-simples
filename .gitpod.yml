@@ -1,4 +1,4 @@
-image: registry.gitlab.com/laerciosousa/texlive-music:gitpod-workspace-TL2022-20220501
+image: ghcr.io/lbssousa/texlive-music-gitpod-workspace:TL2022-2022.07.10-LilyPond-2.22.2-2
 vscode:
   extensions:
     - eamodio.gitlens

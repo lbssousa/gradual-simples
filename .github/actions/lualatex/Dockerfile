@@ -2,7 +2,7 @@ ARG TEXLIVE_RELEASE=2022
 ARG TEXLIVE_SNAPSHOT=2022.07.10
 ARG LILYPOND_RELEASE=2.22.2
 ARG REVISION=3
-FROM ghcr.io/lbssousa/texlive-music:TL${RELEASE}-${TEXLIVE_SNAPSHOT}-LilyPond-${LILYPOND_RELEASE}-${REVISION}
+FROM ghcr.io/lbssousa/texlive-music:TL${TEXLIVE_RELEASE}-${TEXLIVE_SNAPSHOT}-LilyPond-${LILYPOND_RELEASE}-${REVISION}
 
 LABEL maintainer="Laércio de Sousa <lbsousajr@gmail.com>"
 LABEL repository="https://github.com/lbssousa/gradual-simples"

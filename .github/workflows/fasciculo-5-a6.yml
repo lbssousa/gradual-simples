@@ -1,7 +1,7 @@
 name: "Fascículo 5 / Layout A6"
 on:
   push:
-    branches: [biblia-oficial-cnbb]
+    branches: [salterio-liturgico]
 defaults:
   run:
     working-directory: .
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Construir PDFs
         uses: ./.github/actions/lualatex
@@ -21,7 +21,7 @@ jobs:
           OUT_DIR: public
 
       - name: Fazer upload dos artefatos
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: fasciculo-5-a6
           path: public/

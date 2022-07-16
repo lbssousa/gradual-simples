@@ -45,7 +45,7 @@
         "name": "lualatexmk",
         "command": "latexmk",
         "args": [
-          "-lualatex",
+          "--lualatex",
           "--shell-escape",
           "--synctex=1",
           "--interaction=nonstopmode",

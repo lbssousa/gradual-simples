@@ -15,13 +15,13 @@ jobs:
       - name: Construir PDFs
         uses: ./.github/actions/lualatex
         with:
-          directory: 'fasciculo-3'
-          file: 'a4'
+          basename: 'fasciculo3'
+          layout: 'a4'
         env:
           OUT_DIR: public
 
       - name: Fazer upload dos artefatos
         uses: actions/upload-artifact@v3
         with:
-          name: fasciculo-3-a4
+          name: fasciculo3-a4
           path: public/

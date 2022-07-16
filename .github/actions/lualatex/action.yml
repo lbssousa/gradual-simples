@@ -2,17 +2,17 @@
 name: 'Build with LuaLaTeX'
 description: 'Builds document with LuaLaTeX'
 inputs:
-  directory:
-    description: 'Directory of TeX entry files'
+  basename:
+    description: 'Base name of TeX entry files'
     required: true
-    default: '.'
-  file:
-    description: 'Document file to be built'
+    default: 'fasciculo1'
+  layout:
+    description: 'Paper layout suffix of the file to be built'
     required: true
     default: 'a4'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.directory }}
-    - ${{ inputs.file }}
+    - ${{ inputs.basename }}
+    - ${{ inputs.layout }}

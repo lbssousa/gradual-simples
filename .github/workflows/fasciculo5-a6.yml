@@ -1,4 +1,4 @@
-name: "Fascículo 1 / Layout A4"
+name: "Fascículo 5 / Layout A6"
 on:
   push:
     branches: [salterio-liturgico]
@@ -15,13 +15,13 @@ jobs:
       - name: Construir PDFs
         uses: ./.github/actions/lualatex
         with:
-          directory: 'fasciculo-1'
-          file: 'a4'
+          basename: 'fasciculo5'
+          layout: 'a6'
         env:
           OUT_DIR: public
 
       - name: Fazer upload dos artefatos
         uses: actions/upload-artifact@v3
         with:
-          name: fasciculo-1-a4
+          name: fasciculo5-a6
           path: public/

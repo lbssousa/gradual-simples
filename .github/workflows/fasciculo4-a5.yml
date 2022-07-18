@@ -13,15 +13,16 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Construir PDFs
-        uses: ./.github/actions/lualatex
+        uses: lbssousa/latex-music-action@v3.0.0
         with:
-          basename: 'fasciculo4'
-          layout: 'a5'
-        env:
-          OUT_DIR: public
+          root_file: fasciculo4-a5.tex
+          latexmk_use_lualatex: true
+          latexmk_shell_escape: true
 
       - name: Fazer upload dos artefatos
         uses: actions/upload-artifact@v3
         with:
           name: fasciculo4-a5
-          path: public/
+          path: |
+            *.pdf
+            *.log

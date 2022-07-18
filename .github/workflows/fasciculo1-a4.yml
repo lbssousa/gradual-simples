@@ -15,7 +15,7 @@ jobs:
       - name: Construir PDFs
         uses: lbssousa/latex-music-action@master
         with:
-          root_file: 'fasciculo1-a4'
+          root_file: fasciculo1-a4.tex
           latexmk_use_lualatex: true
           latexmk_shell_escape: true
 

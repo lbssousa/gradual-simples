@@ -3,9 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "runArgs": [
-    "--userns=keep-id"
-  ],
   "settings": {
     "editor.bracketPairColorization.enabled": true,
     "editor.fontLigatures": true,
@@ -17,8 +14,8 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": true,
-    "latex-workshop.chktex.enabled": true,
-    "latex-workshop.chktex.run": "onType",
+    "latex-workshop.linting.chktex.enabled": true,
+    "latex-workshop.linting.run": "onType",
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.kpsewhich.enabled": true,
     "latex-workshop.latex.autoBuild.run": "never",
@@ -45,7 +42,7 @@
         "name": "lualatexmk",
         "command": "latexmk",
         "args": [
-          "--lualatex",
+          "-lualatex",
           "--shell-escape",
           "--synctex=1",
           "--interaction=nonstopmode",
@@ -64,7 +61,6 @@
   },
   "extensions": [
     "eamodio.gitlens",
-    "GitHub.copilot",
     "james-yu.latex-workshop",
     "jeandeaual.lilypond-syntax",
     "softaware.abc-music",

@@ -3,6 +3,7 @@ mode: 1;
 mode-differentia: f;
 commentary: Sl 45(44),2-8.18bc;
 book: Graduale Simplex, 1975, p. 292;
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 292;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Vi</nlba>(d)si(ef)ó(g)nem.(e)
+<nlba><c><sp>A/</sp>.</c>() Vi</nlba>(d|ta)si(ef|peS)ó(g|vi)nem.(e|ta)
 
 (::)

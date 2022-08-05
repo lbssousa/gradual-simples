@@ -3,12 +3,13 @@ mode: 1;
 mode-differentia: f;
 commentary: Cantus ID 002089 cf. Mt 17,9;
 book: Graduale Simplex, 1975, p. 292;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Vi(d)si(ef)ó(g)nem(e) *() quam(gh) vi(fe)dí(d)stis,(dfddc) (,) né(f)mi(h)ni(g) dix(h)é(gf)ri(g)tis,(f) (;) do(fd)nec(f) a(g) mór(h)tu(g)is(f) re(e)súr(fg)gat(g) (,) Fí(ef)li(g)us(fe) hó(d)mi(cd)nis.(d)
+Vi(d|ta)si(ef|peS)ó(g|vi)nem(e|ta) *() quam(gh>|pe>) vi(fe|cl)dí(d|ta)stis,(dfd|toS2|dc|cl-) (,) né(f|vilsl2)mi(h|ta)ni(g|ta) dix(h|vi)é(gf|cl)ri(g|vi)tis,(f|ta-) (;) do(fd|cllsc3)nec(f|vi) a(g|vi) mór(h|vi)tu(g|vi)is(f|vi) re(e|ta)súr(fg<|ta>)gat(g|vi) (,) Fí(ef|peS)li(g|cl)us(fe|cl) hó(d|vi)mi(cd|pe)nis.(d|ta)
 
 (::)
 

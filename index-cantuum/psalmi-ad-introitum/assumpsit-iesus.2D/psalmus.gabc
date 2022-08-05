@@ -3,6 +3,7 @@ mode: 2;
 mode-differentia: D;
 commentary: Sl 84(83),2-5.9-12;
 book: Graduale Simplex, 1975, p. 288;
+nabc-lines: 1;
 
 %%
 
@@ -12,7 +13,7 @@ book: Graduale Simplex, 1975, p. 288;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() As</nlba>(e)súm(g)psit(f) Ie(h)sus.(gf)
+<nlba><c><sp>A/</sp>.</c>() As</nlba>(e|ta)súm(g>|vi>)psit(f|ta) Ie(h|vi)sus.(gf|cl-)
 
 (::)
 

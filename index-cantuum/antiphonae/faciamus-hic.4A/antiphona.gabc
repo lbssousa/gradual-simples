@@ -3,12 +3,13 @@ mode: 4;
 mode-differentia: A;
 commentary: Cantus ID 002832 cf. Mt 17,4;
 book: Graduale Simplex, 1975, p. 291;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Fa(e)ci(f)á(h)mus(hi) hic(i) *(,) tri(h)a(i) ta(j)ber(ih~)ná(i)cu(i)la:(i) (;) ti(f)bi(i) u(g)num,(h) Mó(f)y(f)si(f) u(fe)num,(fe) (,) et(d) E(e)lí(f)æ(h) u(f)num.(f)
+Fa(e|ta)ci(f|vi)á(h|vi-)mus(hi|peS) hic(i|vs) *(,) tri(h|ta)a(i|vi) ta(j|vi)ber(ih~|vi>)ná(i|vi)cu(i|vi)la:(i|vi-) (;) ti(f|ta)bi(i|vi) u(g|vi)num,(h|vi) Mó(f|ta)y(f|ta)si(f|ta) u(fe|cl-)num,(fe|cl-) (,) et(d|ta) E(e|vi)lí(f|vi)æ(h|vi) u(f|ta)num.(f|ta)
 
 (::)
 

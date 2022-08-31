@@ -3,12 +3,13 @@ mode: 4;
 mode-differentia: E;
 commentary: Cantus ID 002144 cf. Sl 51(50),3;
 book: Graduale Simplex, 1975, p. 86;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-De(e)le,(f) Dó(g)mi(h)ne,(g) *(,) in(h)i(g)qui(fd)tá(f)tem(g) me(e)am.(e)
+De(e|vi)le,(f|vi) Dó(g|vi)mi(h|or)ne,(g|ta) *(,) in(h|vi)i(g|vi)qui(fd|cllsc3)tá(f|vi)tem(g|vi) me(e|ta)am.(e|ta)
 
 (::)
 

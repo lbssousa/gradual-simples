@@ -3,12 +3,13 @@ mode: 8;
 mode-differentia: G;
 commentary: Cantus ID 001294;
 book: Graduale Simplex, 1975, p. 83;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ad(g)ve(g)né(h)runt(h) no(g)bis(g) *(,) di(g)es(g) pæ(h)ni(g)tén(hi)ti(gf)æ,(f) (;) ad(f) red(g)i(h)mén(j)da(k) pec(i)cá(j)ta,(hg) (,) ad(g) sal(ef)ván(gh)das(h) á(g)ni(g)mas.(g)
+Ad(g|ta)ve(g|ta)né(h|vi)runt(h|vi>) no(g|ta)bis(g|ta) *(,) di(g|ta)es(g|ta) pæ(h|vi)ni(g|ta)tén(hi|pe>1lsal2lsi8)ti(gf|cllsc3)æ,(f|ta) (;) ad(f|vi) red(g|ta)i(h|pe)mén(j|ta)da(k|clhilsc3) pec(i|cllsc3)cá(j|vi)ta,(hg|ta) (,) ad(g|ta) sal(ef|ta)ván(gh|vi>)das(h|ta) á(g|pe)ni(g|vi)mas.(g|ta)
 
 (::)
 

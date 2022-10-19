@@ -3,12 +3,13 @@ mode: 1;
 mode-differentia: f;
 commentary: Cantus ID 002005 cf. Mt 6,3;
 book: Graduale Simplex, 1975, p. 94;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Cum(d) fa(d)cis(dc) e(f)lee(g)mó(f)sy(gh)nam,(h) *(,) né(ixi)sci(h)at(g) si(g)nís(h)tra(fe) tu(d)a(d) (;) quid(g) fá(h)ci(g)at(e) déx(fg)te(e)ra(f) tu(d)a.(d)
+Cum(d|ta) fa(d|ta)cis(dc|cllsc3) e(f|vi)lee(g|vi)mó(f|ta)sy(gh|pe)nam,(h|vi-) *(,) né(ixi|////vi)sci(h|vi)at(g|ta) si(g|ta)nís(h|vi)tra(fe|cllsc3) tu(d|ta)a(d|ta) (;) quid(g|vi-) fá(h|vi)ci(g|vi)at(e|ta) déx(fg|peS)te(e|ta)ra(f|vi) tu(d|ta)a.(d|ta)
 
 (::)
 

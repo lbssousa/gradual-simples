@@ -3,12 +3,13 @@ mode: 1;
 mode-differentia: f;
 commentary: Cantus ID 004503 cf. Lc 8,15;
 book: Graduale Simplex, 1975, p. 105;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Qui(d) ver(d)bum(dc~) De(f)i(g) ré(f)ti(gh)nent(h) *(,) cor(h)de(h) per(hg~)féc(h)to(g) et(f) óp(gh)ti(fe)mo,(d) (;) fruc(g)tum(g) áf(h)fe(g)runt(ff) in(ef) pa(g)ti(fe)én(d)ti(d)a.(d)
+Qui(d|ta) ver(d|ta)bum(dc~|vi>) De(f|vi)i(g|vi) ré(f|ta)ti(gh|pe)nent(h|vi-) *(,) cor(h|vi>)de(h|vi) per(hg~|vi>)féc(h|vi)to(g|cllsc3) et(f|vi) óp(gh|pe)ti(fe|cllsc3)mo,(d|ta) (;) fruc(g|vi)tum(g|vi) áf(h|vi)fe(g|vi)runt(ff|vs) in(ef|peS) pa(g|vi)ti(fe|cl)én(d|vi)ti(d|pe)a.(d|ta)
 
 (::)
 

@@ -3,12 +3,13 @@ mode: 8;
 mode-differentia: c;
 commentary: Cantus ID 002174 cf. Sl 71(70),4;
 book: Graduale Simplex, 1975, p. 108;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-De(h)us(h) me(h)us,(hvGF) * é(gh)ri(g)pe(ef) me(e) (;) de(hi) ma(h)nu(gihh) pec(f)ca(d)tó(e)ris.(e)
+De(h|vi)us(h|vi) me(h|vi)us,(hvGF|ci-) * é(gh|peS)ri(g|vi)pe(ef|peS) me(e|ta) (;) de(hi|peSlss1) ma(h|vi)nu(gihh|tolsi7st>lse2) pec(f|vi)ca(d|ta)tó(e|vi)ris.(e|vi)
 
 (::)
 

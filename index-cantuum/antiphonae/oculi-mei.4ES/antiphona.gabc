@@ -3,12 +3,13 @@ mode: 4;
 mode-differentia: E\GreStar;
 commentary: Cantus ID 004109 cf. Sl 25(24),15;
 book: Graduale Simplex, 1975, p. 96;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ó(e)cu(d)li(e) me(gh)i(h) *(,) sem(h)per(g) ad(f) Dó(g)mi(f)num.(e)
+Ó(e|vi)cu(d|ta)li(e|vi) me(gh|peS)i(h|vs) *(,) sem(h|peS)per(g|vi) ad(f|vi>) Dó(g|vi)mi(f|vi)num.(e|vi-)
 
 (::)
 

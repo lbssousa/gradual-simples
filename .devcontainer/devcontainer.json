@@ -3,6 +3,10 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "runArgs": [
+    // Uncomment this line when using Podman for dev containers
+    "--userns=keep-id"
+  ],
   "settings": {
     "editor.bracketPairColorization.enabled": true,
     "editor.fontLigatures": true,

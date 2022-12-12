@@ -1,12 +1,12 @@
 {
-  "name": "gradual-simples",
-  "build": {
-    "dockerfile": "Dockerfile"
+  "name": "salmos-responsoriais",
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "features": {
+    "ghcr.io/lbssousa/texlive-music-devcontainer-features/texlive:1": {
+      "version": "2022",
+      "scheme": "full"
+    }
   },
-  "runArgs": [
-    // Uncomment this line when using Podman for dev containers
-    "--userns=keep-id"
-  ],
   "settings": {
     "editor.bracketPairColorization.enabled": true,
     "editor.fontLigatures": true,
@@ -64,13 +64,10 @@
     "latex-workshop.view.pdf.viewer": "tab"
   },
   "extensions": [
-    "eamodio.gitlens",
     "james-yu.latex-workshop",
-    "jeandeaual.lilypond-syntax",
-    "softaware.abc-music",
     "tecosaur.latex-utilities",
     "valentjn.vscode-ltex",
     "yzhang.markdown-all-in-one"
   ],
-  "remoteUser": "gitpod"
+  "remoteUser": "vscode"
 }

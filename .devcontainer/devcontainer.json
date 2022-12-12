@@ -1,5 +1,5 @@
 {
-  "name": "salmos-responsoriais",
+  "name": "gradual-simples",
   "image": "mcr.microsoft.com/devcontainers/base:bullseye",
   "features": {
     "ghcr.io/lbssousa/texlive-music-devcontainer-features/texlive:1": {

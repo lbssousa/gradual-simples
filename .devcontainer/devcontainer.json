@@ -1,11 +1,11 @@
 {
   "name": "gradual-simples",
-  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.17",
   "features": {
     "ghcr.io/lbssousa/texlive-music-devcontainer-features/texlive:1": {
       "version": "2022",
       "scheme": "minimal",
-      "extra-packages": "babel-latin babel-portuges chktex ebgaramond enumitem epstopdf-pkg etoolbox fancyhdr fontspec geometry gregoriotex grfext infwarerr hyperref kvoptions latex-bin latexindent latexmk luacolor luamplib luatexbase memoir microtype paracol pdftexcmds texcount titlesec tools xcolor xkeyval xstring"
+      "extra-packages": "babel-latin babel-portuges chktex ebgaramond enumitem epstopdf-pkg etoolbox fancyhdr fontspec geometry gregoriotex grfext infwarerr hyperref kvoptions latex-bin latexindent latexmk luacolor luamplib luatexbase memoir metapost microtype paracol pdftexcmds texcount titlesec tools xcolor xkeyval xstring"
     }
   },
   "settings": {

@@ -42,6 +42,7 @@ Este trabalho é licenciado sob uma
 - luamplib
 - luatexbase
 - memoir
+- metapost
 - microtype
 - paracol
 - pdfescape

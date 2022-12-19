@@ -55,3 +55,14 @@ Este trabalho é licenciado sob uma
 - titling
 - uniquecounter
 - xstring
+
+## Conjunto mínimo de coleções do TeX Live necessário para compilar o projeto (inclui os pacotes acima)
+- collection-binextra
+- collection-fontsextra
+- collection-langeurpoean
+- collection-langportuguese
+- collection-latex
+- collection-latexextra
+- collection-latexrecommended
+- collection-luatex
+- collection-music

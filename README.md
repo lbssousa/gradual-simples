@@ -12,11 +12,10 @@ Este trabalho é licenciado sob uma
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
-## Conjunto mínimo de pacotes do TeX Live/MikTeX necessário para compilar o projeto
-
+## Conjunto mínimo de pacotes do MikTeX necessário para compilar o projeto
 - auxhook
 - babel-latin
-- babel-portugues
+- babel-portuges
 - bigintcalc
 - bitset
 - chktex
@@ -54,6 +53,39 @@ Este trabalho é licenciado sob uma
 - titlesec
 - titling
 - uniquecounter
+- xstring
+
+## Conjunto mínimo de pacotes do TeX Live (instalado com o esquema _minimal_) necessário para compilar o projeto
+- babel-latin
+- babel-portuges
+- chktex
+- ebgaramond
+- enumitem
+- epstopdf-pkg
+- etoolbox
+- fancyhdr
+- fontspec
+- geometry
+- gregoriotex
+- grfext
+- infwarerr
+- hyperref
+- kvoptions
+- latex-bin
+- latexindent
+- latexmk
+- luacolor
+- luamplib
+- luatexbase
+- memoir
+- microtype
+- paracol
+- pdftexcmds
+- texcount
+- titlesec
+- tools
+- xcolor
+- xkeyval
 - xstring
 
 ## Conjunto mínimo de coleções do TeX Live necessário para compilar o projeto (inclui os pacotes acima)

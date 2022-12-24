@@ -1,6 +1,10 @@
-image: ghcr.io/lbssousa/texlive-music-devcontainer:lilypond-0.0.6
+image: ghcr.io/lbssousa/gitpod-workspace-texlive-music-devcontainer:0.0.13
 vscode:
   extensions:
     - james-yu.latex-workshop
+    - lhl2617.lilypond-formatter
+    - lhl2617.lilypond-pdf-preview
+    - lhl2617.lilypond-snippets
+    - lhl2617.VSLilyPond
     - tecosaur.latex-utilities
     - yzhang.markdown-all-in-one

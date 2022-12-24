@@ -55,5 +55,6 @@
     "--shell-escape"
   ],
   "latex-workshop.view.pdf.viewer": "tab",
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontSize": 14,
 }

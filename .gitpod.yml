@@ -1,4 +1,4 @@
-image: ghcr.io/lbssousa/gitpod-workspace-texlive-music-devcontainer:0.0.13
+image: ghcr.io/lbssousa/gitpod-workspace-texlive-music:0.0.13
 vscode:
   extensions:
     - james-yu.latex-workshop

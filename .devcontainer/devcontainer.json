@@ -1,13 +1,6 @@
 {
   "name": "gradual-simples",
-  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.17",
-  "features": {
-    "ghcr.io/lbssousa/texlive-music-devcontainer-features/texlive:1": {
-      "version": "2022",
-      "scheme": "minimal",
-      "extra-packages": "babel-latin babel-portuges chktex ebgaramond enumitem epstopdf-pkg etoolbox fancyhdr fontspec geometry gregoriotex grfext infwarerr hyperref kvoptions latex-bin latexindent latexmk luacolor luamplib luatexbase memoir metapost microtype paracol pdftexcmds texcount titlesec tools xcolor xkeyval xstring"
-    }
-  },
+  "image": "ghcr.io/lbssousa/texlive-music-devcontainer:minimal-0.0.6",
   "settings": {
     "editor.bracketPairColorization.enabled": true,
     "editor.fontLigatures": true,
@@ -62,12 +55,12 @@
       "--view",
       "--shell-escape"
     ],
-    "latex-workshop.view.pdf.viewer": "tab"
+    "latex-workshop.view.pdf.viewer": "tab",
+    "terminal.integrated.defaultProfile.linux": "zsh"
   },
   "extensions": [
     "james-yu.latex-workshop",
     "tecosaur.latex-utilities",
-    "valentjn.vscode-ltex",
     "yzhang.markdown-all-in-one"
   ],
   "remoteUser": "vscode"

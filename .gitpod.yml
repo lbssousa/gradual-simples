@@ -1,11 +1,6 @@
-image: ghcr.io/lbssousa/texlive-music-gitpod-workspace:TL2022-2022.07.10-LilyPond-2.22.2-2
+image: ghcr.io/lbssousa/texlive-music-devcontainer:minimal-0.0.6
 vscode:
   extensions:
-    - eamodio.gitlens
     - james-yu.latex-workshop
-    - jeandeaual.lilypond-syntax
-    - jeandeaual.scheme
-    - softaware.abc-music
     - tecosaur.latex-utilities
-    - valentjn.vscode-ltex
     - yzhang.markdown-all-in-one

@@ -1,4 +1,4 @@
-image: ghcr.io/lbssousa/gitpod-workspace-texlive-music:0.0.13
+image: registry.gitlab.com/laerciosousa/gitpod-workspace-texlive-music:2022-12-26
 vscode:
   extensions:
     - james-yu.latex-workshop

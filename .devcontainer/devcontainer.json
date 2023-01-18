@@ -1,10 +1,18 @@
 {
   "name": "gradual-simples",
-  "image": "ghcr.io/lbssousa/devcontainer-texlive-music:lilypond-2022-12-31",
-  "runArgs": [
-    // Uncomment this line when using Podman for dev containers
-    // "--userns=keep-id"
-  ],
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "features": {
+    "ghcr.io/lbssousa/devcontainer-features-texlive-music/lilypond:1": {
+      "version": "2.24.0"
+    },
+    "ghcr.io/lbssousa/devcontainer-features-texlive-music/texlive:1": {
+      "version": "2022",
+      "scheme": "minimal",
+      "extra-packages": "babel-latin babel-portuges chktex ebgaramond enumitem epstopdf-pkg etoolbox fancyhdr fontspec geometry gregoriotex grfext hyperref hyphen-english hyphen-latin hyphen-portuguese infwarerr kvoptions latex-bin latexindent latexmk luacolor luamplib luatexbase lyluatex memoir metapost microtype musixtex musixtex-fonts m-tx paracol pdftexcmds pmx texcount titlesec tools xcolor xkeyval xstring"
+    }
+  },
+  "remoteUser": "vscode",
+  "containerUser": "vscode", // needed for Podman, indifferent for Docker
   "settings": {
     "editor.bracketPairColorization.enabled": true,
     "editor.fontLigatures": true,
@@ -66,6 +74,5 @@
     "james-yu.latex-workshop",
     "tecosaur.latex-utilities",
     "yzhang.markdown-all-in-one"
-  ],
-  "remoteUser": "vscode"
+  ]
 }

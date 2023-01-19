@@ -1,15 +1,10 @@
-name: Psalmus 79(78);
-book: Graduale Simplex, 1975, p. 85;
-phantom-commentary: Sl 79(78),4-5.8-9.13ab;
+name: Salmo 78;
+phantom-commentary: Sl 78(79),4-5.8-9.13ab;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() A(h)ju(h)dai-(h)nos,(h) ó(h) Deus(h) da(h) nos(h)sa(h) <i>sal</i>(g)<i>va</i>(f)<b>ção</b>,(hr1 hr h) *(,) pe(h)la(h) gló(h)ria(h) do(h) vos(h)so(h) no(h)me,(h) e(h) li(h)ber(h)<b>tai</b>-(hr1 fr)nos.(f)
-
-(::)
-
-<nlba><c><sc>Flexa</sc>:</c>() Se</nlba>(h)<b>nhor</b>?(hr1 fr f) +(,) (h) (h)
+<c><sp>V/</sp>. 1.</c>() A(h)ju(h)dai-(h)nos,(h) nos(h)so(h) Deus(h) e(h) sal(h)va(h)<b>dor</b>!(hr1 fr) +(,) Por(h) vos(h)so(h) no(h)me(h) e(h) vos(h)sa(h) gló(h)ria,(h) <i>li</i>(g)<i>ber</i>(f)<b>tai</b>(hr1 hr)nos!(h) *(,) Por(h) vos(h)so(h) no(h)me,(h) per(h)do(h)ai(h) nos(h)sos(h) pe(h)<b>ca</b>(hr1 fr)dos.(f)
 
 (::)

@@ -1,12 +1,12 @@
 name: Salmo 50;
 mode: C 2 g;
-phantom-commentary: Sl 50(51),3-5.9-14;
+commentary: Salmo 50(51);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{3a}</v>Ten(f)de(f) pi(f)e(f)da(f)de, ó(f) meu(f) Deus,(f) mi(f)se(f)ri(f)<b>cór</b>(gr1 fr)dia!(f) Na(f) i(f)men(f)si(f)dão(f) de(f) vos(f)so(f) a(f)mor,(f) pu(f)ri(f)fi(f)<nlba>(gr[ocba:1{])<b>cai</b>-(gh[ocba:0}])me.</nlba>(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{3a}</v>Ten(f)de(f) pi(f)e(f)da(f)de,(f) ó(f) meu(f) Deus,(f) mi(f)se(f)ri(f)<b>cór</b>(gr1 fr)dia!(f) *(:) Na(f) i(f)men(f)si(f)dão(f) de(f) vos(f)so(f) a(f)mor,(f) pu(f)ri(f)fi(f)<nlba>(gr[ocba:1{])<b>cai</b>-(gh[ocba:0}])me.</nlba>(hg)
 
 (::)
 

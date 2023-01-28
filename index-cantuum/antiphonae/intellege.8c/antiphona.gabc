@@ -1,14 +1,15 @@
 name: Intellege;
 mode: 8;
 mode-differentia: c;
-commentary: Cantus ID 002089 cf. Sl 60(59),12;
+commentary: Cantus ID 002089 cf. Sl 5,2;
 book: Graduale Simplex, 1975, p. 95;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-In(h)tél(h)le(gh)ge(f) *(,) cla(ed)mó(e)rem(f) me(g)um,(f) Dó(e)mi(de)ne.(e)
+In(h|vi)tél(h>|vi-)le(gh|vs)ge(f|ta) *(,) cla(ed|ta)mó(e|vi)rem(f|ta) me(g|vi)um,(f|ta) <nlba>Dó(e|vi)mi(de|pe)ne.</nlba>(e|vi)
 
 (::)
 

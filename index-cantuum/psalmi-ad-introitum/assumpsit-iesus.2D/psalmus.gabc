@@ -1,7 +1,7 @@
 name: Psalmus 84(83);
 mode: 2;
 mode-differentia: D;
-commentary: Sl 84(83),2-5.9-12;
+commentary: Psalmus 83(84);
 book: Graduale Simplex, 1975, p. 288;
 nabc-lines: 1;
 
@@ -9,7 +9,7 @@ nabc-lines: 1;
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Quam</i>(e) <i>di</i>(f)léc(h)ta(h) ta(h)ber(h)ná(h)cu(h)la(h) tu(h)a,(h) Dó(h)mi(h)ne(h) vir(h)<b>tú</b>(ir1 hr)tum.(h) *(,) Con(h)cu(h)pí(h)scit(h) et(h) dé(h)fi(h)cit(h) á(h)ni(h)ma(h) me(h)a(h) in(h) á(h)tri(h)<i>a</i>(g) <b>Dó</b>(er1)mi(fr)ni.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Quam</i>(e) <i>di</i>(f)léc(h)ta(h) ta(h)ber(h)ná(h)cu(h)la(h) tu(h)a,(h) Dó(h)mi(h)ne(h) vir(h)<b>tú</b>(ir1 hr)tum.(h) *(,) <v>\VSup{3}</v>Con(h)cu(h)pí(h)scit(h) et(h) dé(h)fi(h)cit(h) á(h)ni(h)ma(h) me(h)a(h) in(h) á(h)tri(h)<i>a</i>(g) <b>Dó</b>(er1)mi(fr)ni.(f)
 
 (::)
 

@@ -1,15 +1,15 @@
-name: Salmo 123(122);
+name: Salmo 122(123);
 mode: D 1 g;
-phantom-commentary: Sl 123(122);
+commentary: Salmo 122(123);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Ten(h)de(h) pi(h)e(h)da(h)de(h) de(h) nós,(h) Se(h)<b>nhor</b>.(hr1 gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{3a}</v>Ten(h)de(h) pi(h)e(h)da(h)de,(h) Se(h)<b>nhor</b>.(hr1 gr g)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() Ten</nlba>(h)de(h) pi(h)e(g)da(h)de(i) de(i) nós.(hh)
+<nlba><c><sp>R/</sp>.</c>() Ten</nlba>(h)de(hg) pi(hi)e(i)da(h)de.(h)
 
 (::)

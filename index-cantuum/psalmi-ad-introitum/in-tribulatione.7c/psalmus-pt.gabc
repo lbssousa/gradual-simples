@@ -1,20 +1,20 @@
-name: Salmo 118(117);
+name: Salmo 117(118);
 mode: 7;
 mode-differentia: c;
-phantom-commentary: Sl 118(117),1bc.4.7-12.14.17;
+commentary: Salmo 117(118);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Dai</i>(hg) <i>gra</i>(hi)ças(i) ao(i) Se(i)nhor, por(i)que(i) <b>e</b>(kr1)le(jr) é(j) <b>bom</b>:(ir1 jr j) *(,) su(i)a(i) mi(i)se(i)ri(i)cór(i)dia(i) é(i) <b>pa</b>(jr1 ir)ra(i) <b>sem</b>(hr1 hr)pre.(gh)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Dai</i>(hg) <i>gra</i>(hi)ças(i) ao(i) Se(i)nhor, por(i)que(i) <b>e</b>(kr1)le(jr) é(j) <b>bom</b>!(ir1 jr j) *(,) ``E(i)ter(i)na(i) é(i) a(i) su(i)a(i) mi(i)<b>se</b>(jr1 ir)ri(i)<b>cór</b>(hr1)di(hr)a!''(gh)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Na</nlba>(i) tri(i)bu(h)la(g)ção.(hi)
+<nlba><c><sp>A/</sp>.</c>() Na</nlba>(i) tri(i)bu(h)la(g)ção.(h_i)
 
 (::)
 
-<nlba><c><sc>Flexa</sc>:</c>() a</nlba>(i)<b>be</b>(ir1 hr)lhas,(h) +(,) (i) (i)
+<nlba><c><sc>Flexa</sc>:</c>() a</nlba>(i)ta(i)<b>ca</b>(ir1 hr)ram,(h) +(,) (i) (i)
 
 (::)

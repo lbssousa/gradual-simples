@@ -1,15 +1,15 @@
-name: Salmo 130(129);
+name: Salmo 129(130);
 mode: C 2 g;
-phantom-commentary: Sl 130(129);
+commentary: Salmo 129(130);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Das(f) pro(f)fun(f)de(f)zas,(f) Se(f)nhor,(f) cla(f)mo(f) a(f) (gr[ocba:1{])<b>vós</b>.(gh[ocba:0}] hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Das(f) pro(f)fun(f)de(f)zas(f) eu(f) cla(f)mo(f) a(f) vós,(f) Se(f)<nlba>(gr[ocba:1{])<b>nhor</b>.</nlba>(gh[ocba:0}] hg)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() Se</nlba>(f)nhor,(gf) es(f)cu(e)tai(d) a(c) mi(f)nha(g) voz.(gf)
+<nlba><c><sp>R/</sp>.</c>() <v>\VSup{2a}</v>Es</nlba>(f)cu(f)tai(fg) a(f) mi(f)nha(e) voz,(dc) ó(f) Se(g)nhor.(gf)
 
 (::)

@@ -1,20 +1,16 @@
-name: Salmo 71(70);
+name: Salmo 70(71);
 mode: 8;
 mode-differentia: c;
-phantom-commentary: Sl 71(70),1-3ab.10-15ab.24;
+commentary: Salmo 70(71);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Em</i>(e) <i>vós</i>,(f) Se(h)nhor,(h) es(h)<b>pe</b>(ir1 hr)ro,(h) *(:) não(h) se(h)rei(h) con(h)fun(h)di(h)do(h) <i>pa</i>(f)<i>ra</i>(h) <b>sem</b>(ir1 hr)pre.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Eu</i>(e) <i>pro</i>(f)cu(h)ro(h) meu(h) re(h)fú(h)gio(h) em(h) vós,(h) Se(h)<b>nhor</b>:(ir1 hr h) *(:) que(h) eu(h) não(h) se(h)ja(h) en(h)ver(h)go(h)nha(h)do(h) <i>pa</i>(f)<i>ra</i>(h) <b>sem</b>(ir1 hr)pre!(h)
 
 (::)
 
-<c><sp>A/</sp>.</c>() Ó(h) meu(h) Deus.(hhvgf~)
-
-(::)
-
-<nlba><c><sc>Flexa</sc>:</c>() fa</nlba><b>la</b>(hr1 fr)vam,(f) +(,) (h) (h)
+<c><sp>A/</sp>.</c>() Ó(h) meu(h) Deus.(h_vGF)
 
 (::)

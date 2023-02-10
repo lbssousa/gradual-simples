@@ -1,16 +1,16 @@
-name: Psalmus 47(46);
+name: Salmo 46(47);
 mode: 7;
 mode-differentia: a;
-phantom-commentary: Sl 47(46),3.7-9;
+commentary: Salmo 46(47);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Pois</i>(hg) <i>o</i>(hi) Se(i)nhor,(i) o(i) Al(i)tís(i)si(i)mo,(i) a(i) e(i)le(i) se(i) de(i)ve(i) <b>o</b>(kr1 jr) te(j)<b>mor</b>,(ir1 jr j) *(:) é(i) o(i) gran(i)de(i) rei(i) so(i)bre(i) <b>to</b>(jr1)da(ir) a(i) <b>ter</b>(hr1 hr)ra.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v><i>Por</i>(hg)<i>que</i>(hi) su(i)bli(i)me(i) é(i) o(i) Se(i)nhor,(i) o(i) <b>Deus</b>(kr1 jr) Al(j)<b>tís</b>(ir1)si(jr)mo,(j) *(:) o(i) so(i)be(i)ra(i)no(i) que(i) do(i)mi(i)na(i) <b>to</b>(jr1)da(ir) a(i) <b>ter</b>(hr1 hr)ra.(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() A</nlba>(e)cla(e)mai(g) a(h) Deus.(i)
+<nlba><c><sp>A/</sp>.</c>() A</nlba>(e)cla(e)mai(g) a(h) Deus.(i_)
 
 (::)

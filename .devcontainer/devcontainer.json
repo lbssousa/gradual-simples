@@ -1,10 +1,7 @@
 {
   "name": "gradual-simples",
-  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine",
   "features": {
-    "ghcr.io/lbssousa/devcontainer-features-texlive-music/lilypond:1": {
-      "version": "2.24.0"
-    },
     "ghcr.io/lbssousa/devcontainer-features-texlive-music/texlive:1": {
       "version": "2022",
       "scheme": "minimal",

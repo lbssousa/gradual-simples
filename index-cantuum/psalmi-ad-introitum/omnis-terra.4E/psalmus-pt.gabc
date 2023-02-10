@@ -1,16 +1,16 @@
-name: Salmo 66(65);
+name: Salmo 65(66);
 mode: 4;
 mode-differentia: E;
-phantom-commentary: Sl 66(65),1b.2b.8-10.13-14a.16-20;
+commentary: Salmo 65(66);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(h)<i>cla</i>(gh)mai(h) a(h) Deus,(h) ó(h) ter(h)<i>ra</i>(g) <i>in</i>(h)<b>tei</b>(ir1 hr)ra,(h) *(:) glo(h)ri(h)fi(h)cai-(h)o(h) <i>em</i>(g) <i>seu</i>(h) <i>lou</i>(ih)<nlba>(gr[ocba:1{])<b>vor</b>.</nlba>(gf[ocba:0}] e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>A</i>(h)<i>cla</i>(gh)mai(h) o(h) Se(h)nhor(h) Deus,(h) ó(h) ter(h)ta(h) in(h)<b>tei</b>(hr1 fr)ra,(f) +(,) <v>\VSup{2}</v>can(h)tai(h) sal(h)mos(h) a(h) seu(h) no(h)me(h) <i>glo</i>(g)<i>ri</i>(h)<b>o</b>(ir1 hr)so,(h) *(:) dai(h) a (h) Deus(h) a(h) mais(h) su(h)bli(h)<i>me</i>(g) <i>lou</i>(h)<i>va</i>(ih)<nlba>(gr[ocba:1{])<b>ção</b>!</nlba>(gf[ocba:0}] e)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() To</nlba>(f)d<e>a</e> a(d) ter(f)ra.(ed) 
+<nlba><c><sp>A/</sp>.</c>() To</nlba>(f>)d<e>a</e> a(d) ter(f)ra(ed__)
 
 (::)

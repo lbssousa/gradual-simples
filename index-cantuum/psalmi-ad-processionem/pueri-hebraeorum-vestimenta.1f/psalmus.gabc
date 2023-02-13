@@ -1,8 +1,9 @@
-name: Psalmus 47(46);
+name: Psalmus 46(47);
 mode: 1;
 mode-differentia: f;
-commentary: Sl 47(46);
+commentary: Psalmus 46(47);
 book: Graduale Simplex, 1975, p. 118;
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 118;
 
 (::)
 
-<c><sp>A/</sp>.</c>() Pú(d)e(f)ri(dc) He(f)bræ(g)ó(fh)rum,(h)
+<nlba><c><sp>A/</sp>.</c>() Pú</nlba>(d|ta)e(f|vi)ri(dc__|cl-) He(f|vi)bræ(g|vi)ó(f_h|peS)rum,(h_|vi-)
 
 (::)

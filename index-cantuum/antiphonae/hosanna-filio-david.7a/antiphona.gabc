@@ -3,12 +3,13 @@ mode: 7;
 mode-differentia: a;
 commentary: Cantus ID 003142 cf. Mt 21,9;
 book: Graduale Simplex, 1975, p. 115;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Ho(e)sán(ei~)na(i) * fí(i)li(h)o(g) Da(h)vid:(iji) (;) be(g)ne(h)díc(iji)tus(hih) (,) qui(h) ve(fe)nit(ed) in(fh~) nó(hf)mi(g)ne(fg) Dó(e)mi(e)ni.(e) (:) Rex(h) Is(hhh)ra(fhivHGh)ël:(hg) (;) Ho(e)sán(ei~)na(ijHF) in(g) ex(fg~)cél(e)sis.(e)
+Ho(e|ta)sán(ei~|ta>lsal3)na(i|vi) * fí(i|vi)li(h|vi)o(g|ta) Da(h|vi)vid:(iji___|toS) (;) be(g|ta)ne(h|vi)díc(iji|to)tus(hih|to) (,) qui(h_|vi-) ve(fe|cllsc3)nit(ed|ta) in(fh~|ta>) nó(hf__|cl-)mi(g|vi)ne(fg|pe) Dó(e|vi)mi(e|pe)ni.(e|ta) (:) Rex(h|vi) Is(hhh|ts)ra(fhiv_HGh|ci-pp2vi)el:(hg__|cl-) (;) Ho(e|ta)sán(ei~|ta>)na(ijHF|toSsu2) in(g|vi) ex(fg~|ta>)cél(e|ta)sis.(e|ta)
 
 (::)
 

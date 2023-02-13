@@ -3,12 +3,13 @@ mode: 1;
 mode-differentia: f;
 commentary: Cantus ID 004415 cf. Mt 21,15;
 book: Graduale Simplex, 1975, p. 116;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Pú(d)e(f)ri(dc) He(f)bræ(g)ó(fh)rum,(h) *(,) por(h)tán(h)tes(j) ra(h)mos(g) o(hg)li(f)vá(gh)rum,(h) (;) ob(f)vi(h)a(g)vé(h)runt(gf~) Dó(g)mi(fe)no,(d) (;) cla(f)mán(ffe)tes(dc) et(c) di(df)cén(ffg)tes:(f) (,) Ho(f)sán(gh~)na(hvGE) in(f) ex(e)cél(d)sis.(d)
+Pú(d|ta)e(f|vi)ri(dc__|cl-) He(f|vi)bræ(g|vi)ó(f_h|peS)rum,(h_|vi-) *(,) por(h|vi)tán(h|vi)tes(j|vi) ra(h|vi)mos(g|ta) o(hg|cl)li(f|ta)vá(g_h|peS)rum,(h|vi) (;) ob(f|ta)vi(h|vi)a(g|ta)vé(h|vi)runt(gf~|vi>) Dó(g|vi)mi(fe|cllsc3)no,(d|ta) (;) cla(f|vi)mán(f_fe>__|vi-cl->)tes(dc__|cl-) et(c|ta) di(df|pe)cén(f_fg>|vi-pe>)tes:(f|vi) (,) Ho(f|ta)sán(gh~|ta>lsal3)na(hv_GE|vi-su2) in(f|vi) ex(e|vi)cél(d|ta)sis.(d|ta)
 
 (::)
 

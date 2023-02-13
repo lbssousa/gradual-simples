@@ -1,16 +1,16 @@
-name: Salmo 118(117);
+name: Salmo 117(118);
 mode: 7;
 mode-differentia: a;
-phantom-commentary: Sl 118(117),1bc.22-23.27-28;
+commentary: Salmo 117(118);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Dai</i>(hg) <i>gra</i>(hi)ças(i) ao(i) Se(i)nhor,(i) por(i)que(i) <b>e</b>(kr1)le(jr) é(j) <b>bom</b>:(ir1 jr j) *(,) su(i)a(i) mi(i)se(i)ri(i)cór(i)dia(i) é(i) <b>pa</b>(jr1 ir)ra(i) <b>sem</b>(hr1 hr)pre.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Dai</i>(hg) <i>gra</i>(hi)ças(i) ao(i) Se(i)nhor,(i) por(i)que(i) <b>e</b>(kr1 jr)le(j) <b>é</b>(ir1 jr) bom!(j) *(,) ``E(i)ter(i)na(i) é(i) a(i) su(i)a(i) mi(i)<b>se</b>(jr1 ir)ri(i)<b>cór</b>(hr1)di(hr)a!''(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Ho</nlba>(e)sa(ei)na.(i)
+<nlba><c><sp>A/</sp>.</c>() Ho</nlba>(e)sa(ei~)na.(i)
 
 (::)

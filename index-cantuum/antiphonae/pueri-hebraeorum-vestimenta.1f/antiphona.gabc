@@ -3,12 +3,13 @@ mode: 1;
 mode-differentia: f;
 commentary: Cantus ID 004416 cf. Mt 21,8;
 book: Graduale Simplex, 1975, p. 118;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Pú(d)e(f)ri(dc) He(f)bræ(g)ó(fh)rum,(h) *(,) ves(h)ti(h)mén(hj)ta(h) pro(h)ster(g)né(h)bant(g) in(f) vi(fg)a,(h) (;) et(h) cla(f)má(g)bant(e) di(f)cén(ed~)tes:(d) (;) Ho(d)sán(f)na(d) fí(e)li(f)o(g) Da(f)vid:(g) (;) be(e)ne(f)díc(gh)tus(g) qui(f) ve(fg)nit(f) (,) in(e) nó(g)mi(e)ne(fe) Dó(d)mi(d)ni.(d)
+Pú(d|ta)e(f|vi)ri(dc__|cl-) He(f|vi)bræ(g|vi)ó(f_h|peS)rum,(h_|vi-) *(,) ve(h|vi)sti(h|vi)mén(hj|pe)ta(h|ta) pro(h|vi)ster(g|ta)né(h|vi)bant(g|ta) in(f|vi) vi(f_g|peS)a,(h_|vi-) (;) et(h|vi) cla(f|ta)má(g|vi)bant(e|ta) di(f|vi)cén(ed~|vi>)tes:(d|talse6) (;) Ho(d|ta)sán(f>|vi>)na(d|ta) fí(e|vi)li(f|vi)o(g|vi) Da(f|ta)vid:(g_|vi-) (;) be(e|ta)ne(f|ta)díc(gh|pe)tus(g|ta) qui(f|ta) ve(fg|pe)nit(f|vi) (,) in(e|ta) nó(g|vi)mi(e|vi)ne(fe|cllsc3) Dó(d|vi)mi(d|pe)ni.(d|ta)
 
 (::)
 

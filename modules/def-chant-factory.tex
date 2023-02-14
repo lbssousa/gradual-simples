@@ -106,33 +106,37 @@
 }
 
 \NewDocumentCommand{\GregorioImportL}{s m m m m}{
-  \bgroup
-  \IfBooleanT{#1}{\gresetinitiallines{0}}
-  \iftoggle{disablehyperlinks}{
-    \gregorioscore{#2/#3/#4}
-  }{
-    \hypertarget{\@Link@Ref@L}{}\gregorioscore{#2/#3/#4}
+  \IfBlankF{#4}{%
+    \bgroup
+    \IfBooleanT{#1}{\gresetinitiallines{0}}
+    \iftoggle{disablehyperlinks}{
+      \gregorioscore{#2/#3/#4}
+    }{
+      \hypertarget{\@Link@Ref@L}{}\gregorioscore{#2/#3/#4}
+    }
+    \egroup%
   }
-  \egroup
 }
 
 \NewDocumentCommand{\GregorioImportR}{s m m m m}{
-  \bgroup
-  \IfBooleanT{#1}{\gresetinitiallines{0}}
-  \iftoggle{disablehyperlinks}{
-    \gregorioscore{#2/#3/#5}
-  }{
-    \hypertarget{\@Link@Ref@R}{\gregorioscore{#2/#3/#5}}
+  \IfBlankF{#5}{%
+    \bgroup
+    \IfBooleanT{#1}{\gresetinitiallines{0}}
+    \iftoggle{disablehyperlinks}{
+      \gregorioscore{#2/#3/#5}
+    }{
+      \hypertarget{\@Link@Ref@R}{\gregorioscore{#2/#3/#5}}
+    }
+    \egroup%
   }
-  \egroup
 }
 
 \NewDocumentCommand{\GregorioImportLR}{s m m m m}{
   \bgroup
   \IfBooleanT{#1}{\gresetinitiallines{0}}
-  \gregorioscore{#2/#3/#4}
+  \IfBlankF{#4}{\gregorioscore{#2/#3/#4}}
   \switchcolumn[1]
-  \gregorioscore{#2/#3/#5}
+  \IfBlankF{#5}{\gregorioscore{#2/#3/#5}}
   \switchcolumn[0]*
   \egroup
 }

@@ -3,6 +3,7 @@ mode: 8;
 mode-differentia: G;
 commentary: Psalmus 21(22);
 book: Graduale Simplex, 1975, p. 112;
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 112;
 
 (::)
 
-<c><sp>A/</sp>.</c>() Iú(h)di(f)ca.(fg)
+<c><sp>A/</sp>.</c>() Iú</nlba>(h|vilss2)di(f|ta)ca.(fg|pe)
 
 (::)

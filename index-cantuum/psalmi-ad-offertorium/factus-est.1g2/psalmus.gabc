@@ -3,6 +3,7 @@ mode: 1;
 mode-differentia: g 2;
 commentary: Psalmus 29(30);
 book: Graduale Simplex, 1975, p. 88;
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 88;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Fac</nlba>(f)tus(ghg) est.(h)
+<nlba><c><sp>A/</sp>.</c>() Fac</nlba>(f|vi)tus(ghg|to) est.(h|vi)
 
 (::)

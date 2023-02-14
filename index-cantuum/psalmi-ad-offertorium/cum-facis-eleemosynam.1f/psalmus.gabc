@@ -3,6 +3,7 @@ mode: 1;
 mode-differentia: f;
 commentary: Psalmus 50(51);
 book: Graduale Simplex, 1975, p. 94;
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 94;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Cum</nlba>(d) fa(d)cis(dc) e(f)lee(g)mó(f)sy(gh)nam.(h)
+<nlba><c><sp>A/</sp>.</c>() Cum</nlba>(d|ta) fa(d|ta)cis(dc|cllsc3) e(f|vi)lee(g|vi)mó(f|ta)sy(gh|pe)nam.(h_|vi-)
 
 (::)

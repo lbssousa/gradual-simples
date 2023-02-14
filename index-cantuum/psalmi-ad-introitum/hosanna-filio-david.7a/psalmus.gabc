@@ -3,6 +3,7 @@ mode: 7;
 mode-differentia: a;
 commentary: Psalmus 117(118);
 book: Graduale Simplex, 1975, p. 115;
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 115;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Ho</nlba>(e)sán(ei~)na.(i)
+<nlba><c><sp>A/</sp>.</c>() Ho</nlba>(e|ta)sán(ei~|ta>lsal3)na.(i|vi)
 
 (::)

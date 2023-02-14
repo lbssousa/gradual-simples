@@ -3,6 +3,7 @@ mode: 2;
 mode-differentia: D;
 commentary: Psalmus 59(60);
 book: Graduale Simplex, 1975, p. 89;
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 89;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Da</nlba>(f) no(h)bis,(g) Dó(h)mi(g)ne.(f)
+<nlba><c><sp>A/</sp>.</c>() Da</nlba>(f|vi) no(h|vi)bis,(g|ta) Dó(h|vi)mi(g|vi)ne.(f|ta)
 
 (::)

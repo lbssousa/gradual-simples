@@ -3,6 +3,7 @@ mode: 4;
 mode-differentia: A;
 commentary: Sl 96(95),1-3.8bc.13bc;
 book: Graduale Simplex, 1975, p. 67;
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 67;
 
 (::)
 
-<c><sp>A/</sp>.</c>() Læ(f)tén(e)tur(f) cæ(hi)li.(ii)
+<c><sp>A/</sp>.</c>() Læ(f|vi)tén(e|ta)tur(f|vi) cæ(h_i|peS)li.(iio|vs)
 
 (::)

@@ -1,16 +1,20 @@
-name: Psalmus 6;
-
+name: Salmo 6;
 mode: 4;
 mode-differentia: E;
+commentary: Salmo 6;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Se</i>(h)<i>nhor</i>,(gh) não(h) me(h) re(h)pre(h)en(h)dais(h) no(h) vos(h)<i>so</i>(g) <i>fu</i>(h)<b>ror</b>,(ir1 hr h) *(:) não(h) me(h) cas(h)ti(h)gueis(h) <i>na</i>(g) <i>vos</i>(h)<i>sa</i>(ih) <nlba>(gr[ocba:1{])<b>i</b></nlba>(gf[ocba:0}])ra.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Re</i>(h)<i>pre</i>(gh)en(h)dei-(h)me,(h) Se(h)nhor,(h) <i>mas</i>(g) <i>sem</i>(h) <b>i</b>(ir1 hr)ra;(h) *(:) cor(h)ri(h)gi-(h)<i>me</i>,(g) <i>mas</i>(h) <i>não</i>(ih) <nlba><b>com</b>(gr[ocba:1{]) <b>fu</b></nlba>(gf[ocba:0}])ror!(e)
 
 (::)
 
-<c><sp>A/</sp>.</c>() Dai-(fd)lhes,(ef) ó(g) Se(f)nhor.(efe) 
+<nlba><c><sp>A/</sp>.</c>() Dai-</nlba>(fd)lhes,(ef) ó(g) Se(f)nhor.(efe)
+
+(::)
+
+<nlba><c><sc>Flexa</sc>:</c>() en</nlba>(h)<b>fer</b>(hr1 fr)mo(f) +(,) (h) (h)
 
 (::)

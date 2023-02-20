@@ -1,13 +1,13 @@
 name: Psalmus 6;
-
 mode: 4;
 mode-differentia: E;
+commentary: Psalmus 6;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Dó</i>(h)<i>mi</i>(gh)ne,(h) ne(h) in(h) fu(h)ró(h)re(h) tu(h)o(h) <i>ár</i>(g)<i>gu</i>(h)<b>as</b>(ir1 hr) me(h) *(:) ne(h)que(h) in(h) i(h)ra(h) tu(h)a(h) <i>cor</i>(g)<i>rí</i>(h)<i>pí</i>(ih) <nlba>(gr[ocba:1{])<b>as</b></nlba>(gf[ocba:0}]) me.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Dó</i>(h)<i>mi</i>(gh)ne,(h) ne(h) in(h) fu(h)ró(h)re(h) tu(h)o(h) <i>ár</i>(g)<i>gu</i>(h)<b>as</b>(ir1 hr) me(h) *(:) ne(h)que(h) in(h) i(h)ra(h) tu(h)a(h) <i>cor</i>(g)<i>rí</i>(h)<i>pí</i>(ih)<nlba>(gr[ocba:1{])<b>as</b></nlba>(gf[ocba:0}]) me.(e)
 
 (::)
 

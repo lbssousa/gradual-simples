@@ -1,16 +1,20 @@
 name: Salmo 1;
 mode: 8;
 mode-differentia: G;
-phantom-commentary: Sl 1,1-3;
+commentary: Salmo 1;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Fe</i>(g)<i>liz</i>(h) de(j) quem(j) não(j) se(j) des(j)vi(j)a(j) se(j)gun(j)do(j) o(j) con(j)se(j)lho(j) dos(j) <b>ím</b>(jr1 hr)pios,(h) +(,) não(j) se(j) de(j)tém(j) no(j) ca(j)mi(j)nho(j) dos(j) pe(j)ca(j)<b>do</b>(kr1 jr)res(j) *(:) e(j) não(j) se(j) as(j)sen(j)ta(j) na(j) re(j)u(j)ni(j)ão(j) dos(j) <i>zom</i>(i)<i>ba</i>(j)<b>do</b>(hr1 gr)res.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Fe</i>(g)<i>liz</i>(h) é(j) to(j)do(j) a(j)que(j)le(j) que(j) não(j) <b>an</b>(kr1 jr)da(j) *(:) con(j)for(j)me(j) os(j) con(j)se(j)lhos(j) <i>dos</i>(i) <i>per</i>(j)<b>ver</b>(hr1 gr)sos.(g)
 
 (::)
 
 <nlba><c><sp>A/</sp>.</c>() Des</nlba>(g)ceu.(gvFD)
+
+(::)
+
+<nlba><c><sc>Flexa</sc>:</c>() <b>tem</b></nlba>(jr1 hr)po,(h) +(,) (j) (j)
 
 (::)

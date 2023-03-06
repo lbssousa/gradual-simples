@@ -1,17 +1,18 @@
-name: Psalmus 92(91);
-mode: 8;
-mode-differentia: G;
-commentary: Sl 92(91),2-3.5-6.13-16;
+name: Psalmus 91(92);
+mode: 7;
+mode-differentia: a;
+commentary: Psalmus 91(92);
 book: Graduale Simplex, 1975, p. 267;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Bo</i>(hg)<i>num</i>(hi) est(i) con(i)fi(i)<b>té</b>(kr1 jr)ri(j) <b>Dó</b>(ir1)mi(jr)no:(j) *(:) et(i) psál(i)le(i)re(i) nó(i)mi(i)ni(i) <b>tu</b>(jr1)o,(ir) Al(i)<b>tís</b>(hr1)si(hr)me.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Bo</i>(hg)<i>num</i>(hi) est(i) con(i)fi(i)<b>té</b>(kr1 jr)ri(j) <b>Dó</b>(ir1)mi(jr)no:(j) *(:) et(i) psál(i)le(i)re(i) nó(i)mi<alt>e</alt>(i)ni<alt>u</alt>(i) <b>tu</b><alt>o</alt>(jr1)o,(ir) Al<alt>u</alt>(i)<b>tís</b><alt>a</alt>(hr1)si(hr)me.<alt>e</alt>(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Io</nlba>(e)seph(e) fi(e)li(g) Da(h)vid.(i)
+<nlba><c><sp>A/</sp>.</c>() Io</nlba>(e|ta)seph.(e|ta)
 
 (::)

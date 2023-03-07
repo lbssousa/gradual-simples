@@ -1,8 +1,9 @@
-name: Psalmus 118;
-office-part: Antiphona ad lotionem pedum;
+name: Psalmus 118(119);
 mode: 3;
 mode-differentia: a;
 book: Graduale Simplex, 1975, p. 132;
+commentary: Psalmus 118(119);
+nabc-lines: 1;
 
 %%
 
@@ -12,6 +13,6 @@ book: Graduale Simplex, 1975, p. 132;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Man</nlba>(g)dá(g)tum(h) no(j)vum(jh~) do(j) vo(j)bis.(i)
+<nlba><c><sp>A/</sp>.</c>() Man</nlba>(g|vi)dá(g|vi)tum.(h|vi)
 
 (::)

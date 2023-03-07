@@ -1,16 +1,15 @@
-name: Psalmus 30;
-office-part: Psalmus responsorius;
+name: Salmo 30(31);
 mode: C 3 a;
-book: Graduale Simplex, 1975, p. 139;
+commentary: Salmo 30(31);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Em(f) vos(f)sas(f) mãos,(f) Se(f)<nlba>(gr[ocba:1{])<b>nhor</b>.</nlba>(gh[ocba:0}] h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{6}</v>Em(f) vos(f)sas(f) <nlba><b>mãos</b>,(gr[ocba:1{]) <b>Se</b></nlba>(gh[ocba:0}])nhor.(h)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() En</nlba>(h)tre(f)go(gh) meu(gvFD) es(fg)pí(g)ri(f)to.(f)
+<nlba><c><sp>R/</sp>.</c>() En</nlba>(h)tre(g)go(f) o(d) meu(f) es(g)pí(g)ri(f)to.(f)
 
 (::)

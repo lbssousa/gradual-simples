@@ -1,21 +1,20 @@
-name: Psalmus 109;
-
+name: Salmo 109(110);
 mode: 2;
 mode-differentia: D;
-book: Graduale Simplex, 1975, p. 201;
+commentary: Salmo 109(110);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Dis</i>(f)<i>se</i>(gh) o(h) Se(h)nhor(h) ao(h) <b>meu</b>(ixir1 hr) se(h)<b>nhor</b>:(gr1 hr h) *(:) ``sen(h)ta-(h)te(h) à(h) mi(h)<i>nha</i>(g) <i>di</i>(f)<b>rei</b>(gr1h gr)ta.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Pa</i>(f)<i>la</i>(gh)vra(h) do(h) Se(h)<b>nhor</b>(ixir1 hr) ao(h) <b>meu</b>(gr1) Se(hr)nhor:(h) *(:) ``Assen(h)ta-(h)te(h) ao(h) la(h)do<alt>o</alt>(h) <i>meu</i><alt>e</alt>(g) <i>di</i><alt>u</alt>(f)<b>rei</b><alt>o</alt>(gr1h)<alt>a</alt>(gr)to.<alt>e</alt>(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Je</nlba>(df)sus(d) Cris(dc)to,(c) sa(f)cer(g)do(fh)te.(h) 
+<nlba><c><sp>A/</sp>.</c>() Sa</nlba>(df)cer(d)do(d)te.(c)
 
 (::)
 
-<nlba><c><sc>Flexa</sc>:</c>() po</nlba>(h)<b>der</b>:(hr1 gr g) +(,) (h) (h)
+<nlba><c><sc>Flexa</sc>:</c>() des</nlba>(h)<b>de</b>(hr1) Si(gr)ão(g) +(,) (h) (h)
 
 (::)

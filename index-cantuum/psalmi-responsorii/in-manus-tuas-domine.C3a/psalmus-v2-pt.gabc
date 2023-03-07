@@ -1,16 +1,13 @@
-name: Psalmus 30;
-office-part: Psalmus responsorius;
-mode: C 3 a;
-book: Graduale Simplex, 1975, p. 139;
+name: Salmo 30(31);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 2.</c>() (hr)<b>Vós</b>(ixhr1i) me(h )res(h)ga(h)tas(h)tes,(h) Se(h)<b>nhor</b>,(gr1h gr g) *(:) Deus(g) <i>fi</i>(f)<nlba>(gr[ocba:1{])<b>el</b>.</nlba>(gh[ocba:0}] h)
+<c><sp>V/</sp>. 2.</c>() (hr)<b>Por</b>(ixhr1i)que(h) vós(h) me(h) <b>sal</b>(gr1h)va(gr)reis,(g) *(:) <i>ó</i>(f) <nlba><b>Deus</b>(gr[ocba:1{]) <b>fi</b></nlba>(gh[ocba:0}])el.(h)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() En</nlba>(h)tre(f)go.(gh)
+<nlba><c><sp>R/</sp>.</c>() En</nlba>(h)tre(g)go.(f)
 
 (::)

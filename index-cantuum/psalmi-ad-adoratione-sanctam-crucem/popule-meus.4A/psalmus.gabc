@@ -1,17 +1,17 @@
 name: Improperia;
-office-part: Antiphona ad adoratione Sanctam Crucem;
 mode: 4;
 mode-differentia: A;
 book: Graduale Simplex, 1975, p. 141;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>E</i>(i)<i>go</i>(hi) prop(i)ter(i) te(i) fla(i)gel(i)lá(i)vit(i) Æ(i)gýp(i)tum(i) cum(i) pri(i)mo(i)gé(i)<i>ni</i>(h)<i>tis</i>(i) <b>su</b>(jr1 ir)is:(i) *(,) et tu me flagellá<i>tum</i>(h) <i>tra</i>(i)<i>di</i>(j)<b>dí</b>(hr1 fr)sti.(f)
+<c><sp>V/</sp>. 1.</c>() <i>E</i>(i)<i>go</i>(hi) prop(i)ter(i) te(i) fla(i)gel(i)lá(i)vit(i) Æ(i)gýp(i)tum(i) cum(i) pri(i)mo(i)gé(i)<i>ni</i>(h)<i>tis</i>(i) <b>su</b>(jr1 ir)is:(i) *(,) et(i) tu(i) me(i) fla(i)gel(i)lá(i)<i>tum</i>(h) <i>tra</i>(i)<i>di</i>(j)<b>dí</b>(hr1 fr)sti.(f)
 
 (::)
 
-<c><sp>A/</sp>.</c>() Pó(f)pu(e)le(f) me(hi)us.(i)
+<nlba><c><sp>A/</sp>.</c>() Pó</nlba>(f|vi)pu(e|ta)le(f|vi) me(h_i|peSlss1)us.(i|vs)
 
 (::)

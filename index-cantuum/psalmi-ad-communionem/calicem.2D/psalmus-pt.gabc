@@ -1,14 +1,13 @@
-name: Psalmus 115;
-office-part: Communio;
+name: Salmo 115(116B);
 mode: 8;
 mode-differentia: c;
-book: Graduale Simplex, 1975, p. 113;
+commentary: Salmo 115(116B);
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(e)<i>cre</i>(f)di(h)tei,(h) mes(h)mo(h) quan(h)do(h) <b>dis</b>(ir1 hr)se:(h) *(:) ``Fui(h) por(h) de(h)mais(h) hu(h)<i>mi</i>(g)<b>lha</b>(er1 fr)do''.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{10}</v><i>Guar</i>(e)<i>dei</i>(f) a(h) mi(h)nha(h) fé,(h) mes(h)mo(h) di(h)<b>zen</b>(ir1 hr)do:(h) *(:) ``É(h) de(h)mais(h) o(h) so(h)fri(h)men(h)to(h) em<alt>o</alt>(h) mi<alt>e</alt>(h)<i>nha</i><alt>u</alt>(g) <b>vi</b><alt>o</alt>(er1)<alt>a</alt>(fr)da!''<alt>e</alt>(f)
 
 (::)
 
@@ -16,6 +15,6 @@ book: Graduale Simplex, 1975, p. 113;
 
 (::)
 
-<nlba><c><sc>Flexa</sc>:</c>() gri</nlba>(h)<b>lhões</b>:(hr1 fr f) +(,) (h) (h)
+<nlba><c><sc>Flexa</sc>:</c>() <b>ó</b></nlba>(hr1) Se(fr)nhor,(f) +(,) (h) (h)
 
 (::)

@@ -1,21 +1,16 @@
-name: Psalmus 66;
-
+name: Salmo 66(67);
 mode: 7;
 mode-differentia: c;
-book: Graduale Simplex, 1975, p. 130;
+commentary: Salmo 66(67);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Que</i>(hg) <i>Deus</i>(hi) te(i)nha(i) pi(i)e(i)da(i)de(i) de(i) nós(i) e(i) nos(i) <b>a</b>(kr1 jr)ben(j)<b>ço</b>(ir1 jr)e;(j) *(:) Que(i) fa(i)ça(i) bri(i)lhar(i) so(i)bre(i) nós(i) a(i) <b>su</b>(jr1 ir)a(i) <b>fa</b>(hr1 hr)ce.(gh)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Que</i>(hg) <i>Deus</i>(hi) nos(i) dê(i) a(i) su(i)a(i) gra(i)ça(i) e(i) <b>su</b>(kr1 jr)a(j) <b>bên</b>(ir1 jr)ção,(j) *(:) e(i) su(i)a(i) fa(i)ce(i) res(i)plan<alt>o</alt>(i)<b>des</b><alt>e</alt>(jr1 ir)ça<alt>u</alt>(i) <b>so</b><alt>o</alt>(hr1)bre<alt>a</alt>(hr) nós.<alt>e</alt>(gh)
 
 (::)
 
-<c><sp>A/</sp>.</c>() Nós,(ig/ij) po(ij)rém.(i)
-
-(::)
-
-<nlba><c><sc>Flexa:</sc></c>() na</nlba>(i)<b>ções</b>,(ir1 hr h) +(,) (i) (i)
+<nlba><c><sp>A/</sp>.</c>() Nós.</nlba>(ig/ij)
 
 (::)

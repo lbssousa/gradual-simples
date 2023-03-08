@@ -1,18 +1,19 @@
-name: Psalmus 45;
-
+name: Psalmus 45(46);
 mode: 1;
 mode-differentia: f;
 book: Graduale Simplex, 1975, p. 271;
+commentary: Psalmus 45(46);
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>De</i>(f)<i>us</i>(gh) est(h) no(h)bis(h) re(h)fú(h)gi(h)<b>um</b>(ixir1 hr) et(h) <b>vir</b>(gr1 hr)tus,(h) *(:) ad(h)iu(h)tó(h)ri(h)um(h) in(h) tri(h)bu(h)la(h)ti(h)ó(h)ni(h)bus(h) in(h)vén(h)<i>tus</i>(g) <i>est</i>(f) <b>ni</b>(gr1h gr)mis.(gf)
+<c><sp>V/</sp>. 1.</c>() <i>De</i>(f)<i>us</i>(gh) est(h) no(h)bis(h) re(h)fú(h)gi(h)<b>um</b>(ixir1 hr) et(h) <b>vir</b>(gr1 hr)tus,(h) *(:) ad(h)iu(h)tó(h)ri(h)um(h) in(h) tri(h)bu(h)la(h)ti(h)ó(h)ni(h)bus(h) in<alt>e</alt>(h)vén<alt>u</alt>(h)<i>tus</i><alt>o</alt>(g) <i>est</i><alt>u</alt>(f) <b>ni</b><alt>a</alt>(gr1h gr)mis.<alt>e</alt>(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() An</nlba>(dc~)ge(e)lus(f) Dó(gf)mi(d)ni.(dc)
+<nlba><c><sp>A/</sp>.</c>() Án</nlba>(d_c~|cl-)ge(e|vi)lus.(f|vi)
 
 (::)
 

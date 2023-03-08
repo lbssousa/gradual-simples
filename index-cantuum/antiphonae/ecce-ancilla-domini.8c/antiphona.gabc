@@ -1,15 +1,15 @@
 name: Ecce ancilla Domini;
 mode: 8;
 mode-differentia: c;
-cantus-id: 002491;
-commentary: Lc1,38;
+commentary: Cantus ID 002491 cf. Lc 1,38;
 book: Graduale Simplex, 1975, p. 273;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ec(j)ce(ji) an(hg~)cíl(hi)la(h) Dó(gh)mi(g)ni:(g) *(;) fi(ge)at(g) mi(fe)hi(f) (,) se(d)cún(e)dum(f) ver(gh)bum(h) tu(g)um.(g)
+Ec(j_|vi-)ce(ji|cl) an(hg~|vi>)cíl(hi>|pe>)la(h|cllsc3) Dó(gh|vi)mi(g|ta)ni:(g|ta-) *(;) fi(ge__|cl-)at(g|vs) mi(fe_|ta-)hi(f|vi) (,) se(d|ta)cún(e|vi)dum(f|vi) ver(gh|pe)bum(h>|vi>) tu(g|ta)um.(g|ta)
 
 (::)
 

@@ -1,22 +1,20 @@
 name: Angelus Domini;
 mode: 1;
 mode-differentia: f;
-cantus-id: 001414;
-commentary: Lc 1,30;
+commentary: Cantus ID 001414 cf. Lc 1,30;
 book: Graduale Simplex, 1975, p. 271;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Án(dc~)ge(e)lus(f) Dó(gf)mi(d)ni(dc) *(,) nun(f)ti(g)á(h)vit(g) Ma(f)rí(g)æ,(f) (;)et(fg) con(ef)cé(d!ewf)pit(fc)
-
-+() de(ef) Spí(g)ri(e)tu(fe) San(d)cto.(d)
+Án(d_c~|cl-)ge(e|vi)lus(f|vi) Dó(gf__|cl-)mi(d|ta)ni(dc__|cl-) *(,) nun(f|vi)ti(g|vi)á(h|vi)vit(g|vi) Ma(f|ta)rí(g|vi)æ,(f|ta) (;) et(f_g|````peSlse4) con(e_f|peS)cé(d!ewf|taql)pit(fc__|cl-) +() de(e_f|peS) Spí(g|vi)ri(e)tu(fe) Sanc(d)to.(d)
 
 (::)
 
-<c>T. P.</c>() +() de(ef) Spí(g)ri(f)tu(f) San(fe~)cto,(dc) al(d)le(fe)lú(d)ia.(d)
+<c>T. P.</c>() +() de(e_f|peS) Spí(g|vi)ri(f|vi)tu(f|vi) Sanc(fe~|vi>)to,(dc) al(d)le(fe)lú(d)ia.(d)
 
 (::)
 
-(h+)
+(f+)

@@ -1,15 +1,15 @@
 name: Dextera Domini;
 mode: 8;
 mode-differentia: c;
-cantus-id: 002185;
-commentary: Sl 118(117),15--16;
+commentary: Cantus ID 002185 cf. Sl 118(117),15-16;
 book: Graduale Simplex, 1975, p. 151;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Déx(h)te(hg)ra(fe) Dó(fg)mi(f)ni(e) *(,) fe(f)cit(e) vir(d)tú(ef)tem:(f) (;) déx(h)te(hg)ra(fe) Dó(fg)mi(f)ni(e) (,) ex(e)al(d)tá(ef)vit(f) me,(e) al(fg)le(f)lú(e)ia.(e)
+Déx(h_|vi-)te(hg|cl)ra(fe|cl) Dó(fg|pe)mi(f|vi)ni(e_|ta-) *(,) fe(f|vi)cit(e|vi) vir(d|ta)tú(e_f|peS)tem:(f|vi) (;) déx(h_|vi-)te(hg|cl)ra(fe|cl) Dó(fg|pe)mi(f|vi)ni(e_|ta-) (,) ex(e|vi)al(d|ta)tá(ef|pe)vit(f>|vi>) me.(e|ta)
 
 (::)
 

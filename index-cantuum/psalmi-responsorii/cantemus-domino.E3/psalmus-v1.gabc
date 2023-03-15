@@ -1,12 +1,13 @@
-name: Canticum Moysi;
+name: Canticum Moysi (Ex 15);
 mode: E 3;
 book: Graduale Simplex, 1975, p. 143;
+commentary: Canticum Moysi (cf. Ex 15);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Can(h)té(h)mus(h) Dó(h)mi(h)no:(h) glo(h)ri(h)ó(h)se(h) ma(h)gni(h)fi(h)<b>cá</b>(hr1)tus(gr) est,(g) *(:) e(h)quum(h) et(h) a(h)scen(h)só(h)rem(h) de(h)ié(h)cit(h) in(h) <b>ma</b>(gr1 fr)re.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Can(h)té(h)mus(h) Dó(h)mi(h)no:(h) glo(h)ri(h)ó(h)se(h) ma(h)gni(h)fi(h)<b>cá</b>(hr1)tus(gr) est,(g) *(:) e(h)quum(h) et(h) a(h)scen(h)só(h)rem(h) de(h)ié(h)cit(h) in(h) <b>ma</b>(gr1 fr)re.(f)
 
 (::)
 

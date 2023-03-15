@@ -1,15 +1,15 @@
-name: Psalmus 41;
+name: Salmo 41(42);
 mode: C 2 g;
-book: Graduale Simplex, 1975, pp. 146, 404;
+commentary: Salmo 41(42);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Co(f)mo(f) a(f) cor(f)ça(f) an(f)<b>sei</b>(gr1 fr)a(f) *(:) pe(f)las(f) fon(f)tes(f) das(f) <nlba>(gr[ocba:1{])<b>á</b></nlba>(gh[ocba:0}])guas,(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>As(f)sim(f) co(f)mo(f) a(f) cor(f)ça(f) sus(f)<b>pi</b>(gr1 fr)ra(f) *(:) pe(f)las(f) á(f)guas(f) cor(f)<nlba>(gr[ocba:1{])<b>ren</b></nlba>(gh[ocba:0}])tes,(hg)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() As</nlba>(f)sim(gh) an(g)sei(f)a(g) mi(f)nha(f) al(fe)ma(d) por(f) vós,(g) ó(g) Deus.(f)
+<nlba><c><sp>R/</sp>.</c>() Sus</nlba>(f)pi(g)ra(h) i(g)gual(f)men(g)te(f) mi(f)nh'al(e)ma(d) por(f) vós,(g) ó(g) Deus.(f)
 
 (::)

@@ -1,14 +1,13 @@
-name: Psalmus 104;
-office-part: Communio;
+name: Salmo 104(105);
 mode: 6;
 mode-differentia: F;
-book: Graduale simplex, 1975, p. 163;
+commentary: Salmo 104(105);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Con</i>(f)<i>fi</i>(gh)té(h)mi(h)ni(h) Dó(h)mi(h)no(h) et(h) in(h)vo(h)cá(h)te(h) no(h)<i>men</i>(g) <b>e</b>(hr1 fr)ius,(f) *(:) an(h)nun(h)ti(h)á(h)te(h) in(h)ter(h) gen(h)tes(h) ó(h)<i>pe</i>(f)<i>ra</i>(gh) <b>e</b>(gr1 fr)ius.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Con</i>(f)<i>fi</i>(gh)té(h)mi(h)ni(h) Dó(h)mi(h)no(h) et(h) in(h)vo(h)cá(h)te(h) no(h)<i>men</i>(g) <b>e</b>(hr1 fr)ius,(f) *(:) an(h)nun(h)ti(h)á(h)te(h) in(h)ter(h) gen(h)tes<alt>e</alt>(h) ó<alt>u</alt>(h)<i>pe</i><alt>o</alt>(f)<i>ra</i><alt>u</alt>(gh) <b>e</b><alt>a</alt>(gr1 fr)ius.<alt>e</alt>(f)
 
 (::)
 

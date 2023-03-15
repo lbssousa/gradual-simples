@@ -1,15 +1,16 @@
-name: Canticum Moysi;
+name: Cântico de Moisés (Dt 32);
 mode: C 2 g;
 book: Graduale Simplex, 1975, p. 145;
+name: Cântico de Moisés (cf. Dt 32);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Pres(f)tai(f) ou(f)vi(f)do,(f) ó(f) céus,(f) que(f) vou(f) fa(f)<b>lar</b>,(gr1 fr f) *(:) ou(f)ça(f) a(f) ter(f)ra(f) as(f) pa(f)la(f)vras(f) da(f) mi(f)nha(f) <nlba>(gr[ocba:1{])<b>bo</b></nlba>(gh[ocba:0}])ca.(hg)
+<c><sp>V/</sp>. 1.</c>() Ó(f) céus,(f) vin(f)de,(f) es(f)cu(f)tai;(f) eu(f) <b>vou</b>(gr1) fa(fr)lar,(f) *(:) ou(f)ça(f) a(f) ter(f)ra(f) as(f) pa(f)la(f)vras(f) de(f) meus(f) <nlba>(gr[ocba:1{])<b>lá</b></nlba>(gh[ocba:0}])bios.(hg)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() En</nlba>(fg)gran(h)de(f)cei(gvFED) o(f)nos(g)so(g) Deus.(f)
+<nlba><c><sp>R/</sp>.</c>() Vin</nlba>(f)de(g) to(h)dos(h) e(g) dai(f) gló(e)ria(d) ao(f) nos(g)so(g) Deus!(f)
 
 (::)

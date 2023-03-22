@@ -1,7 +1,4 @@
 name: Psalmus 117;
-office-part: Psalmus responsorius;
-mode: C 3 g;
-book: Graduale Simplex, 1975, p. 155;
 
 %%
 
@@ -11,6 +8,6 @@ book: Graduale Simplex, 1975, p. 155;
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() Es</nlba>(f)te(.f)
+<nlba><c><sp>R/</sp>.</c>() Es</nlba>(f)te.(f)
 
 (::)

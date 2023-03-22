@@ -1,13 +1,13 @@
-name: Psalmus 117;
-office-part: Psalmus responsorius;
+name: Psalmus 117(118);
 mode: C 3 g;
 book: Graduale Simplex, 1975, p. 155;
+commentary: Psalmus 117(118);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Con(f)fi(f)té(f)mi(f)ni(f) Dó(f)mi(f)no,(f) quó(f)ni(f)am(f) <b>bo</b>(gr1 fr)nus,(f) *(:) quó(f)ni(f)am(f) in(f) sǽ(f)cu(f)lum(f) mi(f)se(f)ri(f)cór(f)di(f)a(f) <nlba>(gr[ocba:1{])<b>e</b>(gh[ocba:0}])ius.</nlba>(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Con(f)fi(f)té(f)mi(f)ni(f) Dó(f)mi(f)no,(f) quó(f)ni(f)am(f) <b>bo</b>(gr1 fr)nus,(f) *(:) quó(f)ni(f)am(f) in(f) sǽ(f)cu(f)lum(f) mi(f)se(f)ri(f)cór(f)di(f)a(f) <nlba>(gr[ocba:1{])<b>e</b>(gh[ocba:0}])ius.</nlba>(hg)
 
 (::)
 

@@ -1,17 +1,16 @@
-name: Psalmus 75;
-office-part: Offertorium;
+name: Salmo 75(76);
 mode: 8;
 mode-differentia: c;
-book: Graduale Simplex, 1975, p. 161;
+commentary: Salmo 75(76);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Deus</i>(g) <i>é</i>(h) re(j)co(j)nhe(j)ci(j)do(j) em(j) Ju(j)<b>dá</b>,(kr1 jr j) *(,) é(j) gran(j)de(j) seu(j) no(j)me(j) em(j) <i>Is</i>(h)<i>ra</i>(j)<b>el</b>.(kr1 jr j)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Em</i>(g) <i>Ju</i>(h)dá(j) o(j) Se(j)nhor(j) Deus(j) é(j) co(j)nhe(j)<b>ci</b>(kr1 jr)do,(j) *(,) e(j) seu(j) no(j)me(j) é(j) gran(j)di(j)o(j)<i>so</i>(h) <i>em</i>(j) <b>Is</b>(kr1)ra(jr)el.(j)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() A</nlba>(j) ter(j)r<e>a</e> es(j)tre(j)me(i)ceu.(g)
+<nlba><c><sp>A/</sp>.</c>() A</nlba>(j) ter(j)ra.(j)
 
 (::)

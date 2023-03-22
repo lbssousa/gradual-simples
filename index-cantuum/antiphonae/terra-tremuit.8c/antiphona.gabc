@@ -1,14 +1,15 @@
 name: Terra tremuit;
-office-part: Offertorium;
 mode: 8;
 mode-differentia: c;
 book: Graduale Simplex, 1975, p. 161;
+commentary: Cantus ID 005139 cf. Sl 75(76),9-10;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ter(j)ra(j) tré(j)mu(i)it(g) *() et(h) qui(j)é(jkj)vit,(jij) (;) dum(ji~) re(h)súr(jk~)ge(k)ret(jij) (,) in(h) iu(g)dí(ij)ci(h)o(h) De(hg)us,(f) al(gh)le(h)lú(g)ia.(g)
+Ter(j|vi)ra(j|vi) tré(j_|vi-)mu(i|vi)it(g|ta) *() et(h|vi) qui(j|vi)é(jkj|to)vit,(jij|po) (;) dum(ji~|````vi>lseq4) re(h|ta)súr(jk~|ta>)ge(k_|vi-)ret(jij|po) (,) in(h>|vi>) iu(g|ta)dí(i_j|peS)ci(h|vi)o(h|vi) De(hg)us,(f) al(gh)le(h)lú(g)ia.(g)
 
 (::)
 

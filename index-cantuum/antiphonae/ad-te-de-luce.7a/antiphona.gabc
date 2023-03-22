@@ -1,15 +1,15 @@
 name: Ad te de luce;
 mode: 7;
 mode-differentia: a;
-cantus-id: 001254;
-commentary: Sl 63(62),2;
+commentary: Cantus ID 001254 cf. Sl 62(63),2;
 book: Graduale Simplex, 1975, p. 169;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Ad(e) te(g) de(h) lu(i)ce(i) *(,) ví(j)gi(i)lo,(h) De(hh)us,(g) (;) ut(h) ví(ij)de(i)am(hg!hih) (,) vir(f)tú(gh)tem(g) tu(e)am,(ef) al(g)le(f)lú(e)ia.(e)
+Ad(e|ta) te(g|vi) de(h|vi) lu(i_|vi-)ce(i_|vi-) *(,) ví(j|vi)gi(i|vi)lo,(h|vi) De(hho|vslsc3)us,(g|talsx6) (;) ut(h|vi) ví(ij|pe)de(i|vi)am(hg/hih|cllsc3to) (,) vir(f|ta)tú(g_h|peS)tem(g>|vi>) tu(e|ta)am,(ef) al(g)le(f)lú(e)ia.(e)
 
 (::)
 

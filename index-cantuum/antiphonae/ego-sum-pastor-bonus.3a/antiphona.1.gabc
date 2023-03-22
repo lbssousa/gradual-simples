@@ -1,15 +1,15 @@
 name: Ego sum pastor bonus;
 mode: 3;
 mode-differentia: a;
-cantus-id: 002597;
-commantary: Jo 10,14--15;
+commantary: Cantus ID 002597 cf. Jo 10,14-15;
 book: Graduale Simplex, 1975, p. 165;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-E(g)go(hj) sum(j) *() pas(j)tor(hj~) bo(ji)nus,(g) (,) qui(g) pas(g)co(hi) o(h)ves(g) me(e!fwg)as,(g) (;) et(g) pro(hj) ó(j)vi(h)bus(j) me(ih)is(g) (,) po(h)no(g) +() á(f)ni(g)mam(g) me(e)am,(ef) al(g)le(gf)lú(e)ia.(e)
+E(g|ta)go(hj|pe) sum(j|vi) *() pas(j|vi)tor(hj~|ta>) bo(ji|cl)nus,(g|ta) (,) qui(g|ta) pas(g|ta)co(hi|pe) o(h|vi)ves(g|cl) me(e!fwg|taql)as,(g|vi) (;) et(g|ta) pro(hj|pe) ó(j|vi)vi(h|vi)bus(j|vi) me(ih|visu2)is(g_|ta) (,) po(h|vi)no(g|ta) á(f|ta)ni(g|vi)mam(g|vi>) me(e|ta)am,(ef|ta) al(g|vi)le(gf|cl)lú(e|ta)ia.(e|ta)
 
 (::)
 

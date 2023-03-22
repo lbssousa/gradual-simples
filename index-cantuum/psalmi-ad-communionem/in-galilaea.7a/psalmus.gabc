@@ -1,17 +1,17 @@
-name: Psalmus 15;
-office-part: Communio;
+name: Psalmus 15(16);
 mode: 7;
 mode-differentia: a;
 book: Graduale Simplex, 1975, p. 170;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Con</i>(hg)<i>ser</i>(hi)va(i) me,(i) De(i)us,(i) quó(i)ni(i)am(i) spe(i)rá(i)vi(i) <b>in</b>(ir1 hr) te.(h) +(,) Di(i)xi(i) Dó(i)mi(i)no:(i) ``Dó(i)mi(i)nus(i) <b>me</b>(kr1 jr)us(j) <b>es</b>(ir1 jr) tu,(j) *(:) bo(i)num(i) mi(i)hi(i) <b>non</b>(jr1 ir) est(i) <b>si</b>(hr1)ne(hr) te.''(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Con</i>(hg)<i>ser</i>(hi)va(i) me,(i) De(i)us,(i) quó(i)ni(i)am(i) spe(i)rá(i)vi(i) <b>in</b>(ir1 hr) te.(h) +(,) <v>\VSup{2}</v>Di(i)xi(i) Dó(i)mi(i)no:(i) ``Dó(i)mi(i)nus(i) <b>me</b>(kr1 jr)us(j) <b>es</b>(ir1 jr) tu,(j) *(:) bo(i)num(i) mi(i)hi(i) <b>non</b>(jr1 ir) est(i) <b>si</b>(hr1)ne(hr) te.''(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() In</nlba>(e) Ga(g)li(h)lǽ(i)a.(i)
+<nlba><c><sp>A/</sp>.</c>() In</nlba>(e|ta) Ga(g|vi)li(h|vi)lǽ(i_|vi-)a(i_|vi-)
 
 (::)

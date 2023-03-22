@@ -1,21 +1,20 @@
-name: Psalmus 62;
-office-part: Offertorium;
+name: Salmo 62(63);
 mode: 7;
 mode-differentia: a;
-book: Graduale simplex, 1975, p. 169;
+commentary: Salmo 62(63);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Mi</i>(hg)<i>nha</i>(hi) al(i)ma(i) tem(i) <b>se</b>(kr1)de(jr) de(j) <b>vós</b>;(ir1 jr j) *(:) por(i) vós(i) de(i)se(i)ja(i) <b>mi</b>(jr1 ir)nha(i) <b>car</b>(hr1 hr)ne.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2cd}</v><i>A</i>(hg) <i>mi</i>'(hi)al(i)ma(i) tem(i) <b>se</b>(kr1 jr) de(j) <b>de</b>(ir1 jr) vós,(j) *(:) mi(i)nha(i) car(i)ne(i) tam(i)bém(i) <b>vos</b>(jr1 ir) de(i)<b>se</b>(hr1 hr)ja.(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Des</nlba>(e)d<e>e</e> a(g) au(h)ro(i)ra.(i)
+<nlba><c><sp>A/</sp>.</c>() Des</nlba>(e)de.(e)
 
 (::)
 
-<c><sc>Flexa:</sc></c>() sem(i) <b>á</b>(ir1 hr)gua.(h) +(,) (i) (i)
+<nlba><c><sc>Flexa:</sc></c>() in</nlba>(i)a(i)<b>quó</b>(ir1 hr)sa,(h) +(,) (i) (i)
 
 (::)

@@ -1,16 +1,15 @@
-name: Psalmus 117;
-office-part: Psalmus responsorius;
+name: Salmo 117(118);
 mode: C 3 g;
-book: Graduale Simplex, 1975, p. 155;
+commentary: Salmo 117(118);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Dai(f) gra(f)ças(f) ao(f) Se(f)nhor,(f) por(f)que(f) e(f)le(f) é(f) <b>bom</b>:(gr1 fr f) *(:) su(f)a(f) mi(f)se(f)ri(f)cór(f)dia(f) é(f) pa(f)ra(f) <nlba>(gr[ocba:1{])<b>sem</b>(gh[ocba:0}])pre.</nlba>(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Dai(f) gra(f)ças(f) ao(f) Se(f)nhor,(f) por(f)que(f) e(f)le(f) <b>é</b>(gr1 fr) bom!(f) *(:) ``E(f)ter(f)na(f) é(f) a(f) su(f)a(f) mi(f)se(f)ri(f)<nlba>(gr[ocba:1{])<b>cór</b>(gh[ocba:0}])dia!''</nlba>(hg)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() Es</nlba>(f)te(g) é(h) o(f) di(gh)a(g) que(f) o(d) Se(f)nhor(g) fez.(gf)
+<nlba><c><sp>R/</sp>.</c>() Es</nlba>(f)te(f) é(f) o(f) di(g)a(h) que(h) o(g) Se(f)nhor(d) fez(f) pa(g)ra(g) nós.(f)
 
 (::)

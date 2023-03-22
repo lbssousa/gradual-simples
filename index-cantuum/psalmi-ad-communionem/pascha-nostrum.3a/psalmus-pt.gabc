@@ -1,17 +1,16 @@
-name: Psalmus 65;
-office-part: Communio;
+name: Salmo 65(66);
 mode: 3;
 mode-differentia: a;
-book: Graduale Simplex, 1975, p. 162;
+commentary: Salmo 65(66);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(g)<i>cla</i>(hj)mai(j) a(j) Deus,(j) ó(j) ter(j)ra(j) in(j)<b>tei</b>(jr1 hr)ra,(h) +(,) en(j)to(j)ai(j) sal(j)mos(j) à(j) gló(j)ria(j) <b>do</b>(kr1 jr) seu(j) (jr[ocba:1{])<b>no</b>(ih[ocba:0}])me.(j) *(:) Glo(j)ri(j)fi(j)cai-(j)o(j) em(j) seu(j) <i>lou</i>(h)<b>vor</b>.(jr1 jr ih)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>A</i>(g)<i>cla</i>(hj)mai(j) a(j) Deus,(j) ó(j) ter(j)ra(j) in(j)<b>tei</b>(jr1 hr)ra,(h) +(,) <v>\VSup{2}</v>can(j)tai(j) sal(j)mos(j) a(j) seu(j) no(j)me(j) <b>glo</b>(kr1 jr)ri(j)(jr[ocba:1{])<b>o</b>(ih[ocba:0}])so,(j) *(:) dai(j) a(j) Deus(j) a(j) mais(j) su<alt>o</alt>(j)bli<alt>e</alt>(j)<i>me</i><alt>u</alt>(h) <b>lou</b><alt>o</alt>(jr1)va<alt>a</alt>(jr)ção.<alt>e</alt>(ih)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Nos</nlba>(g)sa(g) Pás(hj)coa(j) é(h) Cris(j)to.(i)
+<nlba><c><sp>A/</sp>.</c>() Nos</nlba>(g)sa.(g)
 
 (::)

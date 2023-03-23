@@ -1,15 +1,15 @@
 name: Ascendit Deus;
 mode: 4;
 mode-differentia: A;
-cantus-id: 001490;
-commentary: Sl 47(46),6;
+commentary: Cantus ID 001490 cf. Sl 46(47),6;
 book: Graduale Simplex, 1975, p. 182;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-A(f)scén(e)dit(f) De(hi)us(i) *(,) in(i) iu(h)bi(i)la(j)ti(ih)ó(i)ne,(i) (;) et(i) Dó(f)mi(i)nus(h) in(g) vo(f)ce(f) tu(fe)bæ,(fe) (,) al(de)le(fh)lú(f)ia.(f)
+A(f|vi)scén(e|ta)dit(f|vi) De(h_i|peS)us(i|vi) *(,) in(i>|vi>) iu(h|ta)bi(i|vi)la(j|vi)ti(ih|cl)ó(i|vi-)ne,(i|vi-) (;) et(i|vilse2) Dó(f|ta)mi(i|vi)nus(h|vi) in(g>|vi>) vo(f|vi)ce(f|ta) tu(fe__|cl-)bæ,(fe__|cl-) (,) al(d_e|peS)le(f_h|peS)lú(f|ta)ia.(f|ta)
 
 (::)
 

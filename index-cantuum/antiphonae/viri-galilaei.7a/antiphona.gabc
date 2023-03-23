@@ -1,15 +1,15 @@
 name: Viri Galilaei;
 mode: 7;
 mode-differentia: a;
-cantus-id: 005458;
-commentary: At 1,11;
+commentary: Cantus ID 005458 cf. At 1,11;
 book: Graduale Simplex, 1975, p. 178;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Vi(e)ri(e) Ga(g)li(h)l<sp>'ae</sp>(ih/ji)i,(i) *(,) quid(i) a(i)spí(i)ci(g)tis(ij) in(i) cæ(hg)lum(ee)? (;) Hic(d) Ie(fh)sus,(h) (,) qui(i) as(g)súmp(h)tus(i) est(f) a(e) vo(f)bis(e) in(f) cæ(d)lum,(d) (;) sic(h) vé(hg)ni(f)et,(gh) al(i)le(f)lú(e)ia.(e)
+Vi(e|ta)ri(e|ta) Ga(g|vi)li(h|vi)lǽ(ih/ji|cllsc3cl)i,(i|vi) *(,) quid(i|vi) a(i|vi)spí(i|vi)ci(g|ta)tis(ij|pe) in(i>|vi>) cæ(hg__|cl-)lum?(eeo|vs) (;) Hic(d|ta) Ie(f_h|vi-ql)sus,(h_|vi-) (,) qui(i|vi) as(g|ta)súmp(h|vi)tus(i|vi) est(f|vi) a(e|ta) vo(f|vi)bis(e|vi) in(f>|vi>) cæ(d|ta)lum,(d|ta) (;) sic(h_|vi-) vé(hg|cl)ni(f|ta)et,(g_h|peS) al(i>|vi>)le(f|vi)lú(e|ta)ia.(e|ta)
 
 (::)
 

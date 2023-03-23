@@ -1,12 +1,13 @@
-name: Psalmus 23;
+name: Psalmus 23(24);
 mode: E 2 d;
 book: Graduale Simplex, 1975, p. 182;
+commentary: Psalmus 23(24);
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() Quis(g) a(g)scén(g)det(g) in(g) mon(g)tem(g) <b>Dó</b>(gr1h)mi(gr)ni,(g) *(:) aut(g) quis(g) sta(g)bit(g) in(g) lo(g)co(g) san(g)cto(g) <b>e</b>(gr1 fr)ius?(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v>Quis(g) a(g)scén(g)det(g) in(g) mon(g)tem(g) <b>Dó</b>(gr1h)mi(gr)ni,(g) *(:) aut(g) quis(g) sta(g)bit(g) in(g) lo(g)co(g) san(g)cto(g) <b>e</b>(gr1 fr)ius?(f)
 
 (::)
 

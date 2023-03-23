@@ -1,21 +1,20 @@
-name: Psalmus 109;
-office-part: Communio;
+name: Salmo 109(110);
 mode: 1;
 mode-differentia: g;
-book: Graduale Simplex, 1975, p. 183;
+commentary: Salmo 109(110);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() ``<i>A</i>(f)<i>té</i>(gh) que(h) eu(h) fa(h)ça(h) de(h) teus(h) <b>i</b>(ixir1)(hr)ni(h)<b>mi</b>(gr1 hr)gos(h) *(:) o(h) es(h)tra(h)do(h) <i>dos</i>(g) <i>teus</i>(f) <b>pés</b>''.(gr1h gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1cd}</v>``<i>A</i>(f)<i>té</i>(gh) que(h) eu(h) po(h)nha(h) os(h) <b>i</b>(ixir1 hr)ni(h)<b>mi</b>(gr1)gos(hr) teus(h) *(:) co(h)mo(h) es(h)ca(h)be(h)lo(h) por(h) de<alt>o</alt>(h)<i>bai</i><alt>u</alt>(g)<i>xo</i><alt>e</alt>(f) <b>dos</b><alt>o</alt>(gr1h) teus<alt>a</alt>(gr) pés!''<alt>e</alt>(g)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Sen</nlba>(dd)ta-(c)te(c) à(d) mi(f)nha(e) di(e)rei(d)ta.(dc)
+<nlba><c><sp>A/</sp>.</c>() Sen</nlba>(d)ta-(d)te.(c)
 
 (::)
 
-<c><sc>Flexa:</sc></c>() po(h)<b>der</b>:(hr1 gr g) +(,) (h) (h)
+<c><sc>Flexa:</sc></c>() des(h)<b>de</b>(hr1) Si(gr)ão(g) +(,) (h) (h)
 
 (::)

@@ -1,14 +1,13 @@
-name: Psalmus 106;
-office-part: Alleluia;
+name: Salmo 106(107);
 mode: 8;
 mode-differentia: G;
-book: Graduale Simplex, 1975, p. 168;
+commentary: Salmo 106(107);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ren</i>(g)<i>dei</i>(h) gra(j)ças(j) ao(j) Se(j)nhor,(j) por(j)que(j) e(j)le(j) é(j) <b>bom</b>,(kr1 jr j) *(:) por(j)que(j) a(j) su(j)a(j) mi(j)se(j)ri(j)cór(j)di(j)a(j) é(j) <i>pa</i>(i)<i>ra</i>(j) <b>sem</b>(hr1 gr)pre!(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Dai</i>(g) <i>gra</i>(h)ças(j) ao(j) Se(j)nhor,(j) por(j)que(j) e(j)le(j) <b>é</b,(kr1 jr) bom,(j) *(:) por(j)que(j) e(j)ter(j)na(j) é(j) a(j) su(j)a(j) mi(j)<i>se</i>(i)<i>ri</i>(j)<b>cór</b>(hr1 gr)dia!(g)
 
 (::)
 

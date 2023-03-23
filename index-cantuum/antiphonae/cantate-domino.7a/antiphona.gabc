@@ -1,15 +1,15 @@
 name: Cantate Domino;
 mode: 7;
 mode-differentia: a;
-cantus-id:  005139;
-commentary: Sl 76(75),9--10;
+commentary: Cantus ID 005139 cf. Is 42,10;
 book: Graduale Simplex, 1975, p. 172;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Can(e)tá(g)te(h) Dó(i)mi(j)no(i) *(,) cán(ij)ti(h)cum(f) no(hh)vum:(g) (;) laus(ivHF) e(hh)ius(g) (,) ab(h) ex(ih)tré(f)mis(f) ter(e)ræ,(ef) al(g)le(f)lú(e)ia.(e)
+Can(e|ta)tá(g|vi)te(h|vi) Dó(i|vi)mi(j|vi)no(i|ta) *(,) cán(ij>|pe>)ti(h|vi)cum(f|ta) no(hho|vslsc3)vum:(g|ta) (;) laus(ivHF|cl>lst2) e(hho|vs)ius(g|ta) (,) ab(h|vi) ex(ih|cl)tré(f|vi)mis(fo|or) ter(e|ta)ræ,(ef|ta) al(g)le(f)lú(e)ia.(e)
 
 (::)
 

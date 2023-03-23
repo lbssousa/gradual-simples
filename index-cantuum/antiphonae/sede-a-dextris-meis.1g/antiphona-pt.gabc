@@ -1,15 +1,13 @@
 name: Sede a dextris meis;
 mode: 1;
 mode-differentia: g;
-cantus-id: 004853;
-commentary: Sl 110(109),1;
-book: Graduale Simplex, 1975, p. 183;
+commentary: LS;
 
 %%
 
 (c4)
 
-Sen(dd)ta-(c)te(c) à(d) mi(f)nha(e) di(e)rei(d)ta ---(dc) *(,) dis(f)se(g) o(h) Se(g)nhor(f) ao(fg) meu(e) se(f)nhor,(dc) a(d)le(fe)lu(d)ia.(d)
+Sen(d)ta-(d)te(c) à(d) mi(f)nha(e) des(e_)tra ---(dc__) *(,) dis(f)se(g) o(h) Se(g)nhor(f_) ao(f_g) meu(ef) se(d)nhor,(dc) a(d)le(fe)lu(d)ia.(d)
 
 (::)
 

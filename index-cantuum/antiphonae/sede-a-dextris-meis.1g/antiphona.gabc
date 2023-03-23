@@ -1,15 +1,15 @@
 name: Sede a dextris meis;
 mode: 1;
 mode-differentia: g;
-cantus-id: 004853;
-commentary: Sl 110(109),1;
+commentary: Cantus ID 004853 cf. Sl 109(110),1;
 book: Graduale Simplex, 1975, p. 183;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Se(dd)de(c) a(d) dex(f)tris(e) me(d)is,(dc) *(,) di(f)xit(g) Dó(h)mi(g)nus(f) Do(fg)mi(e)no(f) me(d)o,(dc) al(d)le(fe)lú(d)ia.(d)
+Se(dd|vi)de(c|ta) a(d|vi) dex(f|vi)tris(e>|vi>) me(d_|ta-)is,(dc__|cl-) *(,) di(f|vi)xit(g|vi) Dó(h|vi)mi(g|cllsc3)nus(f_|vi-) Do(f_g|peS)mi(e|vi)no(f|cl) me(d|ta)o,(dc|ta) al(d)le(fe)lú(d)ia.(d)
 
 (::)
 

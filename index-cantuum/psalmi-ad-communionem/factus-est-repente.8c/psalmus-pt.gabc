@@ -1,21 +1,22 @@
-name: Psalmus 77;
-office-part: Communio;
+name: Salmo 77(78);
 mode: 8;
-mode-differentia: c;
+mode-differentia: G;
 book: Graduale Simplex, 1975, p. 193;
+commentary: Salmo 77(78);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Es</i>(e)<i>cu</i>(f)ta,(h) po(h)vo(h) meu,(h) o(h) en(h)si(h)na(h)<b>men</b>(ir1 hr)to;(h) *(:) pres(h)ta(h) ou(h)vi(h)do(h) às(h) pa(h)la(h)vras(h) da(h) <i>mi</i>(f)<i>nha</i>(h) <b>bo</b>(ir1 hr)ca.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Es</i>(e)<i>cu</i>(f)ta,(h) ó(h) meu(h) po(h)vo,(h) a(h) <b>mi</b>(ir1)nha(hr) Lei,(h) *(:) ou(h)ve(h) a(h)ten(h)to(h) as(h) pa(h)la(h)vras(h) que<alt>o</alt>(h) <i>eu</i><alt>e</alt>(f) <i>te</i><alt>u</alt>(h) <b>di</b><alt>o</alt>(ir1)<alt>a</alt>(hr)go.<alt>e</alt>(h)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() De</nlba>(h) re(h)pen(h)te,(h) vei(h)o(h) do(h) céu(h) um(h) ru(h)í(hih)do.(hgh)
+<nlba><c><sp>A/</sp>.</c>() De</nlba>(f) re(f)pen(f)te.(f)
+
 
 (::)
 
-<nlba><c><sc>Flexa:</sc></c>() <b>pais</b>,</nlba>(hr1 fr f) +(,) (h) (h)
+<nlba><c><sc>Flexa:</sc></c>() con(h)ta(h)<b>re</b></nlba>(hr1 fr)mos:(f) +(,) (h) (h)
 
 (::)

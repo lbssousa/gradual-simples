@@ -1,18 +1,17 @@
-name: Psalmus 103;
-
+name: Salmo 103(104);
 mode: 8;
 mode-differentia: G;
-book: Graduale Simplex, 1975, p. 395;
+commentary: Salmo 103(104);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ben</i>(g)<i>di(h)</i>ze,(j) mi(j)nha(j) al(j)ma,(j) ao(j) Se(j)<b>nhor</b>!(kr1 jr j) *(:) Se(j)nhor,(j) meu(j) Deus,(j) co(j)mo(j) sois(j) i(j)men(j)sa(j)<i>men</i>(i)<i>te</i>(j) <b>gran</b>(hr1 gr)de!(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Ben</i>(g)<i>di(h)</i>ze,(j) ó(j) mi(j)nha(j) al(j)ma,(j) <b>ao</b>(kr1) Se(jr)nhor!(j) *(:) Ó(j) meu(j) Deus(j) e(j) meu(j) Se(j)nhor,(j) co<alt>o</alt>(j)<i>mo</i><alt>e</alt>(i) <i>sois</i><alt>u</alt>(j) <b>gran</b><alt>o</alt>(hr1)<alt>a</alt>(gr)de!<alt>e</alt>(g)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() <e>O</e> Es</nlba>(d)pí(d)ri(fhg)to(gh) do(h) Se(g)nhor.(fe)
+<nlba><c><sp>A/</sp>.</c>() O</nlba>(d) Es(d)pí(d)ri(fhg)to(gh) do(h) Se(g)nhor.(fe)
 
 (::)
 

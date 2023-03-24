@@ -1,14 +1,14 @@
-name: Psalmus 67;
-office-part: Offertorium;
+name: Psalmus 67(68);
 mode: 8;
 mode-differentia: c;
 book: Graduale Simplex, 1975, p. 192;
+commentary: Psalmus 67(68);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ex</i>(e)<i>súr</i>(f)gat(h) De(h)us,(h) et(h) dis(h)si(h)pén(h)tur(h) i(h)ni(h)mí(h)ci(h) <b>e</b>(ir1 hr)ius,(h) *(:) et(h) fú(h)gi(h)ant,(h) qui(h) o(h)dé(h)runt(h) e(h)um,(h) a(h) fá(h)<i>ci</i>(f)<i>e</i>(h) <b>e</b>(ir1 hr)ius.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Ex</i>(e)<i>súr</i>(f)gat(h) De(h)us,(h) et(h) dis(h)si(h)pén(h)tur(h) i(h)ni(h)mí(h)ci(h) <b>e</b>(ir1 hr)ius,(h) *(:) et(h) fú(h)gi(h)ant,(h) qui(h) o(h)dé(h)runt(h) e(h)um,(h) a(h) fá(h)<i>ci</i>(f)<i>e</i>(h) <b>e</b>(ir1 hr)ius.(h)
 
 (::)
 

@@ -1,15 +1,15 @@
 name: Spiritus qui a Patre procedit;
 mode: 8;
 mode-differentia: G;
-cantus-id: 005003;
-commentary: Jo 15,26;
+commentary: Cantus ID 005003 cf. Jo 15,26;
 book: Graduale Simplex, 1975, p. 193;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Spí(f)ri(fg)tus(g) *(,) qui(g) a(g) Pa(g)tre(f) pro(h)cé(gj)dit,(j) al(i)le(j)lú(kl)ia,(k) (;) il(l)le(k) me(ji) cla(h)ri(hk)fi(j)cá(ji)bit,(g) (;) al(g)le(g)lú(fe)ia,(d) al(f)le(gh)lú(g)ia.(g)
+Spí(f|ta)ri(fg|pelsl3)tus(g|vilsc3) *(,) qui(g|vi) a(g|vi) Pa(g|vilsal3)tre(f|talse6) pro(h|vi)cé(gj|vi)dit,(j|vilsc3) al(i|vi)le(j_|vi-)lú(k_l|vi-vi>hi)ia,(k_|vi-) (;) il(l>|vi>)le(k|vi) me(ji|cl) cla(h|ta)ri(hk|pe)fi(j|vi)cá(ji|vi)bit,(g|ta) (;) al(g_|ta-)le(g_|ta-)lú(fe>|cl>)ia,(d|ta) al(f|vi)le(gh|pe)lú(g|ta)ia.(g|ta)
 
 (::)
 

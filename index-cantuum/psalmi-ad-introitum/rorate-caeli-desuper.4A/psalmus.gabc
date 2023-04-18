@@ -1,7 +1,7 @@
-name: Psalmus 19(18);
+name: Psalmus 18 A(19 A);
 mode: 4;
 mode-differentia: A;
-commentary: Sl 19(18),2-7;
+commentary: Psalmus 18 A(19 A);
 book: Graduale Simplex, 1975, p. 59;
 nabc-lines: 1;
 
@@ -15,7 +15,11 @@ nabc-lines: 1;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Ro</nlba>(f|vi)ra(e|ta)te(f|vi) cæ(h|vi)li(h|vi) dé(h|vi)su(ij|pe)per.(i|vi)
+<eu>E(i) u(h) o(i) u(j) a(h) e.</eu>(f)
+
+(::)
+
+<nlba><c><sp>A/</sp>.</c>() Ro</nlba>(f|vi)ra(e|ta)te.(f|vi)
 
 (::)
 

@@ -1,7 +1,7 @@
-name: Psalmus 25(24);
+name: Psalmus 24(25);
 mode: 4;
 mode-differentia: c;
-commentary: Sl 25(24),2b-3a.4-5.7b-9;
+commentary: Psalmus 24(25);
 nabc-lines: 1;
 
 %%
@@ -12,7 +12,11 @@ nabc-lines: 1;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Ad</nlba>(f|ta) te,(h|vi) Dó(hi|pe)mi(i|vi)ne.(i|vi)
+<eu>E(i) u(i) o(i) u(i) a(i) e.</eu>(h)
+
+(::)
+
+<nlba><c><sp>A/</sp>.</c>() Ad</nlba>(f|ta) te.(h|vi)
 
 (::)
 

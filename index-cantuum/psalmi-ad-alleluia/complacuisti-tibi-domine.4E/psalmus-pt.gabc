@@ -1,13 +1,13 @@
-name: Salmo 85(84);
+name: Salmo 84(85);
 mode: 4;
 mode-differentia: E;
-phantom-commentary: Sl 85(84),2.8;
+commentary: Salmo 84(85);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Fa</i>(h)<i>vo</i>(gh)re(h)ces(h)tes,(h) ó(h) Se(h)nhor,(h) a(h) <i>vos</i>(g)<i>sa</i>(h) <b>ter</b>(ir1 hr)ra,(h) *(:) li(h)ber(h)tas(h)tes(h) os(h) ca(h)<i>ti</i>(g)<i>vos</i>(h) <i>de</i>(ih) <nlba><b>de</b>(gr[ocba:1{]) <b>Ja</b></nlba>(gf[ocba:0}])có.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Fa</i>(h)<i>vo</i>(gh)re(h)ces(h)tes,(h) ó(h) Se(h)nhor,(h) a(h) <i>vos</i>(g)<i>sa</i>(h) <b>ter</b>(ir1 hr)ra,(h) *(:) li(h)ber(h)tas(h)tes(h) os(h) ca(h)<i>ti</i>(g)<i>vos</i>(h) <i>de</i>(ih) <nlba>(gr[ocba:1{])<b>Ja</b></nlba>(gf[ocba:0}])có.(e)
 
 (::)
 

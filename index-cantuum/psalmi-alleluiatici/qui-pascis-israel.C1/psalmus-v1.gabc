@@ -1,13 +1,13 @@
-name: Psalmus 80(79);
+name: Psalmus 79(80);
 mode: C 1;
-commentary: Sl 80(79),1.9.15-20;
+commentary: Psalmus 79(80);
 book: Graduale simplex, 1975, p. 61;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Qui(f) pa(f)cis(f) Is(f)ra(f)el,(f) in(f)<b>tén</b>(gr1 fr)de,(f) *(:) qui(f) de(f)dú(f)cis(f) vel(f)ut(f) o(f)<i>vem</i>(e) <b>Io</b>(gr1 gr)seph.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2ab}</v>Qui(f) pa(f)cis(f) Is(f)ra(f)el,(f) in(f)<b>tén</b>(gr1 fr)de,(f) *(:) qui(f) de(f)dú(f)cis(f) vel(f)ut(f) o(f)<i>vem</i>(e) <b>Io</b>(gr1 gr)seph.(h)
 
 (::)
 

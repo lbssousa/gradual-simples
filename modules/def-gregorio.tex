@@ -79,6 +79,10 @@
   {\IfValueTF{#3}{\textbf{#2}#3}{\textbf{#2}}~\GreDagger}%
 }
 
+\NewDocumentCommand{\Sequitur}{m}{%
+  \textcolor{gregoriocolor}{\gretilde}~#1%
+}
+
 \NewDocumentCommand{\MediatioNil}{m}{#1~\GreStar}
 
 \NewDocumentCommand{\MediatioI}{m m m O{}}{%

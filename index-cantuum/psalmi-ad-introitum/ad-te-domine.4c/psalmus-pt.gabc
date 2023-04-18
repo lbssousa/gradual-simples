@@ -1,7 +1,7 @@
-name: Salmo 25(24);
+name: Salmo 24(25);
 mode: 4;
 mode-differentia: c;
-phantom-commentary: Sl 25(24),2b-3a.4-5.7b-9;
+commentary: Salmo 24(25);
 
 %%
 
@@ -11,6 +11,14 @@ phantom-commentary: Sl 25(24),2b-3a.4-5.7b-9;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() A</nlba>(f) vós,(h) ó(hi) Se(i)nhor.(i)
+<eu>O(i) e(i) u(i) o(i) a(i) e.</eu>(h)
+
+(::)
+
+<nlba><c><sp>A/</sp>.</c>() A</nlba>(f) vós.(h)
+
+(::)
+
+<nlba><c><i>Flexa</i>:</c>() con(i)<b>du</b></nlba>(ir1 hr)za,(h) +(,) (i) (i)
 
 (::)

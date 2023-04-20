@@ -1,7 +1,7 @@
 name: Salmo 2;
 mode: 2;
 mode-differentia: D;
-phantom-commentary: Sl 2,1.6.8-11.12b;
+commentary: Salmo 2;
 
 %%
 
@@ -11,10 +11,18 @@ phantom-commentary: Sl 2,1.6.8-11.12b;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() O</nlba>(h) Se(g)nhor(f) dis(gh)se(f) a(e) mim.(f)
+<eu>O(h) e(h) u(h) o(g) a(e) e.</eu>(f)
 
 (::)
 
-<nlba><c><i>Flexa</i>:</c>() eu</nlba>(h) <b>te</b>(hr1) da(fr)rei(f) +(,) (h) (h)
+<nlba><c><sp>A/</sp>.</c>() O</nlba>(h) Se(g)nhor.(f)
+
+(::)
+
+<nlba><c><i>Flexa</i>:</c>() <b>da</b></nlba>(hr1 fr)rei(f) +(,) (h) (h)
+
+(::)
+
+<nlba><c><sp>~</sp></c>() <v>\VSup{12cd}</v>Fe</nlba>(h)li(h)zes(h)
 
 (::)

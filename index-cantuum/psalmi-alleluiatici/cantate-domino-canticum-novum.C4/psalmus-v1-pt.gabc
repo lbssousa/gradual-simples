@@ -1,23 +1,23 @@
-name: Salmo 98(97);
+name: Salmo 97(98);
 mode: C 4;
-phantom-commentary: Sl 98(97),1ab.1cd.2.3ab.3cd.4;
+commentary: Salmo 97(98);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Can(f)tai(f) ao(f) Se(f)nhor(f) Deus(f) um(f) can(f)<i>to</i>(e) <b>no</b>(gr1 gr)vo.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1ab}</v>Can(f[alt:Cantor])tai(f) ao(f) Se(f)nhor(f) Deus(f) um(f) can(f)<i>to</i>(e) <b>no</b>(gr1 gr)vo.(h)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() A</nlba>(f)le(f)lu(e)ia.(d)
+<nlba><c><sp>R/</sp>.</c>() A</nlba>(f[alt:Grupo ou todos])le(f)lu(e)ia.(d)
 
 *(::)
 
-Por(f)que(f) e(f)le(f) fez(f) <i>pro</i>(e)<b>dí</b>(gr1 gr)gios.(h)
+Por(f[alt:Cantor])que(f) e(f)le(f) fez(f) <i>pro</i>(e)<b>dí</b>(gr1 gr)gios.(h)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() A</nlba>(h)le(hg)lu(gf~)ia.(f)
+<nlba><c><sp>R/</sp>.</c>() A</nlba>(h[alt:Todos])le(hg)lu(gf~)ia.(f)
 
 (::)

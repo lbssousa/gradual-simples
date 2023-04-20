@@ -1,7 +1,7 @@
-name: Salmo 98(97);
+name: Salmo 97(98);
 mode: 7;
 mode-differentia: a;
-phantom-commentary: Sl 98(97),1.4-9;
+commentary: Salmo 97(98);
 
 %%
 
@@ -11,10 +11,18 @@ phantom-commentary: Sl 98(97),1.4-9;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Vi</nlba>(eg)ram(h) to(i)dos.(i)
+<eu>O(i) e(j) u(i) o(i) a(h) e.</eu>(gf)
 
 (::)
 
-<c><i>Flexa</i>:</c>() <b>pal</b>(ir1 hr)mas(h) (,) + (i) (i)
+<nlba><c><sp>A/</sp>.</c>() To</nlba>(e)dos(g) os(h) can(i)tos.(i)
+
+(::)
+
+<nlba><c><i>Flexa</i>:</c>() <b>pal</b></nlba>(ir1 hr)mas(h) (,) + (i) (i)
+
+(::)
+
+<nlba><c><sp>~</sp></c>() <v>\VSup{9ab}</v>Na</nlba>(i) pre(i)sen(i)ça(i)
 
 (::)

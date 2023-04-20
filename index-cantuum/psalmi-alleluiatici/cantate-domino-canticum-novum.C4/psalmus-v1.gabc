@@ -1,24 +1,24 @@
-name: Psalmus 98(97);
+name: Psalmus 97(98);
 mode: C 4;
-commentary: Sl 98(97),1-4;
+commentary: Psalmus 97(98);
 book: Graduale Simplex, 1975, p. 66;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Can(f)tá(f)te(f) Dó(f)mi(f)no(f) cán(f)ti(f)<i>cum</i>(e) <b>no</b>(gr1 gr)vum.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1cd}</v>Can(f[alt:Cantor])tá(f)te(f) Dó(f)mi(f)no(f) cán(f)ti(f)<i>cum</i>(e) <b>no</b>(gr1 gr)vum.(h)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() Al</nlba>(f)le(f)lú(e)ia.(d)
+<nlba><c><sp>R/</sp>.</c>() Al</nlba>(f[alt:Schola vel omnes])le(f)lú(e)ia.(d)
 
 *(::)
 
-Qui(f)a(f) mi(f)ra(f)bí(f)li(f)<i>a</i>(e) <b>fe</b>(gr1 gr)cit.(h)
+Qui(f[alt:Cantor])a(f) mi(f)ra(f)bí(f)li(f)<i>a</i>(e) <b>fe</b>(gr1 gr)cit.(h)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() Al</nlba>(h)le(hg)lú(gf~)ia.(f)
+<nlba><c><sp>R/</sp>.</c>() Al</nlba>(h[alt:Omnes])le(hg)lú(gf~)ia.(f)
 
 (::)

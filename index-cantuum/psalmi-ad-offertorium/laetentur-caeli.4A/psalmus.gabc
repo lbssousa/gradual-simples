@@ -1,7 +1,7 @@
-name: Psalmus 96(95);
+name: Psalmus 95(96);
 mode: 4;
 mode-differentia: A;
-commentary: Sl 96(95),1-3.8bc.13bc;
+commentary: Psalmus 95(96);
 book: Graduale Simplex, 1975, p. 67;
 nabc-lines: 1;
 
@@ -9,7 +9,7 @@ nabc-lines: 1;
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Can</i>(i)<i>tá</i>(hi)te(i) Dó(i)mi(i)no(i) cán(i)<i>ti</i>(h)<i>cum</i>(i) <b>no</b>(jr1 ir)vum:(i) *(:) can(i)tá(i)te(i) Dó(i)mi(i)<i>no</i>,(h) <i>om</i>(i)<i>nis</i>(j) <b>ter</b>(hr1 fr)ra.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Can</i>(i)<i>tá</i>(hi)te(i) Dó(i)mi(i)no(i) cán(i)<i>ti</i>(h)<i>cum</i>(i) <b>no</b>(jr1 ir)vum,(i) *(:) can(i)tá(i)te(i) Dó(i)mi(i)<i>no</i>,(h) <i>om</i>(i)<i>nis</i>(j) <b>ter</b>(hr1 fr)ra.(f)
 
 (::)
 

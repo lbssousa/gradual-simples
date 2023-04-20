@@ -1,7 +1,7 @@
-name: Salmo 27(26);
+name: Salmo 26(27);
 mode: 4;
 mode-differentia: E;
-phantom-commentary: Sl 27(26),4;
+commentary: Salmo 26(27);
 
 %%
 
@@ -10,6 +10,8 @@ phantom-commentary: Sl 27(26),4;
 <c><sp>V/</sp>. 1.</c>() <v>\VSup{4}</v><i>Ao</i>(h) <i>Se</i>(gh)nhor(h) eu(h) pe(h)ço(h) a(h)pe(h)nas(h) <i>u</i>(g)<i>ma</i>(h) <b>coi</b>(ir1 hr)sa,(h) *(:) e(h) é(h) só(h) is(h)to(h) <i>que</i>(g) <i>eu</i>(h) <i>de</i>(ih)<nlba>(gr[ocba:1{])<b>se</b></nlba>(gf[ocba:0}])jo:(e)
 
 (::)
+
+<nlba><c><sp>~</sp></c>() Ha</nlba>(h)bi(gh)tar(h) no(h) san(h)tu(h)á(h)<i>rio</i>(g) <i>do</i>(h) <b>Se</b>(ir1 hr)nhor(h) *(:) por(h) to(h)da(h) <i>a</i>(g) <i>mi</i>(h)<i>nha</i>(ih) <nlba>(gr[ocba:1{])<b>vi</b></nlba>(gf[ocba:0}])da.(e)
 
 <nlba><c><i>Todos</i>:</c>() A</nlba>(e)le(f)lu(gh)ia.(g)
 

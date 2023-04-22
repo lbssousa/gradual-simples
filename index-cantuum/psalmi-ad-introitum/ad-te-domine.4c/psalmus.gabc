@@ -1,25 +1,16 @@
 name: Psalmus 24(25);
 mode: 4;
 mode-differentia: c;
-commentary: Psalmus 24(25);
 nabc-lines: 1;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2b}</v><i>Ne</i>(i)<i>que</i>(hi) ex(i)súl(i)tent(i) su(i)per(i) me(i) i(i)ni(i)<i>mí</i>(h)<i>ci</i>(i) <b>me</b>(jr1 ir)i,(i) *(:) <v>\VSup{3a}</v>ét(i)e(i)nim(i) u(i)ni(i)vér(i)si(i) qui(i) sús(i)ti(i)nent(i) te(i) non(i) con(i)fun(i)<b>dén</b>(ir1 hr)tur.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2b}</v><i>Ne</i>(i)<i>que</i>(hi) ex(i)súl(i)tent(i) su(i)per(i) me(i) i(i)ni(i)<i>mí</i>(h)<i>ci</i>(i) <b>me</b>(jr1 ir)i,(i) *(:) <v>\VSup{3a}</v>ét(i)e(i)nim(i) u(i)ni(i)vér(i)si(i) qui(i) sús(i)ti(i)nent(i) te(i) non(i) con(i)fun(i)<b>dén</b>(ir1 hr)tur.(h) (::)
 
-(::)
+<eu>E(i) u(i) o(i) u(i) a(i) e.</eu>(h) (::)
 
-<eu>E(i) u(i) o(i) u(i) a(i) e.</eu>(h)
+<nlba><c><sp>A/</sp>.</c>() Ad</nlba>(f|ta) te.(h|vi) (::)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Ad</nlba>(f|ta) te.(h|vi)
-
-(::)
-
-<nlba><c><i>Flexa</i>:</c>() <b>do</b></nlba>(ir1)ce(hr) me,(h) +(,) (i) (i)
-
-(::)
+<nlba><c><i>Flexa</i>:</c>() <b>do</b></nlba>(ir1)ce(hr) me,(h) +(,) (i) (i) (::)

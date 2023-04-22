@@ -164,6 +164,146 @@
   }
 }
 
+\NewDocumentCommand \MakeChantAntiphon { s m O{} } {
+  \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#3}{}{.#3}}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+
+  \iftoggle{compact}{
+    \GregorioImportL{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    \vspace{3mm}
+    \GregorioImportR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    \end{paracol}
+  }
+}
+
+\NewDocumentCommand \MakeChantAlleluia { s m O{} } {
+  \def\@Antiphon@L{antiphona}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+
+  \iftoggle{compact}{
+    \GregorioImportR{index-cantuum/antiphonae}{alleluia.#2}{\@Antiphon@L}{\@Antiphon@R}
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{index-cantuum/antiphonae}{alleluia.#2}{\@Antiphon@L}{\@Antiphon@R}
+    \end{paracol}
+  }
+
+  #3
+}
+
+\NewDocumentCommand \MakeChantPsalm { s m m } {
+  \input{index-cantuum/#2/#3/psalmus}
+
+  \iftoggle{compact}{
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
+
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{1}
+        \MakeVerseListR{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
+    \end{paracol}
+
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \begin{paracol}{2}
+          \synccounter{enumi}
+          \setcounter{enumi}{1}
+          \switchcolumn[1]
+          \setcounter{enumi}{1}
+          \switchcolumn[0]*
+          \MakeVerseListLR{\@Verse@Pairs}
+        \end{paracol}
+      \end{greenumerate}%
+    }
+  }
+}
+
+\newcommand{\DoGregorioImportL}{}
+\newcommand{\DoGregorioImportR}{}
+\newcommand{\DoGregorioImportLR}{}
+\newtoggle{biginitial}
+\NewDocumentCommand \MakeChantPsalmMulti { s m m m } {
+  \renewcommand{\DoGregorioImportL}[2]{\GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}}
+  \renewcommand{\DoGregorioImportR}[2]{\GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}}
+  \renewcommand{\DoGregorioImportLR}[2]{\GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}}
+
+  \input{index-cantuum/#2/#3/psalmus}
+
+  \iftoggle{compact}{
+    \Map{\DoGregorioImportR}{#4}
+
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \setcounter{enumi}{1}
+        \MakeVerseListR{\@Verse@Pairs}
+      \end{greenumerate}%
+    }
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \Map{\DoGregorioImportLR}{#4}
+    \end{paracol}
+
+    \ifdefempty{\@Verse@Pairs}{}{%
+      \begin{greenumerate}
+        \begin{paracol}{2}
+          \synccounter{enumi}
+          \setcounter{enumi}{1}
+          \switchcolumn[1]
+          \setcounter{enumi}{1}
+          \switchcolumn[0]*
+          \MakeVerseListLR{\@Verse@Pairs}
+        \end{paracol}
+      \end{greenumerate}%
+    }
+  }
+}
+
+\NewDocumentCommand{\MakeChantLongPsalm}{s m m m}{
+  \IfBooleanTF{#1}{\togglefalse{biginitial}}{\toggletrue{biginitial}}
+  \renewcommand{\DoGregorioImportL}[2]{\iftoggle{biginitial}{\GregorioImportL{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}}}
+  \renewcommand{\DoGregorioImportR}[2]{\iftoggle{biginitial}{\GregorioImportR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}}}
+  \renewcommand{\DoGregorioImportLR}[2]{\iftoggle{biginitial}{\GregorioImportLR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}}}
+  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
+  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
+  \input{index-cantuum/#2/#3/psalmus}
+
+  \iftoggle{compact}{
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \Map{\DoGregorioImportL}{#4}
+
+    \clearpage
+
+    \nottoggle{disablehyperlinks}{
+      \begin{small}
+        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
+      \end{small}
+      \vspace{-10pt}
+    }{}
+    \Map{\DoGregorioImportR}{#4}
+
+    \clearpage
+  }{
+    \begin{paracol}{2}
+      \Map{\DoGregorioImportLR}{#4}
+    \end{paracol}
+  }
+}
+
 \NewDocumentCommand{\MakeChantPsalmOneVerseFlyerL}{s m m}{
   \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
@@ -769,39 +909,6 @@
   }
 }
 
-\NewDocumentCommand{\MakeChantAntiphon}{m O{}}{
-  \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#2}{}{.#2}}
-  \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/antiphonae/#1/\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/antiphonae/#1/\@Antiphon@R}
-
-  \iftoggle{compact}{
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
-      \end{small}
-      \vspace{-10pt}
-    }{}
-    \GregorioImportL{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
-
-    \clearpage
-
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
-      \end{small}
-      \vspace{-10pt}
-    }{}
-    \GregorioImportR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
-
-    \clearpage
-  }{
-    \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
-    \end{paracol}
-  }
-}
-
 \NewDocumentCommand{\MakeChantAlleluiaPsalmFlyerL}{m m O{}}{
   \def\@Antiphon@L{antiphona}
   \def\@Antiphon@R{\@Antiphon@L-pt}
@@ -935,71 +1042,6 @@
   }
 }
 
-\NewDocumentCommand{\MakeChantAlleluia}{m O{}}{
-  \def\@Antiphon@L{antiphona}
-  \def\@Antiphon@R{\@Antiphon@L-pt}
-  \def\@Link@Ref@L{index-cantuum/antiphonae/#1/\@Antiphon@L}
-  \def\@Link@Ref@R{index-cantuum/antiphonae/#1/\@Antiphon@R}
-
-  \iftoggle{compact}{
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
-      \end{small}
-      \vspace{-10pt}
-    }{}
-    \GregorioImportL{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
-
-    \clearpage
-
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
-      \end{small}
-      \vspace{-10pt}
-    }{}
-    \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
-
-    #2\clearpage
-  }{
-    \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
-    \end{paracol}
-
-    #2
-  }
-}
-
-\NewDocumentCommand{\MakeChantPsalm}{s m m}{
-  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
-  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
-  \iftoggle{compact}{
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
-      \end{small}
-      \vspace{-10pt}
-    }{}
-    \GregorioImportL*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-
-    \clearpage
-
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
-      \end{small}
-      \vspace{-10pt}
-    }
-    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-
-    \clearpage
-  }{
-    \begin{paracol}{2}
-      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-    \end{paracol}
-  }
-}
-
 \NewDocumentCommand{\MakeChantHymn}{s m m}{
   \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
@@ -1030,44 +1072,6 @@
   }
 }
 
-\newcommand{\DoGregorioImportL}{}
-\newcommand{\DoGregorioImportR}{}
-\newcommand{\DoGregorioImportLR}{}
-\newtoggle{biginitial}
-\NewDocumentCommand{\MakeChantLongPsalm}{s m m m}{
-  \IfBooleanTF{#1}{\togglefalse{biginitial}}{\toggletrue{biginitial}}
-  \renewcommand{\DoGregorioImportL}[2]{\iftoggle{biginitial}{\GregorioImportL{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}}}
-  \renewcommand{\DoGregorioImportR}[2]{\iftoggle{biginitial}{\GregorioImportR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}}}
-  \renewcommand{\DoGregorioImportLR}[2]{\iftoggle{biginitial}{\GregorioImportLR{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}}}
-  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
-  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
-  \input{index-cantuum/#2/#3/psalmus}
 
-  \iftoggle{compact}{
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
-      \end{small}
-      \vspace{-10pt}
-    }{}
-    \Map{\DoGregorioImportL}{#4}
-
-    \clearpage
-
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
-      \end{small}
-      \vspace{-10pt}
-    }{}
-    \Map{\DoGregorioImportR}{#4}
-
-    \clearpage
-  }{
-    \begin{paracol}{2}
-      \Map{\DoGregorioImportLR}{#4}
-    \end{paracol}
-  }
-}
 
 \makeatother

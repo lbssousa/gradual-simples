@@ -1,21 +1,14 @@
 name: Psalmus 94(95);
 mode: 8;
 mode-differentia: G;
-commentary: Psalmus 94(95);
 book: Graduale Simplex, 1975, p. 76;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Ve</i>(g)<i>ní</i>(h)te,(j) ex(j)sul(j)té(j)mus(j) <b>Dó</b>(kr1)mi(jr)no;(j) *(:) iu(j)bi(j)le(j)mus(j) De(j)o(j) sa(j)lu(j)<i>tá</i>(i)<i>ri</i>(j) <b>nos</b>(hr1 gr)tro.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Ve</i>(g)<i>ní</i>(h)te,(j) ex(j)sul(j)té(j)mus(j) <b>Dó</b>(kr1)mi(jr)no;(j) *(:) iu(j)bi(j)le(j)mus(j) De(j)o(j) sa(j)lu(j)<i>tá</i>(i)<i>ri</i>(j) <b>nos</b>(hr1 gr)tro.(g) (::)
 
-(::)
+<eu>E(j) u(j) o(i) u(j) a(h) e.</eu>(g) (::)
 
-<eu>E(j) u(j) o(i) u(j) a(h) e.</eu>(g)
-
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Ve</nlba>(g)ní(j_)te.(ig)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() Ve</nlba>(g)ní(j_)te.(ig) (::)

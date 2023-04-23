@@ -268,6 +268,16 @@
   }
 }
 
+\NewDocumentCommand \MakeChantHymn { s m m } {
+  \iftoggle{compact}{
+    \GregorioImportR{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+  }{
+    \begin{paracol}{2}
+      \GregorioImportLR{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \end{paracol}
+  }
+}
+
 \NewDocumentCommand{\MakeChantLongPsalm}{s m m m}{
   \IfBooleanTF{#1}{\togglefalse{biginitial}}{\toggletrue{biginitial}}
   \renewcommand{\DoGregorioImportL}[2]{\iftoggle{biginitial}{\GregorioImportL{index-cantuum/#2}{#3}{##1}{##2}\togglefalse{biginitial}}{\GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}}}
@@ -1041,37 +1051,5 @@
     #3
   }
 }
-
-\NewDocumentCommand{\MakeChantHymn}{s m m}{
-  \def\@Link@Ref@L{index-cantuum/#2/#3/psalmus-v1}
-  \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
-  \iftoggle{compact}{
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
-      \end{small}
-      \vspace{-10pt}
-    }{}
-    \GregorioImportL{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-
-    \clearpage
-
-    \nottoggle{disablehyperlinks}{
-      \begin{small}
-        \noindent\hyperlink{\@Link@Ref@L}{Ir para o original em latim}
-      \end{small}
-      \vspace{-10pt}
-    }
-    \GregorioImportR{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-
-    \clearpage
-  }{
-    \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
-    \end{paracol}
-  }
-}
-
-
 
 \makeatother

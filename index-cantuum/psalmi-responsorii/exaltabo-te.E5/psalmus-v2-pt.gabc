@@ -1,5 +1,4 @@
-name: Psalmus 144;
-office-part: Psalmus Responsorius;
+name: Salmo 144(145);
 mode: E 5;
 book: Graduale simplex, 1975, p. 202;
 
@@ -7,10 +6,6 @@ book: Graduale simplex, 1975, p. 202;
 
 (c4)
 
-<c><sp>V/</sp>. 2.</c>() (hr)<v>\VSup{3}</v><b>Gran</b>(hr1i)de(h) é(h) o(h) Se(h)nhor(h) e(h) mui(h)to(h) dig(h)no(h) de(h) lou(h)<b>vo</b>(gr1h gr)res,(g) *(:) e(g) nin(g)guém(g) po(g)de(g) me(g)dir(g) su(g)a(g) <i>gran</i>(gf)<b>de</b>(er1 er)za.(e)
+<c><sp>V/</sp>. 2.</c>() (hr)<v>\VSup{3}</v><b>Gran</b>(hr1i)de(h) é(h) o(h) Se(h)nhor(h) e(h) mui(h)to(h) dig(h)no(h) de(h) lou(h)<b>vo</b>(gr1h gr)res,(g) *(:) e(g) nin(g)guém(g) po(g)de(g) me(g)dir(g) su(g)a(g) <i>gran</i>(gf)<b>de</b>(er1 er)za.(e) (::)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() E</nlba>(g) ben(g)di(g)zer.(g)
-
-(::)
+<nlba><c><sp>R/</sp>.</c>() E</nlba>(g) ben(g)di(g)zer.(g) (::)

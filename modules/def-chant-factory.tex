@@ -234,11 +234,19 @@
 \newcommand{\DoGregorioImportL}{}
 \newcommand{\DoGregorioImportR}{}
 \newcommand{\DoGregorioImportLR}{}
-\newtoggle{biginitial}
+
 \NewDocumentCommand \MakeChantPsalmMulti { s m m m } {
-  \renewcommand{\DoGregorioImportL}[2]{\GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}}
-  \renewcommand{\DoGregorioImportR}[2]{\GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}}
-  \renewcommand{\DoGregorioImportLR}[2]{\GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}}
+  \renewcommand{\DoGregorioImportL}[2]{%
+    \GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}%
+  }
+
+  \renewcommand{\DoGregorioImportR}[2]{%
+    \GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}%
+  }
+
+  \renewcommand{\DoGregorioImportLR}[2]{%
+    \GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}%
+  }
 
   \input{index-cantuum/#2/#3/psalmus}
 
@@ -278,6 +286,47 @@
   }{
     \begin{paracol}{2}
       \GregorioImportLR{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \end{paracol}
+  }
+}
+
+\newtoggle{biginitial}
+
+\NewDocumentCommand \MakeChantHymnMulti { s m m m } {
+  \toggletrue{biginitial}
+
+  \renewcommand{\DoGregorioImportL}[2]{%
+    \iftoggle{biginitial}{%
+      \GregorioImportL{index-cantuum/#2}{#3}{##1}{##2}
+      \togglefalse{biginitial}%
+    }{%
+      \GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}%
+    }%
+  }
+
+  \renewcommand{\DoGregorioImportR}[2]{%
+    \iftoggle{biginitial}{%
+      \GregorioImportR{index-cantuum/#2}{#3}{##1}{##2}
+      \togglefalse{biginitial}%
+    }{%
+      \GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}%
+    }%
+  }
+
+  \renewcommand{\DoGregorioImportLR}[2]{%
+    \iftoggle{biginitial}{%
+      \GregorioImportLR{index-cantuum/#2}{#3}{##1}{##2}
+      \togglefalse{biginitial}%
+    }{%
+      \GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}%
+    }%
+  }
+
+  \iftoggle{onecolumn}{
+    \Map{\DoGregorioImportR}{#4}
+  }{
+    \begin{paracol}{2}
+      \Map{\DoGregorioImportLR}{#4}
     \end{paracol}
   }
 }

@@ -1,14 +1,10 @@
 name: Eu sou o pão vivo;
 mode: 1;
 mode-differentia: f;
-phantom-commentary: Cantus ID 002595 cf. Jo 6,51;
+commentary: LS;
 
 %%
 
 (c4)
 
-Eu(d) sou(dc~) o(f) pão(g) vi(fh)vo(h) *(,) que(h) des(g)ceu(ef/gf~) do(fe) céu,(dc) a(d)le(fe)lu(d)ia.(d)
-
-(::)
-
-(f+)
+Eu(d) sou(dc~) o(f) pão(g) vi(fh)vo(h) *(,) que(hg) des(ef)ceu(gf) do(fe) céu,(dc) a(d)le(fe)lu(d)ia.(d) (::f+)

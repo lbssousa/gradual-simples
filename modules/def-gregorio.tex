@@ -47,22 +47,7 @@
   \allowbreak\textcolor{gregoriocolor}{\Vbar.}~#2\IfBooleanF{#1}{.}%
 }
 
-\NewDocumentEnvironment{annotation}{}{\begin{flushright}\iftoggle{compact}{\scriptsize}{\footnotesize}}{\end{flushright}}
-
-\DeclareDocumentCommand{\Annotation}{}{}
-
-\newcommand{\MakeAntiphonAnnotation}[1]{\ifdefempty{#1}{}{\Antiphona*{#1}}}
-\newcommand{\MakeVerseAnnotation}[1]{\ifdefempty{#1}{}{\Versum*{#1}}}
-
 \NewDocumentCommand{\Elisio}{m}{\textit{\small#1}}
-
-\NewDocumentCommand{\CantusID}{o m o}{%
-  Cantus ID \href{http://cantusindex.org/id/#2}{%
-    #2%
-    \IfValueT{#1}{(#1)}%
-  }
-  \IfValueT{#3}{\textit{cf.} #3}%
-}
 
 \NewDocumentCommand{\Inchoatio}{m o m}{%
   \IfNoValueTF{#2}{%
@@ -73,9 +58,9 @@
 }
 
 \NewDocumentCommand{\Flexa}{s m o}{%
-  \IfBooleanTF{#1}
-  {\IfValueTF{#3}{#2#3}{#2}~{\large'}}
-  {\IfValueTF{#3}{\textbf{#2}#3}{\textbf{#2}}~\GreDagger}%
+\IfBooleanTF{#1}
+{\IfValueTF{#3}{#2#3}{#2}~{\large'}}
+{\IfValueTF{#3}{\textbf{#2}#3}{\textbf{#2}}~\GreDagger}%
 }
 
 \NewDocumentCommand{\Sequitur}{m}{%

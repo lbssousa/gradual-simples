@@ -94,13 +94,13 @@
 }
 
 \NewDocumentCommand{\AllowPageFlush}{}{
-  \nottoggle{compact}{%
+  \nottoggle{onecolumn}{%
     \clearpage%
   }{}
 }
 
 \NewDocumentCommand{\AllowPageBreak}{}{
-  \nottoggle{compact}{%
+  \nottoggle{onecolumn}{%
     \clearpage\hbox{}\newpage%
   }{}
 }
@@ -142,7 +142,7 @@
 }
 
 \NewDocumentCommand{\GregorioImport}{s m m m m}{%
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \IfBooleanTF{#1}{
       \GregorioImportL*{#2}{#3}{#4}{#5}
     }{
@@ -168,10 +168,14 @@
   \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#3}{}{.#3}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
 
-  \iftoggle{compact}{
-    \GregorioImportL{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
-    \vspace{3mm}
-    \GregorioImportR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+  \iftoggle{onecolumn}{
+    \iftoggle{mini}{
+      \GregorioImportR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    }{
+      \GregorioImportL{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+      \vspace{3mm}
+      \GregorioImportR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+    }
   }{
     \begin{paracol}{2}
       \GregorioImportLR{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
@@ -183,7 +187,7 @@
   \def\@Antiphon@L{antiphona}
   \def\@Antiphon@R{\@Antiphon@L-pt}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \GregorioImportR{index-cantuum/antiphonae}{alleluia.#2}{\@Antiphon@L}{\@Antiphon@R}
   }{
     \begin{paracol}{2}
@@ -197,7 +201,7 @@
 \NewDocumentCommand \MakeChantPsalm { s m m } {
   \input{index-cantuum/#2/#3/psalmus}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
 
     \ifdefempty{\@Verse@Pairs}{}{%
@@ -238,7 +242,7 @@
 
   \input{index-cantuum/#2/#3/psalmus}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \Map{\DoGregorioImportR}{#4}
 
     \ifdefempty{\@Verse@Pairs}{}{%
@@ -269,7 +273,7 @@
 }
 
 \NewDocumentCommand \MakeChantHymn { s m m } {
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \GregorioImportR{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
   }{
     \begin{paracol}{2}
@@ -287,7 +291,7 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
@@ -417,7 +421,7 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
@@ -507,7 +511,7 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
@@ -602,7 +606,7 @@
   \def\@Link@Ref@R{index-cantuum/#2/#3/psalmus-v1-pt}
   \input{index-cantuum/#2/#3/psalmus}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
@@ -666,7 +670,7 @@
 \NewDocumentCommand{\MakeChantLitany}{m m}{
   \input{index-cantuum/#1/#2/litany}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\@Link@Ref@L}{Ir para a adaptação para o vernáculo}
@@ -823,7 +827,7 @@
   \def\@Link@Ref@R{index-cantuum/#3/#4/\@Antiphon@R}
   \input{index-cantuum/#3/#4/psalmus}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
@@ -892,7 +896,7 @@
   \def\@Link@Ref@L{index-cantuum/#1/#2/\@Score@L}
   \def\@Link@Ref@R{index-cantuum/#1/#2/\@Score@R}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}
@@ -987,7 +991,7 @@
   \def\@Link@Ref@R{index-cantuum/psalmi-ad-alleluia/#2/\@Antiphon@R}
   \input{index-cantuum/psalmi-ad-alleluia/#2/psalmus}
 
-  \iftoggle{compact}{
+  \iftoggle{onecolumn}{
     \nottoggle{disablehyperlinks}{
       \begin{small}
         \noindent\hyperlink{\@Link@Ref@R}{Ir para a adaptação para o vernáculo}

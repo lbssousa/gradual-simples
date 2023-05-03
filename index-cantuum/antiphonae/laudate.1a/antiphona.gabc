@@ -1,16 +1,12 @@
 name: Laudate;
 mode: 1;
 mode-differentia: a;
-commentary: Cantus ID 003585(?);
-commentary: Sl 148,1;
+commentary: Cantus ID 003585 cf. Sl 148,1;
 book: Graduale Simplex, 1975, p. 199;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Lau(h)dá(h)te(g) *(,) Dó(e)mi(f)num(g) de(fe) cæ(d)lis.(d)
-
-(::)
-
-(f+)
+Lau(h|vilsc3)dá(h_|vi-)te(g_|vi-) *(,) Dó(e|ta)mi(f|vi)num(g|vi) de(fe|cl) cæ(d|ta)lis.(d|ta) (::f+)

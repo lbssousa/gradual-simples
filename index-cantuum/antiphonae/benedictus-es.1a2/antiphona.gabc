@@ -1,20 +1,12 @@
 name: Benedictus es;
 mode: 1;
 mode-differentia: a 2;
-commentary: Cantus ID 001729;
-commentary: Dn 3,56;
+commentary: Cantus ID 001729 cf. Dn 3,56;
 book: Graduale Simplex, 1975, p. 198;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Be(f)ne(e)díc(f)tus(e) es(d) *(,) in(dc~) fir(f)ma(g)mén(ixhi)to(g) cæ(ixig)li,(h) (;) et(h) lau(g)dá(f)bi(e)lis(f) in(f) sǽ(fg)cu(f)la,(c) (,) De(d)us(fe) nos(d)ter.(d)
-
-(::)
-
-<c>T. P.</c>() Al(e)le(fe)lú(d)ia.(d)
-
-(::)
-
-(f+)
+Be(f|vi)ne(e|ta)díc(f|vi)tus(e|vi) es(d|talsc3) *(,) in(dc~|vi>) fir(f|vi)ma(g|vi)mén(ixhi|pe>1lss1lsal3)to(g|ta) cæ(ixig|////cl)li,(h_|vi-) (;) et(h|vi) lau(g|vi)dá(f|vi)bi(e|ta)lis(f|vi) in(fo|or) sǽ(f_g|peS)cu(f|vi)la,(c|ta) (,) De(d|vi)us(fe|cllsc3) nos(d|ta)ter.(d|ta) (::f+)

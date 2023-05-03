@@ -1,16 +1,10 @@
 name: Laudate;
 mode: 1;
 mode-differentia: a;
-commentary: Cantus ID 003585(?);
-commentary: Sl 148,1;
-book: Graduale Simplex, 1975, p. 199;
+commentary: LS;
 
 %%
 
 (c4)
 
-Lou(h)vai(hg~) *(,) o(e) Se(f)nhor(g) dos(fe) céus.(dd)
-
-(::)
-
-(f+)
+Lou(h)vai(hg__) *(,) o(e) Se(f)nhor(g) dos(fe) céus.(d) (::f+)

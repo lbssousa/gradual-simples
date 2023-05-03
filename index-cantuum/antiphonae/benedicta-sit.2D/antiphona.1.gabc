@@ -1,19 +1,14 @@
 name: Benedicta sit;
 mode: 2;
 mode-differentia: D;
-commentary: Cantus ID 001708;
+phantom-commentary: LS;
 book: Graduale Simplex, 1975, p. 195;
+nabc-lines: 1;
 
 %%
 
 (f3)
 
-Be(e)ne(f)díc(hh)ta(f) sit(e) *(,) sanc(f)ta(hg) Trí(fg)ni(fe)tas,(e) (;) at(h)que(ij) in(j)di(i)ví(hg)sa(hih) U(f)ni(ef)tas.(f)
+Be(e|ta)ne(f|vi)díc(hh|vi)ta(f|vi) sit(e|vs) *(,) sanc(f|ta)ta(hg|vi) Trí(fg|vi)ni(fe|vi)tas,(e|ta) (;) at(h|vi)que(ij|vi) in(j|vi)di(i|pe)ví(hg|cl)sa(hih|to) U(f|vi)ni(ef|pe)tas.(f|vi-) (::)
 
-(::)
-
-<c>T. P.</c>() Al(e)le(ef)lú(f)ia.(f)
-
-(::)
-
-(e+)
+<c>T. P.</c>() Al(e)le(ef)lú(f)ia.(f) (::e+)

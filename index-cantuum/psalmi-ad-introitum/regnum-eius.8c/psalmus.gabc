@@ -1,5 +1,4 @@
-name: Psalmus 71;
-
+name: Psalmus 71(72);
 mode: 8;
 mode-differentia: c;
 book: Graduale Simplex, 1975, p. 253;
@@ -8,14 +7,10 @@ book: Graduale Simplex, 1975, p. 253;
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>De</i>(e)<i>us</i>,(f) iu(h)dí(h)ci(h)um(h) tu(h)um(h) <b>re</b>(ir1)gi(hr) da,(h) *(:) et(h) iu(h)stí(h)ti(h)am(h) tu(h)am(h) fí(h)<i>li</i>(f)<i>o</i>(h) <b>re</b>(ir1 hr)gis.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>De</i>(e)<i>us</i>,(f) iu(h)dí(h)ci(h)um(h) tu(h)um(h) <b>re</b>(ir1)gi(hr) da,(h) *(:) et(h) iu(h)stí(h)ti(h)am(h) tu(h)am(h) fí(h)<i>li</i>(f)<i>o</i>(h) <b>re</b>(ir1 hr)gis.(h) (::)
 
-(::)
+<eu>E(h) u(h) o(f) u(h) a(i) e.</eu>(h) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Re</nlba>(h)gnum(h) e(hih)ius.(hgh)
+<nlba><c><sp>A/</sp>.</c>() Re</nlba>(h)gnum(h) e(hih)ius.(hgh) (::)
 
-(::)
-
-<c><i>Flexa</i>:</c>() <b>pó</b>(hr1)pu(fr)lum,(f) +(,) (h) (h)
-
-(::)
+<nlba><c><i>Flexa</i>:</c>() <b>pó</b></nlba>(hr1)pu(fr)lum,(f) +(,) (h) (h) (::)

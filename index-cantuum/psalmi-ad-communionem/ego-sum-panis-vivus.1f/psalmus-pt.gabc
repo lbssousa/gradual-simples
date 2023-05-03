@@ -1,16 +1,15 @@
-name: Salmo 23(22);
+name: Salmo 22(23);
 mode: 1;
 mode-differentia: f;
-phantom-commentary: Sl 23(22);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>O</i>(f) <i>Se</i>(gh)nhor(h) é(h) meu(h) pas(h)tor(h), <b>na</b>(ixir1)da(hr) me(h) <b>fal</b>(gr1 hr)ta:(h) *(:) em(h) pas(h)ta(h)gens(h) ver(h)de(h)jan(h)tes(h) faz-(h)<i>me</i>(g) <i>dei</i>(f)<b>tar</b>.(gr1h gr gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>O</i>(f) <i>Se</i>(gh)nhor(h) é(h) o(h) pas(h)<b>tor</b>(ixir1) que(hr) me(h) <b>con</b>(gr1 hr)duz;(h) *(:) não(h) me(h) fal(h)ta(h) coi(h)<i>sa</i>(g) <i>al</i>(f)<b>gu</b>(gr1h gr)ma.(gf) (::)
 
-(::)
+<c><sp>~</sp></c>() <v>\VSup{2ab}</v>Pe(h)los(h) pra(h)dos(h) e(h) cam(h)pi(h)nas(h) <b>ver</b>(ixir1 hr)de(h)<b>jan</b>(gr1 hr)tes(h) *(:) e(h)le(h) me(h) le(h)<i>va</i>(g) <i>a</i>(f) <b>des</b>(gr1h)can(gr)sar.(gf) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Eu</nlba>(d) sou(dc~) o(f) pão(g) vi(fh)vo.(h)
+<eu>O(h) e(h) u(g) o(f) a(gh) e.</eu>(gf) (::)
 
-(::)
+<nlba><c><sp>A/</sp>.</c>() Eu</nlba>(d) sou(dc~) o(f) pão(g) vi(fh)vo.(h) (::)

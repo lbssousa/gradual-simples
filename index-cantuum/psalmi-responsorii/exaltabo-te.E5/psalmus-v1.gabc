@@ -1,16 +1,11 @@
 name: Psalmus 144(145);
 mode: E 5;
-commentary: Psalmus 144(145);
 book: Graduale simplex, 1975, p. 202;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Ex(e)al(e)<b>tá</b>(er1f)bo(er) te,(e)  *(:) De(e) <i>us</i>(fd) <b>me</b>(er1)us(f) rex.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Ex(e[alt:E 5])al(e)<b>tá</b>(er1f)bo(er) te,(e)  *(:) De(e) <i>us</i>(fd) <b>me</b>(er1)us(f) rex.(g) (::)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() <v>\VSup{2}</v>Et</nlba>(g) be(g)ne(e)dí(fe)cam(d) nó(c)mi(d)ni(f) tu(f)o.(e)
-
-(::)
+<nlba><c><sp>R/</sp>.</c>() <v>\VSup{2}</v>Et</nlba>(g) be(g)ne(e)dí(fe)cam(d) nó(c)mi(d)ni(f) tu(f)o.(e) (::)

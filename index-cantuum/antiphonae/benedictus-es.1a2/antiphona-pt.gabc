@@ -1,20 +1,10 @@
 name: Benedictus es;
 mode: 1;
 mode-differentia: a 2;
-commentary: Cantus ID 001729;
-commentary: Dn 3,56;
-book: Graduale Simplex, 1975, p. 198;
+commentary: LS;
 
 %%
 
 (c4)
 
-Ben(fe~)di(f)to(e) sois(d) *(,) no(dc) fir(f)ma(g)men(ixhi~)to(g) do(ixig) céu,(h) (;) e(h) dig(g)no(f) de(e) lou(f)vor(f) pe(f)los(g) sé(f)cu(c)los,(d) (,) nos(f)so(e) Deus!(dd)
-
-(::)
-
-<c>T. P.</c>() A(e)le(fe)lu(d)ia.(d)
-
-(::)
-
-(f+)
+Ben(f)di(e)to(f) sois(e) vós(d) *(,) no(dc) fir(f)ma(g)men(ixhi)to(g) do(ixig) céu,(h_) (;) e(h) lou(g)vá(f)vel(e) pe(f)los(fo) sé(f_g)cu(f)los,(c) (,) nos(d)so(fe) Deus!(d) (::f+)

@@ -1,8 +1,6 @@
 name: Unus militum;
-office-part: Communio;
 mode: 7;
 mode-differentia: c;
-commentary: Cantus ID a02876;
 commentary: Jo 19,34;
 book: Graduale Simplex, 1975, p. 213;
 
@@ -10,12 +8,6 @@ book: Graduale Simplex, 1975, p. 213;
 
 (c3)
 
-U(i)nus(ig) mí(ij)li(i)tum(g) *(,) lán(h)ce(fe)a(f!gwh) la(g)tus(h) e(ij)ius(i) a(ij)pé(hf)ru(h)it,(g) (;) et(i) con(h)tí(ij)nu(ih)o(h) ex(hf)í(hi)vit(i) (,) san(iji)guis(g) et(h) a(fef!gw!hvGFg)qua.(fe)
+U(i)nus(ig) mí(ij)li(i)tum(g) *(,) lán(h)ce(fe)a(f!gwh) la(g)tus(h) e(ij)ius(i) a(ij)pé(hf)ru(h)it,(g) (;) et(i) con(h)tí(ij)nu(ih)o(h) ex(hf)í(hi)vit(i) (,) san(iji)guis(g) et(h) a(fef!gw!hvGFg)qua.(fe) (::)
 
-(::)
-
-<nlba><c>T. P.</c>() Al</nlba>(fg)le(f)lú(e)ia.(e)
-
-(::)
-
-(h+)
+<nlba><c>T. P.</c>() Al</nlba>(fg)le(f)lú(e)ia.(e) (::h+)

@@ -1,5 +1,4 @@
 name: Psalmum 68;
-office-part: Offertorium;
 mode: 8;
 mode-differentia: G;
 book: Graduale Simplex, 1975, p. 213;
@@ -8,10 +7,8 @@ book: Graduale Simplex, 1975, p. 213;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ó</i>(g) <i>Deus</i>,(h) sal(j)<b>vai</b>-(kr1 jr)me,(j) *(:) pois(j) a(j) á(j)gua(j) che(j)gou(j) a(j)té(j) a(j) mi(j)<i>nha</i>(i) <i>gar</i>(j)<b>gan</b>(hr1 gr)ta.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Sal</i>(g)<i>vai</i>-(h)me,(j) ó(j) meu(j) Deus,(j) por(j)que(j) as(j) <b>á</b>(kr1 jr)guas,(j) *(:) a(j)té(j) o(j) meu(j) pes(j)co(j)ço(j) <i>já</i>(i) <i>che</i>(j)<b>ga</b>(hr1 gr)ram.(g) (::)
 
-(::)
+<nlba><c><sp>A/</sp>.</c>() Meu</nlba>(h) co(f)ra(fg)ção.(g_) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Meu</nlba>(h) co(f)ra(fg)ção.(g)
-
-(::)
+<nlba><c><sp>~</sp></c>() Eu</nlba>(j) es(j)pe(j)rei(j) (::)

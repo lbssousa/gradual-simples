@@ -199,7 +199,7 @@
 }
 
 \NewDocumentCommand \MakeChantPsalm { s m m } {
-  \input{index-cantuum/#2/#3/psalmus}
+  \InputIfFileExists{index-cantuum/#2/#3/psalmus}{}{}
 
   \iftoggle{onecolumn}{
     \GregorioImportR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}

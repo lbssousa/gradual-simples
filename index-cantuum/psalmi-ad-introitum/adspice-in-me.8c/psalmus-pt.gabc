@@ -1,21 +1,15 @@
 name: Psalmus 24;
-
 mode: 8;
 mode-differentia: c;
-book: Graduale Simplex, 1975, p. 225;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(e) <i>vós</i>,(f) Se(h)nhor,(h) e(h)le(h)vo(h) mi(h)nha(h) <b>al</b>(ir1 hr)ma.(h) *(:) Em(h) vós,(h) meu(h) Deus,(h) eu(h) con(h)fi(h)o,(h) não(h) fi(h)ca(h)rei(h) en(h)<i>ver</i>(f)<i>go</i>(h)<b>nha</b>(ir1 hr)do.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Se</i>(e)<i>nhor</i>(f) meu(h) Deus,(h) a(h) vós(h) e(h)le(h)vo(h) a(h) mi(h)nha(h) <b>al</b>(ir1 hr)ma,(h) *(:) <v>\VSup{2a}</v>em(h) vós(h) con(h)fi(h)o:(h) que(h) eu(h) não(h) se(h)ja(h) en(h)<i>ver</i>(f)<i>go</i>(h)<b>nha</b>(ir1 hr)do.(h) (::)
 
-(::)
+<eu>O(h) e(h) u(f) o(i) e.</eu>(h) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Vol</nlba>(h)tai-(h)vos(g) a(h) mim.(f)
+<nlba><c><sp>A/</sp>.</c>() O</nlba>(h)lhai(h_) pa(g)ra(h) mim.(f) (::)
 
-(::)
-
-<nlba><c><i>Flexa</i>:</c>() en</nlba>(h)si(h)<b>nai</b>-(hr1 fr)me,(f) +(,) (h) (h)
-
-(::)
+<nlba><c><i>Flexa</i>:</c>() con</nlba>(h)<b>du</b>(hr1 fr)za,(f) +(,) (h) (h) (::)

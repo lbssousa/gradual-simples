@@ -1,5 +1,4 @@
 name: Psalmus 5;
-office-part: Offertorium;
 mode: 8;
 mode-differentia: G;
 book: Graduale simplex, 1975, p. 218;
@@ -8,10 +7,6 @@ book: Graduale simplex, 1975, p. 218;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ver</i>(g)<i>ba</i>(h) me(j)a(j) áu(j)ri(j)bus(j) pér(j)ci(j)pe,(j) <b>Dó</b>(kr1)mi(jr)ne;(j) *(:) in(j)tel(j)lé(j)ge(j) gé(j)<i>mi</i>(i)<i>tum</i>(j) <b>me</b>(hr1 gr)um.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Ver</i>(g)<i>ba</i>(h) me(j)a(j) áu(j)ri(j)bus(j) pér(j)ci(j)pe,(j) <b>Dó</b>(kr1)mi(jr)ne;(j) *(:) in(j)tel(j)lé(j)ge(j) gé(j)<i>mi</i>(i)<i>tum</i>(j) <b>me</b>(hr1 gr)um.(g) (::)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() In</nlba>(gd~)tén(fg~)de.(g)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() In</nlba>(gd~)tén(fg~)de.(g) (::)

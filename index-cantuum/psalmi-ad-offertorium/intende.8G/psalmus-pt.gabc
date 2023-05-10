@@ -1,5 +1,4 @@
 name: Psalmus 5;
-office-part: Offertorium;
 mode: 8;
 mode-differentia: G;
 book: Graduale simplex, 1975, p. 218;
@@ -8,10 +7,10 @@ book: Graduale simplex, 1975, p. 218;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Dai</i>(g) <i>ou</i>(h)vi(j)dos(j) às(j) mi(j)nhas(j) pa(j)la(j)vras,(j) Se(j)<b>nhor</b>,(kr1 jr j) *(:) a(j)ten(j)dei(j) ao(j) <i>meu</i>(i) <i>ge</i>(j)<b>mi</b>(hr1 gr)do.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Es</i>(g)<i>cu</i>(h)tai,(j) ó(j) Se(j)nhor(j) Deus,(j) mi(j)nhas(j) pa(j)<b>la</b>(kr1 jr)vras,(j) *(:) a(j)ten(j)dei(j) o(j) <i>meu</i>(i) <i>ge</i>(j)<b>mi</b>(hr1 gr)do!(g) (::)
 
-(::)
+<nlba><c><sp>A/</sp>.</c>() A</nlba>(gd)ten(fg~)dei.(g) (::)
 
-<nlba><c><sp>A/</sp>.</c>() A</nlba>(g)ten(d)dei.(fg~g)
+<nlba><c><i>Flexa</i>:</c>() <b>pa</b></nlba>(jr1)ra(hr) vós,(h) +(,) (j) (j) (::)
 
-(::)
+<nlba><c><sp>~</sp></c>() À</nlba>(j) mi(j)nha(j) fren(j)te(j) (::)

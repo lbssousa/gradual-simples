@@ -1,7 +1,7 @@
 name: Factus est adiutor;
 mode: 1;
 mode-differentia: g 2;
-commentary: Cantus ID 002846 cf. Sl 29(30),11;
+commentary: Cantus ID 002846 cf. Sl 17(18),19; Sl 29(30),11;
 book: Graduale Simplex, 1975, pp. 88, 220;
 nabc-lines: 1;
 
@@ -9,8 +9,4 @@ nabc-lines: 1;
 
 (c4)
 
-Fac(f|vi)tus(ghg|to) est(h|vi) *(,) ad(f|ta)iú(h|vi)tor(g|vi) me(g|vi)us(e_f|peS) De(g|vi)us(fe|cl) me(d|ta)us.(d|ta)
-
-(::)
-
-(f+)
+Fac(f|vi)tus(ghg|to) est(h|vi) *(,) ad(f|ta)iú(h|vi)tor(g|vi) me(g|vi)us(e_f|peS) De(g|vi)us(fe|cl) me(d|ta)us.(d|ta) (::f+)

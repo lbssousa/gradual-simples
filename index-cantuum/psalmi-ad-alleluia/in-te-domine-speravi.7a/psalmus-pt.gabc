@@ -1,5 +1,4 @@
 name: Psalmus 30;
-office-part: Alleluia;
 mode: 7;
 mode-differentia: a;
 book: Graduale simplex, 1975, p. 227;
@@ -8,10 +7,6 @@ book: Graduale simplex, 1975, p. 227;
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Em</i>(hg) <i>vós</i>,(hi) Se(i)nhor,(i) es(i)pe(i)ro!(i) Não(i) se(i)ja(i) eu(i) con(i)fun(i)di(i)do(i) e(i)<b>ter</b>(kr1 jr)na(j)<b>men</b>(ir1 jr)te;(j) *(:) pe(i)la(i) vos(i)sa(i) jus(i)ti(i)ça,(i) <b>li</b>(jr1 ir)ber(i)<b>tai</b>-(hr1 hr)me.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Se</i>(hg)<i>nhor</i>,(hi) eu(i) po(i)nho(i) em(i) vós(i) mi(i)nha(i) es(i)pe(i)<b>ran</b>(ir1 hr)ça;(h) que(i) eu(i) não(i) fi(i)que(i) en(i)ver(i)go(i)nha(i)do(i) e(i)<b>ter</b>(kr1 jr)na(j)<b>men</b>(ir1 jr)te!(j) *(:) Por(i)que(i) sois(i) jus(i)to,(i) de(i)fen(i)dei-(i)me(i) e(i) <b>li</b>(jr1 ir)ber(i)<b>tai</b>-(hr1 hr)me!(gf) (::)
 
-(::)
-
-<nlba><c><i>Todos</i>:</c>() A</nlba>(e)le(g)lu(hi)ia.(i)
-
-(::)
+<nlba><c><i>Todos</i>:</c>() A</nlba>(e)le(g)lu(hi)ia.(i) (::)

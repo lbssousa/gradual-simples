@@ -1,5 +1,4 @@
 name: Psalmus 30;
-office-part: Alleluia;
 mode: 7;
 mode-differentia: a;
 book: Graduale simplex, 1975, p. 227;
@@ -8,10 +7,6 @@ book: Graduale simplex, 1975, p. 227;
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>In</i>(hg) <i>te</i>,(hi) Dó(i)ni(i)ne,(i) spe(i)rá(i)vi,(i) non(i) con(i)fún(i)dar(i) <b>in</b>(kr1 jr) æ(j)<b>tér</b>(ir1 jr)num;(j) *(:) in(i) iu(i)stí(i)ti(i)a(i) tu(i)a(i) <b>lí</b>(jr1 ir)be(i)<b>ra</b>(hr1 hr) me.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>In</i>(hg) <i>te</i>,(hi) Dó(i)ni(i)ne,(i) spe(i)rá(i)vi,(i) non(i) con(i)fún(i)dar(i) <b>in</b>(kr1 jr) æ(j)<b>tér</b>(ir1 jr)num;(j) *(:) in(i) iu(i)stí(i)ti(i)a(i) tu(i)a(i) <b>lí</b>(jr1 ir)be(i)<b>ra</b>(hr1 hr) me.(gf) (::)
 
-(::)
-
-<nlba><c><i>Todos</i>:</c>() Al</nlba>(e)le(g)lú(hi)ia.(i)
-
-(::)
+<nlba><c><i>Todos</i>:</c>() Al</nlba>(e)le(g)lú(hi)ia.(i) (::)

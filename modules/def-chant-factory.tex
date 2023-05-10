@@ -165,7 +165,7 @@
 }
 
 \NewDocumentCommand \MakeChantAntiphon { s m O{} } {
-  \def\@Antiphon@L{antiphona\IfNoValueOrEmptyTF{#3}{}{.#3}}
+  \def\@Antiphon@L{antiphona\IfBlankF{#3}{.#3}}
   \def\@Antiphon@R{\@Antiphon@L-pt}
 
   \iftoggle{onecolumn}{
@@ -329,6 +329,32 @@
       \Map{\DoGregorioImportLR}{#4}
     \end{paracol}
   }
+}
+
+\NewDocumentCommand \SectionAntiphonPsalm { s m O{} m O{} m m O{#4} } {
+  \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
+  \MakeChantAntiphon{#4}[#5]
+  \nobreaksubsection{#6}
+  \MakeChantPsalm{#7}{#8}
+}
+
+\NewDocumentCommand \SectionAlleluiaPsalm { s O{} m m m } {
+  \subsection{Aleluia}\IfBlankF{#2}{\label{#2}}
+  \MakeChantAlleluia{#3}
+  \nobreaksubsection{#4}
+  \MakeChantPsalm{psalmi-ad-alleluia}{#5}
+}
+
+\NewDocumentCommand \SectionPsalm { s m O{} m m m } {
+  \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
+  \subsubsection{#4}
+  \MakeChantPsalm{#5}{#6}
+}
+
+\NewDocumentCommand \SectionPsalmMulti { s m O{} m m m } {
+  \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
+  \subsubsection{#4}
+  \MakeChantPsalmMulti{#5}{#6}
 }
 
 \NewDocumentCommand{\MakeChantLongPsalm}{s m m m}{

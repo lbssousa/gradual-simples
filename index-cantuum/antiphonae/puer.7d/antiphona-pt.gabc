@@ -1,16 +1,10 @@
 name: Puer qui natus est nobis;
 mode: 7;
 mode-differentia: d;
-cantus-id: 004412;
-commentary: Lc 7,26.28;
-book: Graduale Simplex, 1975, p. 279;
+commentary: LS;
 
 %%
 
 (c3)
 
-O(e) me(e)ni(i)no(i) *(,) que(j) nas(i)ceu(h) pa(h)ra(f) nós,(hji) (;) é(i) mais(j) do(h) q<e>ue</e> um(f) pro(g)fe(f)ta;(e) (:) es(d)t<e>e é</e> a(f)que(hi)le(i) (,) de(i) quem(j) o(h) Sal(f)va(h)dor(g) fa(e)lou:(e) (;) En(d)tr<e>e</e> os(f) nas(h)ci(h)dos(h) de(h) mu(ij)lher(i) (,) não(j) sur(i)giu(h) nin(hf~)guém(h) mai(h)or(g) (,) que(e) Jo(gh)ão(f) Ba(f)tis(e)ta.(e)
-
-(::)
-
-(h+)
+O(e) me(e)ni(e_i)no(i_) *(,) que(j) nas(i)ceu(hf~) pa(h_j)ra(i) nós,(i) (;) é(i) mais(i_j) do(h) q<e>ue</e> um(f) pro(g)fe(f)ta;(e_) (:) es(d)t<e>e</e> é(f) a(h)que(i)le(i) (,) de(i) quem(j) o(h) Sal(f)va(h)dor(g) fa(e)lou:(e_) (;) En(d)tr<e>e</e> os(f) nas(h)ci(h)dos(h) de(h) mu(i_j)lher(i) (,) não(j) sur(i)giu(h) nin(hf~)guém(h) mai(hho)or(g) (,) que(e) Jo(g_h)ão(f) Ba(f)tis(e)ta.(e) (::h+)

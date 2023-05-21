@@ -2,16 +2,15 @@ name: Canticum Zachariae;
 office-part: Communio;
 mode: 3;
 mode-differentia: a;
-book: Graduale simplex, 1975, p. 280;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ben</i>(g)<i>di</i>(hj)to(j) se(j)ja(j) o(j) Se(j)nhor,(j) Deus(j) de(j) <b>Is</b>(kr1 jr)ra(j)<nlba>(ir[ocba:1{])<b>el</b>,</nlba>(ih[ocba:0}] j) *(:) por(j)que(j) vi(j)si(j)tou(j) e(j) li(j)ber(j)tou(j) o(j) <i>seu</i>(h) <b>po</b>(jr1 jr)vo.(ih)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{68}</v><i>Ben</i>(g)<i>di</i>(hj)to(j) se(j)ja(j) o(j) Se(j)nhor(j) <b>Deus</b>(kr1 jr) de(j) <nlba><b>Is</b>(ir[ocba:1{])<b>ra</b></nlba>(ih[ocba:0}])el,(j) *(:) por(j)que(j) a(j) seu(j) po(j)vo(j) vi(j)si(j)tou(j) <i>e</i>(h) <b>li</b>(jr1)ber(jr)tou.(ih) (::)
 
-(::)
+<eu>O(j) e(j) u(j) o(h) a(j) e.</eu>(ih) (::)
 
-<c><sp>A/</sp>.</c>() Tu,(gj) me(j)ni(j)no.(i)
+<nlba><c><sp>A/</sp>.</c>() Tu,</nlba>(g_j) me(j)ni(j)no.(ji__) (::)
 
-(::)
+<nlba><c><sp>~</sp></c>() E</nlba>(j) pa(j)ra(j) (::)

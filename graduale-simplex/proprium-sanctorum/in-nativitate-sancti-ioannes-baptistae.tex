@@ -1,31 +1,28 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:proprium-sanctorum/in-nativitate-sancti-ioannes-baptistae}
 
-\subsection{Entrada}\label{subsection:proprium-sanctorum/in-nativitate-sancti-ioannes-baptistae/introitus}
-\MakeChantAntiphonPsalm{dominus-ab-utero.8G}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection[Salmo Responsorial]{Salmo Responsorial \textmd{E 5}}\label{subsection:proprium-sanctorum/in-nativitate-sancti-ioannes-baptistae/psalmus-responsorius}
-\MakeChantPsalmThreeVerses{psalmi-responsorii}{in-te-domine-speravi.E5}
-
-\subsection{Aleluia}\label{subsection:proprium-sanctorum/in-nativitate-sancti-ioannes-baptistae/alleluia}
-\MakeChantAlleluiaPsalm{1g2/}{ad-te-domine.1g2}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{dominus-ab-utero.8G}{Salmo 91(92)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático]{Salmo Aleluiático \textmd{C 4}}\label{subsection:proprium-sanctorum/in-nativitate-sancti-ioannes-baptistae/psalmus-alleluiaticus}
-\begin{rubrica}
-  O primeiro {\normalfont\Rbar} pode ser cantado apenas pelo grupo de cantores ou por todos. O segundo {\normalfont\Rbar} é cantado por todos.
-\end{rubrica}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{ad-te-domine.C4}
+\SectionPsalmMulti{Responsorial}[\Prefix/psalmus-responsorius]{Salmo 70(71)}{psalmi-responsorii}{in-te-domine-speravi.E5}{%
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt},
+  {psalmus-v3}{psalmus-v3-pt}
+}
+
+\SectionAlleluiaPsalm[\Prefix/alleluia]{1g2}{Salmo 24(25)}{ad-te-domine.1g2}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:proprium-sanctorum/in-nativitate-sancti-ioannes-baptistae/offertorium}
-\MakeChantAntiphonPsalm{puer.7d}{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático}[\Prefix/psalmus-alleluiaticus]{Salmo 24(25)}{psalmi-alleluiatici}{ad-te-domine.C4}[O primeiro {\normalfont\Rbar} pode ser cantado apenas pelo grupo de cantores ou por todos. O segundo {\normalfont\Rbar} é cantado por todos.]
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:proprium-sanctorum/in-nativitate-sancti-ioannes-baptistae/communio}
-\MakeChantAntiphonPsalm{tu-puer.3a}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]
+{puer.7d}{Salmo 64(65)}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]
+{tu-puer.3a}{Cântico de Zacarias (Lc 1)}{psalmi-ad-communionem}

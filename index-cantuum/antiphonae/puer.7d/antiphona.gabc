@@ -1,16 +1,12 @@
 name: Puer qui natus est nobis;
 mode: 7;
 mode-differentia: d;
-cantus-id: 004412;
-commentary: Lc 7,26.28;
+commentary: Cantus ID 004412 cf. Lc 7,26.28;
 book: Graduale Simplex, 1975, p. 279;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Pu(ei)er(i) *(,) qui(j) na(i)tus(h) est(hf~) no(hj)bis,(i) (,) plus(ij) quam(h) pro(f)phé(g)ta(f) est:(e) (:) hic(d) est(f) e(hi)nim(i) (,) de(ij) quo(h) Sal(f)vá(h)tor(g) a(e)it:(e) (;) In(d)ter(f) na(h)tos(h) mu(h)lí(h)e(ij)rum(i) (,) non(j) sur(i)ré(h)xit(hf~) ma(hh)ior(g) (,) Io(e)án(gh)ne(f) Bap(f)tís(e)ta.(e)
-
-(::)
-
-(h+)
+Pu(e_i|````peSlss3lsi7)er(i_|vi-) *(,) qui(j|vi) na(i|vi)tus(h|vi) est(hf~|ta) no(h_j|vi-vihh)bis,(i|ta) (,) plus(i_j|````peSlse4) quam(h|vi) pro(f|ta)phé(g|vilsi2)ta(f|vi) est:(e_|ta-) (:) hic(d|grlsi3) est(f|vi) e(hi|vivihh)nim(i|vilsi3) (,) de(ij|````vilse4vihh) quo(h|vi) Sal(f|ta)vá(h|vi)tor(g|vi) a(e|ta)it:(e_|ta-) (;) In(d|gr)ter(f|vi) na(h|vi)tos(h|vi) mu(h|vi)lí(h|vi)e(i_j|peS)rum(i|vi) (,) non(j|vilss3) sur(i|vi)ré(h|vi)xit(hf~|vi>lsi9) ma(hho|vs)ior(g|vi) (,) Io(e|talsc3)án(g_h>|vi-vi>)ne(f|ta) Bap(f|vi)tís(e|ta)ta.(e|ta) (::h+)

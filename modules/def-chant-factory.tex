@@ -345,9 +345,10 @@
   \MakeChantPsalm{psalmi-ad-alleluia}{#5}
 }
 
-\NewDocumentCommand \SectionPsalm { s m O{} m m m } {
+\NewDocumentCommand \SectionPsalm { s m O{} m m m O{} } {
   \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
   \subsubsection{#4}
+  \IfBlankF{#7}{\begin{rubrica}#7\end{rubrica}}
   \MakeChantPsalm{#5}{#6}
 }
 

@@ -1,16 +1,10 @@
 name: Dominus ab utero;
 mode: 8;
 mode-differentia: G;
-cantus-id: 002400;
-commentary: Is 49,1;
-book: Graduale Simplex, 1975, p. 275;
+commentary: LS;
 
 %%
 
 (c4)
 
-O(g) Se(f)nhor,(d) des(e)d<e>e</e> o(f) ú(gh)te(h)ro,(g) *(,) me(g) cha(h)mou,(gf~) (;) des(f)d<e>e</e> o(h) ven(j)tre(i) de(j) mi(k)nha(h) mãe,(hg~) (,) pro(g)nun(gh~)ci(f)ou(ed~) o(ef) meu(gh) no(hg)me.(g)
-
-(::)
-
-(g+)
+O(g_) Se(fd)nhor,(e) des(e)d<e>e</e> o(f) ú(gh)te(h)ro,(g_) *(,) cha(g)mou-(hg)me(f_) (;) des(f_h)d<e>e</e> o(h) ven(j_)tre(i) de(j) mi(k)nha(h) mãe,(hg) (,) pro(g_)nun(gh~)ci(fe)ou(d_) o(e_f) meu(gh) no(g)me.(g) (::g+)

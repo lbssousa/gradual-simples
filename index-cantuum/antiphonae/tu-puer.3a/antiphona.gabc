@@ -1,16 +1,12 @@
 name: Tu puer;
 mode: 3;
 mode-differentia: a;
-cantus-id: 005218;
-commentary: Lc 1,76;
+commentary: Cantus ID 005218 cf. Lc 1,76;
 book: Graduale Simplex, 1975, p. 280;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Tu(gj) pu(j)er,(ji) *(,) pro(hiwj)phé(ji)ta(g) Al(g)tís(g)si(hi)mi(h) vo(gf)cá(e)be(fg)ris:(g) (;) præ(h)í(j)bis(j) an(j)te(j) Dó(h)mi(j)num(i) (,) pa(g)rá(h)re(gf) vi(g)as(gf) e(e)ius.(e)
-
-(::)
-
-(g+)
+Tu(g_j|peSlstm3) pu(j|vilssta3)er,(ji__|cl-hilssta3) *(,) pro(h!iwj|taql)phé(ji__|cl-hi)ta(g_|ta-) Al(g|ta)tís(g|ta)si(hi|pe)mi(h|vi) vo(gf|cl)cá(e|ta)be(fg|pe)ris:(g_|vi-lse3) (;) præ(h|ta)í(j|vi)bis(j|vi) an(j|vi)te(j|vi) Dó(h|ta)mi(j|vi)num(i_|ta-hglsx6) (,) pa(g|ta)rá(h|vi)re(gf|cllsc3) vi(g|vi)as(gf|cl) e(e|ta)ius.(e|ta) (::g+)

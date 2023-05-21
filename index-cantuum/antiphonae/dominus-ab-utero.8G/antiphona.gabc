@@ -1,15 +1,15 @@
 name: Dominus ab utero;
 mode: 8;
 mode-differentia: G;
-cantus-id: 002400;
-commentary: Is 49,1;
+commentary: Cantus ID 002400 cf. Is 49,1;
 book: Graduale Simplex, 1975, p. 275;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Dó(g)mi(fd)nus(e) ab(f) ú(gh)te(h)ro(g) *(,) vo(g)cá(h)vit(g) me,(f) (;) de(fh) ven(j)tre(i) ma(jk)tris(h) me(h)æ(g) (,) re(g)cor(gh~)dá(f)tus(e) est(d) nó(ef)mi(gh)nis(h) me(g)i.(g)
+Dó(g_|vi-)mi(fd|cllsc3)nus(e|vi) ab(f|vi) ú(gh|pe)te(h|vi)ro(g_|ta-) *(,) vo(g|ta)cá(h|vi)vit(g|vi) me,(f_|ta-) (;) de(f_h|peS) ven(j_|vi-hjlst3)tre(i|ta) ma(jk|pehilsl3)tris(h|talsi6) me(h|````vilse1)æ(g|ta) (,) re(g_|ta-)cor(gh~|ta>)dá(f|vi)tus(e|vi) est(d_|ta-) nó(e_f|peS)mi(gh|pe)nis(h|vi) me(g|ta)i.(g|ta)
 
 (::)
 

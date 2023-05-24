@@ -202,7 +202,7 @@
   \InputIfFileExists{index-cantuum/#2/#3/psalmus}{}{}
 
   \iftoggle{onecolumn}{
-    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
+    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
 
     \ifdefempty{\@Verse@Pairs}{}{%
       \begin{greenumerate}
@@ -213,7 +213,7 @@
     \clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus}{psalmus-pt}
+      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
     \end{paracol}
 
     \ifdefempty{\@Verse@Pairs}{}{%
@@ -911,7 +911,7 @@
       \vspace{-10pt}
     }{}
     \GregorioImportL{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
-    \GregorioImportL*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
+    \GregorioImportL*{index-cantuum/#3}{#4}{psalmus-v1}{psalmus-v1-pt}
 
     \ifdefempty{\@Verse@Pairs}{}{%
       \begin{greenumerate}
@@ -929,7 +929,7 @@
       \vspace{-10pt}
     }{}
     \GregorioImportR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
-    \GregorioImportR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
+    \GregorioImportR*{index-cantuum/#3}{#4}{psalmus-v1}{psalmus-v1-pt}
 
     \ifdefempty{\@Verse@Pairs}{}{%
       \begin{greenumerate}
@@ -942,7 +942,7 @@
   }{
     \begin{paracol}{2}
       \GregorioImportLR{index-cantuum/antiphonae}{#1}{\@Antiphon@L}{\@Antiphon@R}
-      \GregorioImportLR*{index-cantuum/#3}{#4}{psalmus}{psalmus-pt}
+      \GregorioImportLR*{index-cantuum/#3}{#4}{psalmus-v1}{psalmus-v1-pt}
     \end{paracol}
 
     \ifdefempty{\@Verse@Pairs}{}{%
@@ -1076,7 +1076,7 @@
     }{}
     \GregorioImportL{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@L}{\@Antiphon@R}
     \noindent\begin{rubrica}Todos:\end{rubrica} Allelúia, allelúia, allelúia.
-    \GregorioImportL*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
+    \GregorioImportL*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus-v1}{psalmus-v1-pt}
 
     \ifdefempty{\@Verse@Pairs}{}{%
       \begin{greenumerate}
@@ -1095,7 +1095,7 @@
     }{}
     \GregorioImportR{index-cantuum/antiphonae}{alleluia.#1}{\@Antiphon@R}{\@Antiphon@R}
     \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
-    \GregorioImportR*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
+    \GregorioImportR*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus-v1}{psalmus-v1-pt}
 
     \ifdefempty{\@Verse@Pairs}{}{%
       \begin{greenumerate}
@@ -1112,7 +1112,7 @@
       \switchcolumn[1]
       \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
       \switchcolumn[0]*
-      \GregorioImportLR*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus}{psalmus-pt}
+      \GregorioImportLR*{index-cantuum/psalmi-ad-alleluia}{#2}{psalmus-v1}{psalmus-v1-pt}
     \end{paracol}
 
     \ifdefempty{\@Verse@Pairs}{}{%

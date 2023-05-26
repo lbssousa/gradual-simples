@@ -1,16 +1,12 @@
 name: Constitues eos principes;
 mode: 7;
 mode-differentia: a;
-cantus-id: 001902;
-commentary: Sl 45(44),17--18;
+commentary: Cantus ID 001902 cf. Sl 45(44),17-18;
 book: Graduale Simplex, 1975, p. 285;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Con(e)stí(e)tu(e)es(g) e(i)os(h) prín(f)ci(h)pes(g) *(,) su(g)per(g) om(h)nem(f) ter(eh)ram:(hhg) (;) mé(gh)mo(i)res(h) e(fh)runt(g) (,) nó(e)mi(g)nis(h) tu(f)i,(f) Dó(g)mi(f)ne.(e)
-
-(::)
-
-(h+)
+Con(e|vi)stí(e|vi)tu(e|ta)es(g|vi) e(i|vi)os(h|vi) prín(f|ta)ci(h|vi)pes(g|cl) *(,) su(g|vi)per(g|vi) om(h|ta)nem(f>|vi>) ter(eh|taql>)ram:(h_h_g_|toS) (;) mé(g_h|peS)mo(i|vi)res(h|vi) e(f_h|peS)runt(g_|vi-) (,) nó(e_|ta-)mi(g|vi)nis(h|vi) tu(f|ta)i,(f|ta) Dó(g|vi)mi(f|vi)ne.(e|ta) (::h+)

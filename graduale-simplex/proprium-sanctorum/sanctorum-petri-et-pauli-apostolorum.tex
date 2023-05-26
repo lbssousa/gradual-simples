@@ -1,29 +1,25 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:proprium-sanctorum/sanctorum-petri-et-pauli-apostolorum}
 
-\subsection{Entrada}\label{subsection:proprium-sanctorum/sanctorum-petri-et-pauli-apostolorum/introitus}
-\MakeChantAntiphonPsalm{misit-dominus.7c2}{psalmi-ad-introitum}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{misit-dominus.7c2}{Salmo 18 A (19 A)}{psalmi-ad-introitum}
 
-\subsection[Salmo Responsorial]{Salmo Responsorial \textmd{C 3 g}}\label{subsection:proprium-sanctorum/sanctorum-petri-et-pauli-apostolorum/psalmus-responsorius}
-\MakeChantPsalmThreeVerses{psalmi-responsorii}{constitues-eos-principes.C3g}
+\SectionPsalmMulti{Responsorial}[\Prefix/psalmus-responsorius]{Salmos 44(45) e 116(117)}{psalmi-responsorii}{constitues-eos-principes.C3g}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt},
+  {psalmus-v3}{psalmus-v3-pt}
+}
 
-\AllowPageFlush
-
-\subsection{Aleluia}\label{subsection:proprium-sanctorum/sanctorum-petri-et-pauli-apostolorum/alleluia}
-\MakeChantAlleluiaPsalm{3g}{in-convertendo-dominus.3g}
-
-\subsection[Salmo Aleluiático]{Salmo Aleluiático \textmd{C 4}}\label{subsection:proprium-sanctorum/sanctorum-petri-et-pauli-apostolorum/psalmus-alleluiaticus}
-\begin{rubrica}
-    O primeiro {\normalfont\Rbar} pode ser cantado apenas pelo grupo de cantores ou por todos. O segundo {\normalfont\Rbar} é cantado por todos.
-\end{rubrica}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{in-convertendo-dominus.C4}
+\SectionAlleluiaPsalm[\Prefix/alleluia]{3g}{Salmo 125(126)}{in-convertendo-dominus.3g}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:proprium-sanctorum/sanctorum-petri-et-pauli-apostolorum/offertorium}
-\MakeChantAntiphonPsalm{constitues-eos-principes.7a}{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático}[\Prefix/psalmus-alleluiaticus]{Salmo 125(126)}{psalmi-alleluiatici}{in-convertendo-dominus.C4}[O primeiro {\normalfont\Rbar} pode ser cantado apenas pelo grupo de cantores ou por todos. O segundo {\normalfont\Rbar} é cantado por todos.]
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]
+{constitues-eos-principes.7a}{Salmo 44(45)}{psalmi-ad-offertorium}
 
 \AllowPageBreak
 
-\subsection{Comunhão}\label{subsection:proprium-sanctorum/sanctorum-petri-et-pauli-apostolorum/communio}
-\MakeChantAntiphonPsalm{tu-es-petrus.7c}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{tu-es-petrus.7c}{Cântico de São Paulo (Ef 1)}{psalmi-ad-communionem}

@@ -1,16 +1,12 @@
 name: Misit Dominus;
 mode: 7;
 mode-differentia: c 2;
-cantus-id: 003783;
-commentary: At 12,11;
+commentary: Cantus ID 003783 cf. At 12,11;
 book: Graduale Simplex, 1975, p. 282;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Mi(g)sit(h) Dó(i)mi(j)nus(i) *(,) An(ij)ge(h)lum(f) su(hh)um,(g) (;) et(h) li(g)be(h)rá(ij)vit(i) me(h) (,) de(f) ma(h)nu(g) He(fe)ró(f)dis,(ed) (,) al(f!gwh)le(hvFE!fwgf)lú(e)ia.(e)
-
-(::)
-
-(h+)
+Mi(g|vi)sit(h|vi) Dó(i|ta)mi(j|vi)nus(i_|ta-) *(,) An(i_j>_|pe>1hh)ge(h|vi)lum(f|ta) su(hho|vs)um,(g_|ta-) (;) et(h|ta) li(g|vi)be(h|vi)rá(ij|pe)vit(i|vi) me(h|vi) (,) de(f|ta) ma(h_|vi-)nu(g|vi) He(fe|cllsc3)ró(f|vi)dis,(e_d_|cl-lsm2) (,) al(f!gwh|viql)le(hvF_E_!fwg_f_|ciS1ql!cl-)lú(e|ta)ia.(e|ta) (::h+)

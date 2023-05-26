@@ -1,20 +1,14 @@
 name: Tu es Petrus;
 mode: 7;
 mode-differentia: c;
-cantus-id: 005208;
-commentary: Mt 16,18;
+commentary: Cantus ID 005208 cf. Mt 16,18;
 book: Graduale Simplex, 1975, p. 286;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Tu(ig) es(ij) Pe(i)trus,(i) *(,) et(i) su(i)per(g) hanc(hg) pe(e)tram(e) (;) æ(g)di(ghg)fi(f)cá(h)bo(g) (,) Ec(f)clé(ef)si(g)am(f) me(e)am.(e)
+Tu(ig|cllslm2) es(i_j|peS) Pe(i_|vi-)trus,(i|vilssta2) *(,) et(i|vi) su(i|vi)per(g|ta) hanc(hg|cl) pe(e|ta)tram(e_|ta-lsx6) (;) æ(g|ta)di(ghg|toM1)fi(f|ta)cá(h|vi)bo(g|vilssta3) (,) Ec(f|vi)clé(e_f|peS)si(g|vi)am(f>|vi>) me(e|ta)am.(e|ta) (::)
 
-(::)
-
-<nlba><c><i>T. P.</i></c>() Al</nlba>(g)le(gf)lú(e)ia.(e)
-
-(::)
-
-(h+)
+<nlba><c><i>T. P.</i></c>() Al</nlba>(g)le(gf)lú(e)ia.(e) (::h+)

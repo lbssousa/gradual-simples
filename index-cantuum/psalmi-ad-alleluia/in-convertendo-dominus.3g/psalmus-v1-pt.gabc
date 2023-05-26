@@ -1,17 +1,11 @@
 name: Psalmus 125;
-office-part: Alleluia;
 mode: 3;
 mode-differentia: g;
-book: Graduale simplex, 1975, p. 284;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Quan</i>(g)<i>d<e>o</e> o</i>(hj) Se(j)nhor(j) fez(j) vol(j)tar(j) os(j) e(j)xi(j)la(j)dos(j) <b>de</b>(kr1 jr) Si(j)<nlba>(ir[ocba:1{])<b>ão,</b></nlba>(ih[ocba:0}] j) *(:) pa(j)re(j)cí(j)a(j)<i>mos</i>(ji) <i>so</i>(hi)<b>nhar</b>.(hr1 gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Quan</i>(g)<i>o</i>(hj) o(j) Se(j)nhor(j) re(j)con(j)du(j)ziu(j) <b>nos</b>(kr1)sos(jr) ca(j)<nlba>(ir[ocba:1{])<b>ti</b></nlba>(ih[ocba:0}])vos,(j) *(:) pa(j)re(j)cí(j)<i>a</i>(ji)<i>mos</i>(hi) <b>so</b>(hr1 gr)nhar.(g) (::)
 
-(::)
-
-<nlba><c><i>Todos</i>:</c>() A</nlba>(g)le(h)lu(j)ia.(ji)
-
-(::)
+<nlba><c><i>Todos</i>:</c>() A</nlba>(g)le(h)lu(j)ia.(ji) (::)

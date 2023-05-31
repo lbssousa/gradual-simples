@@ -3,16 +3,13 @@ mode: 7;
 mode-differentia: a;
 commentary: Cantus ID 003211 cf. Sl 15(14),1; Sl 132(131),14;
 book: Graduale Simplex, 1975, p. 363;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-In(e) cæ(e)lé(h)sti(g)bus(h) re(ij)gnis(i) *(,)
-sanc(h)tó(j)rum(k) ha(j)bi(i)tá(j)ti(i)o(i) est,(h) al(ij)le(j)lú(i)ia:(i) (:)
-et(i) in(j) æ(i)tér(h)num(f) (,)
-ré(h)qui(h)es(g) i(i)ó(hg)rum,(ef) al(g)le(f)lú(e)ia.(e)
-
-(::)
-
-(h+)
+In(e|ta) cæ(e|ta)lé(h|vi)sti(g|ta)bus(h|vi) re(i_j>_|````pe>1hilss4)gnis(i|vi) *(,)
+sanc(h|ta)tó(j|vi)rum(k|vihi) ha(j|vi)bi(i|ta)tá(j|vi)ti(i|ta)o(i|vi) est,(h|ta) al(ij|pe)le(j|vi)lú(i|ta)ia:(i|ta) (:)
+et(i_|````ta-lse4) in(j|vi) æ(i|vi)tér(h|ta)num(f>|vi>) (,)
+ré(h|vi)qui(h|vi)es(g|ta) e(i|vi)ó(hg|cllsc3)rum,(ef|ta) al(g>|vi>)le(f|pe)lú(e|ta)ia.(e|ta) (::h+)

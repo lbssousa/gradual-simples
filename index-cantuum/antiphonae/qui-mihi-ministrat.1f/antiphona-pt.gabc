@@ -1,18 +1,12 @@
 name: Qui mihi ministrat;
 mode: 1;
 mode-differentia: f;
-phantom-commentary: Cantus ID 004485 cf. Jo 12,26;
+commentary: LS;
 
 %%
 
 (c4)
 
-S<e>e</e> al(d)guém(dc) quer(f) ser(g)vir-(fh)me,(h) *(,) que(ixih) me(g) si(fh)ga,(g) (;) e(g) on(g)de(e) eu(g) es(h)ti(g)ver,(f) (,) a(g)li(f) es(f)ta(f)rá(e) o(fg) +() meu(fe) ser(d)vo.(d)
+S<e>e</e> al(d)guém(d_c_) quer(f) ser(g)vir-(f_h)me,(h_) *(,) que(ixih) me(g) si(f_h)ga,(g) (;) e(ggo) on(e)d<e>e</e> eu(g) es(h)ti(g)ver,(f) (,) a(g)li(f) tam(f)bém(ffo) es(e)ta(f)rá(g) +() meu(fe) ser(d)vo.(d) (::)
 
-(::)
-
-<c><i>T. P.</i></c> +() meu(f) ser(fe)vo,(dc) a(d)le(fe)lu(d)ia.(d)
-
-(::)
-
-(f+)
+<nlba><c><i>T. P.</i></c> +() meu</nlba>(f) ser(fe)vo,(dc) a(d)le(fe)lu(d)ia.(d) (::f+)

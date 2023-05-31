@@ -331,11 +331,18 @@
   }
 }
 
-\NewDocumentCommand \SectionAntiphonPsalm { s m O{} m O{} m m O{#4} } {
-  \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
-  \MakeChantAntiphon{#4}[#5]
-  \nobreaksubsection{#6}
-  \MakeChantPsalm{#7}{#8}
+\NewDocumentCommand \SectionAntiphonPsalm { s O{} m O{} m O{} m m O{#5} } {
+  \subsection{Antífona de #3}\IfBlankF{#4}{\label{#4}}
+  \IfBlankF{#2}{%
+    \begin{rubrica}
+      \begin{center}
+        #2
+      \end{center}
+    \end{rubrica}%
+  }
+  \MakeChantAntiphon{#5}[#6]
+  \nobreaksubsection{#7}
+  \MakeChantPsalm{#8}{#9}
 }
 
 \NewDocumentCommand \SectionAlleluiaPsalm { s O{} m m m } {
@@ -345,17 +352,28 @@
   \MakeChantPsalm{psalmi-ad-alleluia}{#5}
 }
 
-\NewDocumentCommand \SectionPsalm { s m O{} m m m O{} } {
-  \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
-  \subsubsection{#4}
-  \IfBlankF{#7}{\begin{rubrica}#7\end{rubrica}}
-  \MakeChantPsalm{#5}{#6}
+\NewDocumentCommand \SectionPsalm { s O{} m O{} m m m } {
+  \subsection{Salmo #3 --- #5}\IfBlankF{#4}{\label{#4}}
+  \IfBlankF{#2}{%
+    \begin{rubrica}
+      \begin{center}
+        #2
+      \end{center}
+    \end{rubrica}%
+  }
+  \MakeChantPsalm{#6}{#7}
 }
 
-\NewDocumentCommand \SectionPsalmMulti { s m O{} m m m } {
-  \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
-  \subsubsection{#4}
-  \MakeChantPsalmMulti{#5}{#6}
+\NewDocumentCommand \SectionPsalmMulti { s O{} m O{} m m m } {
+  \subsection{Salmo #3 --- #5}\IfBlankF{#4}{\label{#4}}
+  \IfBlankF{#2}{%
+    \begin{rubrica}
+      \begin{center}
+        #2
+      \end{center}
+    \end{rubrica}%
+  }
+  \MakeChantPsalmMulti{#6}{#7}
 }
 
 \NewDocumentCommand{\MakeChantLongPsalm}{s m m m}{

@@ -1,16 +1,13 @@
 name: Salmo 92(91);
 mode: 8;
 mode-differentia: G;
-phantom-commentary: Sl 92(91),2-6.14.16;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Bom</i>(g) <i>é</i>(h) lou(j)var(j) o(j) Se(j)<b>nhor</b>(kr1 jr j) *(:) e(j) can(j)tar(j) sal(j)mos(j) ao(j) vos(j)so(j) no(j)me,(j) <i>ó</i>(i) <i>Al</i>(j)<b>tís</b>(hr1)si(gr)mo!(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Co</i>(g)<i>mo</i>(h) é(j) bom(j) a(j)gra(j)de(j)cer(j)mos(j) ao(j) <b>Se</b>(kr1 jr)nhor(j) *(:) e(j) can(j)tar(j) sal(j)mos(j) de(j) lou(j)vor(j) ao(j) <i>Deus</i>(i) <i>Al</i>(j)<b>tís</b>(hr1)si(gr)mo!(g) (::)
 
-(::)
+<eu>O(j) e(j) u(i) o(j) a(h) e.</eu>(g) (::)
 
-<nlba><c><sp>A/</sp>.</c>() O</nlba>(h) jus(f)to,(g) qual(g) pal(h)mei(g)ra.(f)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() O</nlba>(h) jus(h)to.(f) (::)

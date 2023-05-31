@@ -1,18 +1,12 @@
 name: Colocastes, ó Senhor;
 mode: 4;
 mode-differentia: A;
-phantom-commentary: Cantus ID 004344 cf. Sl 21(20),4;
+commentary: LS;
 
 %%
 
 (c3)
 
-Co(e)lo(f)cas(h)tes,(h) ó(h) Se(ij)nhor,(i) *(,) so(h)br<e>e</e> a(i) su(j)a(i) ca(h)be(i)ça(i) (;) u(i)ma(f) co(i)ro(h)a(g) de(f) pe(e)dras(fe) pre(de)ci(fh)o(f)sas.(f)
+Co(e)lo(f)cas(h)tes,(h) ó(h) Se(ij)nhor,(i) *(,) so(h)br<e>e</e> a(i) su(j)a(i) ca(h)be(i_)ça(i) (;) u(i)ma(i) co(i)ro(f_i)a(h) de(g) pe(fe)dras(f_e_) pre(d_e)ci(f_h)o(f)sas.(f) (::)
 
-(::)
-
-<c><i>T. P.</i></c>() A(de)le(fh)lu(f)ia.(f)
-
-(::)
-
-(i+)
+<nlba><c><i>T. P.</i></c>() A</nlba>(de)le(fh)lu(f)ia.(f) (::i+)

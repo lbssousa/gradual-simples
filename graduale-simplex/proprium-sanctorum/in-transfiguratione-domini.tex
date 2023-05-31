@@ -1,30 +1,28 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:proprium-sanctorum/in-transfiguratione-domini}
 
-\subsection{Entrada}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/introitus}
-\MakeChantAntiphonPsalm{assumpsit-iesus.2D}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection[Salmo Responsorial]{Salmo Responsorial \textmd{C 2 a}}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/psalmus-responsorius}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{magna-est-gloria-eius.C2a}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{assumpsit-iesus.2D}{Salmo 83(84)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection{Aleluia}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/alleluia}
-\MakeChantAlleluiaPsalm{7a}{dominus-regnavit-exsultet-terra.7a}
+\SectionPsalmMulti{Responsorial}[\Prefix/psalmus-responsorius]{Salmo 20(21)}{psalmi-responsorii}{magna-est-gloria-eius.C2a}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático]{Salmo Aleluiático \textmd{E 2 d}}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/psalmus-alleluiaticus}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{dominus-regnavit-exsultet-terra.E2d}
+\SectionAlleluiaPsalm[\Prefix/alleluia]{7a}{Salmo 96(97)}{dominus-regnavit-exsultet-terra.7a}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/offertorium}
-\MakeChantAntiphonPsalm{faciamus-hic.4A}{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático}[\Prefix/psalmus-alleluiaticus]
+{Salmo 96(97)}{psalmi-alleluiatici}{dominus-regnavit-exsultet-terra.E2d}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/communio}
-\MakeChantAntiphonPsalm{visionem.1f}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{faciamus-hic.4A}{Salmo 132(133)}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{visionem.1f}{Salmo 44(45)}{psalmi-ad-communionem}

@@ -1,15 +1,10 @@
 name: Salmo 20(21);
 mode: C 2 a;
-commentary: Salmo 20(21);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{6a}</v>É(f) gran(f)de(f) a(f) su(f)a(f) <nlba><b>gló</b>(gr[ocba:1{])<b>ri</b></nlba>(gh[ocba:0}])a.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{6a}</v>É(f[alt:C 2 a]) gran(f)de(f) a(f) su(f)a(f) <nlba>(gr[ocba:1{])<b>gló</b></nlba>(gh[ocba:0}])ria.(h) (::)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() Em</nlba>(h) vos(gvFD)so(f) au(g)xí(g)lio.(f)
-
-(::)
+<nlba><c><sp>R/</sp>.</c>() Em</nlba>(h) vos(gvFD)so(f) au(g)xí(g)lio.(f) (::)

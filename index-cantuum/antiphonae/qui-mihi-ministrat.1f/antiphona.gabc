@@ -3,20 +3,15 @@ mode: 1;
 mode-differentia: f;
 commentary: Cantus ID 004485 cf. Jo 12,26;
 book: Graduale Simplex, 1975, p. 365;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Qui(d) mi(dc)hi(f) mi(g)ní(fh)strat,(h) *(,)
-me(ixih) se(g)quá(fh)tur:(g) (;)
-et(gg) u(e)bi(g) e(h)go(g) sum,(f) (,)
-il(g)lic(f) sit(ff) et(e) +() mi(f)ní(g)ster(fe) me(d)us.(d)
+Qui(d|ta) mi(d_c_|cl-)hi(f|vi) mi(g|vi)ní(f_h|peS)strat,(h_|vi-) *(,)
+me(ixih|////cl) se(g|vs)quá(f_h|peS)tur:(g|vi) (;)
+et(ggo|vs) u(e|ta)bi(g|vi) e(h|vi)go(g|vi) sum,(f|ta) (,)
+il(g|pe)lic(f|ta) sit(ffo|vs) et(e|ta) +() mi(f|vi)ní(g|vi)ster(fe>|vi>) me(d|ta)us.(d|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c> +() mi(f)ní(g)ster(f) me(fe)us,(dc) al(d)le(fe)lú(d)ia.(d)
-
-(::)
-
-(f+)
+<nlba><c><i>T. P.</i></c> +() mi</nlba>(f)ní(g)ster(f) me(fe)us,(dc) al(d)le(fe)lú(d)ia.(d) (::f+)

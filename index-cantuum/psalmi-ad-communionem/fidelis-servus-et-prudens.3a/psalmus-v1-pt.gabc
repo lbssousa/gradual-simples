@@ -1,20 +1,13 @@
 name: Salmo 34(33);
 mode: 3;
 mode-differentia: a;
-phantom-commentary: Sl 34(33),2-11;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ben</i>(g)<i>di</i>(hj)rei(j) o(j) Se(j)nhor(j) em(j) <b>to</b>(kr1 jr)do(j) <nlba>(ir[ocba:1{])<b>tem</b></nlba>(ih[ocba:0}])po,(j) *(:) seu(j) lou(j)vor(j) es(j)ta(j)rá(j) sem(j)pre(j) em(j) mi(j)<i>nha</i>(h) <b>bo</b>(jr1 jr)ca.(ih)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Ben</i>(g)<i>di</i>(hj)rei(j) o(j) Se(j)nhor(j) Deus(j) em(j) <b>to</b>(kr1)do(jr) o(j) <nlba>(ir[ocba:1{])<b>tem</b></nlba>(ih[ocba:0}])po,(j) *(:) seu(j) lou(j)vor(j) es(j)ta(j)rá(j) sem(j)pre(j) em(j) mi(j)<i>nha</i>(h) <b>bo</b>(jr1 jr)ca.(ih) (::)
 
-(::)
+<eu>O(j) e(j) u(j) o(h) a(j) e.</eu>(ih) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Ser</nlba>(g)vo(g) fi(h)el(j) e(j) pru(h)den(j)te.(i)
-
-(::)
-
-<nlba><c><i>Flexa</i>:</c>() cla</nlba>(j)<b>mou</b>(jr1 hr h) +(,) (j) (j)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() Ser</nlba>(g)vo.(g) (::)

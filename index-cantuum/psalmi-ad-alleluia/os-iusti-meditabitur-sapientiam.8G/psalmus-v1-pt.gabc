@@ -1,16 +1,11 @@
 name: Salmo 37(36);
 mode: 8;
 mode-differentia: G;
-phantom-commentary: Sl 37(36),30-31;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(g) <i>bo</i>(h)ca(j) do(j) jus(j)to(j) me(j)di(j)ta(j) a(j) sa(j)be(j)do(j)<b>ri</b>(kr1 jr)a,(j) *(:) e(j) a(j) su(j)a(j) lín(j)gua(j) e(j)nun(j)ci(j)a(j) pa(j)la(j)vras(j) <i>de</i>(i) <i>jus</i>(j)<b>ti</b>(hr1 gr)ça.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{30}</v><i>O</i>(g) <i>jus</i>(h)to(j) tem(j) nos(j) lá(j)bios(j) o(j) que(j) é(j) <b>sá</b>(kr1 jr)bio,(j) *(:) su(j)a(j) lín(j)gua(j) tem(j) pa(j)la(j)vras(j) <i>de</i>(i) <i>jus</i>(j)<b>ti</b>(hr1 gr)ça.(g) (::)
 
-(::)
-
-<nlba><c><i>Todos</i>:</c>() A</nlba>(h)le(g)lu(h)ia.(gf)
-
-(::)
+<nlba><c><i>Todos</i>:</c>() A</nlba>(h)le(g)lu(h)ia.(gf) (::)

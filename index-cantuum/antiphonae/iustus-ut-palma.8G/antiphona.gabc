@@ -3,17 +3,12 @@ mode: 8;
 mode-differentia: G;
 commentary: Cantus ID 003552 cf. Sl 92(91),13;
 book: Graduale Simplex, 1975, p. 355;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Iu(h)stus(f) ut(g) pal(gh)ma(gf) *(,) flo(h!iwj)ré(jkj)bit,(iih) (,) sic(g)ut(g) ce(hj)drus(g) Lí(h)ba(g)ni(fd) +() mul(ef)ti(gh)pli(h)cá(g)bi(g)tur.(g)
+Iu(h|vi)stus(f|ta) ut(g|vi) pal(gh|ta)ma(g_f_|cl-) *(,) flo(h!iwj|ql-ppt2vihi)ré(jkj|cl)bit,(i_i_h_|pe-cl-) (,) sic(g)ut(g|ta) ce(hj|cl)drus(g|ta) Lí(h|cllsc3)ba(g|cllsc3)ni(f_d_|cl-) +() mul(e_f|peS)ti(gh|pe)pli(h|vi)cá(g|vi)bi(g|pe)tur.(g|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c> +() mul(ef)ti(gh)pli(h)cá(g)bi(fg)tur,(gvF/D) al(f)le(fg)lú(g)ia.(g)
-
-(::)
-
-(g+)
+<nlba><c><i>T. P.</i></c> +() mul</nlba>(ef)ti(gh)pli(h)cá(g)bi(fg)tur,(gvF/D) al(f)le(fg)lú(g)ia.(g) (::g+)

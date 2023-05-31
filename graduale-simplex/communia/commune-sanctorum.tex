@@ -1,58 +1,55 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
-\def\Prefix{communia/commune-sanctorum}
+\def\Prefix{subsection:communia/commune-sanctorum}
 
-\subsection{Entrada I}\label{subsection:communia/commune-sanctorum/introitus-1}
-\MakeChantAntiphonPsalm{iustus-ut-palma.8G}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection{Entrada II}\label{subsection:communia/commune-sanctorum/introitus-2}
-\MakeChantAntiphonPsalm{secus-decursus-aquarum.4E}{psalmi-ad-introitum}
-
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{E \protect\GreStar}}\label{subsection:communia/commune-sanctorum/psalmus-responsorius-1}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{beatus-vir-qui-timet-dominum.ES}
+\SectionAntiphonPsalm{Entrada I}[\Prefix/introitus-1]{iustus-ut-palma.8G}{Salmo 91(92)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Responsorial II]{Salmo Responsorial II \textmd{E 1}}\label{subsection:communia/commune-sanctorum/psalmus-responsorius-2}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{sacerdotes-tui.E1}
+\SectionAntiphonPsalm{Entrada II}[\Prefix/introitus-2]{secus-decursus-aquarum.4E}{Salmo 1}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsectioncomplex[Salmo Responsorial III]{Salmo Responsorial III \textmd{C 2 g}}{}{Para os Doutores da Igreja}\label{subsection:communia/commune-sanctorum/psalmus-responsorius-3}
-
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{narrabo-nomen-tuum.C2g}
-
-\subsection{Aleluia}\label{subsection:communia/commune-sanctorum/alleluia}
-\MakeChantAlleluiaPsalm{8G}{os-iusti-meditabitur-sapientiam.8G}
+\SectionPsalmMulti{Responsorial I}[\Prefix/psalmus-responsorius-1]{Salmo 111(112)}{psalmi-responsorii}{beatus-vir-qui-timet-dominum.ES}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático I]{Salmo Aleluiático I \textmd{D 1 b}}\label{subsection:communia/commune-sanctorum/psalmus-alleluiaticus-1}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{noli-aemulari-in-malignantibus.D1b}
+\SectionPsalmMulti{Responsorial II}[\Prefix/psalmus-responsorius-2]{Salmo 131(132)}{psalmi-responsorii}{sacerdotes-tui.E1}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático II]{Salmo Aleluiático II \textmd{C 1}}\label{subsection:communia/commune-sanctorum/psalmus-alleluiaticus-2}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{misericordias-domini.C1}
+\SectionPsalmMulti[(Para os Doutores da Igreja)]{Responsorial III}[\Prefix/psalmus-responsorius-3]{Salmo 21(22)}{psalmi-responsorii}{narrabo-nomen-tuum.C2g}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
+
+\SectionAlleluiaPsalm[\Prefix/alleluia]{8G}{Salmo 36(37)}{os-iusti-meditabitur-sapientiam.8G}
 
 \AllowPageFlush
 
-\subsection{Ofertório I}\label{subsection:communia/commune-sanctorum/offertorium-1}
-\MakeChantAntiphonPsalm{posuisti-domine.4A}{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático I}[\Prefix/psalmus-alleluiaticus-1]{Salmo 36(37)}{psalmi-alleluiatici}{noli-aemulari-in-malignantibus.D1b}
 
 \AllowPageFlush
 
-\subsectioncomplex{Ofertório II}{}{Fora do Tempo da Quaresma}\label{subsection:communia/commune-sanctorum/offertorium-2}
-\MakeChantAntiphonPsalm{in-caelestibus-regnis.7a}{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático II}[\Prefix/psalmus-alleluiaticus-2]{Salmo 88(89)}{psalmi-alleluiatici}{misericordias-domini.C1}
 
 \AllowPageFlush
 
-\subsection{Comunhão I}\label{subsection:communia/commune-sanctorum/communio-1}
-\MakeChantAntiphonPsalm{fidelis-servus-et-prudens.3a}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório I}[\Prefix/offertorium-1]{posuisti-domine.4A}{Salmo 20(21)}{psalmi-ad-offertorium}
 
 \AllowPageFlush
 
-\subsection{Comunhão II}\label{subsection:communia/commune-sanctorum/communio-2}
-\MakeChantAntiphonPsalm{qui-mihi-ministrat.1f}{psalmi-ad-communionem}
+\SectionAntiphonPsalm[(Fora do Tempo da Quaresma)]{Ofertório II}[\Prefix/offertorium-2]{in-caelestibus-regnis.7a}{Salmo 20(21)}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão I}[\Prefix/communio-1]{fidelis-servus-et-prudens.3a}{Salmo 33(34)}{psalmi-ad-communionem}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão II}[\Prefix/communio-2]{qui-mihi-ministrat.1f}{Salmo 33(34)}{psalmi-ad-communionem}

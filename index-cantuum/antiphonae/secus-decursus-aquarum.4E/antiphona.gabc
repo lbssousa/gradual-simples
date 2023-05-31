@@ -3,20 +3,15 @@ mode: 4;
 mode-differentia: E;
 commentary: Cantus ID 004847 cf. Sl 1,2-3;
 book: Graduale Simplex, 1975, p. 356;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Se(d)cus(e) de(f)cúr(g)sus(d) a(f)quá(e)rum(e) *(,)
-plan(d)tá(e)vit(f) ví(g)ne(d)am(f) iu(e)stó(d)rum:(d) (;)
-et(d) in(d) le(h)ge(h) Dó(h)mi(g)ni(h) (,)
-fu(d)it(e) vo(f)lún(g)tas(d) e(f)ó(e)rum.(e)
+Se(d|vi)cus(e|vi) de(f|vi)cúr(g|vi)sus(d|ta) a(f|vi)quá(e_|vi-)rum(e|vi) *(,)
+plan(d|````talssta4)tá(e|vi)vit(f|vi) ví(g_|cl-lsl3)ne(d)am(f|vi) iu(e|vi)stó(d|ta)rum:(d_|ta-) (;)
+et(d|vi) in(d|pe) le(h|vi)ge(h|vi) Dó(h|vi)mi(g|cllsc3)ni(h_|vi-) (,)
+fu(d|ta)it(e|vi) vo(f|vi)lún(g>|vi>)tas(d|ta) e(f|vi)ó(e|ta)rum.(e|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c>() Al(g)le(gf)lú(e)ia.(e)
-
-(::)
-
-(h+)
+<c><i>T. P.</i></c>() Al(g)le(gf)lú(e)ia.(e) (::h+)

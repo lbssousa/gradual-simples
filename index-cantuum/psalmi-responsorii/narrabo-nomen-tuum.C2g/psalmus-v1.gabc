@@ -1,16 +1,11 @@
 name: Psalmus 22(21);
 mode: C 2 g;
-commentary: Sl 22(21),23-28.30c-31a;
 book: Graduale Simplex, 1975, p. 359;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{23}</v>Nar(f)rá(f)bo(f) no(f)men(f) tu(f)um(f) frá(f)tri(f)bus(f) <nlba>(gr[ocba:1{])<b>me</b></nlba>(gh[ocba:0}])is.(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{23}</v>Nar(f[alt:C 2 g])rá(f)bo(f) no(f)men(f) tu(f)um(f) frá(f)tri(f)bus(f) <nlba>(gr[ocba:1{])<b>me</b></nlba>(gh[ocba:0}])is.(hg) (::)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() In</nlba>(f) mé(g)di(f)o(f) ec(f)clé(gh)si(g)æ(fd) láu(fg~)da(g)bo(g) te.(f)
-
-(::)
+<nlba><c><sp>R/</sp>.</c>() In</nlba>(f) mé(g)di(f)o(f) ec(f)clé(gh)si(g)æ(fd) láu(fg~)da(g)bo(g) te.(f) (::)

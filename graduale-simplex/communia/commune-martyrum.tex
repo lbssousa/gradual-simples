@@ -1,56 +1,48 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
-\def\Prefix{communia/commune-martyrum}
+\def\Prefix{subsection:communia/commune-martyrum}
 
-\subsection{Entrada I}\label{subsection:communia/commune-martyrum/introitus-1}
-\MakeChantAntiphonPsalm{hi-sunt.1a2}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection{Entrada II}\label{subsection:communia/commune-martyrum/introitus-2}
-\MakeChantAntiphonPsalm{sapientiam-sanctorum.4E}{psalmi-ad-introitum}
+\SectionAntiphonPsalm{Entrada I}[\Prefix/introitus-1]{hi-sunt.1a2}{Salmo 88(89)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{C 2 g}}\label{subsection:communia/commune-martyrum/psalmus-responsorius-1}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{gloria-et-honore.C2g}
-
-\subsection[Salmo Responsorial II]{Salmo Responsorial II \textmd{E 4}}\label{subsection:communia/commune-martyrum/psalmus-responsorius-2}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{exsultate-iusti-in-domino.E4}
+\SectionAntiphonPsalm{Entrada II}[\Prefix/introitus-2]{sapientiam-sanctorum.4E}{Salmo 32(33)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection{Aleluia}\label{subsection:communia/commune-martyrum/alleluia}
-\MakeChantAlleluiaPsalm{8c.3}{exsurgit-deus.8c}
+\SectionPsalmMulti{Responsorial I}[\Prefix/psalmus-responsorius-1]{Salmo 8}{psalmi-responsorii}{gloria-et-honore.C2g}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
+
+\SectionPsalmMulti{Responsorial II}[\Prefix/psalmus-responsorius-2]{Salmo 32(33)}{psalmi-responsorii}{exsultate-iusti-in-domino.E4}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático I]{Salmo Aleluiático I \textmd{D 1 b}}\label{subsection:communia/commune-martyrum/psalmus-alleluiaticus-1}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{exsurgit-deus.D1b}
+\SectionAlleluiaPsalm[\Prefix/alleluia]{8c.3}{Salmo 67(68)}{exsurgit-deus.8c}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático II]{Salmo Aleluiático II \textmd{C 1}}\label{subsection:communia/commune-martyrum/psalmus-alleluiaticus-2}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{nisi-quia-dominus.C1}
+\SectionPsalm{Aleluiático I}[\Prefix/psalmus-alleluiaticus-1]{Salmo 67(68)}{psalmi-alleluiatici}{exsurgit-deus.D1b}
 
 \AllowPageFlush
 
-\subsection{Ofertório I}\label{subsection:communia/commune-martyrum/offertorium-1}
-\MakeChantAntiphonPsalm{beati-qui-lavant.8G}{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático II}[\Prefix/psalmus-alleluiaticus-2]{Salmo 123(124)}{psalmi-alleluiatici}{nisi-quia-dominus.C1}
 
 \AllowPageFlush
 
-\subsection{Ofertório II}\label{subsection:communia/commune-martyrum/offertorium-2}
-\MakeChantAntiphonPsalm{iusti-confitebuntur.1g}{psalmi-ad-offertorium}
+\SectionAntiphonPsalm{Ofertório I}[\Prefix/offertorium-1]{beati-qui-lavant.8G}{Salmo 78(79)}{psalmi-ad-offertorium}
 
 \AllowPageFlush
 
-\subsection{Comunhão I}\label{subsection:communia/commune-martyrum/communio-1}
-\MakeChantAntiphonPsalm{qui-vult-venire-post-me.1f}{psalmi-ad-communionem}
-
-\AllowPageFlush
-
-\subsection{Comunhão II}\label{subsection:communia/commune-martyrum/communio-2}
-\MakeChantAntiphonPsalm{habitabit.4E}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório II}[\Prefix/offertorium-2]{iusti-confitebuntur.1g}{Salmo 118(119)}{psalmi-ad-offertorium}
 
 \AllowPageBreak
+
+\SectionAntiphonPsalm{Comunhão I}[\Prefix/communio-1]{qui-vult-venire-post-me.1f}{Salmo 33(34)}{psalmi-ad-communionem}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão II}[\Prefix/communio-2]{habitabit.4E}{Salmo 14(15)}{psalmi-ad-communionem}

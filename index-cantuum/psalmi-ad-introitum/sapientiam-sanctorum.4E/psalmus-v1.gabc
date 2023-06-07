@@ -1,17 +1,15 @@
 name: Psalmus 33(32);
 mode: 4;
 mode-differentia: E;
-commentary: Sl 33(32),1-7.9.11;
 book: Graduale Simplex, 1975, p. 344;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ex</i>(h)<i>sul</i>(gh)tá(h)te,(h) ius(h)<i>ti,</i>(g) <i>in</i>(h) <b>Dó</b>(ir1)mi(hr)no;(h) *(:) rec(h)tos(h) de(h)<i>cet</i>(g) <i>col</i>(h)<i>lau</i>(ih)<b>dá</b><nlba>(gr[ocba:1{])<b>ti</b></nlba>(gf[ocba:0}])o.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Ex</i>(h)<i>sul</i>(gh)tá(h)te,(h) ius(h)<i>ti,</i>(g) <i>in</i>(h) <b>Dó</b>(ir1)mi(hr)no;(h) *(:) rec(h)tos(h) de(h)<i>cet</i>(g) <i>col</i>(h)<i>lau</i>(ih)<b>dá</b><nlba>(gr[ocba:1{])<b>ti</b></nlba>(gf[ocba:0}])o.(e) (::)
 
-(::)
+<eu>E(h) u(g) o(h) u(ih) a(gf) e.</eu>(e) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Sa</nlba>(g)pi(g)én(g)ti(fe)am.(e)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() Sa</nlba>(g|vi)pi(g|vi)én(g|vi)ti(fe|vi)am.(e|ta) (::)

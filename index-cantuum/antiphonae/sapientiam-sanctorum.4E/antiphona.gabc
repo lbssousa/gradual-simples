@@ -3,20 +3,15 @@ mode: 4;
 mode-differentia: E;
 commentary: Cantus ID 004815 cf. Eclo 44,15;
 book: Graduale Simplex, 1975, p. 344;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Sa(g)pi(g)én(g)ti(fe)am.(e) *() Sanc(f)tó(gf)rum(de) (,)
-nar(gh)rant(gf~) pó(g)pu(f)li,(e) (;)
-et(f) lau(fd~)des(e) e(f)ó(gh)rum(g) (,)
-pro(g)nún(h)ti(g)at(ge) om(f)nis(gh) ec(gf)clé(e)si(de)a.(e)
+Sa(g|vi)pi(g|vi)én(g|vi)ti(fe|vi)am(e|ta) *() Sanc(f_|pe>1)tó(g_f_|cl-)rum(de|ta) (,)
+nar(goh>|vs>)rant(gf~|taql) pó(g|vi)pu(f|pe)li,(e_|vi-lse6) (;)
+et(f_|peS) lau(f_d~|pe>1lsl2)des(e|talse6) e(f_|peS)ó(g_h|cl-)rum(g|vi) (,)
+pro(g|ta)nún(h|vi)ti(g|cllsc3)at(g_e_|peSpr) om(f|vs>lss2)nis(gh|vi) ec(gf|toS3)clé(e|vi)si(de|pe)a.(e|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c>() Al(g)le(gf)lú(e)ia.(e)
-
-(::)
-
-(h+)
+<c><i>T. P.</i></c>() Al(g)le(gf)lú(e)ia.(e) (::h+)

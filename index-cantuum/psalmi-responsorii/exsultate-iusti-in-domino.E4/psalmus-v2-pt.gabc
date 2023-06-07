@@ -1,5 +1,4 @@
 name: Psalmus 32;
-
 mode: E 4;
 book: Graduale Simplex, 1975, p. 346;
 
@@ -7,10 +6,6 @@ book: Graduale Simplex, 1975, p. 346;
 
 (c4)
 
-<c><sp>V/</sp>. 2.</c>() Fe(h)liz(h) a(h) na(h)ção(h) cu(h)jo(h) Deus(h) é(h) o(h) Se(h)<b>nhor</b>,(gr1 fr f) *(:) o(h) po(h)vo(h) que(h) e(h)le(h) es(h)co(h)lheu(h) co(h)mo(h) su(h)a(h) he(h)<b>ran</b>(gr1 hr)ça.(h)
+<c><sp>V/</sp>. 2.</c>() <v>\VSup{12}</v>Fe(h)liz(h) o(h) po(h)vo(h) cu(h)jo(h) Deus(h) é(h) o(h) <b>Se</b>(gr1 fr)nhor,(f) *(:) e(h) a(h) na(h)ção(h) que(h) es(h)co(h)lheu(h) por(h) su(h)a(h) he(h)<b>ran</b>(gr1 hr)ça.(h) (::)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() Aos</nlba>(h) re(h)tos.(g)
-
-(::)
+<nlba><c><sp>R/</sp>.</c>() Aos</nlba>(h) re(h)tos.(g) (::)

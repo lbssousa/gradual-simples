@@ -1,18 +1,12 @@
 name: Sapiéntiam Sanctorum;
 mode: 4;
 mode-differentia: E;
-phantom-commentary: Cantus ID 004815 cf. Eclo 44,15;
+commentary: LS;
 
 %%
 
 (c4)
 
-A(g) sa(g)be(g)do(f)ri(e)a(e) *() dos(f) San(gf)tos(de) (,) nar(gh)ram(gf~) os(g) po(f)vos,(e) (;) e(f) os(fd) seus(e) lou(f)vo(gh)res(g) (,) ce(g)le(hg)bre(ge) to(f)da(gh)  as(gf)sem(e)blei(de)a.(e)
+A(g) sa(g)be(g)do(f)ri(e)a(e) *() dos(f_) San(g_f_)tos(de) (,) nar(gh>)ram(gf~) os(g) po(f)vos,(e_) (;) e(f_) can(f_d~)t<e>e</e> a(e) as(e)sem(f)blei(g_h)a(g) (,) com(g) a(h)le(g)gri(g_e_)a(f) os(gh) seus(gf) lou(e)vo(de)res.(e) (::)
 
-(::)
-
-<c><i>T. P.</i></c>() A(g)le(gf)lu(e)ia.(e)
-
-(::)
-
-(h+)
+<c><i>T. P.</i></c>() A(g)le(gf)lu(e)ia.(e) (::h+)

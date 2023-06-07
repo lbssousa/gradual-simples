@@ -1,20 +1,13 @@
 name: Salmo 34(33);
 mode: 1;
 mode-differentia: f;
-phantom-commentary: Sl 34(33),2.7.16-21.23;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ben</i>(f)<i>di</i>(gh)rei(h) o(h) Se(h)nhor(h) em(h) <b>to</b>(ixir1 hr)do(h) <b>tem</b>(gr1 hr)po,(h) *(:) seu(h) lou(h)vor(h) es(h)ta(h)rá(h) sem(h)pre(h) em(h) <i>mi</i>(g)<i>nha</i>(f) <b>bo</b>(gr1h gr)ca.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Ben</i>(f)<i>di</i>(gh)rei(h) o(h) Se(h)nhor(h) Deus(h) em(h) <b>to</b>(ixir1)do(hr) o(h) <b>tem</b>(gr1 hr)po,(h) *(:) seu(h) lou(h)vor(h) es(h)ta(h)rá(h) sem(h)pre(h) em(h) <i>mi</i>(g)<i>nha</i>(f) <b>bo</b>(gr1h gr)ca.(gf) (::)
 
-(::)
+<eu>O(h) e(h) u(g) u(f) a(gh) e.</eu>(gf) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Quem</nlba>(d) quer(d) vir(dcf) a(g)pós(f!gwh) mim.(h)
-
-(::)
-
-<nlba><c><i>Flexa</i>:</c>() cla</nlba>(h)<b>mou</b>(hr1 gr g) +(,) (h) (h)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() Quem</nlba>(d) quer.(d) (::)

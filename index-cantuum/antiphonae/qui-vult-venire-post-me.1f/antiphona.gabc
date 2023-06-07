@@ -3,17 +3,12 @@ mode: 1;
 mode-differentia: f;
 commentary: Cantus ID 004506 cf. Mt 16,24;
 book: Graduale Simplex, 1975, p. 352;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Qui(d) vult(d) ve(dc)ní(f)re(g) post(f!gwh) me,(h) *(,) áb(ixih)ne(g)get(g) se(g)met(g)íp(fh)sum,(g) (;) et(g) tol(g)lat(g) cru(e)cem(g) su(hg)am,(fg) (,) et(e) +() se(c)quá(df)tur(e) me.(d)
+Qui(d|ta) vult(d|ta) ve(dc|cllsc3)ní(f|vi)re(g|vi) post(f!gwh|taql) me,(h|vi) *(,) áb(ixih|cl-)ne(g|vi)get(g|vi) se(g|vi)met(g|vi)íp(f_h|peSlss3)sum,(g_|vi-) (;) et(g) tol(g|ta)lat(g|ta) cru(e|ta)cem(g|vi) su(hg|cl)am,(fg|vs) (,) et(e|ta) +() se(c|vi)quá(df|vi)tur(e>|vi>) me.(d) (::)
 
-(::)
-
-<c><i>T. P.</i></c> +() se(c)quá(df)tur(dc) me,(ef) al(g)le(fe)lú(d)ia.(d)
-
-(::)
-
-(f+)
+<nlba><c><i>T. P.</i></c> +() se</nlba>(c)quá(df)tur(dc) me,(ef) al(g)le(fe)lú(d)ia.(d) (::f+)

@@ -1,16 +1,11 @@
 name: Psalmus 68(67);
 mode: D 1 b;
-commentary: Sl 68(67),2.4-5.7ab.12.20-21.25.36;
 book: Graduale Simplex, 1975, p. 348;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Ex(h)súr(h)git(h) De(h)us,(h) et(h) dis(h)si(h)pán(h)tur(h) i(h)ni(h)mí(h)ci(h) <b>e</b>(ir1 hr)ius;(h) *(:) et(h) fú(h)gi(h)unt(h) qui(h) o(h)dé(h)runt(h) e(h)um(h) a(h) fá(h)ci(h)e(h) <b>e</b>(gr1 gr)ius.(i)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Ex(h[alt:D 1 b])súr(h)git(h) De(h)us,(h) et(h) dis(h)si(h)pán(h)tur(h) i(h)ni(h)mí(h)ci(h) <b>e</b>(ir1 hr)ius;(h) *(:) et(h) fú(h)gi(h)unt(h) qui(h) o(h)dé(h)runt(h) e(h)um(h) a(h) fá(h)ci(h)e(h) <b>e</b>(gr1 gr)ius.(i) (::)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() Al</nlba>(i)le(j)lú(i)ia,(hg) (,) al(hi)le(i)lú(h)ia.(h)
-
-(::)
+<nlba><c><sp>R/</sp>.</c>() Al</nlba>(i)le(j)lú(i)ia,(hg) (,) al(hi)le(i)lú(h)ia.(h) (::)

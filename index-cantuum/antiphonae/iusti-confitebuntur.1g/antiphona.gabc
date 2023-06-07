@@ -3,19 +3,14 @@ mode: 1;
 mode-differentia: g;
 commentary: Cantus ID 003535 cf. Sl 140(139),14;
 book: Graduale Simplex, 1975, p. 351;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Iu(dd)sti(c) con(d)fi(f)te(e)bún(d)tur(dc) *(,)
-nó(fg)mi(h)ni(g) tu(ffg)o,(f) (;)
-et(f) ha(f)bi(f)tá(fg)bunt(f) rec(f)ti(f) cum(ef) +() vul(g)tu(fe) tu(d)o.(d)
+Iu(ddo|vs)sti(c|ta) con(d|vi)fi(f|vi)te(e|vi)bún(d|ta)tur(dc>|vi>) *(,)
+nó(fg|pe)mi(h|vi)ni(g|vi) tu(f_fg|vi-pehh)o,(f|ta) (;)
+et(f|ta) ha(f|ta)bi(f|ta)tá(fg|pe)bunt(f|ta) rec(f|ta)ti(f|ta) cum(e_f|peS) +() vul(g>|vi>)tu(fe|cl) tu(d|ta)o.(d|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c> +() vul(g)tu(f) tu(fe)o,(dc) al(d)le(fe)lú(d)ia.(d)
-
-(::)
-
-(f+)
+<nlba><c><i>T. P.</i></c> +() vul</nlba>(g)tu(f) tu(fe)o,(dc) al(d)le(fe)lú(d)ia.(d) (::f+)

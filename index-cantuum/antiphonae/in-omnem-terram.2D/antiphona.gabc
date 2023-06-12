@@ -3,17 +3,12 @@ mode: 2;
 mode-differentia: D;
 commentary: Cantus ID 003262 cf. Sl 19(18),5;
 book: Graduale Simplex, 1975, p. 339;
+nabc-lines: 1;
 
 %%
 
 (f3)
 
-In(f) om(h)nem(g) ter(hi)ram(i) *(,) e(i)xí(f)vit(h) so(g)nus(h) e(ih)ó(f)rum,(f) (;) et(h) in(h) fi(h)nes(h) or(g)bis(f) ter(hi)ræ(i) (,) ver(ef)ba(hg) +() e(ih)ó(f)rum.(f)
+In(f|ta) om(h|vi)nem(g>|vi>) ter(h_i|peS)ram(i|vi) *(,) e(i|vilsp2)xí(f|gr)vit(h|vi) so(g|talsc3)nus(h|vi) e(ih|vilsl3)ó(f|vilsc3)rum,(f_|ta-) (;) et(h|vi) in(h|vi) fi(h|vi)nes(h|ta) or(g|vi)bis(f|vi) ter(hi|vi)ræ(i|vi) (,) ver(e_f|peS)ba(h_g_|peS) +() e(ih|vi)ó(f|ta)rum.(f|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c> +() e(ih)ó(f)rum,(fe) al(f)le(hg)lú(f)ia.(f)
-
-(::)
-
-(e+)
+<c><i>T. P.</i></c> +() e(ih)ó(f)rum,(fe) al(f)le(hg)lú(f)ia.(f) (::e+)

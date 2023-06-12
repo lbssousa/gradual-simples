@@ -3,18 +3,13 @@ mode: 2;
 mode-differentia: D;
 commentary: Cantus ID 004999 cf. Lc 4,18;
 book: Graduale Simplex, 1975, p. 340;
+nabc-lines: 1;
 
 %%
 
 (f3)
 
-Spí(f!gwh)ri(f)tus(f) *(,) Dó(fe)mi(f)ni(h) su(h)per(g) me,(e) (;)
-e(g)van(fe~)ge(f)li(h)zá(i)re(h) pau(f)pé(h)ri(g)bus(h) mi(i)sit(hg~) me.(f)
+Spí(f!gwh|taql)ri(f|ta)tus(f|ta) *(,) Dó(f_e_|cl-)mi(f|vi)ni(h|vi) su(h|vi)per(g>|vi>lsal6) me,(e_|ta-) (;)
+e(g|vi)van(fe~|vi>)ge(f|vi)li(h|vi)zá(i|vslss2)re(h|vi) pau(f|ta)pé(h|vs)ri(g|ta)bus(h|vi) mi(i|vi)sit(hg~|vi>) me.(f|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c>() Al(e)le(ef)lú(f)ia.(f)
-
-(::)
-
-(e+)
+<c><i>T. P.</i></c>() Al(e)le(ef)lú(f)ia.(f) (::e+)

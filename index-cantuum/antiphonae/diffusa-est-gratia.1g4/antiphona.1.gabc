@@ -3,17 +3,12 @@ mode: 1;
 mode-differentia: g 4;
 commentary: Cantus ID 002216 cf. Sl 45(44),3;
 book: Graduale Simplex, 1975, pp. 264, 372;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Dif(f)fú(h)sa(g) est(h) grá(e)ti(f)a(g) *() in(e) lá(g)bi(e)is(f) tu(d)is,(d) (;) pro(d)pté(f)re(e)a(f) be(gh)ne(g)díx(f)it(e) te(c) De(d)us(ef) +() in(g) æ(fe)tér(d)num.(d)
+Dif(f|vi)fú(h|vi)sa(g|ta) est(h_|vi-) grá(````e|vilsx4)ti(f|ta)a(g|vi) *() in(e|ta) lá(g|vi)bi(e|ta)is(fo|or) tu(d|ta)is,(d|ta) (;) pro(d|ta)pté(f|vi)re(e|ta)a(f_|vi-) be(gh|pelsl3)ne(g|vi)díx(f|vi)it(e|vi) te(c|ta) De(d|````vilsx4)us(ewf|ql) in(g|vi) æ(fe|cl)tér(d|ta)num.(d|ta) (::)
 
-(::)
-
-<nlba><c><i>T. P.</i></c> +() in</nlba>(g) æ(f)tér(fe)num,(dc) al(d)le(fe)lú(d)ia.(d)
-
-(::)
-
-(f+)
+<nlba><c><i>T. P.</i></c> +() in</nlba>(g) æ(f)tér(fe)num,(dc) al(d)le(fe)lú(d)ia.(d) (::f+)

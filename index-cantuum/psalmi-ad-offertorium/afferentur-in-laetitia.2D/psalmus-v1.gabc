@@ -1,15 +1,12 @@
 name: Psalmus 45(44);
 mode: 2;
 mode-differentia: D;
-commentary: Sl 45(44),2.8.11-12;
 book: Graduale Simplex, 1975, p. 371;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>E</i>(e)<i>ruc</i>(f)tá(h)vit(h) cor(h) me(h)um(h) ver(h)bum(h) <b>bo</b>(hr1 fr)num,(f) +(,) di(h)co(h) e(h)go(h) ó(h)pe(h)ra(h) me(h)a(h) <b>re</b>(ir1 hr)gi.(h) *(:) Lin(h)gua(h) me(h)a(h) cá(h)la(h)mus(h) scri(h)bæ(h) ve(h)ló(h)ci(h)ter(h) <i>scri</i>(f)<b>bén</b>(er1 fr)tis.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>E</i>(e)<i>ruc</i>(f)tá(h)vit(h) cor(h) me(h)um(h) ver(h)bum(h) <b>bo</b>(hr1 fr)num,(f) +(,) di(h)co(h) e(h)go(h) ó(h)pe(h)ra(h) me(h)a(h) <b>re</b>(ir1 hr)gi.(h) *(:) Lin(h)gua(h) me(h)a(h) cá(h)la(h)mus(h) scri(h)bæ(h) ve(h)ló(h)ci(h)ter(h) <i>scri</i>(f)<b>bén</b>(er1 fr)tis.(f) (::)
 
-(::) <nlba><c><sp>A/</sp>.</c>() Af</nlba>(f)fe(f)rén(fi)tur(h) in(g) læ(h)tí(f)ti(e)a.(f)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() Af</nlba>(f)fe(f)rén(fi)tur.(h) (::)

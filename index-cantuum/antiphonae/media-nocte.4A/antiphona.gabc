@@ -3,17 +3,12 @@ mode: 4;
 mode-differentia: A;
 commentary: Cantus ID 003730 cf. Mt 25,6;
 book: Graduale Simplex, 1975, p. 373;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Mé(f)di(e)a(f) noc(hi)te(i) *(,) cla(hi)mor(jh) fac(i)tus(i) est:(i) (;) Ec(f)ce(i) spon(h)sus(g) ve(fe)nit,(f) (,) ex(e)í(d)te(e) ób(gxfg)vi(h)am(g) e(f)i.(f)
+Mé(f|vi)di(e|ta)a(f|vi) noc(h_i|peS)te(i|vs) *(,) cla(h_i|peS)mor(jh|cl) fac(i|vi)tus(i|vi) est:(i_|vi-) (;) Ec(f|ta)ce(i|vi) spon(h|vi)sus(g|vi) ve(f_e_|cl-)nit,(f|vi) (,) ex(e|vi)í(d|ta)te(e|vi) ób(gxf_g|peS)vi(h|vi)am(g|vi) e(f|ta)i.(f|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c>() Al(de)le(fh)lú(f)ia.(f)
-
-(::)
-
-(i+)
+<nlba><c><i>T. P.</i></c>() Al</nlba>(de)le(fh)lú(f)ia.(f) (::i+)

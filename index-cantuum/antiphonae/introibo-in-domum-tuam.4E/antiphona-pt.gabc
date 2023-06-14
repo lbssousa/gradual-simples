@@ -1,18 +1,12 @@
 name: Entrarei em vossa casa;
 mode: 4;
 mode-differentia: A;
-phantom-commentary: Cantus ID 003389 cf. Sl 5,8;
+commentary: LS;
 
 %%
 
 (c3)
 
-En(e)tra(f)rei(hii) *(,) em(i) vos(h)sa(i) ca(j)sa,(ih) Se(i)nhor(ii) (;) e(f) me(i) pros(h)tra(g)rei(fef) (,) ao(e) vos(d)so(e) san(f)to(h) tem(f)plo.(f)
+En(e)tra(f)rei(hi) *(,) em(i>) vos(h)sa(i) ca(j)sa,(ih) ó(i) Se(i)nhor(i) (;) e(f_i) a(h)do(g)ra(f_e_)rei(f) (,) em(e) vos(d)so(e_) san(f)to(h_) tem(f)plo.(f) (::)
 
-(::)
-
-<c><i>T. P.</i></c>() A(de)le(fh)lu(f)ia.(f)
-
-(::)
-
-(i+)
+<nlba><c><i>T. P.</i></c>() A</nlba>(de)le(fh)lu(f)ia.(f) (::i+)

@@ -3,17 +3,12 @@ mode: 8;
 mode-differentia: c;
 commentary: Cantus ID 001680 cf. Mt 7,25;
 book: Graduale Simplex, 1975, p. 333;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Be(j)ne(ji) fun(hg~)dá(hi)ta(h) est(g) *(,) do(g)mus(e) Dó(f)mi(e)ni(d) (;) su(e)pra(f) +() fir(gh)mam(h) pe(g)tram.(g)
+Be(j|vi)ne(ji|cllsc3) fun(hg~|vi>)dá(hi|pe)ta(h|vi) est(g|ta) *(,) do(g|vi)mus(e|ta) Dó(f|vi)mi(e|vi)ni(d|talsx6) (;) su(e|vi)pra(f|vi) fir(gh|pe)mam(h>|vi>) +() pe(g|ta)tram.(g|ta) (::)
 
-(::)
-
-<c><i>T. P.</i></c> +() fir(gh)mam(h) pe(g)tram,(gvFD) al(f)le(fg)lú(g)ia.(g)
-
-(::)
-
-(g+)
+<nlba><c><i>T. P.</i></c> +() pe</nlba>(g)tram,(gvFD) al(f)le(fg)lú(g)ia.(g) (::g+)

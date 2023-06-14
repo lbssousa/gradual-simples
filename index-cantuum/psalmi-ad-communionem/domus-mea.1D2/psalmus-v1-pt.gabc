@@ -1,16 +1,13 @@
 name: Salmo 147;
 mode: 1;
 mode-differentia: D 2;
-phantom-commentary: Sl 147,12-20(147);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Lou</i>(f)<i>va</i>(gh) o(h) Se(h)nhor,(h) Je(h)<b>ru</b>(ixir1 hr)sa(h)<b>lém,</b>(gr1 hr h) *(:) ce(h)le(h)bra(h) teu(h) Deus,(h) <i>ó</i>(g) <i>Si</i>(f)<nlba>(gr[ocba:1{])<b>{ão}</b>.</nlba>(gf[ocba:0}] d)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{12}</v><i>Glo</i>(f)<i>ri</i>(gh)fi(h)ca(h) o(h) Se(h)<b>nhor</b>,(ixir1 hr) Je(h)<b>ru</b>(gr1)sa(hr)lém!(h) *(:) Ó(h) Si(h)ão,(h) can(h)ta(h) lou(h)vo(h)<i>res</i>(g) <i>ao</i>(f) <nlba>(gr[ocba:1{])<b>teu</b></nlba>(gf[ocba:0}]) Deus!(d) (::)
 
-(::)
+<eu>O(h) e(h) u(g) o(f) a(gf) e.</eu>(d) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Mi</nlba>(c)nha(d) ca(fg)sa.(ghgg)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() Mi</nlba>(c)nha.(d) (::)

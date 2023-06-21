@@ -1,17 +1,14 @@
-name: Psalmus 96;
+name: Psalmus 64(65);
 office-part: Alleluia;
 mode: 8;
 mode-differentia: c;
-book: Graduale simplex, 1975, p. 217;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(f) <i>vós</i>(gh) con(h)vém(h) o(h) lou(h)vor,(h) ó(h) Deus,(h) <b>em</b>(ixir1 hr) Si(h)<b>ão</b>,(gr1 hr h) *(:) a(h) vós(h) se(h) pa(h)ga(h)rão(h) as(h) pro(h)mes(h)sas(h) em(h) Je(h)<i>ru</i>(g)<i>sa</i>(f)<b>lém</b>.(gr1 gr ghg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Ó</i>(f) <i>Se</i>(gh)nhor,(h) con(h)vém(h) can(h)tar(h) <b>vos</b>(ixir1 hr)so(h) <b>lou</b>(gr1 hr)vor(h) *(:) com(h) um(h) hi(h)<i>no</i>(g) <i>em</i>(f) <b>Si</b>(gr1 gr)ão!(ghg) (::)
 
-(::)
+<nlba><c><sp>~</sp></c>() <v>\VSup{3ab}</v>E</nlba>(h) cum(h)prir(h) os(h) vos(h)sos(h) vo(h)tos(h) <b>e</b>(ixir1) pro(h)<b>mes</b>(gr1 hr)sas,(h) *(:) pois(h) ou(h)<i>vis</i>(g) <i>a</i>(f) <b>o</b>(gr1)ra(gr)ção.(ghg)
 
-<nlba><c><i>Todos</i>:</c>() A</nlba>(f)le(f)lu(gh)ia.(h)
-
-(::)
+<nlba><c><i>Todos</i>:</c>() A</nlba>(f)le(f)lu(gh)ia.(h) (::)

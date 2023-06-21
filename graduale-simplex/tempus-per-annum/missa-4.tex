@@ -1,28 +1,27 @@
-% !TeX root = ../fasciculo-3/a4.tex
 % chktex-file 1
+\def\Prefix{subsection:tempus-per-annum/missa-4}
 
-\subsection{Entrada}\label{subsection:tempus-per-annum/missa-4/introitus}
-\MakeChantAntiphonPsalm{suscepimus-deus.8G}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection[Salmo Responsorial]{Salmo Responsorial \textmd{C 2 g}}\label{subsection:tempus-per-annum/missa-4/psalmus-responsorius}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{bonum-est-confiteri-domino.C2g}
-
-\subsection{Aleluia}\label{subsection:tempus-per-annum/missa-4/alleluia}
-\MakeChantAlleluiaPsalm{1g2}{te-decet-hymnus.1g2}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{suscepimus-deus.8G}{Salmo 47(48)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático]{Salmo Aleluiático \textmd{D 1 b}}\label{subsection:tempus-per-annum/missa-4/psalmus-alleluiaticus}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{te-decet-hymnus.D1b}
+\SectionPsalmMulti{Responsorial}[\Prefix/psalmus-responsorius]{Salmo 91(92)}
+{psalmi-responsorii}{bonum-est-confiteri-domino.C2g}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
+
+\SectionAlleluiaPsalm[\Prefix/alleluia]{1g2}{Salmo 64(65)}{te-decet-hymnus.1g2}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:tempus-per-annum/missa-4/offertorium}
-\MakeChantAntiphonPsalm{ne-derelinquas-me.4E}{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático}[\Prefix/psalmus-alleluiaticus]{Salmo 64(65)}
+{psalmi-alleluiatici}{te-decet-hymnus.D1b}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:tempus-per-annum/missa-4/communio}
-\MakeChantAntiphonPsalm{adorate-dominum.8G}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{ne-derelinquas-me.4E}{Salmo 139(140)}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{adorate-dominum.8G}{Salmo 95(96)}{psalmi-ad-communionem}

@@ -1,5 +1,4 @@
 name: Psalmus 139;
-office-part: Offertorium;
 mode: 4;
 mode-differentia: E;
 book: Graduale simplex, 1975, p. 235;
@@ -8,10 +7,6 @@ book: Graduale simplex, 1975, p. 235;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>É</i>(h)<i>ri</i>(gh)pe(h) me,(h) Dó(h)ni(h)ne,(h) ab(h) hó(h)<i>mi</i>(g)<i>ne</i>(h) <b>ma</b>(ir1 hr)lo,(h) *(:) a(h) vi(h)ro(h) vi(h)o(h)<i>lén</i>(g)<i>ti</i>(h)<i>æ</i>(ih) <nlba><b>ser</b>(gr[ocba:1{])<b>va</b></nlba>(gf[ocba:0}]) me.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>É</i>(h)<i>ri</i>(gh)pe(h) me,(h) Dó(h)ni(h)ne,(h) ab(h) hó(h)<i>mi</i>(g)<i>ne</i>(h) <b>ma</b>(ir1 hr)lo,(h) *(:) a(h) vi(h)ro(h) vi(h)o(h)<i>lén</i>(g)<i>ti</i>(h)<i>æ</i>(ih) <nlba><b>ser</b>(gr[ocba:1{])<b>va</b></nlba>(gf[ocba:0}]) me.(e) (::)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Ne</nlba>(f) de(d)re(e)lín(f)quas(g) me.(ge)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() Ne</nlba>(f) de(d)re(e)lín(f)quas(g) me.(ge) (::)

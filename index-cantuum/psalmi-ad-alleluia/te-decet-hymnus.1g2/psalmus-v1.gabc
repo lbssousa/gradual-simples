@@ -1,4 +1,4 @@
-name: Psalmus 96;
+name: Psalmus 64(65);
 office-part: Alleluia;
 mode: 8;
 mode-differentia: c;
@@ -8,10 +8,6 @@ book: Graduale simplex, 1975, p. 217;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Te</i>(f) <i>de</i>(gh)cet(h) hym(h)nus,(h) <b>De</b>(ixir1)us,(hr) in(h) <b>Si</b>(gr1 hr)on;(h) *(:) et(h) ti(h)bi(h) red(h)dé(h)tur(h) vo(h)tum(h) <i>in</i>(g) <i>Ie</i>(f)<b>rú</b>(gr1)sa(gr)lem.(ghg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Te</i>(f) <i>de</i>(gh)cet(h) hym(h)nus,(h) <b>De</b>(ixir1)us,(hr) in(h) <b>Si</b>(gr1 hr)on;(h) *(:) et(h) ti(h)bi(h) red(h)dé(h)tur(h) vo(h)tum(h) <i>in</i>(g) <i>Ie</i>(f)<b>rú</b>(gr1)sa(gr)lem.(ghg) (::)
 
-(::)
-
-<nlba><c><i>Todos</i>:</c>() Al</nlba>(f)le(f)lú(gh)ia,(h)
-
-(::)
+<nlba><c><i>Todos</i>:</c>() Al</nlba>(f)le(f)lú(gh)ia.(h) (::)

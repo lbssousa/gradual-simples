@@ -1,16 +1,11 @@
 name: Adorate Dominum;
 mode: 8;
 mode-differentia: G;
-cantus-id: 001290;
-commentary: Sl 96(95),9;
+commentary: LHH, LS;
 book: Graduale Simplex, 1975, p. 235;
 
 %%
 
 (c4)
 
-A(f)do(fg)rai(g) o(fh) Se(jk)nhor(j) *(,) no(j) es(ji)plen(h)dor(i) sa(h)gra(g)do.(g)
-
-(::)
-
-(g+)
+A(f)do(fg)re(g_)mos(f_h) o(j) Se(k)nhor(j) *(,) em(j) su(ji)a(h) mo(h)ra(i_)da(h) san(g)ta.(g) (::g+)

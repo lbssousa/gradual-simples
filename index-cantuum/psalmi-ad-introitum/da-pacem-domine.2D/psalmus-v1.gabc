@@ -1,17 +1,15 @@
 name: Psalmus 121;
-
 mode: 2;
 mode-differentia: D;
 book: Graduale Simplex, 1975, p. 242;
+nabc-lines: 1;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Læ</i>(e)<i>tá</i>(f)tus(h) sum(h) in(h) e(h)o(h) quod(h) di(h)xé(h)runt(h) <b>mi</b>(ir1 hr)hi:(h) *(,) ``In(h) do(h)mum(h) Dó(h)mi(h)<i>ni</i>(g) <b>í</b>(er1)bi(fr)mus.''(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1bc}</v><i>Læ</i>(e)<i>tá</i>(f)tus(h) sum(h) in(h) e(h)o(h) quod(h) di(h)xé(h)runt(h) <b>mi</b>(ir1 hr)hi:(h) *(,) ``In(h) do(h)mum(h) Dó(h)mi(h)<i>ni</i>(g) <b>í</b>(er1)bi(fr)mus.''(f) (::)
 
-(::)
+<eu>E(h) u(h) o(h) u(g) a(e) e.</eu>(f) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Da</nlba>(ff) pa(e)cem,(f) Dó(h)mi(i)ne.(h)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() Da</nlba>(ffo|vs) pa(e|ta)cem.(f|vi) (::)

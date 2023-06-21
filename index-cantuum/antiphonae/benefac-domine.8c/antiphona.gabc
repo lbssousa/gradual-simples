@@ -1,8 +1,7 @@
 name: Benefac Domine;
 mode: 8;
 mode-differentia: c;
-cantus-id: 001735;
-commentary: Sl 125(124),4;
+commentary: Cantus ID 001735 cf. Sl 124(125),4;
 book: Graduale Simplex, 1975, p. 243;
 nabc-lines: 1;
 
@@ -10,8 +9,4 @@ nabc-lines: 1;
 
 (c3)
 
-Bé(h|vi)ne(h|vi)fac,(gh|peS) Dó(f|vi)mi(e|ta)ne,(g|vi) *(,) bo(f|ta)nis,(g|vi) et(h|vi) rec(fe|vi)tis(f|ta) cor(f|ta)de.(e|ta)
-
-(::)
-
-(e+)
+Bé(h|vi)ne(h|vi)fac,(g_h|peS) Dó(f|vi)mi(e|ta)ne,(g|vi) *(,) bo(f|ta)nis,(g|vi) et(h|vi) rec(fe|vi)tis(f|ta) cor(f|ta)de.(e|ta) (::e+)

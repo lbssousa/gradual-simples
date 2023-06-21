@@ -1,17 +1,11 @@
 name: Psalmus 94;
-office-part: Alleluia;
 mode: 4;
 mode-differentia: E;
-book: Graduale simplex, 1975, p. 239;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Vin</i>(h)<i>de</i>,(gh) e(h)xul(h)te(h)mos(h) <i>no</i>(g) <i>Se</i>(h)<b>nhor</b>,(ir1 hr h) *(:) a(h)cla(h)me(h)mos(h) o(h) Ro(h)che(h)<i>do</i>(g) <i>que</i>(h) <i>nos</i>(ih) <nlba>(gr[ocba:1{])<b>sal</b></nlba>(gf[ocba:0}])va.(e)
+<c><sp>V/</sp>. 1.</c>() <i>Vin</i>(h)<i>de</i>,(gh) e(h)xul(h)te(h)mos(h) de(h) a(h)le(h)gri(h)<i>a</i>(g) <i>no</i>(h) <b>Se</b>(ir1 hr)nhor,(h) *(:) a(h)cla(h)me(h)mos(h) o(h) Ro(h)che(h)<i>do</i>(g) <i>que</i>(h) <i>nos</i>(ih) <nlba>(gr[ocba:1{])<b>sal</b></nlba>(gf[ocba:0}])va!(e) (::)
 
-(::)
-
-<nlba><c><i>Todos</i>:</c>() A</nlba>(e)le(f)lu(gh)ia.(g)
-
-(::)
+<nlba><c><i>Todos</i>:</c>() A</nlba>(e)le(f)lu(gh)ia.(g) (::)

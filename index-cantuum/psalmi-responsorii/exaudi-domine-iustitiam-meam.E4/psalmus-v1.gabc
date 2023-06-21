@@ -1,5 +1,4 @@
 name: Psalmus 16;
-office-part: Psalmus Responsorius;
 mode: E 4;
 book: Graduale simplex, 1975, p. 238;
 
@@ -7,10 +6,6 @@ book: Graduale simplex, 1975, p. 238;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Ex(h)áu(h)di,(h) Dó(h)mi(h)ne,(h) iu(h)stí(h)ti(h)am(h) <b>me</b>(gr1 hr)am.(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1ab}</v>Ex(h[alt:E 4])áu(h)di,(h) Dó(h)mi(h)ne,(h) iu(h)stí(h)ti(h)am(h) <b>me</b>(gr1 hr)am.(h) (::)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() In</nlba>(h)tén(h)de(g) (,) de(g)pre(f)ca(g)ti(h)ó(ixi)nem(g) me(ixi)am.(h)
-
-(::)
+<nlba><c><sp>R/</sp>.</c>() In</nlba>(h)tén(h)de(g) (,) de(g)pre(f)ca(g)ti(h)ó(ixi)nem(g) me(ixi)am.(h) (::)

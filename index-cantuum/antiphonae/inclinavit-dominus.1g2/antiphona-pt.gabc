@@ -1,16 +1,11 @@
 name: Inclinavit Dominus;
 mode: 1;
 mode-differentia: g 2;
-cantus-id: 003319;
-commentary: Sl 116(114),2;
+commentary: LHH, LS;
 book: Graduale Simplex, 1975, p. 237;
 
 %%
 
 (c4)
 
-O(f) Se(f)nhor(ghh) in(h)cli(g)nou(hg) *() <e>o</e> ou(e)vi(f)do(g) pa(f)ra(e) mim.(dd)
-
-(::)
-
-(f+)
+O(f) Se(gh)nhor(h) in(h)cli(g)nou(h_g_) *() pa(e)ra(f) mim(g) seu(f) ou(e)vi(d)do.(d) (::f+)

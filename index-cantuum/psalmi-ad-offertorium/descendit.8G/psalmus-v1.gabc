@@ -1,17 +1,12 @@
 name: Psalmus 1;
 mode: 8;
 mode-differentia: G;
-commentary: Psalmus 1;
 book: Graduale Simplex, 1975, p. 268;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Be</i>(g)<i>á</i>(h)tus(j) vir,(j) qui(j) non(j) áb(j)i(j)it(j) in(j) con(j)sí(j)li(j)o(j) im(j)pi(j)<b>ó</b>(jr1 hr)rum,(h) +(,) et(j) in(j) vi(j)a(j) pec(j)ca(j)tó(j)rum(j) non(j) <b>ste</b>(kr1 jr)tit(j) *(:) et(j) in(j) con(j)vén(j)tu(j) de(j)ri(j)só(j)<i>rum</i>(i) <i>non</i>(j) <b>se</b>(hr1 gr)dit.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Be</i>(g)<i>á</i>(h)tus(j) vir,(j) qui(j) non(j) áb(j)i(j)it(j) in(j) con(j)sí(j)li(j)o(j) im(j)pi(j)<b>ó</b>(jr1 hr)rum,(h) +(,) et(j) in(j) vi(j)a(j) pec(j)ca(j)tó(j)rum(j) non(j) <b>ste</b>(kr1 jr)tit(j) *(:) et(j) in(j) con(j)vén(j)tu(j) de(j)ri(j)só(j)<i>rum</i>(i) <i>non</i>(j) <b>se</b>(hr1 gr)dit.(g) (::)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() De</nlba>(g)scén(gf)dit.(d)
-
-(::)
+<nlba><c><sp>A/</sp>.</c>() De</nlba>(g)scén(gf)dit.(d) (::)

@@ -1,8 +1,7 @@
 name: Deo nostro;
 mode: 8;
 mode-differentia: c;
-cantus-id: 002148;
-commentary: Sl 147(146),1;
+commentary: Cantus ID 002148 cf. Sl 146(147),1;
 book: Graduale simplex, 1975, p. 241;
 nabc-lines: 1;
 
@@ -10,8 +9,4 @@ nabc-lines: 1;
 
 (c3)
 
-De(h|vi)o(g|ta) no(h|vi)stro(f|vi) *() iu(ed|cl)cún(e|vi)da(f|vi) sit(g|vi) lau(fe~|vi>)da(f|vi)ti(e|pe)o.(e|ta)
-
-(::)
-
-(e+)
+De(h|vi)o(g|ta) no(h|vi)stro(f|vi) *() iu(ed|cl)cún(e|vi)da(f|vi) sit(g|vi) lau(fe~|vi>)da(f|vi)ti(e|pe)o.(e|ta) (::e+)

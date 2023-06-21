@@ -1,5 +1,4 @@
 name: Psalmus 94;
-office-part: Psalmus Alleluiáticus;
 mode: C 1;
 book: Graduale Simplex, 1975, p. 239;
 
@@ -7,10 +6,6 @@ book: Graduale Simplex, 1975, p. 239;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Vin(f)de,(f) e(f)xul(f)te(f)mos(f) no(f) Se(f)<b>nhor</b>,(gr1 fr f) *(,) a(f)cla(f)me(f)mos(f) o(f) Ro(f)che(f)do(f) que(f) <i>nos</i>(e) <b>sal</b>(gr1 gr)va.(h)
+<c><sp>V/</sp>. 1.</c>() Vin(f[alt:C 1])de,(f) e(f)xul(f)te(f)mos(f) de(f) a(f)le(f)gri(f)a(f) no(f) <b>Se</b>(gr1 fr)nhor,(f) *(,) a(f)cla(f)me(f)mos(f) o(f) Ro(f)che(f)do(f) que(f) <i>nos</i>(e) <b>sal</b>(gr1 gr)va!(h) (::)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() A</nlba>(h)le(hg)lu(g)ia,(f) (,) a(d)le(fg)lu(gf~)ia.(f)
-
-(::)
+<nlba><c><sp>R/</sp>.</c>() A</nlba>(h)le(hg)lu(g)ia,(f) (,) a(d)le(fg)lu(gf~)ia.(f) (::)

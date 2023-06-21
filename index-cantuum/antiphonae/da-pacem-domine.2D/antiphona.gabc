@@ -1,7 +1,7 @@
 name: Da pacem Domine;
 mode: 2;
 mode-differentia: D;
-cantus-id: 002090;
+commentary: Cantus ID 002090;
 book: Graduale Simplex, 1975, p. 242;
 nabc-lines: 1;
 
@@ -9,8 +9,4 @@ nabc-lines: 1;
 
 (f3)
 
-Da(ff|vs) pa(e|ta)cem,(f|vi) Dó(h|vi)mi(i|vi)ne,(h|vs) *(,) in(g|vi>) di(h|vi)é(i|vi)bus(hg|cllsc3) no(f|ta)stris:(f|talsx6) (;) qui(h|vi)a(h|````vilse1) non(hg|cl-) est(f|ta) á(g|vilse3)li(h|vi)us(kxiji/|to|jkj|tohilss3) (,) qui(j|vilss2) pu(j|````vi>lse1)gnet(i|vi) pro(h|vi) no(hi|pe)bis,(h|ta) (,) ni(h|vi)si(h|ta) tu,(gh|vi) De(i|vi)us(hg|cllsc3) no(f|ta)ster.(f|ta)
-
-(::)
-
-(e+)
+Da(ffo|vs) pa(e|ta)cem,(f|vi) Dó(h|vi)mi(i|vi)ne,(h|vs) *(,) in(g>|vi>) di(h|vi)é(i|vi)bus(hg|cllsc3) no(f|ta)stris:(f|talsx6) (;) qui(h|vi)a(h|````vilse1) non(h_g_|cl-) est(f|ta) á(g|vilse3)li(h|vi)us(kxiji/|to|jkj|tohilss3) (,) qui(j|vilss2) pu(j>|````vi>lse1)gnet(i|vi) pro(h|vi) no(hi|pe)bis,(h|ta) (,) ni(h|vi)si(h|ta) tu,(gh|vi) De(i|vi)us(hg|cllsc3) no(f|ta)ster.(f|ta) (::e+)

@@ -1,20 +1,17 @@
 name: Salmo 48(47);
 mode: 8;
 mode-differentia: G;
-phantom-commentary: Sl 48(47),2-6.9.11-15;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Gran</i>(g)<i>de</i>(h) é(j) o(j) Se(j)nhor(j) e(j) dig(j)no(j) de(j) to(j)do(j) o(j) lou(j)<b>vor</b>,(kr1 jr j) *(,) na(j) ci(j)da(j)de(j) do(j) <i>nos</i>(i)<i>so</i>(j) <b>Deus</b>.(hr1 gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Gran</i>(g)<i>de</i>(h) é(j) o(j) Se(j)nhor(j) e(j) mui(j)to(j) dig(j)no(j) de(j) lou(j)<b>vor</b>(kr1 jr)res(j) *(,) na(j) ci(j)da(j)de(j) on(j)de(j) <i>e</i>(i)<i>le</i>(j) <b>mo</b>(hr1 gr)ra.(g) (::)
 
-(::)
+<eu>O(j) e(j) u(i) o(j) a(h) e.</eu>(g) (::)
 
-<nlba><c><sp>A/</sp>.</c>() Re</nlba>(g)cor(g)da(g)mos,(h) ó(h) Deus.(g)
+<nlba><c><sp>A/</sp>.</c>() Ó</nlba>(g) Deus.(g) (::)
 
-(::)
+<nlba><c><i>~</i>~</c>() a</nlba>(j) ci(j)da(j)de(j) (::)
 
-<nlba><c><i>Flexa</i>:</c>() e</nlba>(j)<b>xér</b>(jr1)ci(hr)tos,(h) +(,) (j) (j)
-
-(::)
+<nlba><c><i>Flexa</i>:</c>() <b>lou</b></nlba>(jr1 hr)vor(h) +(,) (j) (j) (::)

@@ -1,17 +1,11 @@
 name: Psalmus 139;
-office-part: Offertorium;
 mode: 4;
 mode-differentia: E;
-book: Graduale simplex, 1975, p. 235;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Li</i>(h)<i>vrai</i>-(gh)me,(h) Se(h)<i>nhor,</i>(g) <i>do</i>(h) <b>ím</b>(ir1 hr)pio;(h) *(:) pre(h)ser(h)vai-(h)me(h) do(h) ho(h)<i>mem</i>(g) <i>vi</i>(h)<i>o</i>(ih)<nlba>(gr[ocba:1{])<b>len</b></nlba>(gf[ocba:0}])to.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Li</i>(h)<i>vrai</i>-(gh)me,(h) ó(h) Se(h)<i>nhor,</i>(g) <i>dos</i>(h) <b>ho</b>(ir1)mens(hr) maus;(h) *(:) dos(h) ho(h)mens(h) vi(h)o(h)len(h)<i>tos</i>(g) <i>de</i>(h)<i>fen</i>(ih)<nlba>(gr[ocba:1{])<b>dei</b>-</nlba>(gf[ocba:0}])me.(e) (::)
 
-(::)
-
-<c><sp>A/</sp>.</c>() Não(f) me(d) a(e)ban(f)do(g)neis.(ge)
-
-(::)
+<c><sp>A/</sp>.</c>() Não(f) me(d) a(e)ban(f)do(g)neis.(ge) (::)

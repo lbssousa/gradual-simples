@@ -16,8 +16,12 @@
 \def\@Link@Ref@R{}
 \newcommand{\SetAntiphonAnnotation}[1]{\def\@Antiphon@Annotation{#1}}
 \newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}}
-\newcommand{\SetLinkTextL}[1]{\def\@Link@Text@L{#1}}
-\newcommand{\SetLinkTextR}[1]{\def\@Link@Text@R{#1}}
+\newcommand{\SetLinkTextL}[1]{%
+%\def\@Link@Text@L{#1}
+}
+\newcommand{\SetLinkTextR}[1]{%
+%\def\@Link@Text@R{#1}
+}
 \newcommand{\SetVersePairs}[1]{\def\@Verse@Pairs{#1}}
 \newcommand{\SetFirstVersePair}[1]{\def\@First@Verse@Pair{#1}}
 \newcommand{\SetSecondVersePair}[1]{\def\@Second@Verse@Pair{#1}}
@@ -28,13 +32,15 @@
   \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@L}{\@Link@Text@L}}{\@Link@Text@L}%
 }
 \NewDocumentCommand{\MakeVerseItemR}{o m o m}{%
-  \IfNoValueTF{#3}{\item}{\item[#3]} #4
-  \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@R}{\@Link@Text@R}}{\@Link@Text@R}%
+  \IfBlankF{#4}{%
+    \IfNoValueTF{#3}{\item}{\item[#3]} #4
+    \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@R}{\@Link@Text@R}}{\@Link@Text@R}%
+  }%
 }
 \NewDocumentCommand{\MakeVerseItemLR}{o m o m}{%
   \def\@@Verse@L{#2}
   \def\@@Verse@R{#4}
-  \ifdefempty{\@@Verse@L}{}{%
+  \IfBlankF{\@@Verse@L}{%
     \IfNoValueTF{#1}{\item}{\item[#1]} #2
     \nottoggle{disablehyperlinks}{%
       \hyperlink{\@Link@Ref@L}{\@Link@Text@L}%
@@ -43,7 +49,7 @@
     }%
   }
   \switchcolumn[1]%
-  \ifdefempty{\@@Verse@R}{}{%
+  \IfBlankF{\@@Verse@R}{%
     \IfNoValueTF{#3}{\item}{\item[#3]} #4
     \nottoggle{disablehyperlinks}{%
       \hyperlink{\@Link@Ref@R}{\@Link@Text@R}%
@@ -374,6 +380,32 @@
     \end{rubrica}%
   }
   \MakeChantPsalmMulti{#6}{#7}
+}
+
+\NewDocumentCommand \MakeChantAntiphonFlyer { s m O{} } {
+  \def\@Antiphon@L{antiphona-flyer\IfBlankF{#3}{.#3}}
+  \def\@Antiphon@R{\@Antiphon@L-pt}
+
+  \GregorioImportL{index-cantuum/antiphonae}{#2}{\@Antiphon@L}{\@Antiphon@R}
+}
+
+\NewDocumentCommand \MakeChantPsalmFlyer { s m m } {
+  \InputIfFileExists{index-cantuum/#2/#3/psalmus}{}{}
+
+  \IfBlankF{\@Verse@Pairs}{%
+    \begin{greenumerate}
+      \MakeVerseListR{\@First@Verse@Pair}
+      \MakeVerseListR{\@Verse@Pairs}
+    \end{greenumerate}%
+  }
+}
+
+\NewDocumentCommand \SectionAntiphonPsalmFlyer { s m O{} m O{} m m O{#4} } {
+  \section{Antífona de #2}\IfBlankF{#3}{\label{#3}}
+
+  \MakeChantAntiphonFlyer{#4}[#5]
+  \subsection{#6}
+  \MakeChantPsalmFlyer{#7}{#8}
 }
 
 \NewDocumentCommand{\MakeChantLongPsalm}{s m m m}{

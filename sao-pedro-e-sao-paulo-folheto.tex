@@ -1,0 +1,93 @@
+% chktex-file 1
+\documentclass[a4paper]{memoir}
+
+\usepackage[top=7mm,bottom=7mm,inner=10mm,outer=10mm,headheight=15pt,includehead,includefoot]{geometry}
+\input{modules/def-imports}
+\usepackage{multicol}
+\usepackage{array}
+
+\def\mytitle{Solenidade de São Pedro e São Paulo, Apóstolos}
+\def\mysubtitle{}
+
+\input{modules/def-toggles}
+\input{modules/def-headings-flyer}
+\input{modules/def-titles-flyer}
+\input{modules/def-gregorio}
+\input{modules/def-gregorio-flyer}
+\input{modules/def-chant-factory}
+
+\toggletrue{disablehyperlinks}
+
+\title{\mytitle}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols*}{2}
+  \SectionAntiphonPsalmFlyer{Entrada}{misit-dominus.7c2}{Salmo 18 A (19 A)}{psalmi-ad-introitum}
+
+  \section{Kyrie}
+  \gregorioscore{index-cantuum/kyrie/kyrie-44/score}
+
+  \section{Aleluia}
+  \gregorioscore{index-cantuum/antiphonae/alleluia.3g/antiphona-pt}
+  \begin{greenumerate}
+    \item[\textcolor{gregoriocolor}{\Vbar.}] \Inchoatio{Tu}[ ]{és} Pedro e sobre esta pedra eu irei construir a \MediatioIII{mi}{nha I}{gre}[ja;] e as portas do inferno não irão \TerminatioIIIg{der}{ro}{tá}-la.
+  \end{greenumerate}
+
+  \SectionAntiphonPsalmFlyer{Ofertório}
+  {constitues-eos-principes.7a}{Salmo 44(45)}{psalmi-ad-offertorium}
+
+  \section{Sanctus}
+  \gregorioscore{index-cantuum/sanctus/sanctus-46/score}
+
+  \clearpage
+
+  \section{Agnus Dei}
+  \gregorioscore{index-cantuum/agnus/agnus-52/score}
+
+  \SectionAntiphonPsalmFlyer{Comunhão}{tu-es-petrus.7c}{Cântico de São Paulo (Ef 1)}{psalmi-ad-communionem}
+
+  \section{Iesu dulcis memoria}
+
+  \begin{tabular}{p{0.21\textwidth}>{\itshape}p{0.21\textwidth}}
+    Iesu dulcis memoria            & Jesus, doce lembrança                              \\
+    dans vera cordis gaudia:       & dando verdadeiras alegrias ao coração:             \\
+    sed super mel et omnia         & mas acima do mel e de tudo                         \\
+    ejus dulcis pr{\ae}sentia.     & é a doce presença Dele.                            \\
+    Nil canitur suavius,           & Nada é cantado mais suavemente,                    \\
+    nil auditur jucundius,         & nada é ouvido mais alegremente,                    \\
+    nil cogitatur dulcius,         & nada é pensado mais docemente,                     \\
+    quam Iesus Dei Filius.         & do que Jesus, Filho de Deus.                       \\
+    Iesu, spes p{\ae}nitentibus,   & Jesus, esperança dos arrependidos,                 \\
+    quam pius es petentibus!       & quão piedoso sois para aqueles que buscam!         \\
+    quam bonus te qu{\ae}rentibus! & quão bondoso sois para aqueles que pedem!          \\
+    sed quid invenientibus?        & mas o que encontram?                               \\
+    Nec lingua valet dicere,       & Nem a língua pode expressar,                       \\
+    nec littera exprimere:         & nem a letra pode descrever:                        \\
+    expertus potest credere,       & apenas aqueles que experimentaram podem acreditar, \\
+    quid sit Iesum diligere.       & o que é amar Jesus.                                \\
+    Sis, Iesu, nostrum gaudium,    & Seja, Jesus, a nossa alegria,                      \\
+    qui es futurus pr{\ae}mium:    & que será a nossa recompensa:                       \\
+    sit nostra in te gloria,       & que nossa glória esteja em Vós,                    \\
+    per cuncta semper s{\ae}cula.  & por toda a eternidade.                             \\
+    Amen.                          & Amém.                                              \\
+  \end{tabular}
+
+  \section{Sub tuum pr{\ae}sidium}
+
+  \begin{tabular}{p{0.21\textwidth}>{\itshape}p{0.21\textwidth}}
+    Sub tuum praesidium confugimus,            & À vossa proteção recorremos,        \\
+    Sancta Dei Genetrix.                       & Santa Mãe de Deus.                  \\
+    Nostras deprecationes ne despicias         & Não desprezeis as nossas súplicas   \\
+    in necessitatibus nostris,                 & em nossas necessidades,              \\
+    sed a periculis cunctis libera nos sempre, & mas livrai-nos sempre de todos os perigos, \\
+    Virgo gloriosa et benedicta.               & ó Virgem gloriosa e bendita.
+  \end{tabular}
+\end{multicols*}
+
+\end{document}

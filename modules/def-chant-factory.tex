@@ -17,81 +17,61 @@
 \newcommand{\SetAntiphonAnnotation}[1]{\def\@Antiphon@Annotation{#1}}
 \newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}}
 \newcommand{\SetLinkTextL}[1]{%
-%\def\@Link@Text@L{#1}
+  \def\@Link@Text@L{#1}%
 }
 \newcommand{\SetLinkTextR}[1]{%
-%\def\@Link@Text@R{#1}
+  \def\@Link@Text@R{#1}%
 }
 \newcommand{\SetVersePairs}[1]{\def\@Verse@Pairs{#1}}
 \newcommand{\SetFirstVersePair}[1]{\def\@First@Verse@Pair{#1}}
 \newcommand{\SetSecondVersePair}[1]{\def\@Second@Verse@Pair{#1}}
 \newcommand{\SetThirdVersePair}[1]{\def\@Third@Verse@Pair{#1}}
 
-\NewDocumentCommand{\MakeVerseItemL}{o m o m}{%
-  \IfNoValueTF{#1}{\item}{\item[#1]} #2
-  \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@L}{\@Link@Text@L}}{\@Link@Text@L}%
+\NewDocumentCommand \MakeVerseItemL { m m } {%
+  \IfBlankF{#1}{#1~\@Link@Text@L}%
 }
-\NewDocumentCommand{\MakeVerseItemR}{o m o m}{%
-  \IfBlankF{#4}{%
-    \IfNoValueTF{#3}{\item}{\item[#3]} #4
-    \nottoggle{disablehyperlinks}{\hyperlink{\@Link@Ref@R}{\@Link@Text@R}}{\@Link@Text@R}%
-  }%
+\NewDocumentCommand \MakeVerseItemR { m m } {%
+  \IfBlankF{#2}{#2~\@Link@Text@R}%
 }
-\NewDocumentCommand{\MakeVerseItemLR}{o m o m}{%
-  \def\@@Verse@L{#2}
-  \def\@@Verse@R{#4}
-  \IfBlankF{\@@Verse@L}{%
-    \IfNoValueTF{#1}{\item}{\item[#1]} #2
-    \nottoggle{disablehyperlinks}{%
-      \hyperlink{\@Link@Ref@L}{\@Link@Text@L}%
-    }{%
-      \@Link@Text@L%
-    }%
-  }
-  \switchcolumn[1]%
-  \IfBlankF{\@@Verse@R}{%
-    \IfNoValueTF{#3}{\item}{\item[#3]} #4
-    \nottoggle{disablehyperlinks}{%
-      \hyperlink{\@Link@Ref@R}{\@Link@Text@R}%
-    }{%
-      \@Link@Text@R%
-    }%
-  }
+\NewDocumentCommand \MakeVerseItemLR { m m } {%
+  \MakeVerseItemL{#1}{#2}
+  \switchcolumn[1]
+  \MakeVerseItemR{#1}{#2}
   \switchcolumn[0]*%
 }
 
-\NewDocumentCommand{\MakeVerseItemNoLinkTextL}{o m o m}{%
-  \IfNoValueTF{#1}{\item}{\item[#1]} #2%
+\NewDocumentCommand \MakeVerseItemNoLinkTextL { m m } {%
+  \IfBlankF{#1}{#1}%
 }
-\NewDocumentCommand{\MakeVerseItemNoLinkTextR}{o m o m}{%
-  \IfNoValueTF{#3}{\item}{\item[#3]} #4%
+\NewDocumentCommand \MakeVerseItemNoLinkTextR { m m } {%
+  \IfBlankF{#2}{#2}%
 }
-\NewDocumentCommand{\MakeVerseItemNoLinkTextLR}{o m o m}{%
-  \IfNoValueTF{#1}{\item}{\item[#1]} #2
+\NewDocumentCommand \MakeVerseItemNoLinkTextLR { m m } {%
+  \IfBlankF{#1}{#1}
   \switchcolumn[1]
-  \IfNoValueTF{#3}{\item}{\item[#3]} #4
-  \switchcolumn[0]*
+  \IfBlankF{#2}{#2}
+  \switchcolumn[0]*%
 }
 
-\newcommand{\MakeVerseItemVoidL}[2]{\MakeVerseItemL[]{#1}[]{#2}}
-\newcommand{\MakeVerseItemVoidR}[2]{\MakeVerseItemR[]{#1}[]{#2}}
-\newcommand{\MakeVerseItemVoidLR}[2]{\MakeVerseItemLR[]{#1}[]{#2}}
+\newcommand{\MakeVerseItemVoidL}[2]{\MakeVerseItemL{#1}{#2}}
+\newcommand{\MakeVerseItemVoidR}[2]{\MakeVerseItemR{#1}{#2}}
+\newcommand{\MakeVerseItemVoidLR}[2]{\MakeVerseItemLR{#1}{#2}}
 
-\NewDocumentCommand{\MakeVerseListL}{s m}{%
+\NewDocumentCommand \MakeVerseListL { s m } {%
   \IfBooleanTF{#1}{%
     \Map{\MakeVerseItemNoLinkTextL}{#2}%
   }{%
     \Map{\MakeVerseItemL}{#2}%
   }%
 }
-\NewDocumentCommand{\MakeVerseListR}{s m}{%
+\NewDocumentCommand \MakeVerseListR { s m } {%
   \IfBooleanTF{#1}{%
     \Map{\MakeVerseItemNoLinkTextR}{#2}%
   }{%
     \Map{\MakeVerseItemR}{#2}%
   }%
 }
-\NewDocumentCommand{\MakeVerseListLR}{s m}{%
+\NewDocumentCommand \MakeVerseListLR { s m } {%
   \IfBooleanTF{#1}{%
     \Map{\MakeVerseItemNoLinkTextLR}{#2}%
   }{%
@@ -204,13 +184,21 @@
   #3
 }
 
-\NewDocumentCommand \MakeChantPsalm { s m m } {
-  \InputIfFileExists{index-cantuum/#2/#3/psalmus}{}{}
+\NewDocumentCommand \MakeChantPsalm { m m O{} O{#3} } {
+  \SetVersePairs{}
+  \InputIfFileExists{index-cantuum/#1/#2/psalmus}{}{}
+
+  \IfBlankF{#3}{%
+    \SetLinkTextL{#3}%
+  }
+  \IfBlankF{#4}{%
+    \SetLinkTextR{#4}%
+  }
 
   \iftoggle{onecolumn}{
-    \GregorioImportR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportR*{index-cantuum/#1}{#2}{psalmus-v1}{psalmus-v1-pt}
 
-    \ifdefempty{\@Verse@Pairs}{}{%
+    \IfBlankF{\@Verse@Pairs}{%
       \begin{greenumerate}
         \setcounter{enumi}{1}
         \MakeVerseListR{\@Verse@Pairs}
@@ -219,10 +207,10 @@
     \clearpage
   }{
     \begin{paracol}{2}
-      \GregorioImportLR*{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+      \GregorioImportLR*{index-cantuum/#1}{#2}{psalmus-v1}{psalmus-v1-pt}
     \end{paracol}
 
-    \ifdefempty{\@Verse@Pairs}{}{%
+    \IfBlankF{\@Verse@Pairs}{%
       \begin{greenumerate}
         \begin{paracol}{2}
           \synccounter{enumi}
@@ -241,25 +229,33 @@
 \newcommand{\DoGregorioImportR}{}
 \newcommand{\DoGregorioImportLR}{}
 
-\NewDocumentCommand \MakeChantPsalmMulti { s m m m } {
+\NewDocumentCommand \MakeChantPsalmMulti { m m m O{} O{#4} } {
   \renewcommand{\DoGregorioImportL}[2]{%
-    \GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}%
+    \GregorioImportL*{index-cantuum/#1}{#2}{##1}{##2}%
   }
 
   \renewcommand{\DoGregorioImportR}[2]{%
-    \GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}%
+    \GregorioImportR*{index-cantuum/#1}{#2}{##1}{##2}%
   }
 
   \renewcommand{\DoGregorioImportLR}[2]{%
-    \GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}%
+    \GregorioImportLR*{index-cantuum/#1}{#2}{##1}{##2}%
   }
 
-  \input{index-cantuum/#2/#3/psalmus}
+  \SetVersePairs{}
+  \InputIfFileExists{index-cantuum/#1/#2/psalmus}{}{}
+
+  \IfBlankF{#4}{%
+    \SetLinkTextL{#4}%
+  }
+  \IfBlankF{#5}{%
+    \SetLinkTextR{#5}%
+  }
 
   \iftoggle{onecolumn}{
-    \Map{\DoGregorioImportR}{#4}
+    \Map{\DoGregorioImportR}{#3}
 
-    \ifdefempty{\@Verse@Pairs}{}{%
+    \IfBlankF{\@Verse@Pairs}{%
       \begin{greenumerate}
         \setcounter{enumi}{1}
         \MakeVerseListR{\@Verse@Pairs}
@@ -268,10 +264,10 @@
     \clearpage
   }{
     \begin{paracol}{2}
-      \Map{\DoGregorioImportLR}{#4}
+      \Map{\DoGregorioImportLR}{#3}
     \end{paracol}
 
-    \ifdefempty{\@Verse@Pairs}{}{%
+    \IfBlankF{\@Verse@Pairs}{%
       \begin{greenumerate}
         \begin{paracol}{2}
           \synccounter{enumi}
@@ -348,14 +344,14 @@
   }
   \MakeChantAntiphon{#5}[#6]
   \nobreaksubsection{#7}
-  \MakeChantPsalm{#8}{#9}
+  \MakeChantPsalm{#8}{#9}[\Antiphona]
 }
 
 \NewDocumentCommand \SectionAlleluiaPsalm { s O{} m m m } {
   \subsection{Aleluia}\IfBlankF{#2}{\label{#2}}
   \MakeChantAlleluia{#3}
   \nobreaksubsection{#4}
-  \MakeChantPsalm{psalmi-ad-alleluia}{#5}
+  \MakeChantPsalm{psalmi-ad-alleluia}{#5}[\begin{rubrica}Todos:\end{rubrica} Allelúia.][\begin{rubrica}Todos:\end{rubrica} Aleluia.]
 }
 
 \NewDocumentCommand \SectionPsalm { s O{} m O{} m m m } {
@@ -367,10 +363,10 @@
       \end{center}
     \end{rubrica}%
   }
-  \MakeChantPsalm{#6}{#7}
+  \MakeChantPsalm{#6}{#7}[\Responsorium]
 }
 
-\NewDocumentCommand \SectionPsalmMulti { s O{} m O{} m m m } {
+\NewDocumentCommand \SectionPsalmMulti { s O{} m O{} m m m m } {
   \subsection{Salmo #3 --- #5}\IfBlankF{#4}{\label{#4}}
   \IfBlankF{#2}{%
     \begin{rubrica}
@@ -379,7 +375,7 @@
       \end{center}
     \end{rubrica}%
   }
-  \MakeChantPsalmMulti{#6}{#7}
+  \MakeChantPsalmMulti{#6}{#7}{#8}[\Responsorium]
 }
 
 \NewDocumentCommand \MakeChantAntiphonFlyer { s m O{} } {

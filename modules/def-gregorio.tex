@@ -31,23 +31,25 @@
   \end{enumerate}%
 }
 
-\NewDocumentCommand{\Antiphona}{s m}{%
-  \allowbreak\textcolor{gregoriocolor}{\Abar.}~#2\IfBooleanF{#1}{.}%
+\NewDocumentCommand \Antiphona {} {%
+  \allowbreak\textcolor{gregoriocolor}{\Abar.}%
 }
 
-\NewDocumentCommand{\Responsorium}{s m}{%
-  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~#2\IfBooleanF{#1}{.}%
+\NewDocumentCommand \Responsorium {} {%
+  \allowbreak\textcolor{gregoriocolor}{\Rbar.}%
 }
 
-\NewDocumentCommand{\ResponsoriumC}{m}{%
-  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~#1~\GreStar%
+\NewDocumentCommand \ResponsoriumC {} {%
+  \allowbreak\textcolor{gregoriocolor}{\Rbar.}~\GreStar%
 }
 
-\NewDocumentCommand{\Versum}{s m}{%
-  \allowbreak\textcolor{gregoriocolor}{\Vbar.}~#2\IfBooleanF{#1}{.}%
+\NewDocumentCommand \Versum {} {%
+  \allowbreak\textcolor{gregoriocolor}{\Vbar.}%
 }
 
-\NewDocumentCommand{\Elisio}{m}{\textit{\small#1}}
+\NewDocumentCommand \Elisio { m } {%
+  \textit{\small#1}%
+}
 
 \NewDocumentCommand{\Inchoatio}{m o m}{%
   \IfNoValueTF{#2}{%

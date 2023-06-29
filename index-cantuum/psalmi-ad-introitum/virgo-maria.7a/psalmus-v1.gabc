@@ -1,5 +1,4 @@
 name: Psalmus 45;
-
 mode: 7;
 mode-differentia: a;
 book: Graduale Simplex, 1975, p. 302;
@@ -12,7 +11,11 @@ book: Graduale Simplex, 1975, p. 302;
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Vir</nlba>(e)go.(g)
+<c><sp>A/</sp>.</c>(e+)
+
+(::)
+
+<eu>O(i) e(j) u(i) o(i) a(h) e.</eu>(gf)
 
 (::)
 

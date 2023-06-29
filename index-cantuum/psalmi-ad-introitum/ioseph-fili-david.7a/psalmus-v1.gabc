@@ -1,7 +1,6 @@
 name: Psalmus 91(92);
 mode: 7;
 mode-differentia: a;
-commentary: Psalmus 91(92);
 book: Graduale Simplex, 1975, p. 267;
 nabc-lines: 1;
 
@@ -9,8 +8,14 @@ nabc-lines: 1;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Bo</i>(hg)<i>num</i>(hi) est(i) con(i)fi(i)<b>té</b>(kr1 jr)ri(j) <b>Dó</b>(ir1)mi(jr)no:(j) *(:) et(i) psál(i)le(i)re(i) nó(i)mi(i)ni(i) <b>tu</b>(jr1)o,(ir) Al(i)<b>tís</b>(hr1)si(hr)me.(gf) (::)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Bo</i>(hg)<i>num</i>(hi) est(i) con(i)fi(i)<b>té</b>(kr1 jr)ri(j) <b>Dó</b>(ir1)mi(jr)no:(j) *(:) et(i) psál(i)le(i)re(i) nó(i)mi(i)ni(i) <b>tu</b>(jr1)o,(ir) Al(i)<b>tís</b>(hr1)si(hr)me.(gf)
 
-<eu>E(i) u(i) o(j) u(i) a(h) e.</eu>(gf) (::)
+(::)
 
-<nlba><c><sp>A/</sp>.</c>() Io</nlba>(e|ta)seph.(e|ta) (::)
+<c><sp>A/</sp>.</c>(e+)
+
+(::)
+
+<eu>E(i) u(i) o(j) u(i) a(h) e.</eu>(gf)
+
+(::)

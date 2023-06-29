@@ -1,7 +1,6 @@
 name: Salmo 45(46);
 mode: 1;
 mode-differentia: f;
-commentary: Salmo 45(46);
 
 %%
 
@@ -11,10 +10,14 @@ commentary: Salmo 45(46);
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() O</nlba>(d) An(d_c~)jo.(ef)
+<c><sp>A/</sp>.</c>(d+)
 
 (::)
 
-<c><i>Flexa</i>:</c>() <b>ter</b>(hr1 gr)ra,(g) +(,) (h) (h)
+<eu>O(h) e(h) u(g) o(f) a(gh) e.</eu>(gf)
+
+(::)
+
+<nlba><c><i>Flexa</i>:</c>() <b>ter</b></nlba>(hr1 gr)ra,(g) +(,) (h) (h)
 
 (::)

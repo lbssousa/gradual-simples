@@ -1,15 +1,14 @@
 name: Assumpta est Maria in caelum;
 mode: 7;
 mode-differentia: a;
-cantus-id: 001503;
+commentary: Cantus ID 001503;
 book: Graduale Simplex, 1975, p. 294;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-As(e)súmp(e)ta(e) est(g) Ma(h)rí(i)a(j) in(h) cæ(ii)lum:(g) *(;) gau(hg)dent(ef) An(h)ge(h)li,(g) (;) lau(gh)dán(ij)tes(i) be(hg)ne(f)dí(g)cunt(f) Dó(e)mi(e)num.(e)
+As(e|ta)súmp(e|ta)ta(e|````talse4) est(g|vilslp2) Ma(h|vi)rí(i_|vi-)a(j|vi) in(h|ta) cæ(iio|vs)lum:(g|ta) *(;) gau(hg|cllsp3)dent(e_f|peS) An(h|vi)ge(h|vi)li,(g_|ta-) (;) lau(g_h|````peSlse4)dán(i_j>|vi-vi>hi)tes(i|vi) be(hg|cl)ne(f|ta)dí(g|vi)cent(f>|vi>) Dó(e|vi)mi(e|pe)num.(e|ta)
 
-(::)
-
-(h+)
+(::h+)

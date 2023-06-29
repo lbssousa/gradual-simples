@@ -1,17 +1,15 @@
 name: Psalmus 95;
-office-part: Offertorium;
 mode: 4;
 mode-differentia: A;
 book: Graduale Simplex, 1975, p. 300;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Can</i>(i)<i>tá</i>(hi)te(i) Dó(i)mi(i)no(i) cán(i)<i>ti</i>(h)<i>cum</i>(i) <b>no</b>(jr1 ir)vum,(i) *(,) can(i)tá(i)te(i) Dó(i)mi(i)<i>no</i>,(h) <i>om</i>(i)<i>nis</i>(j) <b>ter</b>(hr1 fr)ra.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Can</i>(i)<i>tá</i>(hi)te(i) Dó(i)mi(i)no(i) cán(i)<i>ti</i>(h)<i>cum</i>(i) <b>no</b>(jr1 ir)vum,(i) *(,) can(i)tá(i)te(i) Dó(i)mi(i)<i>no</i>,(h) <i>om</i>(i)<i>nis</i>(j) <b>ter</b>(hr1 fr)ra.(f)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Pa</nlba>(e)ra(f)dí(h)si(h) por(hj)tæ.(ii)
-
-(::)
+<c><sp>A/</sp>.</c>(e+)

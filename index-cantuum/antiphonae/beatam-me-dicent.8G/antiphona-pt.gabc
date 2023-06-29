@@ -1,15 +1,13 @@
 name: Beatam me dicent;
 mode: 8;
 mode-differentia: G;
-cantus-id: 000000;
+commentary: LHH, LS;
 book: Graduale Simplex, 1975, p. 300;
 
 %%
 
 (c3)
 
-Ben(e)di(eh)ta(f) me(e) cha(f)ma(e)rão(d) *(,) to(ef)das(e) as(f) ge(ed)ra(e)ções,(efdd) (;) por(d)que(e) fez(f) em(ed) mim(ef) ma(h)ra(i)vi(hg)lhas(hih) (,) o(f) Po(h)de(g)ro(e)so,(d) a(ef)le(f)lu(e)ia.(e)
+Ben(e)di(eh)ta(f) me(e) cha(f)ma(e)rão(ed~) *(,) to(ef)das(e) as(f) ge(ed)ra(ef)ções,(d) (;) pois(d) fez(e) em(f) mim(ed) ma(e)ra(f)vi(hi)lhas(hg/hih) (,) o(f) Po(h)de(g)ro(e)so,(d) a(ef)le(f)lu(e)ia.(e)
 
-(::)
-
-(e+)
+(::e+)

@@ -1,14 +1,19 @@
 name: Salmo 91(92);
 mode: 7;
 mode-differentia: a;
-commentary: Salmo 91(92);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Co</i>(hg)<i>mo</i>(hi) é(i) bom(i) a(i)gra(i)de(i)<b>cer</b>(kr1)mos(jr) ao(j) <b>Se</b>(ir1 jr)nhor(j) *(:) e(i) can(i)tar(i) sal(i)mos(i) de(i) lou(i)vor(i) ao(i) <b>Deus</b>(jr1 ir) Al(i)<b>tís</b>(hr1)si(hr)mo!(gf) (::)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Co</i>(hg)<i>mo</i>(hi) é(i) bom(i) a(i)gra(i)de(i)<b>cer</b>(kr1)mos(jr) ao(j) <b>Se</b>(ir1 jr)nhor(j) *(:) e(i) can(i)tar(i) sal(i)mos(i) de(i) lou(i)vor(i) ao(i) <b>Deus</b>(jr1 ir) Al(i)<b>tís</b>(hr1)si(hr)mo!(gf)
 
-<eu>O(i) e(j) u(j) o(i) a(h) e.</eu>(gf) (::)
+(::)
 
-<nlba><c><sp>A/</sp>.</c>() Jo</nlba>(e)sé.(e) (::)
+<c><sp>A/</sp>.</c>(e+)
+
+(::)
+
+<eu>O(i) e(j) u(i) o(i) a(h) e.</eu>(gf)
+
+(::)

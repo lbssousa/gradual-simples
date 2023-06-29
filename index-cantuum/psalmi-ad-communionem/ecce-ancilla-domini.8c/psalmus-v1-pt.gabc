@@ -1,20 +1,23 @@
 name: Salmo 95(96);
 mode: 8;
 mode-differentia: c;
-commentary: Salmo 95(96);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Can</i>(g)<i>tai</i>(h) ao(j) Se(j)nhor(j) Deus(j) um(j) can(j)to(j) <b>no</b>(kr1 jr)vo,(j) *(:) <v>\VSup{2}</v>can(j)tai(j) ao(j) Se(j)nhor(j) Deus,(j) ó(j) ter(j)<i>ra</i>(h) <i>in</i>(j)<b>tei</b>(kr1)ra!(jr)(j)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Can</i>(g)<i>tai</i>(h) ao(j) Se(j)nhor(j) Deus(j) um(j) can(j)to(j) <b>no</b>(kr1 jr)vo,(j) *(:) <v>\VSup{2a}</v>can(j)tai(j) ao(j) Se(j)nhor(j) Deus,(j) ó(j) ter(j)<i>ra</i>(h) <i>in</i>(j)<b>tei</b>(kr1 jr)ra!(j)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Eis</nlba>(j_) a(ji)qui.(hg~)
+<c><sp>A/</sp>.</c>(j+)
 
 (::)
 
-<nlba><c><i>Flexa</i>:</c>() <b>ao</b></nlba>(jr1) Se(hr)nhor,(h) +(,) (j) (j)
+<eu>O(j) e(j) u(h) o(j) a(k) e.</eu>(j)
+
+(::)
+
+<nlba><c><i>Flexa</i>:</c>() <b>Se</b></nlba>(jr1 hr)nhor,(h) +(,) (j) (j)
 
 (::)

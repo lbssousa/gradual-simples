@@ -1,15 +1,14 @@
 name: Paradisi portae;
 mode: 4;
 mode-differentia: A;
-cantus-id: 004215;
+commentary: Cantus ID 004215;
 book: Graduale Simplex, 1975, p. 299;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Pa(e)ra(f)dí(h)si(h) por(hj)tæ(ii) *(,) per(h) te(i) no(j)bis(i) a(h)pér(i)tæ(i) sunt,(i) (;) quæ(i) hó(f)di(i)e(h) glo(g)ri(f)ó(fe)sa(f) (,) cum(e) án(d)ge(e)lis(f) tri(h)úm(f)phas.(f)
+Pa(e|vi)ra(f|vi)dí(h|vi)si(h|vi) por(h_j>|pe>1lss6)tæ(iio|vs) *(,) per(h|ta) te(i|vi) no(j|vi)bis(i|vi) a(h|vi)pér(i|vi)tæ(i|vi) sunt,(i_|vi-) (;) quæ(i|vi) hó(f|ta)di(i|vi)e(h|vi) glo(g|vilsi3)ri(f|ta)ó(f_e_|cl-)sa(f|vilssta3) (,) cum(e|vi) án(d|ta)ge(e|vi)lis(f|vi) tri(h|vi)úm(f_|ta-)phas.(f_|ta-)
 
-(::)
-
-(i+)
+(::i+)

@@ -1,31 +1,22 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:proprium-sanctorum/sanctis-michaelis-gabrielis-et-raphaelis-archangelorum}
 
-\subsection{Entrada}\label{subsection:proprium-sanctorum/sanctis-michaelis-gabrielis-et-raphaelis-archangelorum/introitus}
-\MakeChantAntiphonPsalm{benedicite-dominum.8G}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection[Salmo Responsorial]{Salmo Responsorial \textmd{E 5 \protect\GreStar}}\label{subsection:proprium-sanctorum/sanctis-michaelis-gabrielis-et-raphaelis-archangelorum/psalmus-responsorius}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{laudate-dominum-de-caelis.E5}
-
-\subsection{Aleluia}\label{subsection:proprium-sanctorum/sanctis-michaelis-gabrielis-et-raphaelis-archangelorum/alleluia}
-\MakeChantAlleluiaPsalm{3g}{benedic-anima-mea-domino.3g}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{benedicite-dominum.8G}{Salmo 137(138)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático]{Salmo Aleluiático \textmd{C 4}}\label{subsection:proprium-sanctorum/sanctis-michaelis-gabrielis-et-raphaelis-archangelorum/psalmus-alleluiaticus}
-\begin{rubrica}
-    O primeiro {\normalfont\Rbar} pode ser cantado apenas pelo grupo de cantores ou por todos. O segundo {\normalfont\Rbar} é cantado por todos.
-\end{rubrica}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{benedic-anima-mea-domino.C4}
+\SectionPsalmMulti{Responsorial}[\Prefix/psalmus-responsorius]{Salmo 148}{psalmi-responsorii}{laudate-dominum-de-caelis.E5}
+
+\SectionAlleluiaPsalm[\Prefix/alleluia]{3g}{Salmo 102(103)}{benedic-anima-mea-domino.3g}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:proprium-sanctorum/sanctis-michaelis-gabrielis-et-raphaelis-archangelorum/offertorium}
-\MakeChantAntiphonPsalm{stetit-angelus.4A}{psalmi-ad-offertorium}
+\SectionPsalm[\begin{rubrica} O primeiro {\normalfont\Rbar} pode ser cantado apenas pelo grupo de cantores ou por todos. O segundo {\normalfont\Rbar} é cantado por todos. \end{rubrica}]{Aleluiático}[\Prefix/psalmus-alleluiaticus]{Salmo 102(103)}{psalmi-alleluiatici}{benedic-anima-mea-domino.C4}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:proprium-sanctorum/sanctis-michaelis-gabrielis-et-raphaelis-archangelorum/communio}
-\MakeChantAntiphonPsalm{omnes-angeli-eius.5a}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório}[Prefix/offertorium]{stetit-angelus.4A}{Salmo 140(141)}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{omnes-angeli-eius.5a}{Salmo 134(135)}{psalmi-ad-communionem}

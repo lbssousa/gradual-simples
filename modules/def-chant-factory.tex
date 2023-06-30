@@ -6,7 +6,6 @@
 \newcommand{\Map}[2]{\@for\p:={#2}\do{\expandafter#1\p}} % chktex 41
 \def\@Antiphon@Annotation{}
 \def\@Verse@Annotation{}
-\def\@Verse@Pairs{}
 \def\@First@Verse@Pair{}
 \def\@Second@Verse@Pair{}
 \def\@Third@Verse@Pair{}
@@ -22,7 +21,7 @@
 \newcommand{\SetLinkTextR}[1]{%
   \def\@Link@Text@R{#1}%
 }
-\newcommand{\SetVersePairs}[1]{\def\@Verse@Pairs{#1}}
+
 \newcommand{\SetFirstVersePair}[1]{\def\@First@Verse@Pair{#1}}
 \newcommand{\SetSecondVersePair}[1]{\def\@Second@Verse@Pair{#1}}
 \newcommand{\SetThirdVersePair}[1]{\def\@Third@Verse@Pair{#1}}
@@ -184,10 +183,27 @@
   #3
 }
 
-\NewDocumentCommand \MakeChantPsalm { m m O{} O{#3} } {
-  \SetVersePairs{}
-  \InputIfFileExists{index-cantuum/#1/#2/psalmus}{}{}
+\NewDocumentCommand \SetVersePairs { m } {
+  \iftoggle{onecolumn}{
+    \begin{greenumerate}
+      \setcounter{enumi}{1}
+      \MakeVerseListR{#1}
+    \end{greenumerate}%
+  }{
+    \begin{greenumerate}
+      \begin{paracol}{2}
+        \synccounter{enumi}
+        \setcounter{enumi}{1}
+        \switchcolumn[1]
+        \setcounter{enumi}{1}
+        \switchcolumn[0]*
+        \MakeVerseListLR{#1}
+      \end{paracol}
+    \end{greenumerate}%
+  }
+}
 
+\NewDocumentCommand \MakeChantPsalm { m m O{} O{#3} } {
   \IfBlankF{#3}{%
     \SetLinkTextL{#3}%
   }
@@ -197,32 +213,15 @@
 
   \iftoggle{onecolumn}{
     \GregorioImportR*{index-cantuum/#1}{#2}{psalmus-v1}{psalmus-v1-pt}
-
-    \IfBlankF{\@Verse@Pairs}{%
-      \begin{greenumerate}
-        \setcounter{enumi}{1}
-        \MakeVerseListR{\@Verse@Pairs}
-      \end{greenumerate}%
-    }
-    \clearpage
   }{
     \begin{paracol}{2}
       \GregorioImportLR*{index-cantuum/#1}{#2}{psalmus-v1}{psalmus-v1-pt}
     \end{paracol}
-
-    \IfBlankF{\@Verse@Pairs}{%
-      \begin{greenumerate}
-        \begin{paracol}{2}
-          \synccounter{enumi}
-          \setcounter{enumi}{1}
-          \switchcolumn[1]
-          \setcounter{enumi}{1}
-          \switchcolumn[0]*
-          \MakeVerseListLR{\@Verse@Pairs}
-        \end{paracol}
-      \end{greenumerate}%
-    }
   }
+
+  \InputIfFileExists{index-cantuum/#1/#2/psalmus}{}{}
+
+  \iftoggle{onecolumn}{\clearpage}{}
 }
 
 \newcommand{\DoGregorioImportL}{}
@@ -242,9 +241,6 @@
     \GregorioImportLR*{index-cantuum/#1}{#2}{##1}{##2}%
   }
 
-  \SetVersePairs{}
-  \InputIfFileExists{index-cantuum/#1/#2/psalmus}{}{}
-
   \IfBlankF{#4}{%
     \SetLinkTextL{#4}%
   }
@@ -254,128 +250,111 @@
 
   \iftoggle{onecolumn}{
     \Map{\DoGregorioImportR}{#3}
-
-    \IfBlankF{\@Verse@Pairs}{%
-      \begin{greenumerate}
-        \setcounter{enumi}{1}
-        \MakeVerseListR{\@Verse@Pairs}
-      \end{greenumerate}%
-    }
-    \clearpage
   }{
     \begin{paracol}{2}
       \Map{\DoGregorioImportLR}{#3}
     \end{paracol}
-
-    \IfBlankF{\@Verse@Pairs}{%
-      \begin{greenumerate}
-        \begin{paracol}{2}
-          \synccounter{enumi}
-          \setcounter{enumi}{1}
-          \switchcolumn[1]
-          \setcounter{enumi}{1}
-          \switchcolumn[0]*
-          \MakeVerseListLR{\@Verse@Pairs}
-        \end{paracol}
-      \end{greenumerate}%
-    }
   }
+
+  \InputIfFileExists{index-cantuum/#1/#2/psalmus}{}{}
+
+  \iftoggle{onecolumn}{\clearpage}{}
 }
 
-\NewDocumentCommand \MakeChantHymn { s m m } {
+\NewDocumentCommand \MakeChantHymn { m m } {
   \iftoggle{onecolumn}{
-    \GregorioImportR{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+    \GregorioImportR{index-cantuum/#1}{#2}{psalmus-v1}{psalmus-v1-pt}
   }{
     \begin{paracol}{2}
-      \GregorioImportLR{index-cantuum/#2}{#3}{psalmus-v1}{psalmus-v1-pt}
+      \GregorioImportLR{index-cantuum/#1}{#2}{psalmus-v1}{psalmus-v1-pt}
     \end{paracol}
   }
 }
 
 \newtoggle{biginitial}
 
-\NewDocumentCommand \MakeChantHymnMulti { s m m m } {
+\NewDocumentCommand \MakeChantHymnMulti { m m m } {
   \toggletrue{biginitial}
 
   \renewcommand{\DoGregorioImportL}[2]{%
     \iftoggle{biginitial}{%
-      \GregorioImportL{index-cantuum/#2}{#3}{##1}{##2}
+      \GregorioImportL{index-cantuum/#1}{#2}{##1}{##2}
       \togglefalse{biginitial}%
     }{%
-      \GregorioImportL*{index-cantuum/#2}{#3}{##1}{##2}%
+      \GregorioImportL*{index-cantuum/#1}{#2}{##1}{##2}%
     }%
   }
 
   \renewcommand{\DoGregorioImportR}[2]{%
     \iftoggle{biginitial}{%
-      \GregorioImportR{index-cantuum/#2}{#3}{##1}{##2}
+      \GregorioImportR{index-cantuum/#1}{#2}{##1}{##2}
       \togglefalse{biginitial}%
     }{%
-      \GregorioImportR*{index-cantuum/#2}{#3}{##1}{##2}%
+      \GregorioImportR*{index-cantuum/#1}{#2}{##1}{##2}%
     }%
   }
 
   \renewcommand{\DoGregorioImportLR}[2]{%
     \iftoggle{biginitial}{%
-      \GregorioImportLR{index-cantuum/#2}{#3}{##1}{##2}
+      \GregorioImportLR{index-cantuum/#1}{#2}{##1}{##2}
       \togglefalse{biginitial}%
     }{%
-      \GregorioImportLR*{index-cantuum/#2}{#3}{##1}{##2}%
+      \GregorioImportLR*{index-cantuum/#1}{#2}{##1}{##2}%
     }%
   }
 
   \iftoggle{onecolumn}{
-    \Map{\DoGregorioImportR}{#4}
+    \Map{\DoGregorioImportR}{#3}
   }{
     \begin{paracol}{2}
-      \Map{\DoGregorioImportLR}{#4}
+      \Map{\DoGregorioImportLR}{#3}
     \end{paracol}
   }
 }
 
-\NewDocumentCommand \SectionAntiphonPsalm { s O{} m O{} m O{} m m O{#5} } {
-  \subsection{Antífona de #3}\IfBlankF{#4}{\label{#4}}
-  \IfBlankF{#2}{%
+\NewDocumentCommand \SectionAntiphonPsalm { O{} m O{} m O{} m m O{#4} } {
+  \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
+  \IfBlankF{#1}{%
     \begin{rubrica}
       \begin{center}
-        #2
+        #1
       \end{center}
     \end{rubrica}%
   }
-  \MakeChantAntiphon{#5}[#6]
-  \nobreaksubsection{#7}
-  \MakeChantPsalm{#8}{#9}[\Antiphona]
+  \MakeChantAntiphon{#4}[#5]
+  \nobreaksubsection{#6}
+  \MakeChantPsalm{#7}{#8}[\Antiphona]
 }
 
-\NewDocumentCommand \SectionAlleluiaPsalm { s O{} m m m } {
-  \subsection{Aleluia}\IfBlankF{#2}{\label{#2}}
-  \MakeChantAlleluia{#3}
-  \nobreaksubsection{#4}
-  \MakeChantPsalm{psalmi-ad-alleluia}{#5}[\begin{rubrica}Todos:\end{rubrica} Allelúia.][\begin{rubrica}Todos:\end{rubrica} Aleluia.]
+\NewDocumentCommand \SectionAlleluiaPsalm { O{} m m m } {
+  \subsection{Aleluia}\IfBlankF{#1}{\label{#1}}
+  \MakeChantAlleluia{#2}
+  \nobreaksubsection{#3}
+  \MakeChantPsalm{psalmi-ad-alleluia}{#4}[\begin{rubrica}Todos:\end{rubrica} Allelúia.][\begin{rubrica}Todos:\end{rubrica} Aleluia.]
 }
 
-\NewDocumentCommand \SectionPsalm { s O{} m O{} m m m } {
-  \subsection{Salmo #3 --- #5}\IfBlankF{#4}{\label{#4}}
-  \IfBlankF{#2}{%
+\NewDocumentCommand \SectionPsalm { O{} m O{} m m m } {
+  \subsection{Salmo #2 --- #4}\IfBlankF{#3}{\label{#3}}
+  \IfBlankF{#1}{%
     \begin{rubrica}
       \begin{center}
-        #2
+        #1
       \end{center}
     \end{rubrica}%
   }
-  \MakeChantPsalm{#6}{#7}[\Responsorium]
+  \MakeChantPsalm{#5}{#6}[\Responsorium]
 }
 
-\NewDocumentCommand \SectionPsalmMulti { s O{} m O{} m m m m } {
-  \subsection{Salmo #3 --- #5}\IfBlankF{#4}{\label{#4}}
-  \IfBlankF{#2}{%
+\NewDocumentCommand \SectionPsalmMulti { O{} m O{} m m m m } {
+  \subsection{Salmo #2 --- #4}\IfBlankF{#3}{\label{#3}}
+  \IfBlankF{#1}{%
     \begin{rubrica}
       \begin{center}
-        #2
+        #1
       \end{center}
     \end{rubrica}%
   }
-  \MakeChantPsalmMulti{#6}{#7}{#8}[\Responsorium]
+  \MakeChantPsalmMulti{#5}{#6}{#7}[\Responsorium]
 }
 
 \NewDocumentCommand \MakeChantAntiphonFlyer { s m O{} } {
@@ -388,7 +367,7 @@
 \NewDocumentCommand \MakeChantPsalmFlyer { s m m } {
   \InputIfFileExists{index-cantuum/#2/#3/psalmus}{}{}
 
-  \IfBlankF{\@Verse@Pairs}{%
+  \ifdefempty{\@Verse@Pairs}{%
     \begin{greenumerate}
       \MakeVerseListR{\@First@Verse@Pair}
       \MakeVerseListR{\@Verse@Pairs}

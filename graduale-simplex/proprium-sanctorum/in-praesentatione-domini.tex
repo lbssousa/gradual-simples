@@ -1,7 +1,7 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:proprium-sanctorum/in-praesentatione-domini}
 
-\subsection{Antífona para a benção das velas}\label{subsection:proprium-sanctorum/in-praesentatione-domini/ad-benedictionem-candelarum}
+\subsection{Antífona para a benção das velas}\label{\Prefix/benedictionem-candelarum}
 
 \iftoggle{onecolumn}{%
   \GregorioImportL{index-cantuum/antiphonae}{ecce-dominus-noster.3}{antiphona}{antiphona-pt}
@@ -87,13 +87,12 @@
 
 \AllowPageFlush
 
-\subsection{Procissão I}\label{subsection:proprium-sanctorum/in-praesentatione-domini/ad-processionem-1}
-\MakeChantAntiphonPsalm{lumen-ad-revelationem.8G}{psalmi-ad-processionem}
+\SectionAntiphonPsalm{Procissão I}[\Prefix/processionem-1]
+{lumen-ad-revelationem.8G}{Cântico de Simeão (Lc 2)}{psalmi-ad-processionem}
 
 \AllowPageFlush
 
-\subsection{Procissão II}\label{subsection:proprium-sanctorum/in-praesentatione-domini/ad-processionem-2}
-\MakeChantAntiphonPsalm{obtulerunt.8G}{psalmi-ad-processionem}
+\SectionAntiphonPsalm{Procissão II}[\Prefix/processionem-2]{obtulerunt.8G}{Salmo 23(24)}{psalmi-ad-processionem}
 
 \subsection{Procissão III}
 \begin{rubrica}
@@ -102,8 +101,7 @@
 
 \AllowPageFlush
 
-\subsection{Entrada}\label{subsection:proprium-sanctorum/in-praesentatione-domini/introitus}
-\MakeChantAntiphonPsalm{suscepimus-deus.8G}{psalmi-ad-introitum}[suscepimus-deus.8G.1/]
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{suscepimus-deus.8G}{Salmo 47(48)}{psalmi-ad-introitum}[suscepimus-deus.8G.1/]
 
 \nobreaksubsection{Salmo Responsorial}
 
@@ -111,24 +109,20 @@
   Ver Solenidade da Imaculada Conceição de Nossa Senhora, página~\pageref{subsection:proprium-sanctorum/in-conceptione-immaculata-bmv/psalmus-responsorius}.
 \end{rubrica}
 
-\subsection{Aleluia}\label{subsection:proprium-sanctorum/in-praesentatione-domini/alleluia}
-\MakeChantAlleluiaPsalm{4E.1}{fundamenta-eius.4E}
+\SectionAlleluiaPsalm[\Prefix/alleluia]{4E.1}{Salmo 86(87)}{fundamenta-eius.4E}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático]{Salmo Aleluiático \textmd{E 2 d}}\label{subsection:proprium-sanctorum/in-praesentatione-domini/psalmus-alleluiaticus}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{fundamenta-eius.E2d}
+\SectionPsalm{Aleluiático \textmd{E 2 d}}[\Prefix/psalmus-alleluiaticus]{Salmo 86(87)}{psalmi-alleluiatici}{fundamenta-eius.E2d}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:proprium-sanctorum/in-praesentatione-domini/offertorium}
-\MakeChantAntiphonPsalm{diffusa-est-gratia.1g4}{psalmi-ad-offertorium}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{diffusa-est-gratia.1g4}{Salmo 44(45)}{psalmi-ad-offertorium}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:proprium-sanctorum/in-praesentatione-domini/communio}
-\MakeChantAntiphonPsalmExtended{responsum-accepit-simeon.7a}{psalmi-ad-communionem}{%
-  \begin{rubrica}
-    Pode-se complementar com um cântico de comunhão à escolha do fascículo VI.
-  \end{rubrica}%
-}
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{responsum-accepit-simeon.7a}{Cântico de Simeão (Lc 2)}{psalmi-ad-communionem}
+
+\begin{rubrica}
+  Pode-se complementar com um cântico de comunhão à escolha do fascículo VI.
+\end{rubrica}

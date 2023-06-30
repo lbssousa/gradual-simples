@@ -1,23 +1,22 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:proprium-sanctorum/in-assumptione-bmv}
 
-\subsection{Entrada}\label{subsection:proprium-sanctorum/in-assumptione-bmv/introitus}
-\MakeChantAntiphonPsalm{assumpta-est-maria-in-caelum.7a}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection[Salmo Responsorial]{Salmo Responsorial \textmd{E 5}}\label{subsection:proprium-sanctorum/in-assumptione-bmv/psalmus-responsorius}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{veni-de-libano.E5}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{assumpta-est-maria-in-caelum.7a}{Salmo 97(98)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection{Aleluia}\label{subsection:proprium-sanctorum/in-assumptione-bmv/alleluia}
-\MakeChantAlleluiaPsalm{3g}{eructavit-cor-meum-verbum-bonum.3g}
+\SectionPsalmMulti{Responsorial}[\Prefix/psalmus-responsorius]{Cântico dos Cânticos}{psalmi-responsorii}{veni-de-libano.E5}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection{Salmo Aleluiático}\label{subsection:proprium-sanctorum/in-assumptione-bmv/psalmus-alleluiaticus}
-\MakeChantLongPsalm*{psalmi-alleluiatici}{eructavit-cor-meum-verbum-bonum}{
+\SectionAlleluiaPsalm[\Prefix/alleluia]{3g}{Salmo 44(45)}{eructavit-cor-meum-verbum-bonum.3g}
+
+\AllowPageFlush
+
+\SectionPsalmMulti{Aleluiático}[\Prefix/psalmus-alleluiaticus]{Salmo 44(45)}{psalmi-alleluiatici}{eructavit-cor-meum-verbum-bonum}{
   {psalmus-v1}{psalmus-v1-pt},
   {psalmus-v2}{psalmus-v2-pt},
   {psalmus-v3}{psalmus-v3-pt},
@@ -28,15 +27,14 @@
   {psalmus-v8}{psalmus-v8-pt}
 }
 
-\subsection{Ofertório}\label{subsection:proprium-sanctorum/in-assumptione-bmv/offertorium}
-\MakeChantAntiphonPsalm{paradisi-portae.4A}{psalmi-ad-offertorium}
+\AllowPageFlush
 
-\nobreaksubsection{Ofertório opcional}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{paradisi-portae.4A}{Salmo 95(96)}{psalmi-ad-offertorium}
+
 \begin{rubrica}
-  Ver Solenidade da Anunciação do Senhor, página~\pageref{subsection:proprium-sanctorum/in-annuntiatione-domini/offertorium}.
+  Ou, à escolha, do Comum de Nossa Senhora, página~\pageref{subsection:communia/commune-bmv/offertorium}.
 \end{rubrica}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:proprium-sanctorum/in-assumptione-bmv/communio}
-\MakeChantAntiphonPsalm{beatam-me-dicent.8G}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{beatam-me-dicent.8G}{Cântico da Bem-Aventurada Virgem Maria (Lc 1)}{psalmi-ad-communionem}

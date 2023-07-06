@@ -1,16 +1,21 @@
 name: Psalmus 8;
 mode: 2;
 mode-differentia: D;
-nabc-lines: 1;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2ab}</v><i>Dó</i>(e)<i>mi</i>(f)ne,(h) Dó(h)mi(h)nus(h) <b>no</b>(ir1 hr)ster,(h) *(:) quam(h) ad(h)mi(h)rá(h)bi(h)le(h) est(h) no(h)men(h) tu(h)um(h) in(h) u(h)ni(h)vér(h)<i>sa</i>(g) <b>ter</b>(er1 fr)ra.(f) (::)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2ab}</v><i>Dó</i>(e)<i>mi</i>(f)ne,(h) Dó(h)mi(h)nus(h) <b>no</b>(ir1)(hr)ster,(h) *(:) quam(h) ad(h)mi(h)rá(h)bi(h)le(h) est(h) no(h)men(h) tu(h)um(h) in(h) u(h)ni(h)vér(h)<i>sa</i>(g) <b>ter</b>(er1)(fr)ra.(f)
 
-<eu>E(h) u(h) o(h) u(g) a(e) e.</eu>(f) (::)
+(::)
 
-<nlba><c><sp>A/</sp>.</c>() Be</nlba>(e|ta)ne(f|vi)díc(hh|vi)ta(f|vi) sit.(e|vs) (::)
+<eu>E(h) u(h) o(h) u(g) a(e) e.</eu>(f)
 
-<c><i>Flexa</i>:</c>() <b>án</b>(hr1)ge(fr)li,(f) +(,) (h) (h) (::)
+(::)
+
+<c><sp>A/</sp>.</c>(::)
+
+<c><i>Flexa</i>:</c>() <b>án</b>(hr1)ge(fr)li,(f) +(,) (h) (h)
+
+(::)

@@ -2,14 +2,14 @@ name: Tu mandasti;
 office-part: Communio;
 mode: 7;
 mode-differentia: a;
+commentary: Cantus ID 005214 cf. Sl 118(119),4;
 book: Graduale simplex, 1975, p. 247;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Tu(e) man(f)dás(h)ti,(h) Dó(h)mi(ij)ne(i) *(,) man(ih)dá(f)ta(h) tu(gf)a(ef) cus(d)to(f)dí(hf)ri(gf) ni(e)mis.(e)
+Tu(e|ta) man(f|vi)dá(h|vi)sti,(h|vi) Dó(h|vi)mi(ij|pe)ne(i_|vi-) *(,) man(i_h>_|cl>-)dá(f|ta)ta(h|vi) tu(gf|cl)a(e_f|toS) cu(d|ta)sto(f|vi)dí(h_f_|cl-)ri(g_f_|cl-) ni(e|ta)mis.(e|ta)
 
-(::)
-
-(i+)
+(::i+)

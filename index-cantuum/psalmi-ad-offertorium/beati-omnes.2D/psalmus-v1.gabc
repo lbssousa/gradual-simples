@@ -1,5 +1,4 @@
 name: Psalmus 127;
-office-part: Offertorium;
 mode: 2;
 mode-differentia: D;
 book: Graduale Simplex, 1975, p. 246;
@@ -8,10 +7,6 @@ book: Graduale Simplex, 1975, p. 246;
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <i>La</i>(e)<i>bó</i>(f)res(h) má(h)nu(h)um(h) tu(h)um(h) tu(h)á(h)rum(h) man(h)du(h)<b>cá</b>(ir1 hr)bis,(h) *(:) be(h)á(h)tus(h) es,(h) et(h) be(h)ne(h) ti(h)<i>bi</i>(g) <b>e</b>(er1 fr)rit.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>La</i>(e)<i>bó</i>(f)res(h) má(h)nu(h)um(h) tu(h)um(h) tu(h)á(h)rum(h) man(h)du(h)<b>cá</b>(ir1)(hr)bis,(h) *(:) be(h)á(h)tus(h) es,(h) et(h) be(h)ne(h) ti(h)<i>bi</i>(g) <b>e</b>(er1)(fr)rit.(f)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Be</nlba>(f)á(h)ti(h) om(hg)nes.(f)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

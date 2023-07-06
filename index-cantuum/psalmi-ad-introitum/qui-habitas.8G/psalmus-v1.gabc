@@ -1,5 +1,4 @@
 name: Psalmus 122;
-
 mode: 8;
 mode-differentia: G;
 book: Graduale Simplex, 1975, p. 242;
@@ -8,10 +7,10 @@ book: Graduale Simplex, 1975, p. 242;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Ad</i>(g) <i>te</i>(h) le(j)vá(j)vi(j) ó(j)cu(j)los(j) <b>me</b>(kr1 jr)os,(j) *(,) qui(j) ha(j)bí(j)<i>tas</i>(i) <i>in</i>(j) <b>cæ</b>(hr1 gr)lis.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1bc}</v><i>Ad</i>(g) <i>te</i>(h) le(j)vá(j)vi(j) ó(j)cu(j)los(j) <b>me</b>(kr1)(jr)os,(j) *(,) qui(j) ha(j)bí(j)<i>tas</i>(i) <i>in</i>(j) <b>cæ</b>(hr1)(gr)lis.(g)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Qui</nlba>(h) há(f)bi(fg)tas.(g)
+<eu>E(j) u(j) o(i) u(j) a(h) e.</eu>(g)
 
-(::)
+<c><sp>A/</sp>.</c>(::)

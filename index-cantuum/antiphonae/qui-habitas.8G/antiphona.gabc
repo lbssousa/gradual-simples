@@ -2,14 +2,14 @@ name: Qui habitas;
 office-part: Introitus;
 mode: 8;
 mode-differentia: G;
+commentary: Cantus ID 004473 cf. Sl 122(123),1.3;
 book: Graduale Simplex, 1975, p. 245;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Qui(h) há(f)bi(fg)tas(g) *() in(h!iwj) cæ(jh)lis,(ij) (,) mi(h)se(h)ré(i)re(h) no(g)bis.(g)
+Qui(h|vi) há(f|ta)bi(fg|pe)tas(g|vi) *() in(h_!iwj|vi-qlhj) cæ(j_h_|cl-hi)lis,(i_j|peS) (,) mi(h|ta)se(h|ta)ré(i|vi)re(h|vi) no(g|ta)bis.(g|ta)
 
-(::)
-
-(g+)
+(::g+)

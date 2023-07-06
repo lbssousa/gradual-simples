@@ -1,74 +1,60 @@
-% !TeX root = ../fasciculo-3/a4.tex
 % chktex-file 1
-\def\Prefix{liturgia-defunctorum/missa-pro-defunctis}
+\def\Prefix{subsection:liturgia-defunctorum/missa-pro-defunctis}
 
-\subsection{Entrada I}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/introitus-1}
-\MakeChantAntiphonPsalm{requiem.6F}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection{Entrada II}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/introitus-2}
-\MakeChantAntiphonPsalm{dona-eis-domine.4E}{psalmi-ad-introitum}
-
-\subsection{Entrada III}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/introitus-3}
-\MakeChantAntiphonPsalm{aperite-mihi.8G}{psalmi-ad-introitum}
-
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{C 2 g}}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/psalmus-responsorius-1}
-\MakeChantPsalmOneVerse{psalmi-responsorii}{quemadmodum-desiderat-cervus.C2g}
+\SectionAntiphonPsalm{Entrada I}[\Prefix/introitus-1]{requiem.6F}{Salmo XX}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Responsorial II]{Salmo Responsorial II \textmd{E 3}}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/psalmus-responsorius-2}
-\MakeChantPsalmOneVerse{psalmi-responsorii}{misericordias-domini.E3.1}
+\SectionAntiphonPsalm{Entrada II}[\Prefix/introitus-2]{dona-eis-domine.4E}{Salmo XX}{psalmi-ad-introitum}
 
-\subsection[Salmo Responsorial III]{Salmo Responsorial III \textmd{D 1 e}}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/psalmus-responsorius-3}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{laetatus-sum-in-eo.D1e}
+\SectionAntiphonPsalm{Entrada III}[\Prefix/introitus-3]{aperite-mihi.8G}{Salmo XX}{psalmi-ad-introitum}
 
-\AllowPageFlush
-
-\subsection{Aleluia}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/alleluia}
-\MakeChantAlleluiaPsalm{4E.2}{de-profundis.4E}
-
-\subsection[Salmo Aleluiático I]{Salmo Aleluiático I \textmd{E \protect\GreStar}}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/psalmus-alleluiaticus-1}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{in-exitu-israel.ES}
+\SectionPsalm{Responsorial I}[\Prefix/psalmus-responsorius-1]{Salmo XX}{psalmi-responsorii}{quemadmodum-desiderat-cervus.C2g}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático II]{Salmo Aleluiático II \textmd{D 1 b}}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/psalmus-alleluiaticus-2}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{deus-deus-meus.D1b}
+\SectionPsalm{Responsorial II}[\Prefix/psalmus-responsorius-2]{Salmo XX}{psalmi-responsorii}{misericordias-domini.E3.1}
+
+\SectionPsalmMulti{Responsorial III}[\Prefix/psalmus-responsorius-3]{Salmo XX}
+{psalmi-responsorii}{laetatus-sum-in-eo.D1e}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático III]{Salmo Aleluiático III \textmd{E 1}}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/psalmus-alleluiaticus-3}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{de-profundis.E1}
+\SectionAlleluiaPsalm[\Prefix/alleluia]{4E.2}{Salmo XX}{de-profundis.4E}
+
+\SectionPsalm{Aleluiático I}[\Prefix/psalmus-alleluiaticus-1]{Salmo XX}{psalmi-alleluiatici}{in-exitu-israel.ES}
 
 \AllowPageFlush
 
-\subsection{Trato}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/tractus}
-\MakeChantPsalmOneVerse{tractus}{ad-te-levavi-oculos-meos}
+\SectionPsalm{Aleluiático II}[\Prefix/psalmus-alleluiaticus-2]{Salmo XX}{psalmi-alleluiatici}{deus-deus-meus.D1b}
 
 \AllowPageFlush
 
-\subsection{Ofertório I}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/offertorium-1}
-\MakeChantAntiphonPsalm{redemptor-meus-vivit.2D}{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático}[\Prefix/psalmus-alleluiaticus-3]{Salmo XX}{psalmi-alleluiatici}{de-profundis.E1}
 
 \AllowPageFlush
 
-\subsection{Ofertório II}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/offertorium-2}
-\MakeChantAntiphonPsalm{habitabit.4E}{psalmi-ad-offertorium}
+\SectionTractus[\Prefix/tractus]{Salmo XX}{ad-te-levavi-oculos-meos}
 
 \AllowPageFlush
 
-\subsection{Ofertório III}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/offertorium-3}
-\MakeChantAntiphonPsalm{in-conspectu.5a}{psalmi-ad-offertorium}
+\SectionAntiphonPsalm{Ofertório I}[\Prefix/offertorium-1]{redemptor-meus-vivit.2D}{Salmo XX}{psalmi-ad-offertorium}
 
 \AllowPageFlush
 
-\subsection{Comunhão I}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/communio-1}
-\MakeChantAntiphonPsalm{lux-aeterna.8G}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório II}[\Prefix/offertorium-2]{habitabit.4E}{Salmo XX}{psalmi-ad-offertorium}
 
-\subsection{Comunhão II}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/communio-2}
-\MakeChantAntiphonPsalm{audivi-vocem.2D}{psalmi-ad-communionem}
+\AllowPageFlush
 
-\subsection{Comunhão III}\label{subsection:liturgia-defunctorum/missa-pro-defunctis/communio-3}
-\MakeChantAntiphonPsalm{portio-mea-domine.8c}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório III}[\Prefix/offertorium-3]{in-conspectu.5a}{Salmo XX}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão I}[\Prefix/communio-1]{lux-aeterna.8G}{Salmo XX}{psalmi-ad-communionem}
+
+\SectionAntiphonPsalm{Comunhão II}[\Prefix/communio-2]{audivi-vocem.2D}{Salmo XX}{psalmi-ad-communionem}
+
+\SectionAntiphonPsalm{Comunhão III}[\Prefix/communio-3]{portio-mea-domine.8c}{Salmo XX}{psalmi-ad-communionem}

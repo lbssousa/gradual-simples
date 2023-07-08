@@ -9,28 +9,20 @@
 \def\@First@Verse@Pair{}
 \def\@Second@Verse@Pair{}
 \def\@Third@Verse@Pair{}
-\def\@Link@Text@L{}
-\def\@Link@Text@R{}
 \def\@Link@Ref@L{}
 \def\@Link@Ref@R{}
 \newcommand{\SetAntiphonAnnotation}[1]{\def\@Antiphon@Annotation{#1}}
 \newcommand{\SetVerseAnnotation}[1]{\def\@Verse@Annotation{#1}}
-\newcommand{\SetLinkTextL}[1]{%
-  \def\@Link@Text@L{#1}%
-}
-\newcommand{\SetLinkTextR}[1]{%
-  \def\@Link@Text@R{#1}%
-}
 
 \newcommand{\SetFirstVersePair}[1]{\def\@First@Verse@Pair{#1}}
 \newcommand{\SetSecondVersePair}[1]{\def\@Second@Verse@Pair{#1}}
 \newcommand{\SetThirdVersePair}[1]{\def\@Third@Verse@Pair{#1}}
 
 \NewDocumentCommand \MakeVerseItemL { m m } {%
-  \IfBlankF{#1}{#1~\@Link@Text@L}%
+  \IfBlankF{#1}{#1}%
 }
 \NewDocumentCommand \MakeVerseItemR { m m } {%
-  \IfBlankF{#2}{#2~\@Link@Text@R}%
+  \IfBlankF{#2}{#2}%
 }
 \NewDocumentCommand \MakeVerseItemLR { m m } {%
   \MakeVerseItemL{#1}{#2}
@@ -183,34 +175,39 @@
   #3
 }
 
-\NewDocumentCommand \SetVersePairs { m } {
+\NewDocumentCommand \SetVersePairs { O{} D(){1} m } {
   \iftoggle{onecolumn}{
     \begin{greenumerate}
-      \setcounter{enumi}{1}
-      \MakeVerseListR{#1}
+      \iftoggle{psalmtextonly}{%
+        \IfBlankF{#1}{%
+          \MakeVerseListR{#1}%
+        }%
+      }{%
+        \setcounter{enumi}{#2}
+      }
+      \MakeVerseListR{#3}
     \end{greenumerate}%
   }{
     \begin{greenumerate}
       \begin{paracol}{2}
-        \synccounter{enumi}
-        \setcounter{enumi}{1}
-        \switchcolumn[1]
-        \setcounter{enumi}{1}
-        \switchcolumn[0]*
-        \MakeVerseListLR{#1}
+        \iftoggle{psalmtextonly}{%
+          \IfBlankF{#1}{%
+            \MakeVerseListLR{#1}%
+          }%
+        }{%
+          \synccounter{enumi}
+          \setcounter{enumi}{#2}
+          \switchcolumn[1]
+          \setcounter{enumi}{#2}
+          \switchcolumn[0]*
+        }
+        \MakeVerseListLR{#3}
       \end{paracol}
     \end{greenumerate}%
   }
 }
 
-\NewDocumentCommand \MakeChantPsalm { m m O{} O{#3} } {
-  \IfBlankF{#3}{%
-    \SetLinkTextL{#3}%
-  }
-  \IfBlankF{#4}{%
-    \SetLinkTextR{#4}%
-  }
-
+\NewDocumentCommand \MakeChantPsalm { m m } {
   \iftoggle{onecolumn}{
     \GregorioImportR*{index-cantuum/#1}{#2}{psalmus-v1}{psalmus-v1-pt}
   }{
@@ -228,7 +225,7 @@
 \newcommand{\DoGregorioImportR}{}
 \newcommand{\DoGregorioImportLR}{}
 
-\NewDocumentCommand \MakeChantPsalmMulti { m m m O{} O{#4} } {
+\NewDocumentCommand \MakeChantPsalmMulti { m m m } {
   \renewcommand{\DoGregorioImportL}[2]{%
     \GregorioImportL*{index-cantuum/#1}{#2}{##1}{##2}%
   }
@@ -239,13 +236,6 @@
 
   \renewcommand{\DoGregorioImportLR}[2]{%
     \GregorioImportLR*{index-cantuum/#1}{#2}{##1}{##2}%
-  }
-
-  \IfBlankF{#4}{%
-    \SetLinkTextL{#4}%
-  }
-  \IfBlankF{#5}{%
-    \SetLinkTextR{#5}%
   }
 
   \iftoggle{onecolumn}{
@@ -322,19 +312,20 @@
     \end{rubrica}%
   }
   \MakeChantAntiphon{#4}[#5]
-  \nobreaksubsection{#6}
-  \MakeChantPsalm{#7}{#8}[\Antiphona]
+  \subsubsection{#6}
+  \MakeChantPsalm{#7}{#8}
 }
 
 \NewDocumentCommand \SectionAlleluiaPsalm { O{} m m m } {
   \subsection{Aleluia}\IfBlankF{#1}{\label{#1}}
   \MakeChantAlleluia{#2}
-  \nobreaksubsection{#3}
-  \MakeChantPsalm{psalmi-ad-alleluia}{#4}[\begin{rubrica}Todos:\end{rubrica} Allelúia.][\begin{rubrica}Todos:\end{rubrica} Aleluia.]
+  \subsubsection{#3}
+  \MakeChantPsalm{psalmi-ad-alleluia}{#4}
 }
 
 \NewDocumentCommand \SectionPsalm { O{} m O{} m m m } {
-  \subsection{Salmo #2 --- #4}\IfBlankF{#3}{\label{#3}}
+  \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
+  \subsubsection{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
       \begin{center}
@@ -342,11 +333,12 @@
       \end{center}
     \end{rubrica}%
   }
-  \MakeChantPsalm{#5}{#6}[\Responsorium]
+  \MakeChantPsalm{#5}{#6}
 }
 
 \NewDocumentCommand \SectionPsalmMulti { O{} m O{} m m m m } {
-  \subsection{Salmo #2 --- #4}\IfBlankF{#3}{\label{#3}}
+  \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
+  \subsubsection{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
       \begin{center}
@@ -354,7 +346,13 @@
       \end{center}
     \end{rubrica}%
   }
-  \MakeChantPsalmMulti{#5}{#6}{#7}[\Responsorium]
+  \MakeChantPsalmMulti{#5}{#6}{#7}
+}
+
+\NewDocumentCommand \SectionTractus { O{} m m } {
+  \subsection{Trato}\IfBlankF{#1}{\label{#1}}
+  \subsubsection{#2}
+  \MakeChantPsalm{tractus}{#3}
 }
 
 \NewDocumentCommand \MakeChantAntiphonFlyer { s m O{} } {

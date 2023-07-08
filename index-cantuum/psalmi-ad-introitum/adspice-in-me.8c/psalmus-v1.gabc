@@ -2,16 +2,19 @@ name: Psalmus 24;
 mode: 8;
 mode-differentia: c;
 book: Graduale Simplex, 1975, p. 225;
-nabc-lines: 1;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v><i>Ad</i>(e) <i>te</i>,(f) Dó(h)mi(h)ne,(h) le(h)vá(h)vi(h) á(h)ni(h)mam(h) <b>me</b>(ir1 hr)am,(h) *(:) <v>\VSup{2a}</v>De(h)us(h) me(h)us,(h) in(h) te(h) con(h)fí(h)do,(h) non(h) <i>e</i>(f)<i>ru</i>(h)<b>bé</b>(ir1 hr)cam.(h) (::)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v><i>Ad</i>(e) <i>te</i>,(f) Dó(h)mi(h)ne,(h) le(h)vá(h)vi(h) á(h)ni(h)mam(h) <b>me</b>(ir1)(hr)am,(h) *(:) <v>\VSup{2a}</v>De(h)us(h) me(h)us,(h) in(h) te(h) con(h)fí(h)do,(h) non(h) <i>e</i>(f)<i>ru</i>(h)<b>bé</b>(ir1)(hr)cam.(h)
 
-<eu>E(h) u(h) o(f) a(i) e.</eu>(h) (::)
+(::)
 
-<nlba><c><sp>A/</sp>.</c>() Ad</nlba>(h|vi)spí(h_|vi-)ce(g|vi) in(h>|vi>) me.(f_|vi-) (::)
+<eu>E(h) u(h) o(f) a(i) e.</eu>(h)
 
-<c><i>Flexa</i>:</c>() <b>do</b>(hr1)ce(fr) me,(f) +(,) (h) (h) (::)
+<c><sp>A/</sp>.</c>(::)
+
+<c><i>Flexa</i>:</c>() <b>do</b>(hr1)ce(fr) me,(f) +(,) (h) (h)
+
+(::)

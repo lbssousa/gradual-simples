@@ -1,5 +1,4 @@
 name: Psalmus 64(65);
-office-part: Psalmus Alleluiaticus;
 mode: D 1 b;
 book: Graduale Simplex, 1975, p. 234;
 
@@ -7,6 +6,10 @@ book: Graduale Simplex, 1975, p. 234;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Te(h[alt:D 1 b]) de(h)cet(h) hym(h)nus,(h) De(h)us,(h) in(h) <b>Si</b>(ir1 hr)on;(h) *(,) et(h) ti(h)bi(h) red(h)dé(h)tur(h) vo(h)tum(h) in(h) Ie(h)<b>rú</b>(gr1)sa(gr)lém.(i) (::)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Te(h[alt:D 1 b]) de(h)cet(h) hym(h)nus,(h) De(h)us,(h) in(h) <b>Si</b>(ir1 hr)on;(h) *(,) et(h) ti(h)bi(h) red(h)dé(h)tur(h) vo(h)tum(h) in(h) Ie(h)<b>rú</b>(gr1)sa(gr)lém.(i)
 
-<nlba><c><sp>R/</sp>.</c>() Al</nlba>(i)le(j)lú(i)ia,(hg) (,) al(hi)le(i)lú(h)ia.(h) (::)
+(::)
+
+<nlba><c><sp>R/</sp>.</c>() Al</nlba>(i)le(j)lú(i)ia,(hg) (,) al(hi)le(i)lú(h)ia.(h)
+
+(::)

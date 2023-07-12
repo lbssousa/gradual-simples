@@ -1,6 +1,6 @@
 name: Canticum;
-mode: 3;
-mode-differentia: a;
+mode: 7;
+mode-differentia: c;
 book: Graduale simplex, 1975, p. 287;
 nabc-lines: 1;
 
@@ -8,14 +8,10 @@ nabc-lines: 1;
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v><i>Be</i>(hg)<i>ne</i>(hi)díc(i)tus(i) De(i)us(i) et(i) Pa(i)ter(i) Dó(i)mi(i)ni(i) no(i)stri(i) <b>Ie</b>(kr1 jr)su(j) <b>Chri</b>(ir1 jr)sti,(j) *(:) qui(i) be(i)ne(i)di(i)xí(i)sti(i) nos(i) in(i) om(i)ni(i) be(i)ne(i)dic(i)ti(i)ó(i)ne(i) spi(i)ri(i)tá(i)li(i) in(i) cæ(i)lé(i)sti(i)<b>bus</b>(jr1 ir) in(i) <b>Chri</b>(hr1 hr)sto.(gh)
-
-(::)
-
-<c><sp>A/</sp>.</c>(i+)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v><i>Be</i>(hg)<i>ne</i>(hi)díc(i)tus(i) De(i)us(i) et(i) Pa(i)ter(i) Dó(i)mi(i)ni(i) no(i)stri(i) <b>Ie</b>(kr1)(jr)su(j) <b>Chri</b>(ir1)(jr)sti,(j) *(:) qui(i) be(i)ne(i)di(i)xí(i)sti(i) nos(i) in(i) om(i)ni(i) be(i)ne(i)dic(i)ti(i)ó(i)ne(i) spi(i)ri(i)tá(i)li(i) in(i) cæ(i)lé(i)sti(i)<b>bus</b>(jr1)(ir) in(i) <b>Chri</b>(hr1)(hr)sto.(gh)
 
 (::)
 
 <eu>E(i) u(i) o(j) u(i) a(h) e.</eu>(gh)
 
-(::)
+<c><sp>A/</sp>.</c>(::)

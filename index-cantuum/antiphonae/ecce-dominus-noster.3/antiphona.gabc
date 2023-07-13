@@ -2,11 +2,12 @@ name: Ecce Dominus noster;
 mode: 3;
 commentary: Cantus ID 002508 cf. Is 35,4-5; Mt 24,30; Mc 13,26; I Esd 9,8;
 book: Graduale Simplex, 1975, p. 259;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ec(g)ce(g) Dó(hi)mi(i)nus(i) no(i)ster(i) *(,) cum(i) vir(i)tú(j)te(h) vé(i)ni(hg)et,(g) (;) ut(g) il(h)lú(j)mi(i)net(g) ó(h)cu(g)los(g) (,) ser(g)vó(gh)rum(f) su(g)ó(f)rum,(fd) al(ef)le(g)lú(gg)ia.(e)
+Ec(g|vi)ce(g|vi) Dó(hi|pe)mi(i|vi)nus(i|vi) no(i|vi)ster(i_|vi-) *(,) cum(i|vi) vir(i|vi)tú(j|vi)te(h|ta) vé(i|vi)ni(hg|cllsc3)et,(g|talsx6) (;) ut(g|ta) il(h|vi)lú(j|vi)mi(i|vi)net(g|ta) ó(h|````vilssta4)cu(g|vi)los(g|ta) (,) ser(g|````talssta4)vó(g_h|peSlsal3)rum(f|ta) su(g|vi)ó(f|ta)rum,(f_d_|cl-) al(e_f|peS)le(g|vi)lú(gg>|vi>)ia.(e|ta)
 
 (::)

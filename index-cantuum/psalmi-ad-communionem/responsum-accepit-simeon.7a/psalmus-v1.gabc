@@ -1,21 +1,20 @@
 name: Canticum Simeonis;
 mode: 7;
 mode-differentia: a;
-commentary: Lc 2,29-32;
 book: Graduale Simplex, 1975, p. 266;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{29}</v><i>Nunc</i>(hg) <i>di</i>(hi)mít(i)tis(i) ser(i)vum(i) <b>tu</b>(kr1 jr)um,(j) <b>Dó</b>(ir1)mi(jr)ne,(j) *(:) se(i)cún(i)dum(i) ver(i)bum(i) <b>tu</b>(jr1)um(ir) in(i) <b>pa</b>(hr1 hr)ce.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{29}</v><i>Nunc</i>(hg) <i>di</i>(hi)mít(i)tis(i) ser(i)vum(i) <b>tu</b>(kr1)(jr)um,(j) <b>Dó</b>(ir1)mi(jr)ne,(j) *(:) se(i)cún(i)dum(i) ver(i)bum(i) <b>tu</b>(jr1)um(ir) in(i) <b>pa</b>(hr1)(hr)ce.(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Re</nlba>(e)spón(e)sum(e) ac(g)cé(i)pit(h) Sí(f)me(h)on.(g)
+<eu>E(i) u(i) o(j) u(i) a(h) e.</eu>(gf)
 
-(::)
+<c><sp>A/</sp>.</c>(::)
 
-<nlba><c><i>Flexa</i>:</c>() po</nlba>(i)pu(i)<b>ló</b>(ir1 hr)rum;(h) +(,) (i) (i)
+<nlba><c><i>Flexa</i>:</c>() po</nlba>(i)pu(i)<b>ló</b>(ir1)(hr)rum;(h) +(,) (i) (i)
 
 (::)

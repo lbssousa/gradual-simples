@@ -1,14 +1,12 @@
 name: Luz para iluminar;
 mode: 8;
 mode-differentia: G;
-phantom-commentary: Cantus ID 003645 cf. Lc 2,32;
+commentary: LS;
 
 %%
 
 (c3)
 
-Luz(h) *() pa(g)r<e>a</e> i(e)lu(g)mi(h)nar(f) os(e) po(fe)vos(d) (;) e(df) gló(h)ria(h) do(ge) vos(g)so(h) po(f)vo,(f) Is(g)ra(f)el.(e)
+Luz(h_) *() que(g) bri(e)lha(g)rá(h) pa(f)r<e>a</e> os(e) gen(f)ti(e)os(d) (;) e(df) gló(h)ri(h)a(ge) do(e) vos(g)so(h) po(f)vo,(f) Is(g)ra(f)el.(e)
 
-(::)
-
-(e+)
+(::e+)

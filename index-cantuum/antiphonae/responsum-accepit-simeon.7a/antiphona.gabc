@@ -3,13 +3,12 @@ mode: 7;
 mode-differentia: a;
 commentary: Cantus ID 004639 cf. Lc 2,26;
 book: Graduale Simplex, 1975, p. 265;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Re(e)spón(e)sum(e) ac(g)cé(i)pit(h) Sí(f)me(h)on(g) *(,) a(g) Spí(h)ri(f)tu(e) San(h)cto,(hhg) (;) non(g) vi(h)sú(i)rum(h) se(f) mor(h)tem,(g) (,) ni(e)si(g) vi(h)dé(f)ret(f) Dó(g)mi(f)num.(e)
+Re(e|ta)spón(e|ta)sum(e|ta) ac(g|vi)cé(i|vi)pit(h|vi) Sí(f|ta)me(h|vi)on(g_|ta-) *(,) a(g|ta) Spí(h|vi)ri(f|vi)tu(e|ta) San(h|vi)cto,(h_h_g_|toS) (;) non(g|````talse4) vi(h|vi)sú(i|vi)rum(h|vi) se(f_|ta-) mor(h|vi)tem,(g|vi) (,) ni(e|ta)si(g|vi) vi(h|vi)dé(f|ta)ret(f|ta) Dó(g|vi)mi(f|vi)num.(e|ta)
 
-(::)
-
-(h+)
+(::h+)

@@ -3,13 +3,12 @@ mode: 8;
 mode-differentia: G;
 commentary: Cantus ID 004104 cf. Lc 2,24;
 book: Graduale Simplex, 1975, p. 260;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Ob(f)tu(h)lé(j)runt(ig~) *() pro(ij) e(h)o(g) Dó(h)mi(g)no(f) (;) par(fh) túr(j)tu(j)rum,(i) (,) aut(g) du(i)os(j) pul(h)los(h) co(i)lum(h)bá(g)rum.(g)
+Ob(f|ta)tu(h|vi)lé(j_|vi-hj)runt(ig~|vi>) *() pro(i_j|peSlsl2) e(h|vi)o(g|ta) Dó(h|vi)mi(g|vi)no(f_|cl-) (;) par(f_h|````peSlse4) túr(j|vi)tu(j|vi)rum,(i|vi) (,) aut(g|ta) du(i|vi)os(j|vi) pul(h|vi)los(h|cllsc3) co(i_|vi-)lum(h>|vi>)bá(g|ta)rum.(g|ta)
 
-(::)
-
-(g+)
+(::g+)

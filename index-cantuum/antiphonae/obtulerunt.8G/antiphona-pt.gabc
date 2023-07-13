@@ -1,14 +1,12 @@
 name: Ofereceram;
 mode: 8;
 mode-differentia: G;
-phantom-commentary: Cantus ID 004104 cf. Lc 2,24;
+commentary: LS;
 
 %%
 
 (c4)
 
-O(f)fe(f)re(h)ce(j)ram,(ig~) *() se(i)gun(i)d<e>o</e> a(j) lei(hg) do(h) Se(g)nhor,(f) (;) um(f) par(f) de(h) ro(j)las(i) (,) ou(gi~) dois(jh) pom(ih~)bi(g)nhos.(g)
+O(f)fe(f)re(h)ce(j_)ram,(ig~) *() se(i)gun(i_j)d<e>o</e> a(j) lei(hg) do(h) Se(g)nhor,(f_) (;) um(f) par(f) de(h) ro(j)las(i) (,) ou(gi) dois(jh) pom(ih~)bi(g)nhos.(g)
 
-(::)
-
-(g+)
+(::g+)

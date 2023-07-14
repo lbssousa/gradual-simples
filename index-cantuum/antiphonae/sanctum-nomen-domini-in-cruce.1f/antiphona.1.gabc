@@ -1,7 +1,7 @@
 name: Sanctum nomen Domini in Cruce;
 mode: 1;
 mode-differentia: f;
-cantus-id: 004769(?);
+commentary: Cantus ID 004769;
 book: Graduale Simplex, 1975, p. 307;
 
 %%
@@ -14,6 +14,4 @@ Sanc(d)tum(dc) no(f)men(g) Dó(f)mi(gh)ni(h) *(,) in(h) Cru(g)ce(h!ij) ex(j)al(i
 
 <nlba><c><i>T. P.</i></c>() Al</nlba>(e)le(fe)lú(d)ia.(d)
 
-(::)
-
-(f+)
+(::f+)

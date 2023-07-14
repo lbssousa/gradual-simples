@@ -1,16 +1,11 @@
 name: Salmo 66(67);
 mode: 7;
 mode-differentia: c;
-commentary: Salmo 66(67);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Que</i>(hg) <i>Deus</i>(hi) nos(i) dê(i) a(i) su(i)a(i) gra(i)ça(i) e(i) <b>su</b>(kr1 jr)a(j) <b>bên</b>(ir1 jr)ção,(j) *(:) e(i) su(i)a(i) fa(i)ce(i) res(i)plan(i)<b>des</b>(jr1 ir)ça(i) <b>so</b>(hr1)bre(hr) nós.(gh)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Que</i>(hg) <i>Deus</i>(hi) nos(i) dê(i) a(i) su(i)a(i) gra(i)ça(i) e(i) <b>su</b>(kr1)(jr)a(j) <b>bên</b>(ir1)(jr)ção,(j) *(:) e(i) su(i)a(i) fa(i)ce(i) res(i)plan(i)<b>des</b>(jr1)(ir)ça(i) <b>so</b>(hr1)bre(hr) nós.(gh)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Nós.</nlba>(ig/ij)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

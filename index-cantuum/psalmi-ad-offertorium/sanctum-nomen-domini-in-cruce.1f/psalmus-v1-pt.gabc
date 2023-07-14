@@ -1,5 +1,4 @@
 name: Psalmus 1;
-office-part: Offertorium;
 mode: 1;
 mode-differentia: f;
 book: Graduale Simplex, 1975, p. 307;
@@ -8,10 +7,10 @@ book: Graduale Simplex, 1975, p. 307;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Fe</i>(f)<i>liz</i>(gh) de(h) quem(h) não(h) se(h) des(h)vi(h)a(h) se(h)gun(h)do(h) o(h) con(h)se(h)lho(h) dos(h) <b>ím</b>(hr1)pios,(g) +(,) não(h) se(h) de(h)tém(h) no(h) ca(h)mi(h)nho(h) dos(h) <b>pe</b>(ixir1 hr)ca(h)<b>do</b>(gr1 hr)res(h) *(:) e(h) não(h) se(h) as(h)sen(h)ta(h) na(h) re(h)u(h)ni(h)ão(h) dos(h) <i>zom</i>(g)<i>ba</i>(f)<b>do</b>(gr1h gr)res.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Fe</i>(f)<i>liz</i>(gh) é(h) to(h)do(h) a(h)que(h)le(h) <b>que</b>(ixir1) (hr) não(h) <b>an</b>(gr1)(hr)da(h) *(:) con(h)for(h)me(h) os(h) con(h)se(h)lhos(h) <i>dos</i>(g) <i>per</i>(f)<b>ver</b>(gr1h)(gr)sos;(gf)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() O</nlba>(d) san(d)to(c) no(f)me(g) do(f) Se(gh)nhor.(h)
+<nlba><c><sp>~</sp></c>() que</nlba>(h) não(h) en(h)tra(h) no(h) ca(h)mi(h)nho(h) <b>dos</b>(ixir1) mal(h)<b>va</b>(gr1)(hr)dos,(h) *(:) nem(h) jun(h)to(h) aos(h) zom(h)ba(h)do(h)res(h) <i>vai</i>(g) <i>sen</i>(f)<b>tar</b>-(gr1h)(gr)se.(gf)
 
-(::)
+<c><sp>A/</sp>.</c>(::)

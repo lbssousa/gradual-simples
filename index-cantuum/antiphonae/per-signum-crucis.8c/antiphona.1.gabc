@@ -1,7 +1,7 @@
 name: Per signum Crucis;
 mode: 8;
 mode-differentia: c;
-cantus-id: 004264;
+commentary: Cantus ID 004264;
 book: Graduale Simplex, 1975, p. 308;
 
 %%
@@ -14,6 +14,4 @@ Per(j) si(j)gnum(j) Cru(jkj)cis(jij) *(,) de(j) in(j)i(j)mí(h)cis(j) nos(ih)tri
 
 <nlba><c><i>T. P.</i></c>() Al</nlba>(hi)le(h)lú(g)ia.(g)
 
-(::)
-
-(g+)
+(::g+)

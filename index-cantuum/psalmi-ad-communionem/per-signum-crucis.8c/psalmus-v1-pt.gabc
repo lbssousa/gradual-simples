@@ -1,21 +1,23 @@
 name: Psalmus 2;
-office-part: Communio;
 mode: 8;
 mode-differentia: c;
-book: Graduale simplex, 1975, p. 308;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Por</i>(g) <i>que</i>(h) as(j) na(j)ções(j) se(j) re(j)<b>vol</b>(kr1 jr)tam,(j) *(:) e(j) os(j) po(j)vos(j) ma(j)qui(j)nam(j) pro(j)<i>je</i>(h)<i>tos</i>(j) <b>vãos</b>?(kr1 jr j)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Por</i>(g) <i>que</i>(g) os(j) po(j)vos(j) a(j)gi(j)ta(j)dos(j) se(j) re(j)<b>vol</b>(kr1)(jr)tam?(j) *(:) Por(j) que(j) tra(j)mam(j) as(j) na(j)<i>ções</i>(h) <i>pro</i>(j)<b>je</b>(kr1)tos(jr) vãos?(j)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() Pe</nlba>(j)lo(j) si(j)nal(j) da(j) San(j)ta(kj) Cruz.(jij)
+<eu>O(j) e(j) u(h) o(j) a(k) e.</eu>(j)
 
-(::)
+<c><sp>A/</sp>.</c>(::)
 
 <nlba><c><i>Flexa:</i></c>() <b>ter</b></nlba>(jr1 hr)ra,(h) +(,) (j) (j)
+
+(::)
+
+<nlba><c><sp>~</sp></c>() <v>\VSup{12cd}</v>Fe</nlba>(j)li(j)zes(j)
 
 (::)

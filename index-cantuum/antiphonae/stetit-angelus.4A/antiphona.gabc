@@ -1,16 +1,14 @@
 name: Stetit angelus;
 mode: 4;
 mode-differentia: A;
-cantus-id: 005029;
-commentary: Ap 8,3;
+commentary: Cantus ID 005029 cf. Ap 8,3;
 book: Graduale Simplex, 1975, p. 314;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Ste(e)tit(f) án(h)ge(hi)lus(i) *(,) iux(h)ta(i) a(j)ram(ih~) tem(i)pli,(i) (;) ha(fi)bens(h) tu(g)rí(f)bu(e)lum(fe) áu(d)re(e)um(f) in(gxg) ma(h)nu(gxg) su(f)a.(f)
+Ste(e|ta)tit(f|vi) án(h|vi)ge(hi|pe)lus(i|vs) *(,) iux(h|ta)ta(i|vi) a(j|vi)ram(ih~|vi>) tem(i|vi)pli,(i_|vi-) (;) ha(f_i|peS)bens(h|vi) tu(g|vi)rí(f|vi)bu(e|ta)lum(fe|cl) áu(d|ta)re(e|vi)um(f|vi) in(gxg|vi) ma(h|vi)nu(gxg|vi) su(f|ta)a.(f|ta)
 
-(::)
-
-(i+)
+(::i+)

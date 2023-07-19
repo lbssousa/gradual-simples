@@ -1,16 +1,14 @@
 name: Omnes angeli eius;
 mode: 5;
 mode-differentia: a;
-cantus-id: 004116;
-commentary: Sl 148,1;
+commentary: Cantus ID 004116 cf. Sl 148,1;
 book: Graduale Simplex, 1975, p. 315;
+nabc-lines: 1;
 
 %%
 
 (c3)
 
-Om(d)nes(e) án(ee)ge(d)li(f) e(hhi)ius,(h) *(;) lau(i)dá(h)te(gh) Dó(f)mi(e)num(f) de(e) cæ(d)lis.(d)
+Om(d|ta)nes(e|vi) án(ee|po>)ge(d|ta)li(f|vi) e(hhi|pe>1lsal2)ius,(h|ta) *(;) lau(i|vilss3)dá(h|vi)te(gh|vi) Dó(f|vi)mi(e|ta)num(f|vi) de(e|vi) cæ(d|ta)lis.(d|ta)
 
-(::)
-
-(d+)
+(::d+)

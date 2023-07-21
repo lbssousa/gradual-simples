@@ -1,8 +1,7 @@
 name: Nomen sempiternum;
 mode: 7;
 mode-differentia: a;
-cantus-id: 003900;
-commentary: Is 56,5; Is 35,10;
+commentary: Cantus ID 003900 cf. Is 56,5; Is 35,10;
 book: Graduale Simplex, 1975, p. 321;
 
 %%
@@ -11,6 +10,4 @@ book: Graduale Simplex, 1975, p. 321;
 
 No(e)men(e) sem(g)pi(h)tér(i)num(i) *(,) da(ij)bo(i) Sanc(h)tis(f) me(h)is,(gh) (,) di(fg)cit(f) Dó(e)mi(e)nus;(e) (;) gáu(g)di(g)um(g) et(g) læ(h)tí(f)ti(h)am(g) (,) ob(f)ti(e)né(f)bunt(f) in(h) æ(g)tér(e)num.(e)
 
-(::)
-
-(h+)
+(::h+)

@@ -1,5 +1,4 @@
 name: Psalmus 30;
-
 mode: 2;
 mode-differentia: D;
 book: Graduale Simplex, 1975, p. 317;
@@ -8,10 +7,10 @@ book: Graduale Simplex, 1975, p. 317;
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <i>Em</i>(e) <i>vós</i>,(f) Se(h)nhor,(h) es(h)pe(h)ro!(h) Não(h) se(h)ja(h) eu(h) con(h)fun(h)di(h)do(h) e(h)ter(h)na(h)<b>men</b>(ir1 hr)te;(h) *(:) pe(h)la(h) vos(h)sa(h) jus(h)ti(h)ça,(h) lí(h)<i>ber</i>(g)<b>tai</b>-(er1 fr)me.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Se</i>(e)<i>nhor</i>,(f) eu(h) po(h)nho(h) em(h) vós(h) mi(h)nha(h) es(h)pe(h)<b>ran</b>(hr1)(fr)ça(f) +(,) que(h) eu(h) não(h) fi(h)que(h) en(h)ver(h)go(h)nha(h)do(h) e(h)ter(h)na(h)<b>men</b>(ir1)(hr)te!(h) *(:) por(h)que(h) sois(h) jus(h)to,(h) de(h)fen(h)dei-(h)me(h) e(h) li(h)<i>ber</i>(g)<b>tai</b>-(er1)(fr)me!(f)
 
 (::)
 
-<nlba><c><sp>A/</sp>.</c>() A</nlba>(ff)mai(ef) o(h) Se(g)nhor.(f)
+<eu>O(h) e(h) u(h) o(g) a(e) e.</eu>(f)
 
-(::)
+<c><sp>A/</sp>.</c>(::)

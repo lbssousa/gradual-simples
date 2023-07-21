@@ -1,16 +1,10 @@
 name: Psalmus 150;
-office-part: Psalmus Responsorius;
 mode: C 4;
-book: Graduale Simplex, 1975, p. 318;
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() Lau(hr)<b>dá</b>(ixhi)te(h) e(h)um(h) in(h) ma(h)gná(h)li(h)bus(h) <b>e</b>(gr1h gr)ius:(g) *(:) lau(g)dá(g)te(g) e(g)um(g) se(g)cúnd(g)um(g) mul(g)ti(g)tú(g)di(g)nem(g) ma(g)gni(g)tú(g)di(g)<i>nis</i>(f) <nlba>(gr[ocba:1{])<b>e</b></nlba>(gh[ocba:0}])ius.(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Lau(hr)<b>dá</b>(ixhi)te(h) e(h)um(h) in(h) ma(h)gná(h)li(h)bus(h) <b>e</b>(gr1h)(gr)ius:(g) *(:) lau(g)dá(g)te(g) e(g)um(g) se(g)cúnd(g)um(g) mul(g)ti(g)tú(g)di(g)nem(g) ma(g)gni(g)tú(g)di(g)<i>nis</i>(f) <nlba>(gr[ocba:1{])<b>e</b></nlba>(gh[ocba:0}])ius.(hg)
 
-(::)
-
-<nlba><c><sp>R/</sp>.</c>() In</nlba>(f) Sanc(f)tis(g) e(h)ius.(g)
-
-(::)
+<c><sp>R/</sp>.</c>(::)

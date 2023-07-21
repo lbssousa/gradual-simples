@@ -1,16 +1,14 @@
 name: Beati pacifici;
 mode: 1;
 mode-differentia: f;
-cantus-id: 001588;
-commentary: Mt 5,9.8;
+commentary: Cantus ID 001588 cf. Mt 5,9.8;
 book: Graduale Simplex, 1975, p. 321;
+nabc-lines: 1;
 
 %%
 
 (c4)
 
-Be(d)á(dc)ti(f) pa(g)cí(f)fi(gh)ci,(h) *(,) be(ixhg)á(i)ti(h) mun(g)do(g) cor(fh)de:(g) (;) quón(gg)i(e)am(g) ip(hg)si(ff) De(ef)um(g) vi(fe)dé(d)bunt.(d)
+Be(d|vi)á(d_c_|cl-)ti(f|vi) pa(g|vi)cí(f|ta)fi(gh|pe)ci,(h_|vi-) *(,) be(hg|cl)á(ixi|vi)ti(h|vi) mun(g|vi)do(g|vi) cor(f_h|pe>1)de:(g|ta) (;) quón(ggo|vs)i(e|ta)am(g|vi) ip(hg|cl)si(ffo|vs) De(e_f|peS)um(g|vi>) vi(fe|cl)dé(d|ta)bunt.(d|ta)
 
-(::)
-
-(f+)
+(::f+)

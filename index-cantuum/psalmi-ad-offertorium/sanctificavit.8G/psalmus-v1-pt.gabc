@@ -1,5 +1,4 @@
 name: Psalmus 45;
-office-part: Offertorium;
 mode: 8;
 mode-differentia: G;
 book: Graduale Simplex, 1975, p. 327;
@@ -8,10 +7,6 @@ book: Graduale Simplex, 1975, p. 327;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>Deus</i>(g) <i>é</i>(h) nos(j)so(j) re(j)fú(j)gio(j) e(j) for(j)ta(j)<b>le</b>(kr1 jr)za(j) *(:) so(j)cor(j)ro(j) sem(j)pre(j) en(j)con(j)tra(j)do(j) <i>nos</i>(i) <i>pe</i>(j)<b>ri</b>(hr1 gr)gos.(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>O</i>(g) <i>Se</i>(h)nhor(j) pa(j)ra(j) nós(j) é(j) re(j)fú(j)gio(j) e(j) <b>vi</b>(kr1)(jr)gor,(j) *(:) sem(j)pre(j) pron(j)to,(j) mos(j)trou-(j)se(j) um(j) so(j)cor(j)ro(j) <i>na</i>(i) <i>an</i>(j)<b>gús</b>(hr1)(gr)tia.(g)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() San</nlba>(g)ti(i)fi(h)cou.(ji/gh)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

@@ -1,8 +1,7 @@
 name: Sanctificávit;
 mode: 8;
 mode-differentia: G;
-cantus-id: 004746(?);
-commentary: Sl 46(45),5; 
+commentary: cf. Sl 46(45),5;
 book: Graduale Simplex, 1975, p. 326;
 
 %%
@@ -11,6 +10,4 @@ book: Graduale Simplex, 1975, p. 326;
 
 Sanc(g)ti(i)fi(h)cá(ji)vit(gh) *(,) ta(f)ber(h)ná(j)cu(k)lum(i) su(j)um(h) (,) Al(hg)tís(hi)si(hg)mus.(g)
 
-(::)
-
-(g+)
+(::g+)

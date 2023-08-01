@@ -1,16 +1,15 @@
-name: Psalmus 89(88);
+name: Psalmus 89(89);
 mode: E 3;
-commentary: Sl 89(88),2-3.6.8-9.15-18;
 book: Graduale Simplex, 1975, p. 405;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Mi(h)se(h)ri(h)cór(h)di(h)as(h) <b>Dó</b>(gr1)mi(fr)ni.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2a}</v>Mi(h[alt:E 3])se(h)ri(h)cór(h)di(h)as(h) <b>Dó</b>(gr1)mi(fr)ni.(f)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() In</nlba>(f) æ(g)tér(h)num(ixi) can(g)tá(ixi)bo.(h)
+<nlba><c><sp>R/</sp>.</c>() In</nlba>(f) æ(g)tér(h)no(ixi) can(g)tá(ixi)bo.(h)
 
 (::)

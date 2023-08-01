@@ -1,5 +1,4 @@
 name: Psalmus 129;
-office-part: Alleluia;
 mode: 4;
 mode-differentia: E;
 book: Graduale simplex, 1975, p. 407;
@@ -8,7 +7,7 @@ book: Graduale simplex, 1975, p. 407;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>De</i>(h) <i>pro</i>(gh)fún(h)dis(h) cla(h)má(h)vit(h) <i>ad</i>(g) <i>te,</i>(h) <b>Dó</b>(ir1)mi(hr)ne;(h) *(:) Dó(h)mi(h)ne,(h) ex(h)áu(h)<i>di</i>(g) <i>vo</i>(h)<i>cem</i>(ih) <nlba>(gr[ocba:1{])<b>me</b></nlba>(gf[ocba:0}])am.(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1b}</v><i>De</i>(h) <i>pro</i>(gh)fún(h)dis(h) cla(h)má(h)vit(h) <i>ad</i>(g) <i>te,</i>(h) <b>Dó</b>(ir1)mi(hr)ne;(h) *(:) <v>\VSup{2a}</v>Dó(h)mi(h)ne,(h) ex(h)áu(h)<i>di</i>(g) <i>vo</i>(h)<i>cem</i>(ih) <nlba>(gr[ocba:1{])<b>me</b></nlba>(gf[ocba:0}])am.(e)
 
 (::)
 

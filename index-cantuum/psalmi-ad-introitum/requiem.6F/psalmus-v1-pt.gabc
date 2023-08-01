@@ -1,5 +1,4 @@
 name: Psalmus 64;
-
 mode: 6;
 mode-differentia: F;
 
@@ -7,6 +6,14 @@ mode-differentia: F;
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <i>A</i>(f) <i>vós</i>(gh) con(h)vém(h) o(h) lou(h)vor,(h) ó(h) Deus,(h) em(h) <i>Si</i>(g)<b>ão</b>,(hr1 fr f) *(:) a(h) vós(h) se(h) pa(h)ga(h)rão(h) as(h) pro(h)mes(h)sas(h) em(h) Je(h)<i>ru</i>(f)<i>sa</i>(gh)<b>lém</b>.(gr1 fr f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Ó</i>(f) <i>Se</i>(gh)nhor,(h) con(h)vém(h) can(h)tar(h) vos(h)<i>so</i>(g) <b>lou</b>(hr1)(fr)vor(f) *(:) com(h) um(h) hi(h)<i>no</i>(f) <i>em</i>(gh) <b>Si</b>(gr1)(fr)ão.(f)
+
+(::)
+
+<nlba><c><sp>~</sp></c>() <v>\VSup{3ab}</v>E</nlba>(h) cum(h)prir(h) os(h) nos(h)sos(h) vo(h)tos(h) e(h) <i>pro</i>(g)<b>mes</b>(hr1)(fr)sas,(f) *(:) pois(h) ou(h)<i>vis</i>(f) <i>a</i>(gh) <b>o</b>(gr1)ra(fr)ção.(f)
+
+(::)
+
+<eu>O(h) e(h) u(f) o(gh) a(g) e.</eu>(f)
 
 <c><sp>A/</sp>.</c>(::)

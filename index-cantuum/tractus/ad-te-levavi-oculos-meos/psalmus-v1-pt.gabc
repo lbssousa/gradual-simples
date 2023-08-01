@@ -1,15 +1,17 @@
 name: Psalmus 122;
-office-part: Tractus;
-book: Graduale Simplex, 1975, p. 409;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() A(f) vós(gh) e(h)le(h)vo(h) meus(h) <b>o</b>(gr1)(gr)lhos(f) *(:) a(h) vós,(h) que(h) ha(h)bi(h)tais(h) <i>nos</i>(f) <b>céus</b>(gr1 gr g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Eu(f) le(gh)van(h)to(h) os(h) meus(h) o(h)lhos(h) <b>pa</b>(gr1)ra(gr) vós,(f) *(:) que(h) ha(h)bi(h)tais(h) nos(h) al(h)<i>tos</i>(f) <b>céus</b>(gr1)
 
 (::)
 
-<c><sp>V/</sp>. 2.</c>() Co(h)mo.(h)
+<nlba><c><sp>V/</sp>. 2.</c>() Co</nlba>(h)mo.(h)
+
+(::)
+
+<nlba><c><sp>V/</sp>. 3.</c> ...() <i>se</i></nlba>(f)<b>nho</b>(gr1)ra.(g)
 
 (::)

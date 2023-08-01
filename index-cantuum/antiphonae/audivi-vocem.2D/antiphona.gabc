@@ -1,15 +1,15 @@
 name: Audivi vocem;
 mode: 2;
 mode-differentia: D;
-cantus-id: 001528;
-commentary: Ap 14,13;
+commentary: Cantus ID 001528 cf. Ap 14,13;
 book: Graduale simplex, 1975, p. 414;
+nabc-lines: 1;
 
 %%
 
 (f3)
 
-Au(f)dí(g)vi(h) vo(i)cem(i) *(,) de(f) cæ(h)lo(g) di(h)cén(f)tem:(f) (;) Be(f)á(g)ti(h) mór(i)tu(hi)i,(i) (,) qui(e) in(f) Dó(h)mi(h)no(gh) mo(i)ri(hg)ún(f)tur.(f)
+Au(f|ta)dí(g|vi)vi(h|ta) vo(i_|peS)cem(i|vi) *(,) de(f|ta) cæ(h_|peS)lo(g|ta) di(h|vi)cén(f|po>)tem:(f|ta) (;) Be(f|vi)á(g|vi)ti(h|vi) mór(i|vi)tu(hi|pe)i,(i|vs) (,) qui(e|ta) in(f|vi) Dó(h|vi)mi(h|vi)no(g_h|peS) mo(i|vi)ri(hg|cl)ún(f|ta)tur.(f|ta)
 
 (::)
 

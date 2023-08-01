@@ -1,13 +1,12 @@
 name: Psalmus 41(42);
 mode: C 2 g;
 book: Graduale Simplex, 1975, pp. 146, 404;
-commentary: Psalmus 41(42);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() Que(f)mád(f)mo(f)dum(f) de(f)sí(f)de(f)rat(f) <b>cer</b>(gr1 fr)vus(f) *(:) ad(f) fon(f)tes(f) a(f)<nlba>(gr[ocba:1{])<b>quá</b></nlba>(gh[ocba:0}])rum,(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v>Que(f[alt:C 2 g])mád(f)mo(f)dum(f) de(f)sí(f)de(f)rat(f) <b>cer</b>(gr1 fr)vus(f) *(:) ad(f) fon(f)tes(f) a(f)<nlba>(gr[ocba:1{])<b>quá</b></nlba>(gh[ocba:0}])rum,(hg)
 
 (::)
 

@@ -2,13 +2,15 @@ name: Psalmus 141(142);
 mode: 8;
 mode-differentia: c;
 book: Graduale Simplex, 1975, p. 415;
-commentary: Psalmus 141(142);
-nabc-lines: 1;
 
 %%
 
 (c3)
 
 <c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Vo</i>(e)<i>ce</i>(f) me(h)a(h) ad(h) Dó(h)mi(h)num(h) <b>cla</b>(ir1)(hr)mo,(h) *(:) vo(h)ce(h) me(h)a(h) ad(h) Dó(h)<i>mi</i>(f)<i>num</i>(h) <b>dé</b>(ir1)pre(hr)cor.(h)
+
+(::)
+
+<eu>E(h) u(h) o(f) u(h) a(i) e.</eu>(h)
 
 <c><sp>A/</sp>.</c>(::)

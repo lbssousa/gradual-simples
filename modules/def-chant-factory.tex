@@ -364,13 +364,6 @@
 
 \NewDocumentCommand \MakeChantPsalmFlyer { s m m } {
   \InputIfFileExists{index-cantuum/#2/#3/psalmus}{}{}
-
-  \ifdefempty{\@Verse@Pairs}{%
-    \begin{greenumerate}
-      \MakeVerseListR{\@First@Verse@Pair}
-      \MakeVerseListR{\@Verse@Pairs}
-    \end{greenumerate}%
-  }
 }
 
 \NewDocumentCommand \SectionAntiphonPsalmFlyer { s m O{} m O{} m m O{#4} } {

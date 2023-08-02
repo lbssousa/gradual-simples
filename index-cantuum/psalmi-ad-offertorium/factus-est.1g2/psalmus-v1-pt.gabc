@@ -1,16 +1,11 @@
 name: Salmo 29;
 mode: 1;
 mode-differentia: g 2;
-commentary: Salmo 29(30);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Eu</i>(f) <i>vos</i>(gh) e(h)xal(h)to,(h) ó(h) Se(h)nhor,(h) pois(h) <b>me</b>(ixir1 hr) li(h)<b>vras</b>(gr1 hr)tes,(h) *(:) e(h) não(h) dei(h)xas(h)tes(h) rir(h) de(h) mim(h) meus(h) <i>i</i>(g)<i>ni</i>(f)<b>mi</b>(gr1 gr)gos.(ghg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Eu</i>(f) <i>vos</i>(gh) e(h)xal(h)to,(h) ó(h) Se(h)nhor,(h) pois(h) <b>me</b>(ixir1) (hr) li(h)<b>vras</b>(gr1)(hr)tes,(h) *(:) e(h) não(h) dei(h)xas(h)tes(h) rir(h) de(h) mim(h) meus(h) <i>i</i>(g)<i>ni</i>(f)<b>mi</b>(gr1)(gr)gos.(ghg)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() O</nlba>(f) meu(ghg) Deus.(h)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

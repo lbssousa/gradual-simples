@@ -1,20 +1,15 @@
 name: Salmo 56;
 mode: 8;
 mode-differentia: G;
-commentary: Salmo 56(57);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2cd}</v><i>De</i>(g) <i>vos</i>(h)sas(j) a(j)sas,(j) à(j) som(j)bra,(j) me(j) a(j)<b>che</b>(kr1 jr)go,(j) *(,) a(j)té(j) que(j) pas(j)se(j) a(j) tor(j)<i>men</i>(i)<i>ta</i>,(j) <b>Se</b>(hr1 gr)nhor!(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2cd}</v><i>De</i>(g) <i>vos</i>(h)sas(j) a(j)sas,(j) à(j) som(j)bra,(j) me(j) a(j)<b>che</b>(kr1)(jr)go,(j) *(,) a(j)té(j) que(j) pas(j)se(j) a(j) tor(j)<i>men</i>(i)<i>ta</i>,(j) <b>Se</b>(hr1)(gr)nhor!(g)
 
-(::)
+<c><sp>A/</sp>.</c>(::)
 
-<nlba><c><sp>A/</sp>.</c>() Ten</nlba>(f)de(fg) pe(g)na(gf) de(h) mim.(j)
-
-(::)
-
-<nlba><c><i>Flexa</i>:</c>() a</nlba>(j)<b>ju</b>(jr1 hr)da,(h) +(,) (j) (j)
+<nlba><c><i>Flexa</i>:</c>() a</nlba>(j)<b>ju</b>(jr1)(hr)da,(h) +(,) (j) (j)
 
 (::)

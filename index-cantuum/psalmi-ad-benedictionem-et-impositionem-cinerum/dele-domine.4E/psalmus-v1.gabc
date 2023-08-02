@@ -1,18 +1,12 @@
 name: Psalmus 51(50);
 mode: 4;
 mode-differentia: E;
-commentary: Psalmus 50;
 book: Graduale Simplex, 1975, p. 86;
-nabc-lines: 1;
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v><i>Mi</i>(h)<i>se</i>(gh)ré(h)re(h) <i>me</i>(g)<i>i</i>,(h) <b>De</b>(ir1 hr)us,(h) *(,) se(h)cún(h)dum(h) mi(h)se(h)ri(h)<i>cór</i>(g)<i>di</i>(h)<i>am</i>(ih) <nlba>(gr[ocba:1{])<b>tu</b>(gf[ocba:0}])am.</nlba>(e)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v><i>Mi</i>(h)<i>se</i>(gh)ré(h)re(h) <i>me</i>(g)<i>i</i>,(h) <b>De</b>(ir1)(hr)us,(h) *(,) se(h)cún(h)dum(h) mi(h)se(h)ri(h)<i>cór</i>(g)<i>di</i>(h)<i>am</i>(ih) <nlba>(gr[ocba:1{])<b>tu</b>(gf[ocba:0}])am.</nlba>(e)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() De</nlba>(e|vi)le,(f|vi) Dó(g|vi)mi(ho|or)ne.(g|ta)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

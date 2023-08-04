@@ -1,18 +1,16 @@
 name: Salmo 5;
-office-part: Communio;
 mode: 8;
 mode-differentia: c;
-commentary: Salmo 5;
 book: Graduale simplex, 1975, p. 95;
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Es</i>(e)<i>cu</i>(f)tai,(h) ó(h) Se(h)nhor(h) Deus,(h) mi(h)nhas(h) pa(h)<b>la</b>(ir1 hr)vras,(h) *(:) a(h)ten(h)dei(h) o(h) <i>meu</i>(f) <i>ge</i>(h)<b>mi</b>(ir1 hr)do!(h)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Es</i>(e)<i>cu</i>(f)tai,(h) ó(h) Se(h)nhor(h) Deus,(h) mi(h)nhas(h) pa(h)<b>la</b>(ir1)(hr)vras,(h) *(:) a(h)ten(h)dei(h) o(h) <i>meu</i>(f) <i>ge</i>(h)<b>mi</b>(ir1)(hr)do!(h)
 
-(::)
+<c><sp>A/</sp>.</c>(::)
 
-<nlba><c><sp>A/</sp>.</c>() A</nlba>(h)ten(h)dei.(ghf)
+<nlba><c><sp>~</sp></c>() Des</nlba>(h)de(h) ce(h)do(h)
 
 (::)

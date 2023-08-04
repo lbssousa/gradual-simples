@@ -1,16 +1,11 @@
 name: Salmo 50;
 mode: 1;
 mode-differentia: f;
-commentary: Salmo 50(51);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v><i>Ten</i>(f)<i>de</i>(gh) pi(h)e(h)da(h)de,(h) ó(h) meu(h) Deus,(h) mi(h)<b>se</b>(ixir1 hr)ri(h)<b>cór</b>(gr1 hr)dia,(h) *(,) na(h) i(h)men(h)si(h)dão(h) de(h) vos(h)so(h) a(h)mor,(h) pu(h)<i>ri</i>(g)<i>fi</i>(f)<b>cai</b>-(gr1h gr)me.(gf)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{3}</v><i>Ten</i>(f)<i>de</i>(gh) pi(h)e(h)da(h)de,(h) ó(h) meu(h) Deus,(h) mi(h)<b>se</b>(ixir1)(hr)ri(h)<b>cór</b>(gr1)(hr)dia,(h) *(,) na(h) i(h)men(h)si(h)dão(h) de(h) vos(h)so(h) a(h)mor,(h) pu(h)<i>ri</i>(g)<i>fi</i>(f)<b>cai</b>-(gr1h)(gr)me.(gf)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Quan</nlba>(d)do(d) de(d)res(c) es(fg)mo(f!gh)la.(h_)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

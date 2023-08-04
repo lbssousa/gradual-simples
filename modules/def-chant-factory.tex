@@ -302,6 +302,18 @@
   }
 }
 
+\NewDocumentCommand \SectionAntiphon { O{} m O{} m O{} } {
+  \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
+  \MakeChantAntiphon{#4}[#5]
+  \IfBlankF{#1}{%
+    \begin{rubrica}
+      \begin{center}
+        #1
+      \end{center}
+    \end{rubrica}%
+  }
+}
+
 \NewDocumentCommand \SectionAntiphonPsalm { O{} m O{} m O{} m m O{#4} } {
   \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
   \IfBlankF{#1}{%

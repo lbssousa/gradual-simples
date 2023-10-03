@@ -1,13 +1,6 @@
 {
   "name": "gradual-simples",
-  "image": "mcr.microsoft.com/devcontainers/base:alpine",
-  "features": {
-    "ghcr.io/lbssousa/devcontainer-features-texlive-music/texlive:1": {
-      "version": "2023",
-      "scheme": "minimal",
-      "extra-packages": "babel-latin babel-portuges chktex ebgaramond enumitem epstopdf-pkg etoolbox fancyhdr fontspec geometry gregoriotex grfext hyperref hyphen-english hyphen-latin hyphen-portuguese infwarerr kvoptions latex-bin latexindent latexmk luacolor luamplib luatexbase lyluatex memoir metapost microtype musixtex musixtex-fonts m-tx paracol pdftexcmds pmx texcount texdef titlesec tools xcolor xkeyval xstring"
-    }
-  },
+  "image": "ghcr.io/lbssousa/devcontainer-texlive-music:lilypond-3.0.2",
   "remoteUser": "vscode",
   "containerUser": "vscode", // needed for Podman, indifferent for Docker
   "customizations": {

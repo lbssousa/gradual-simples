@@ -2,6 +2,7 @@ name: Canticum canticorum;
 mode: 4;
 mode-differentia: E;
 book: Graduale Simplex, 1975, p. 325;
+phantom-commentary: BS-CNBB;
 
 %%
 

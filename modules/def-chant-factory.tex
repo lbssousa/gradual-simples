@@ -302,30 +302,30 @@
   }
 }
 
-\NewDocumentCommand \SectionAntiphon { O{} m O{} m O{} } {
-  \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
-  \MakeChantAntiphon{#4}[#5]
-  \IfBlankF{#1}{%
+\NewDocumentCommand \SectionAntiphon { s O{} m O{} m O{} } {
+  \subsection{Antífona \IfBooleanF{#1}{ de} #2}\IfBlankF{#4}{\label{#4}}
+  \MakeChantAntiphon{#5}[#6]
+  \IfBlankF{#2}{%
     \begin{rubrica}
       \begin{center}
-        #1
+        #2
       \end{center}
     \end{rubrica}%
   }
 }
 
-\NewDocumentCommand \SectionAntiphonPsalm { O{} m O{} m O{} m m O{#4} } {
-  \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
-  \IfBlankF{#1}{%
+\NewDocumentCommand \SectionAntiphonPsalm { s O{} m O{} m O{} m m O{#5} } {
+  \subsection{Antífona\IfBooleanF{#1}{ de} #3}\IfBlankF{#4}{\label{#4}}
+  \IfBlankF{#2}{%
     \begin{rubrica}
       \begin{center}
-        #1
+        #2
       \end{center}
     \end{rubrica}%
   }
-  \MakeChantAntiphon{#4}[#5]
-  \subsubsection{#6}
-  \MakeChantPsalm{#7}{#8}
+  \MakeChantAntiphon{#5}[#6]
+  \subsubsection{#7}
+  \MakeChantPsalm{#8}{#9}
 }
 
 \NewDocumentCommand \SectionAlleluiaPsalm { O{} m m m } {

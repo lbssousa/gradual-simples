@@ -1,6 +1,6 @@
 {
   "name": "gradual-simples",
-  "image": "ghcr.io/lbssousa/devcontainer-texlive-music:lilypond-3.0.2",
+  "image": "ghcr.io/lbssousa/devcontainer-texlive-music:lilypond-3.0.3",
   "remoteUser": "vscode",
   "containerUser": "vscode", // needed for Podman, indifferent for Docker
   "customizations": {

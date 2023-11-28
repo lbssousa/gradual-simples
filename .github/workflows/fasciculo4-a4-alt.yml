@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Construir PDFs
-        uses: lbssousa/latex-music-action@v3.0.0
+        uses: lbssousa/latex-music-action@v4.2.0
         with:
           root_file: fasciculo4-a4-alt.tex
           latexmk_use_lualatex: true

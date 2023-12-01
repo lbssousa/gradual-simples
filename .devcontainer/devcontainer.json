@@ -1,6 +1,16 @@
 {
   "name": "gradual-simples",
-  "image": "ghcr.io/lbssousa/devcontainer-texlive-music:lilypond-3.0.3",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "features": {
+    "ghcr.io/lbssousa/devcontainer-features-texlive-music/lilypond:1": {
+      "version": "2.24.3"
+    },
+    "ghcr.io/lbssousa/devcontainer-features-texlive-music/texlive:1": {
+      "version": "2023",
+      "scheme": "minimal",
+      "extra-packages": "babel-latin babel-portuges booktabs chktex currfile ebgaramond enumitem epstopdf-pkg etoolbox environ epstopdf fancyhdr filehook fontspec geometry graphics gregoriotex grfext hyperref hyphen-english hyphen-latin hyphen-portuguese infwarerr kvoptions latex-bin latexindent latexmk luacolor luamplib luaotfload luaoptions luatexbase lyluatex memoir metalogo metapost metre microtype minibox musixtex musixtex-fonts m-tx paracol pdflscape pdfpages pdftexcmds pmx relsize texcount titlesec tools xcolor xpatch xkeyval xstring"
+    }
+  },
   "remoteUser": "vscode",
   "containerUser": "vscode", // needed for Podman, indifferent for Docker
   "customizations": {

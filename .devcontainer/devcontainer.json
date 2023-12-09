@@ -1,6 +1,6 @@
 {
   "name": "gradual-simples",
-  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/lbssousa/devcontainer-features-texlive-music/lilypond:1": {
       "version": "2.24.3"

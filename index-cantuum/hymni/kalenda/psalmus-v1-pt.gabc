@@ -1,31 +1,34 @@
 name: Kalenda;
-commentary: Baseado na adaptação de Clayton Dias e Mons. Marcos Pavan;
-
+supertitle:;
+title: Anúncio do Natal;
+subtitle: ou Kalenda;
+text-left:;
+text-right: Texto: Missal Romano, 3ª Edição (CNBB);
+annotation:;
 %%
-
 (c4)
 
-Vin(ce)te(g) e(g) cin(gf~)co(e) de(f) de(g)zem(h)bro.(g) (,) Lu(g)a(g) ...(g) (d) (e) (fvED) (cr) (c) (::) <c><i>Ou</i></c>() Lu(g)a(d) ...(e) (fvED) (cr) (c) (::) <c><i>Ou</i></c>() Lu(d)a(e) ...(fvED) (cr) (c)
+Oi(c)ta(e)vo(g) di(g)a(g) an(g)tes(g) das(g) Ca(g)len(f)das(e) de(f) ja(g)nei(h)ro.(g) (,) Lu(g)a(g) ...(g) (d) (e) (fvED) (cr) (c) (::) <c><i>Ou</i></c>() Lu(g)a(d) ...(e) (fvED) (cr) (c) (::) <c><i>Ou</i></c>() Lu(d)a(e) ...(fvED) (cr) (c)
 
 (::)
 
-I(ce)nú(g)me(g)ros(g) sé(g)cu(g)los(g) trans(g)cor(g)ri(g)dos(g) des(g)de(g) a(g) cri(g)a(g)ção(f) do(e) mun(h)do(g) (,) quan(g)do,(g_) no(e) prin(f)cí(g)pio,(g) (,) Deus(g) cri(g)ou(g) o(g) céu(j) e(i) a(i) ter(h)ra(g) (,) e(g) for(g)mou(g) o(g) ho(g)mem(g) à(g) su(g)a(d) i(e)ma(fvED)gem;(c)
+Trans(c)cor(e)ri(g)dos(g) mui(g)tos(g) sé(g)cu(g)los(g) des(g)de(g) a(g) cri(g)a(g)ção(e) do(c) mun(h)do(g) (,) quan(g)do(g) no(e) prin(f)cí(g)pio(g) (,) Deus(g) cri(g)ou(g) o(g) céu(j) e(i) a(g) ter(h)ra(g) (,) e(g) for(g)mou(g) o(g) ho(g)mem(g) à(g) su(d)_a_ i(e)ma(fvED)gem;(c)
 
 (:)
 
-pas(g)sa(g)dos(g) a(g)in(g)da(g) mui(f)tos(e) sé(h)cu(g)los(g) (,) des(g)de(g) que,(g_) a(g)pós(e) o(f) di(f)lú(g)vio,(g) (,) o(g) Al(g)tís(g)si(g)mo(g) pu(g)se(g)ra(g) en(g)tre(g) as(g) nu(g)vens(g) o(g) ar(g)co-(g)í(h)ris,(g) (,) si(g)nal(g) de(g) a(g)li(g)an(g)ça(d) e(e) paz;(fvEDC)
+de(g)pois(g) de(g) mui(e)tos(c) sé(h)cu(g)los(g) (,) des(g)de(g) que,(g) a(g)pós(g) o(e) di(f)lú(g)vio,(g) (,) o(g) Al(g)tís(g)si(g)mo(g) pu(g)se(g)ra(g) en(g)tre(g) as(g) nu(g)vens(g) o(g) ar(h)co,(g) (,) si(g)nal(g) de(g) a(d)li(e)an(f)ç_a_ e(e) de(d) paz;(c)
 
 (:)
 
-vin(e)te(e) e(e) um(e) sé(e)cu(e)los(e) de(e)pois(e) que(e) A(e)bra(e)ão,(fe__) (,) no(e)so(e) Pai(e) na(e) fé,(dc__) (,) mi(ce)grou(g) da(g) ter(g)ra(g) de(g) Ur(g) dos(d) cal(e)deus;(fe)
+vin(e)te(e) e(e) um(e) sé(e)cu(e)los(e) de(e)pois(e) que(e) A(e)bra(e)ão,(f) (,) no(e)so(e) pai(d) na(e) fé,(c) (,) mi(c)grou(e) da(g) ter(g)ra(g) de(g) Ur(g) dos(d) Cal(e)deus;(fe)
 
 (:)
 
-tre(g)ze(g) sé(g)cu(g)los(g) a(g)pós(g) a(e) sa(c)í(h)da(g) do(g) po(g)vo(g) de(g) Is(g)ra(g)el(j) do(i) E(i)gi(h)to,(g_) (,) con(g)du(g)zi(g)do(g) por(d) Moi(e)sés;(fvEDC)
+tre(g)ze(g) sé(g)cu(g)los(g) de(g)pois(g) da(e) sa(c)í(h)da(g) do(g) po(g)vo(g) de(g) Is(g)ra(g)el(j) do(i) E(g)gi(h)to,(g) (,) con(d)du(e)zi(f)do(e) por(d) Moi(c)sés;(c)
 
 (:)
 
-cer(ce)ca(e) de(d) mil(c) a(g)nos(g) a(g)pós(g) a(g) un(g)ção(hg) de(g) Da(g)vi(g) co(d)mo(e) rei;(fvEDC)
+cer(e)ca(d) de(c) mil(c) a(g)nos(g) a(g)pós(d) a(e) un(e)ção(e) re(e)al(fe) de(d) Da(c)vi;(c)
 
 (:)
 
@@ -33,32 +36,32 @@ na(c) se(e)xa(g)gé(g)si(g)ma(g) quin(g)ta(g) se(g)ma(h)na,(g) (,) se(g)gun(g)do
 
 (;)
 
-na(g) é(g)po(g)ca(g) da(g) O(g)lim(g)pí(g)a(e)da(c) (,) cen(ji)té(h)si(g)ma(g) no(gj)na(g)gé(h)si(g)ma(g) quar(fvED)ta;(c)
+du(g)ran(g)te(g) a(g) O(e)lim(c)pí(h)a(g)da(g) (,) cen(ji)té(h)si(g)ma(g) no(gj)na(g)gé(h)si(g)ma(g) quar(fvED)ta;(c)
 
 (:)
 
-no(e) sep(e)tin(e)gen(e)té(e)si(e)mo(e) quin(e)qua(e)sé(e)si(e)mo(e) se(e)gun(e)do(e) a(d)no(c) da(c) fun(eg)da(g)ção(d) de(e) Ro(fvED)ma;(c)
+no(c) a(e)no(g) se(g)te(g)cen(g)tos(g) e(g) cin(g)quen(h)t_a_ e(g) dois(g) (,) da(g) fun(d)da(e)ção(f) de(e) Ro(d)ma;(c)
 
 (:)
 
-no(g) qua(g)dra(g)gé(g)si(g)mo(g) se(g)gun(d)do(e) a(f)no(e_) do(ce) im(dc)pé(g)rio(g) de(g) Cé(g)sar(g) O(g)ta(g)vi(g)a(g)no(g) Au(g)gus(h)to,(g) (;) quan(g)do(g) a(g) paz(g) rei(g)na(g)va(g) em(g) to(g)da(d) a(e) ter(f)ra,(e)
+no(c) qua(ce)dra(dc)gé(g)si(g)mo(g) se(g)gun(g)do(g) a(f)no(e) (,) do(c) im(e)pé(g)rio(g) de(g) Cé(g)sar(g) O(g)ta(g)vi(g)a(g)no(g) Au(g)gus(h)to,(g) (,) quan(g)d_o_ a(g) paz(g) rei(g)na(g)v_a_ em(g) to(d)d_a_ a(e) ter(f)ra,(e)
 
 (:)
 
-Je(c)sus(e) Cris(g)to,(g_) Deus(j) e(g)ter(h)no(g) (,) e(g) Fi(j)lho(i) do(j) Pai(kj) e(i)ter(h)no,(g) (:)
+Je(c)sus(e) Cris(g)to,(g) Deus(j) e(g)ter(h)no(g) (,) e(j) Fi(j)lho(j) do(i) e(j)ter(kj)no(i) Pai,(hg) (:)
 
-que(g)ren(g)do,(g) com(g) o(g) seu(g) pi(g)ís(g)si(g)mo(g) ad(g)ven(g)to,(g) san(g)ti(g)fi(g)car(d) o(e) mun(f)do,(e)
+que(g)ren(g)do(g) san(g)ti(g)fi(g)car(g) o(g) mun(h)do(g) (,) com(g) o(g) seu(g) pi(g)ís(g)si(g)mo(d) ad(e)ven(f)to,(e)
 
 (;)
 
-pe(e)lo(e) po(e)der(e) do(e) Es(e)pí(e)ri(d)to(c) San(g)to(g) con(g)ce(g)bi(h)do,(g) (,)
+con(c)ce(e)bi(g)do(g) pe(g)lo(g) Es(g)pí(g)ri(e)to(c) San(h)to(g) (,)
 
-trans(e)cor(g)ri(g)dos(g) no(ji)ve(g) me(h)ses,(g) (,)
+de(g)cor(g)ri(g)dos(g) no(g)ve(g) me(g)ses(g) a(g)pós(g) a(g) su(g)a(g) con(ji)cep(g)ção,(hg) (:)
 
-nas(j)ce(j) em(j) Be(j)lém(j) da(j) Ju(j)dei(ixi)a,(h_) da(h) Vir(h)gem(g) Ma(f)ri(ixig)a,(j) (,) fei(j)to(j) ho(ghg___)mem:(g)
+nas(j)ceu(j) em(j) Be(j)lém(j) da(j) Ju(j)dá,(ixih) (,) da(f) Vir(ixi)gem(h) Ma(g)ri(j)a,(j) (,) fei(j)to(j) ho(ghg)mem:(g)
 
 (:)
 
-Na(j)tal(ih__) de(h) Nos(h)so(h) Se(h)nhor(hi) Je(g)sus(h) Cris(j)to(j) (,) se(j)gun(ji)do(h) a(i) car(gh!ijIHigh)ne.(ih..)
+Na(j)ti(j)vi(j)da(i)de(h) de(h) Nos(h)so(h) Se(h)nhor(i) Je(g)sus(h) Cris(j)to(j) (,) se(j)gun(ji)do(h) a(i) car(gh!ijIHigh)ne.(ih)
 
 (::)

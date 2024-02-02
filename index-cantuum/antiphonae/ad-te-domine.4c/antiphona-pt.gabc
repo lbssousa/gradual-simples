@@ -1,12 +1,18 @@
-name: Senhor, meu Deus;
+name: A vós, Senhor;
 mode: 4;
 mode-differentia: c;
 commentary: LHH, LS;
+arranger: Lincoln Haas Hein;
+arranger: Laércio de Sousa;
+arranger: André Gaby (rev.);
+arranger: Clayton Dias (rev.);
+gabc-copyright: CC-BY-SA-4.0;
+score-copyright: CC-BY-SA-4.0;
 
 %%
 
 (c3)
 
-A(f) vós,(h) ó(hi) Se(i)nhor,(i) *(,) a(i) mi(i)nha(h) al(ij>)ma(h) e(ij)le(i)vo:(i) (;) vin(f)de(i) e(h) li(g)ber(f)tai-(e)me,(fe__) (,) Se(d)nhor,(e) pois(f) em(gxg) vós(h) m<e>e</e> a(gxg)bri(f)go!(f)
+A(f) vós,(h) Se(hi)nhor,(ii) *(,) e(i)le(i)vo(h) a(ij) mi(h)nha(ij>) al(i)ma:(i) (;) vin(fi)de(h) e(g) li(f)ber(e)tai-(f_)me,(e_) (,) Se(d)nhor,(e) pois(f) em(gxg) vós(h) <nlba>m<v>\itie{e a}</v>(gxg)bri(f)go!</nlba>(f)
 
 (::i+)

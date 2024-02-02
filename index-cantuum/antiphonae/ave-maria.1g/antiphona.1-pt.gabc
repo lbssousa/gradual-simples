@@ -2,9 +2,15 @@ name: Ave Maria;
 mode: 1;
 mode-differentia: g;
 commentary: LHH, LS;
+arranger: Lincoln Haas Hein;
+arranger: Laércio de Sousa;
+arranger: André Gaby (rev.);
+arranger: Clayton Dias (rev.);
+gabc-copyright: CC-BY-SA-4.0;
+score-copyright: CC-BY-SA-4.0;
 
 %%
 
 (c4)
 
-A(f)ve(c) Ma(d)ri(ixdh!iv)a,(h) *(,) che(h)ia(g) de(f) gra(g_h)ça:(h_) (,) o(h) Se(h)nhor(h) é(g) con(f)vos(g)co.(d) (;) Ben(g)di(h)ta(g) sois(g) vós(f) (,) en(ec~)tr<v>\itie{e a}</v>s(d) mu(fe)lhe(d)res.(d) (::f+)
+A(f)ve(c) Ma(d)ri(ixdh!iv)a,(h) *(,) che(h)ia(g) de(f) gra(g_h)ça,(h_) (,) o(h) Se(h)nhor(h) é(g) con(f)vos(g)co;(d) (;) ben(g)di(g)ta(g) sois(hg) vós,(f) (,) en(ec~)tr<v>\itie{e a}</v>s(d) mu(fe)lhe(d)res.(d) (::f+)

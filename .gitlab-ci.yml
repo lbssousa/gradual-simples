@@ -3,7 +3,7 @@ stages:
   - production
 
 fasciculo1-a4:
-  image: registry.gitlab.com/laerciosousa/gitlab-workspace-texlive-music:2024-02-27
+  image: registry.gitlab.com/laerciosousa/gitpod-workspace-texlive-music:2024-02-27
   stage: building
   script:
     - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo1-a4
@@ -17,7 +17,7 @@ fasciculo1-a4:
     - branches
 
 fasciculo2-a4:
-  image: registry.gitlab.com/laerciosousa/gitlab-workspace-texlive-music:2024-02-27
+  image: registry.gitlab.com/laerciosousa/gitpod-workspace-texlive-music:2024-02-27
   stage: building
   script:
     - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo2-a4
@@ -31,7 +31,7 @@ fasciculo2-a4:
     - branches
 
 fasciculo3-a4:
-  image: registry.gitlab.com/laerciosousa/gitlab-workspace-texlive-music:2024-02-27
+  image: registry.gitlab.com/laerciosousa/gitpod-workspace-texlive-music:2024-02-27
   stage: building
   script:
     - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo3-a4
@@ -45,7 +45,7 @@ fasciculo3-a4:
     - branches
 
 fasciculo4-a4:
-  image: registry.gitlab.com/laerciosousa/gitlab-workspace-texlive-music:2024-02-27
+  image: registry.gitlab.com/laerciosousa/gitpod-workspace-texlive-music:2024-02-27
   stage: building
   script:
     - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo4-a4
@@ -59,7 +59,7 @@ fasciculo4-a4:
     - branches
 
 fasciculo5-a4:
-  image: registry.gitlab.com/laerciosousa/gitlab-workspace-texlive-music:2024-02-27
+  image: registry.gitlab.com/laerciosousa/gitpod-workspace-texlive-music:2024-02-27
   stage: building
   script:
     - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo5-a4
@@ -73,7 +73,7 @@ fasciculo5-a4:
     - branches
 
 fasciculo6-a4:
-  image: registry.gitlab.com/laerciosousa/gitlab-workspace-texlive-music:2024-02-27
+  image: registry.gitlab.com/laerciosousa/gitpod-workspace-texlive-music:2024-02-27
   stage: building
   script:
     - latexmk --lualatex --shell-escape --synctex=1 --interaction=nonstopmode --file-line-error --halt-on-error fasciculo6-a4

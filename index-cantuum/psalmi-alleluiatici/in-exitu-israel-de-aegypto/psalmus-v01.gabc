@@ -1,6 +1,5 @@
 name: Psalmus 113A(114);
 book: Graduale Simplex, 1975, p. 155;
-commentary: Psalmus 113A(114);
 
 %%
 
@@ -12,6 +11,4 @@ commentary: Psalmus 113A(114);
 
 <nlba><c><sp>R/</sp>.</c>() A</nlba>(e)le(g)lu(gh)ia,(g) a(fe~)le(dc)lu(de~)ia!(e)
 
-(::)
-
-(d+)
+(::d+)

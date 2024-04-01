@@ -361,6 +361,19 @@
   \MakeChantPsalmMulti{#5}{#6}{#7}
 }
 
+\NewDocumentCommand \SectionChantMulti { O{} m O{} m m m m } {
+  \subsection{Canto #2}\IfBlankF{#3}{\label{#3}}
+  \subsubsection{#4}
+  \IfBlankF{#1}{%
+    \begin{rubrica}
+      \begin{center}
+        #1
+      \end{center}
+    \end{rubrica}%
+  }
+  \MakeChantPsalmMulti{#5}{#6}{#7}
+}
+
 \NewDocumentCommand \SectionTractus { O{} m m } {
   \subsection{Trato}\IfBlankF{#1}{\label{#1}}
   \subsubsection{#2}

@@ -1,16 +1,11 @@
 name: Salmo 65(66);
 mode: 3;
 mode-differentia: a;
-commentary: Salmo 65(66);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>A</i>(g)<i>cla</i>(hj)mai(j) a(j) Deus,(j) ó(j) ter(j)ra(j) in(j)<b>tei</b>(jr1 hr)ra,(h) +(,) <v>\VSup{2}</v>can(j)tai(j) sal(j)mos(j) a(j) seu(j) no(j)me(j) <b>glo</b>(kr1 jr)ri(j)(jr[ocba:1{])<b>o</b>(ih[ocba:0}])so,(j) *(:) dai(j) a(j) Deus(j) a(j) mais(j) su(j)bli(j)<i>me</i>(h) <b>lou</b>(jr1)va(jr)ção.(ih)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>A</i>(g)<i>cla</i>(hj)mai(j) a(j) Deus,(j) ó(j) ter(j)ra(j) in(j)<b>tei</b>(jr1 hr)ra,(h) +(,) <v>\VSup{2}</v>can(j)tai(j) sal(j)mos(j) a(j) seu(j) no(j)me(j) <b>glo</b>(kr1 jr)ri(j)(jr[ocba:1{])<b>o</b>(ih[ocba:0}])so,(j) *(:) dai(j) a(j) Deus(j) a(j) mais(j) su(j)bli(j)me(j) lou(j)<i>va</i>(h)<b>ção</b>.(jr1 jr ih)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Nos</nlba>(g)sa.(g)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

@@ -1,12 +1,11 @@
 name: Salmo 117(118);
 mode: C 3 g;
-commentary: Salmo 117(118);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Dai(f) gra(f)ças(f) ao(f) Se(f)nhor,(f) por(f)que(f) e(f)le(f) <b>é</b>(gr1 fr) bom!(f) *(:) ``E(f)ter(f)na(f) é(f) a(f) su(f)a(f) mi(f)se(f)ri(f)<nlba>(gr[ocba:1{])<b>cór</b>(gh[ocba:0}])dia!''</nlba>(hg)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Dai(f[alt:C 3 g]) gra(f)ças(f) ao(f) Se(f)nhor,(f) por(f)que(f) e(f)le(f) é(f) <b>bom</b>!(gr1 fr f) *(:) ``E(f)ter(f)na(f) é(f) a(f) su(f)a(f) mi(f)se(f)ri(f)<nlba>(gr[ocba:1{])<b>cór</b>(gh[ocba:0}])dia!''</nlba>(hg)
 
 (::)
 

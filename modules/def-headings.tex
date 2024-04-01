@@ -1,9 +1,17 @@
-% !TeX root = ./a4.tex
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{\textsc{\color{gregoriocolor}\leftmark}}
-\fancyhead[CO]{\textsc{\color{gregoriocolor}\rightmark}}
+% Cria um novo estilo para o cabeçalho e rodapé da página
+\makepagestyle{gradualesimplex}
+% Configura a linha traçada abaixo do cabeçalho
+\makeheadrule{gradualesimplex}{\textwidth}{\normalrulethickness}
+% Define o formato do cabeçalho das páginas pares
+\makeevenhead{gradualesimplex}{\thepage \hfill \textsc{\color{gregoriocolor}\leftmark} \hfill \phantom{\thepage}}{}{}
+% Define o formato do cabeçalho das páginas ímpares
+\makeoddhead{gradualesimplex}{\phantom{\thepage} \hfill \textsc{\color{gregoriocolor}\rightmark} \hfill \thepage}{}{}
+% Define o formato do rodapé das páginas pares
+\makeevenfoot{gradualesimplex}{}{}{}
+% Define o formato do rodapé das páginas ímpares
+\makeoddfoot{gradualesimplex}{}{}{}
+% Aplica o estilo definido acima
+\pagestyle{gradualesimplex}
 
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{#1}}

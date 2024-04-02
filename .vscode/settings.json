@@ -51,6 +51,5 @@
     "--view",
     "--shell-escape"
   ],
-  "latex-workshop.view.pdf.viewer": "tab",
-  "terminal.integrated.defaultProfile.linux": "zsh"
+  "latex-workshop.view.pdf.viewer": "tab"
 }

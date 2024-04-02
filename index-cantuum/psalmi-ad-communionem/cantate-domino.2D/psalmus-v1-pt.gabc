@@ -1,7 +1,6 @@
 name: Salmo 95(96);
 mode: 7;
 mode-differentia: a;
-commentary: Salmo 95(96);
 
 %%
 
@@ -9,12 +8,8 @@ commentary: Salmo 95(96);
 
 <c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Can</i>(e)<i>tai</i>(f) ao(h) Se(h)nhor(h) Deus(h) um(h) can(h)to(h) <b>no</b>(ir1 hr)vo,(h) *(:) <v>\VSup{2a}</v>can(h)tai(h) ao(h) Se(h)nhor,(h) ó(h) ter(h)ra(h) <i>in</i>(g)<b>tei</b>(er1 fr)ra!(f)
 
-(::)
+<c><sp>A/</sp>.</c>(::)
 
-<nlba><c><sp>A/</sp>.</c>() Can</nlba>(f)tai(hg) ao(h) Se(g)nhor.(f)
-
-(::)
-
-<c><i>Flexa:</i></c>() <b>ao</b>(hr1) Se(fr)nhor,(f) +(,) (h) (h)
+<c><i>Flexa:</i></c>() ao(h) Se(h)<b>nhor</b>,(hr1 fr f) +(,) (h) (h)
 
 (::)

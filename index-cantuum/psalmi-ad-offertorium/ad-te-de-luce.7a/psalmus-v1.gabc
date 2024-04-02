@@ -1,8 +1,6 @@
 name: Psalmus 62(63);
 mode: 7;
 mode-differentia: a;
-commentary: Psalmus 62(63);
-nabc-lines: 1;
 
 %%
 
@@ -10,11 +8,7 @@ nabc-lines: 1;
 
 <c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Si</i>(hg)<i>tí</i>(hi)vit(i) in(i) te(i) <b>á</b>(kr1)ni(jr)ma(j) <b>me</b>(ir1 jr)a,(j) *(:) te(i) de(i)si(i)de(i)rá(i)vit(i) <b>ca</b>(jr1 ir)ro(i) <b>me</b>(hr1 hr)a.(gf)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Ad</nlba>(e|ta) te(g|vi) de(h|vi) lu(i_|vi-)ce.(i_|vi-)
-
-(::)
+<c><sp>A/</sp>.</c>(::)
 
 <nlba><c><i>Flexa:</i></c>() in</nlba>(i)a(i)<b>quó</b>(ir1 hr)sa,(h) +(,) (i) (i)
 

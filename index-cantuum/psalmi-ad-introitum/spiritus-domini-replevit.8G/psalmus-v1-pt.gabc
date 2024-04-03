@@ -1,19 +1,14 @@
 name: Salmo 103(104);
 mode: 8;
 mode-differentia: G;
-commentary: Salmo 103(104);
 
 %%
 
 (c4)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Ben</i>(g)<i>di(h)</i>ze,(j) ó(j) mi(j)nha(j) al(j)ma,(j) <b>ao</b>(kr1) Se(jr)nhor!(j) *(:) Ó(j) meu(j) Deus(j) e(j) meu(j) Se(j)nhor,(j) co(j)<i>mo</i>(i) <i>sois</i>(j) <b>gran</b>(hr1)(gr)de!(g)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Ben</i>(g)<i>di(h)</i>ze,(j) ó(j) mi(j)nha(j) al(j)ma,(j) ao(j) Se(j)<b>nhor</b>!(kr1 jr j) *(:) Ó(j) meu(j) Deus(j) e(j) meu(j) Se(j)nhor,(j) co(j)<i>mo</i>(i) <i>sois</i>(j) <b>gran</b>(hr1)(gr)de!(g)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() O</nlba>(d) Es(d)pí(d)ri(fhg)to(gh) do(h) Se(g)nhor.(fe)
-
-(::)
+<c><sp>A/</sp>.</c>(::)
 
 <nlba><c><i>Flexa:</i></c>() pe</nlba>(j)ca(j)<b>do</b>(jr1 hr)res,(h) +(,) (j) (j)
 

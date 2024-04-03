@@ -6,10 +6,14 @@
       "version": "2.24.3"
     },
     "ghcr.io/lbssousa/devcontainer-features-texlive-music/texlive:1": {
-      "version": "2023",
-      "scheme": "minimal",
-      "extra-packages": "babel-latin babel-portuges booktabs chktex currfile ebgaramond enumitem epstopdf-pkg etoolbox environ epstopdf fancyhdr filehook fontspec geometry graphics gregoriotex grfext hyperref hyphen-english hyphen-latin hyphen-portuguese infwarerr kvoptions latex-bin latexindent latexmk luacolor luamplib luaotfload luaoptions luatexbase lyluatex memoir metalogo metapost metre microtype minibox musixtex musixtex-fonts m-tx paracol pdflscape pdfpages pdftexcmds pmx relsize texcount titlesec tools xcolor xpatch xkeyval xstring"
+      "version": "2024",
+      "scheme": "full"
     }
+  },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "32gb"
   },
   "remoteUser": "vscode",
   "containerUser": "vscode", // needed for Podman, indifferent for Docker
@@ -69,8 +73,7 @@
           "--view",
           "--shell-escape"
         ],
-        "latex-workshop.view.pdf.viewer": "tab",
-        "terminal.integrated.defaultProfile.linux": "zsh"
+        "latex-workshop.view.pdf.viewer": "tab"
       },
       "extensions": [
         "james-yu.latex-workshop",

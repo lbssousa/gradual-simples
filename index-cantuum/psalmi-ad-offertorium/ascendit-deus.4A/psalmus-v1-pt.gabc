@@ -1,7 +1,6 @@
 name: Salmo 46(47);
 mode: 4;
 mode-differentia: A;
-commentary: Salmo 46(47);
 
 %%
 
@@ -9,8 +8,4 @@ commentary: Salmo 46(47);
 
 <c><sp>V/</sp>. 1.</c>() <v>\VSup{2}</v><i>Po</i>(i)<i>vos</i>(hi) to(i)dos(i) do(i) u(i)ni(i)ver(i)so,(i) <i>ba</i>(h)<i>tei</i>(i) <b>pal</b>(jr1)(ir)mas,(i) *(:) gri(i)tai(i) a(i) Deus(i) a(i)cla(i)ma(i)ções(i) <i>de</i>(h) <i>a</i>(i)<i>le</i>(j)<b>gri</b>(hr1 fr)a!(f)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Su</nlba>(f)biu.(ef)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

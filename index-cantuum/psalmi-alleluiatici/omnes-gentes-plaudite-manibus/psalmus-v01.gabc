@@ -1,5 +1,4 @@
 name: Psalmus 46(47);
-commentary: Psalmus 46(47);
 
 %%
 
@@ -11,6 +10,4 @@ commentary: Psalmus 46(47);
 
 <nlba><c><sp>R/</sp>.</c>() A</nlba>(e)le(g)lu(gh)ia,(g) a(fe~)le(dc)lu(de~)ia!(e)
 
-(::)
-
-(d+)
+(::d+)

@@ -1,13 +1,11 @@
 {
   "name": "gradual-simples",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.19",
   "features": {
-    "ghcr.io/lbssousa/devcontainer-features-texlive-music/lilypond:1": {
-      "version": "2.24.3"
-    },
     "ghcr.io/lbssousa/devcontainer-features-texlive-music/texlive:1": {
-      "version": "2024",
-      "scheme": "full"
+      "version": "latest",
+      "scheme": "minimal",
+      "extra-packages": "babel-latin babel-portuges booktabs ebgaramond enumitem epstopdf-pkg fontspec gregoriotex hyperref hyphen-latin hyphen-portuguese l3packages latex-bin latexindent latexmk luacolor luamplib luatexbase memoir metapost metre microtype paracol relsize texcount textcase titlesec tools xcolor xkeyval xpatch xstring"
     }
   },
   "hostRequirements": {

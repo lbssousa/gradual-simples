@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/base:alpine-3.19",
   "features": {
     "ghcr.io/lbssousa/devcontainer-features-texlive-music/texlive:1": {
-      "repository": "https://mirrors.ctan.org/systems/texlive/tlnet",
+      "repository": "https://linorg.usp.br/CTAN/systems/texlive/tlnet",
       "version": "latest",
       "scheme": "minimal",
       "extra-packages": "babel-latin babel-portuges booktabs ebgaramond enumitem epstopdf-pkg fontspec gregoriotex hyperref hyphen-latin hyphen-portuguese l3packages latex-bin latexindent latexmk luacolor luamplib luatexbase memoir metapost metre microtype paracol relsize texcount textcase titlesec tools xcolor xkeyval xpatch xstring"

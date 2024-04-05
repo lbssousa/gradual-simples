@@ -348,6 +348,19 @@
   \MakeChantPsalm{#5}{#6}
 }
 
+\NewDocumentCommand \SectionChant { O{} m O{} m m m } {
+  \subsection{Canto #2}\IfBlankF{#3}{\label{#3}}
+  \subsubsection{#4}
+  \IfBlankF{#1}{%
+    \begin{rubrica}
+      \begin{center}
+        #1
+      \end{center}
+    \end{rubrica}%
+  }
+  \MakeChantPsalm{#5}{#6}
+}
+
 \NewDocumentCommand \SectionPsalmMulti { O{} m O{} m m m m } {
   \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
   \subsubsection{#4}

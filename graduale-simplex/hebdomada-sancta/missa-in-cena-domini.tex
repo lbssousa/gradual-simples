@@ -1,29 +1,30 @@
 % chktex-file 1
-\subsection{Entrada}\label{subsection:hebdomada-sancta/missa-in-cena-domini/introitus}
-\MakeChantAntiphonPsalm{nos-autem-gloriari.7c}{psalmi-ad-introitum}
+\def\Prefix{subsection:hebdomada-sancta/missa-in-cena-domini}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{nos-autem-gloriari.7c}{Salmo 66(67)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection{Entrada (opcional)}\label{subsection:hebdomada-sancta/missa-in-cena-domini/psalmi-ad-introitum-ad-libitum}
-\MakeChantAntiphonPsalm{sacerdos-in-aeternum.1f}[2]{psalmi-ad-introitum}
+\SectionAntiphonPsalm{Entrada (opcional)}[\Prefix/psalmi-ad-introitum-ad-libitum]{sacerdos-in-aeternum.1f}[2]{Salmo 109(110)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{D \protect\GreStar}}\label{subsection:hebdomada-sancta/missa-in-cena-domini/psalmus-responsorius-1}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{dominus-pascit-me.DS}
+\SectionPsalmMulti{Responsorial I}[\Prefix/psalmus-responsorius-1]{Salmo 22(23)}{psalmi-responsorii}{dominus-pascit-me.DS}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection[Salmo Responsorial II]{Salmo Responsorial II \textmd{E 5}}\label{subsection:hebdomada-sancta/missa-in-cena-domini/psalmus-responsorius-2}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{exaltabo-te.E5}
+\SectionPsalmMulti{Responsorial II}[\Prefix/psalmus-responsorius-2]{Salmo 144(145)}{psalmi-responsorii}{exaltabo-te.E5}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection{Lava-Pés}\label{subsection:hebdomada-sancta/missa-in-cena-domini/psalmi-ad-lotionem-pedum}
-\MakeChantAntiphonPsalm{mandatum-novum-do-vobis.3a}{psalmi-ad-lotionem-pedum}
+\SectionAntiphonPsalm{Lava-Pés}[\Prefix/psalmi-ad-lotionem-pedum]{mandatum-novum-do-vobis.3a}{Salmo 118(119)}{psalmi-ad-lotionem-pedum}
 
-\subsection{Ofertório}\label{subsection:hebdomada-sancta/missa-in-cena-domini/offertorium}
-\MakeChantLongPsalm{varia}{ubi-caritas}{
+\SectionAntiphonMulti{Ofertório}[\Prefix/offertorium]{}{varia}{ubi-caritas}{
   {psalmus-v1}{psalmus-v1-pt},
   {psalmus-v2}{psalmus-v2-pt},
   {psalmus-v3}{psalmus-v3-pt}
@@ -31,16 +32,11 @@
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:hebdomada-sancta/missa-in-cena-domini/communio}
-\MakeChantAntiphonPsalm{calicem.2D}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{calicem.2D}{Salmo 115(116 B)}{psalmi-ad-communionem}
 
 \AllowPageFlush
 
-\subsection{Transladação do Santíssimo Sacramento}\label{subsection:hebdomada-sancta/missa-in-cena-domini/hymnus-ad-translatione-ssmi-sacramenti}
-\begin{rubrica}
-  Cantam-se os versos 1 a 4 abaixo, repetidamente ou seguidos de outros hinos eucarísticos, durante a procissão, se necessário. Após a chegada ao altar da reposição, cantam-se os versos 5 e 6 do hino.
-\end{rubrica}
-\MakeChantHymnMulti{hymni}{pange-lingua}{
+\SectionHymnMulti[Cantam-se os versos 1 a 4 abaixo, repetidamente ou seguidos de outros hinos eucarísticos, durante a procissão, se necessário. Após a chegada ao altar da reposição, cantam-se os versos 5 e 6 do hino.]{de Transladação do Santíssimo Sacramento}[\Prefix/hymnus-ad-translatione-ssmi-sacramenti]{hymni}{pange-lingua}{
   {psalmus-v1}{psalmus-v1-pt},
   {psalmus-v2}{psalmus-v2-pt},
   {psalmus-v3}{psalmus-v3-pt},

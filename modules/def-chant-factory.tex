@@ -307,20 +307,27 @@
   \MakeChantAntiphon{#5}[#6]
   \IfBlankF{#2}{%
     \begin{rubrica}
-      \begin{center}
-        #2
-      \end{center}
+      #2
     \end{rubrica}%
   }
+}
+
+\NewDocumentCommand \SectionAntiphonMulti { O{} m O{} m m m m } {
+  \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
+  \subsubsection{#4}
+  \IfBlankF{#1}{%
+    \begin{rubrica}
+      #1
+    \end{rubrica}%
+  }
+  \MakeChantHymnMulti{#5}{#6}{#7}
 }
 
 \NewDocumentCommand \SectionAntiphonPsalm { s O{} m O{} m O{} m m O{#5} } {
   \subsection{Antífona\IfBooleanF{#1}{ de} #3}\IfBlankF{#4}{\label{#4}}
   \IfBlankF{#2}{%
     \begin{rubrica}
-      \begin{center}
-        #2
-      \end{center}
+      #2
     \end{rubrica}%
   }
   \MakeChantAntiphon{#5}[#6]
@@ -340,9 +347,7 @@
   \subsubsection{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
-      \begin{center}
-        #1
-      \end{center}
+      #1
     \end{rubrica}%
   }
   \MakeChantPsalm{#5}{#6}
@@ -353,9 +358,7 @@
   \subsubsection{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
-      \begin{center}
-        #1
-      \end{center}
+      #1
     \end{rubrica}%
   }
   \MakeChantPsalm{#5}{#6}
@@ -366,9 +369,7 @@
   \subsubsection{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
-      \begin{center}
-        #1
-      \end{center}
+      #1
     \end{rubrica}%
   }
   \MakeChantPsalmMulti{#5}{#6}{#7}
@@ -379,12 +380,20 @@
   \subsubsection{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
-      \begin{center}
-        #1
-      \end{center}
+      #1
     \end{rubrica}%
   }
   \MakeChantPsalmMulti{#5}{#6}{#7}
+}
+
+\NewDocumentCommand \SectionHymnMulti { O{} m O{} m m m } {
+  \subsection{Hino #2}\IfBlankF{#3}{\label{#3}}
+  \IfBlankF{#1}{%
+    \begin{rubrica}
+      #1
+    \end{rubrica}%
+  }
+  \MakeChantHymnMulti{#4}{#5}{#6}
 }
 
 \NewDocumentCommand \SectionTractus { O{} m m } {

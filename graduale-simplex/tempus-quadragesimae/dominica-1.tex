@@ -1,36 +1,29 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:tempus-quadragesimae/dominica-1}
 
-\subsection{Entrada}\label{subsection:tempus-quadragesimae/dominica-1/introitus}
-\MakeChantAntiphonPsalm{tunc-invocabis.7a}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{E 5}}\label{subsection:tempus-quadragesimae/dominica-1/psalmus-responsorius-1}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{scapulis-suis.E5}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{tunc-invocabis.7a}{Salmo 90(91)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Responsorial II]{Salmo Responsorial II \textmd{D 1 g}}\label{subsection:tempus-quadragesimae/dominica-1/psalmus-responsorius-2}
-\MakeChantPsalmOneVerse{psalmi-responsorii}{ego-dixi.D1g}
+\SectionPsalmMulti{Responsorial I}[\Prefix/psalmus-responsorius-1]{Salmo 90(91)}{psalmi-responsorii}{scapulis-suis.E5}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection{Antífona de aclamação}\label{subsection:tempus-quadragesimae/dominica-1/antiphona-acclamationis}
-\MakeChantAntiphon{vobis-datum-est.6F}
-\begin{rubrica}
-  Então canta-se pelo menos um verso do salmo responsorial anterior que não foi utilizado.
-\end{rubrica}
-
-\subsection{Trato}\label{subsection:tempus-quadragesimae/dominica-1/tractus}
-\MakeChantPsalmOneVerse{tractus}{ego-dixi}
+\SectionPsalm{Salmo Responsorial II}[\Prefix/psalmus-responsorius-2]{Salmo 40(41)}{psalmi-responsorii}{ego-dixi.D1g}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:tempus-quadragesimae/dominica-1/offertorium}
-\MakeChantAntiphonPsalm{cum-facis-eleemosynam.1f}{psalmi-ad-offertorium}
+\SectionAntiphon[Então canta-se pelo menos um verso do salmo responsorial anterior que não foi utilizado.]{Aclamação}[\Prefix/antiphona-acclamationis]{vobis-datum-est.6F}
+
+\SectionTractus[\Prefix/tractus]{Salmo 40(41)}{ego-dixi}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:tempus-quadragesimae/dominica-1/communio}
-\MakeChantAntiphonPsalm{intellege.8c}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{cum-facis-eleemosynam.1f}{Salmo 50(51)}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{intellege.8c}{Salmo 5}{psalmi-ad-communionem}

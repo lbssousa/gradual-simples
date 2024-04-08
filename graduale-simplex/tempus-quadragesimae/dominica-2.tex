@@ -1,35 +1,29 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:tempus-quadragesimae/dominica-2}
 
-\subsection{Entrada}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/introitus}
-\MakeChantAntiphonPsalm{assumpsit-iesus.2D}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{C 2 a}}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/psalmus-responsorius}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{magna-est-gloria-eius.C2a}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{assumpsit-iesus.2D}{Salmo 83(84)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\nobreaksubsection{Salmo Responsorial II}
+\SectionPsalmMulti{Responsorial I}[\Prefix/psalmus-responsorius]{Salmo 20(21)}{psalmi-responsorii}{magna-est-gloria-eius.C2a}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
+
+\AllowPageFlush
+
+\paragraph{Salmo Responsorial II}
 \begin{rubrica}
-  Ver III Domingo, página~\pageref{subsection:tempus-quadragesimae/dominica-1/psalmus-responsorius-2}
+  Ver III Domingo, página~\pageref{subsection:tempus-quadragesimae/dominica-3/psalmus-responsorius-2}
 \end{rubrica}
 
-\nobreaksubsection{Antífona de aclamação}
+\paragraph{Antífona de aclamação}
 \begin{rubrica}
-  Ver III Domingo, página~\pageref{subsection:tempus-quadragesimae/dominica-1/antiphona-acclamationis}
+  Ver III Domingo, página~\pageref{subsection:tempus-quadragesimae/dominica-3/antiphona-acclamationis}
 \end{rubrica}
 
-%\nobreaksubsection{Trato}
-%\begin{rubrica}
-%  Ver III Domingo, página~\pageref{subsection:tempus-quadragesimae/dominica-1/tractus}
-%\end{rubrica}
-
-\subsection{Ofertório}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/offertorium}
-\MakeChantAntiphonPsalm{faciamus-hic.4A}{psalmi-ad-offertorium}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{faciamus-hic.4A}{Salmo 132(133)}{psalmi-ad-offertorium}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:proprium-sanctorum/in-transfiguratione-domini/communio}
-\MakeChantAntiphonPsalm{visionem.1f}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{visionem.1f}{Salmo 44(45)}{psalmi-ad-communionem}

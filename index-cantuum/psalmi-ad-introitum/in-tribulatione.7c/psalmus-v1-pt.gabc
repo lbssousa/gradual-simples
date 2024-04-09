@@ -1,19 +1,14 @@
 name: Salmo 117(118);
 mode: 7;
 mode-differentia: c;
-commentary: Salmo 117(118);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Dai</i>(hg) <i>gra</i>(hi)ças(i) ao(i) Se(i)nhor,(i) por(i)que(i) <b>e</b>(kr1)le(jr) <b>é</b>(ir1 jr) bom!(j) *(,) ``E(i)ter(i)na(i) é(i) a(i) su(i)a(i) mi(i)<b>se</b>(jr1 ir)ri(i)<b>cór</b>(hr1)di(hr)a!''(gh)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Dai</i>(hg) <i>gra</i>(hi)ças(i) ao(i) Se(i)nhor,(i) por(i)que(i) <b>e</b>(kr1)le(jr) é(j) <b>bom</b>!(ir1 jr j) *(,) ``E(i)ter(i)na(i) é(i) a(i) su(i)a(i) mi(i)<b>se</b>(jr1 ir)ri(i)<b>cór</b>(hr1)di(hr)a!''(gh)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Na</nlba>(i) tri(i)bu(h)la(g)ção.(h_i)
-
-(::)
+<c><sp>A/</sp>.</c>(::)
 
 <nlba><c><i>Flexa</i>:</c>() a</nlba>(i)ta(i)<b>ca</b>(ir1 hr)ram,(h) +(,) (i) (i)
 

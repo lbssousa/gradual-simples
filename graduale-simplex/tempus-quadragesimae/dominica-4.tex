@@ -1,33 +1,34 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:tempus-quadragesimae/dominica-4}
 
-\subsection{Entrada}\label{subsection:tempus-quadragesimae/dominica-4/introitus}
-\MakeChantAntiphonPsalm{in-tribulatione.7c}{psalmi-ad-introitum}
-
-\AllowPageFlush
-
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{E 4}}\label{subsection:tempus-quadragesimae/dominica-4/psalmus-responsorius-1}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{factus-est-dominus.E4}
-
-\subsection[Salmo Responsorial II]{Salmo Responsorial II \textmd{C 2 g}}\label{subsection:tempus-quadragesimae/dominica-4/psalmus-responsorius-2}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{de-profundis.C2g}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{in-tribulatione.7c}{Salmo 117(118)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection{Antífona de aclamação}\label{subsection:tempus-quadragesimae/dominica-4/antiphona-acclamationis}
-\MakeChantAntiphon{qui-verbum-dei-retinent.1f}
-
-\subsection{Trato}\label{subsection:tempus-quadragesimae/dominica-4/tractus}
-\MakeChantPsalmOneVerse{tractus}{de-profundis}
-
-\AllowPageFlush
-
-\subsection{Ofertório}\label{subsection:tempus-quadragesimae/dominica-4/offertorium}
-\MakeChantAntiphonPsalm{bonum-est.4d}{psalmi-ad-offertorium}
+\SectionPsalmMulti{Responsorial I}[\Prefix/psalmus-responsorius-1]{Salmo 9}{psalmi-responsorii}{factus-est-dominus.E4}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:tempus-quadragesimae/dominica-4/communio}
-\MakeChantAntiphonPsalm{introibo.4A}{psalmi-ad-communionem}
+\SectionPsalmMulti{Responsorial II}[\Prefix/psalmus-responsorius-s]{Salmo 129(130)}{psalmi-responsorii}{de-profundis.C2g}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
+
+\AllowPageFlush
+
+\SectionAntiphon{Aclamação}[\Prefix/antiphona-acclamationis]{qui-verbum-dei-retinent.1f}
+
+\SectionTractus[\Prefix/tractus]{Salmo 129(130)}{de-profundis}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{bonum-est.4d}{Salmo 91(92)}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{introibo.4A}{Salmo 42(43)}{psalmi-ad-communionem}
 
 \AllowPageBreak

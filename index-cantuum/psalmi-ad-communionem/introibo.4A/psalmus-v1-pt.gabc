@@ -1,16 +1,11 @@
 name: Salmo 42(43);
 mode: 4;
 mode-differentia: A;
-commentary: Salmo 42(43);
 
 %%
 
 (c3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v><i>Fa</i>(i)<i>zei</i>(hi) jus(i)ti(i)ça,(i) meu(i) Deus,(i) e(i) <i>de</i>(h)<i>fen</i>(i)<b>dei</b>-(jr1 ir)me(i) *(:) con(i)tra(i) a(i) gen(i)te(i) <i>im</i>(h)<i>pi</i>(i)<i>e</i>(j)<b>do</b>(hr1 fr)sa.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1ab}</v><i>Fa</i>(i)<i>zei</i>(hi) jus(i)ti(i)ça,(i) meu(i) Deus,(i) e(i) <i>de</i>(h)<i>fen</i>(i)<b>dei</b>-(jr1 ir)me(i) *(:) con(i)tra(i) a(i) gen(i)te(i) <i>im</i>(h)<i>pi</i>(i)<i>e</i>(j)<b>do</b>(hr1 fr)sa.(f)
 
-(::)
-
-<nlba><c><sp>A/</sp>.</c>() Su</nlba>(e)bi(f)rei.(hi)
-
-(::)
+<c><sp>A/</sp>.</c>(::)

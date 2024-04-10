@@ -1,21 +1,23 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:hebdomada-sancta/missa-chrismatis}
 
-\subsection{Entrada}\label{subsection:hebdomada-sancta/missa-chrismatis/introitus}
-\MakeChantAntiphonPsalm{a-fructu-frumenti.1f}{psalmi-ad-introitum}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{a-fructu-frumenti.1f}{Salmo 4}{psalmi-ad-introitum}
 
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{E 3}}\label{subsection:hebdomada-sancta/missa-chrismatis/psalmus-responsorius-1}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{misericordias-domini.E3}
+\SectionPsalmMulti{Responsorial I}[\Prefix/psalmus-responsorius-1]{Salmo 88(89)}{psalmi-responsorii}{misericordias-domini.E3}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection[Salmo Responsorial II]{Salmo Responsorial II \textmd{C 2 g}}\label{subsection:hebdomada-sancta/missa-chrismatis/psalmus-responsorius-2}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{exsultate-iusti-in-domino.C2g}
+\SectionPsalmMulti{Responsorial II}[\Prefix/psalmus-responsorius-2]{Salmo 32(33)}{psalmi-responsorii}{exsultate-iusti-in-domino.C2g}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageBreak
 
-\subsection{Ofertório}\label{subsection:hebdomada-sancta/missa-chrismatis/offertorium}
-\MakeChantLongPsalm{hymni}{o-redemptor}{
+\SectionHymnMulti{Ofertório}[\Prefix/offertorium]{hymni}{o-redemptor}{
   {psalmus-v1}{psalmus-v1-pt},
   {psalmus-v2}{psalmus-v2-pt},
   {psalmus-v3}{psalmus-v3-pt},
@@ -27,5 +29,4 @@
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:hebdomada-sancta/missa-chrismatis/communio}
-\MakeChantAntiphonPsalm{dilexisti-iustitiam.8G}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{dilexisti-iustitiam.8G}{Salmo 44(45)}{psalmi-ad-communionem}

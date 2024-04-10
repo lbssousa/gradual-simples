@@ -1,5 +1,6 @@
 name: Hosanna in excelsis;
 book: Graduale Simplex, 1975, p. 121;
+phantom-commentary: LS;
 
 %%
 
@@ -11,6 +12,4 @@ Ho(c)sán(e)na(g) in(g) ex(f)cél(h)sis:(g) (;) be(d)ne(ef)dí(g)ctus(g) qui(g) 
 
 <nlba><c><sp>R/</sp>.</c>() Ho</nlba>(c)sán(e)na(g) in(g) ex(f)cél(h)sis.(g)
 
-(::)
-
-(e+)
+(::e+)

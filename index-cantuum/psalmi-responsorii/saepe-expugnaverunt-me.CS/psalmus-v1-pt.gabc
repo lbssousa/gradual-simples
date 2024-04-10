@@ -1,15 +1,14 @@
 name: Salmo 128(129);
 mode: C\GreStar;
-commentary: Salmo 128(129);
 
 %%
 
 (f3)
 
-<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Quan(h)to(h) eu(h) fui(h) per(h)se(h)gui(h)do(h) <i>des</i>(g)<i>de</i>(f) <b>jo</b>(hr1 hr)vem,(h) *(:) que(h) o(h) di(h)ga(h) Is(h)ra(h)el(h) nes(h)te(h) mo(h)<b>men</b>(hr1 fr)to.(f)
+<c><sp>V/</sp>. 1.</c>() <v>\VSup{1}</v>Quan(h[alt:C \GreStar])to(h) eu(h) fui(h) per(h)se(h)gui(h)do(h) <i>des</i>(g)<i>de</i>(f) <b>jo</b>(hr1 hr)vem,(h) *(:) que(h) o(h) di(h)ga(h) Is(h)ra(h)el(h) nes(h)te(h) mo(h)<b>men</b>(hr1 fr)to.(f)
 
 (::)
 
-<nlba><c><sp>R/</sp>.</c>() <v>\VSup{2a}</v>Quan</nlba>(hvGF)to(gh) eu(ij) fui(i) (,) per(i)se(i)gui(g)do(h) des(i)de(g) jo(h)vem.(f)
+<nlba><c><sp>R/</sp>.</c>() <v>\VSup{2a}</v>Quan</nlba>(hg)to(f) eu(gh) fui(iji) (,) per(i)se(i)gui(g)do(h) des(i)de(g) jo(h)vem.(f)
 
 (::)

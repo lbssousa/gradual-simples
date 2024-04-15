@@ -1,59 +1,42 @@
 % chktex-file 1
-\subsection{Antífona de Entrada}\label{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi/introitus}
-\MakeChantAntiphon{sacerdos-in-aeternum.1f}
-\nobreaksubsection{Salmo 109(110)}
-\MakeChantPsalm{psalmi-ad-introitum}{sacerdos-in-aeternum.1f}
+\def\Prefix{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi}
+
+\SectionAntiphonPsalm{Antífona de Entrada}[\Prefix/introitus]{sacerdos-in-aeternum.1f}{Salmo 109(110)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection[Salmo Responsorial]{Salmo Responsorial}\label{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi/psalmus-responsorius}
-\subsubsection{Salmo 144(145)}
-\MakeChantPsalmMulti{psalmi-responsorii}{exaltabo-te.E5}{
+\SectionPsalmMulti{Responsorial}[\Prefix/psalmus-responsorius]{Salmo 144(145)}{psalmi-responsorii}{exaltabo-te.E5}{
   {psalmus-v1}{psalmus-v1-pt},
   {psalmus-v2}{psalmus-v2-pt}
 }
 
 \AllowPageFlush
 
-\subsection{Sequência}\label{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi/sequentia}
+\subsection{Sequência}\label{\Prefix/sequentia}
 \begin{rubrica}
   A forma breve está entre colchetes.
 \end{rubrica}
 \MakeChantHymn{sequentiae}{lauda-sion}
 
-\subsection{Aleluia}\label{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi/alleluia}
-\MakeChantAlleluia{3g}
-\nobreaksubsection{Salmo 77(78)}
-\MakeChantPsalm{psalmi-ad-alleluia}{attendite-popule-meus.3g}
+\AllowPageFlush
+
+\SectionAlleluiaPsalm[\Prefix/alleluia]{3g}{Salmo 77(78)}{attendite-popule-meus.3g}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático]{Salmo Aleluiático}\label{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi/psalmus-alleluiaticus}
-\nobreaksubsection{Salmo 77(78)}
-\begin{rubrica}
-  O primeiro {\normalfont\Rbar} pode ser cantado apenas pelo grupo de cantores ou por todos. O segundo {\normalfont\Rbar} é cantado por todos.
-\end{rubrica}
-\MakeChantPsalm{psalmi-alleluiatici}{attendite-popule-meus.C4}
+\SectionPsalm[O primeiro {\normalfont\Rbar} pode ser cantado apenas pelo grupo de cantores ou por todos. O segundo {\normalfont\Rbar} é cantado por todos.]{Aleluiático}[\Prefix/psalmus-alleluiaticus]{Salmo 77(78)}{psalmi-alleluiatici}{attendite-popule-meus.C4}
 
 \AllowPageFlush
 
-\subsection{Antífona de Ofertório}\label{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi/offertorium}
-\MakeChantAntiphon{angelorum-esca.2D}
-\nobreaksubsection{Salmo 83(84)}
-\MakeChantPsalm{psalmi-ad-offertorium}{angelorum-esca.2D}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{angelorum-esca.2D}{Salmo 83(84)}{psalmi-ad-offertorium}
 
 \AllowPageFlush
 
-\subsection{Antífona de Comunhão}\label{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi/communio}
-\MakeChantAntiphon{ego-sum-panis-vivus.1f}
-\nobreaksubsection{Salmo 22(23)}
-\MakeChantPsalm{psalmi-ad-communionem}{ego-sum-panis-vivus.1f}
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{ego-sum-panis-vivus.1f}{Salmo 22(23)}{psalmi-ad-communionem}
 
-\subsection{Procissão}\label{subsection:tempus-per-annum/sanctissimi-corporis-et-sanguinis-christi/ad-processionem}
-\begin{rubrica}
-  Cantam-se os versos 1 a 4 abaixo, repetidamente ou seguidos de outros hinos eucarísticos, durante a procissão, se necessário. Após a chegada ao altar, cantam-se os versos 5 e 6 do hino.
-\end{rubrica}
-\MakeChantHymnMulti{hymni}{pange-lingua}{
+\AllowPageFlush
+
+\SectionHymnMulti[Cantam-se os versos 1 a 4 abaixo, repetidamente ou seguidos de outros hinos eucarísticos, durante a procissão, se necessário. Após a chegada ao altar, cantam-se os versos 5 e 6 do hino.]{para a Procissão}[\Prefix/ad-processionem]{hymni}{pange-lingua}{
   {psalmus-v1}{psalmus-v1-pt},
   {psalmus-v2}{psalmus-v2-pt},
   {psalmus-v3}{psalmus-v3-pt},

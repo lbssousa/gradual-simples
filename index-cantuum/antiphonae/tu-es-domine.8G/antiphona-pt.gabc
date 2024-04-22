@@ -1,8 +1,7 @@
 name: Tu es, Domine;
 mode: 8;
 mode-differentia: G;
-cantus-id: 000000;
-commentary: Sl 16(15),5;
+commentary: LS;
 book: Graduale Simplex, 1975, p. 387;
 
 %%
@@ -15,6 +14,4 @@ Sois(g!hwj~) vós,(hvGF) ó(g) Se(h)nhor,(hg) *(,) que(gf) ten(ghh)des(h) (,) na
 
 <nlba><c><i>T. P.</i></c> +() ca</nlba>(g)be,(gh) a(i)le(hi)lu(g)ia.(g)
 
-(::)
-
-(g+)
+(::g+)

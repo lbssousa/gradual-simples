@@ -1,33 +1,30 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:missae-pro-varii-necessitatibus/pro-vocationibus}
 
-\subsection{Entrada}\label{subsection:missae-pro-varii-necessitatibus/pro-vocationibus/introitus}
-\MakeChantAntiphonPsalm{tu-es-domine.8G}{psalmi-ad-introitum}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{tu-es-domine.8G}{Salmo 15(16)}{psalmi-ad-introitum}
 
-\subsection[Salmo Responsorial I]{Salmo Responsorial I \textmd{D 1 e}}\label{subsection:missae-pro-varii-necessitatibus/pro-vocationibus/psalmus-responsorius}
-\MakeChantPsalmTwoVerses{psalmi-responsorii}{laetatus-sum-in-eo.D1e}
+\SectionPsalmMulti{Responsorial I}[\Prefix/psalmus-responsorius]{Salmo 121(122)}{psalmi-responsorii}{laetatus-sum-in-eo.D1e}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
-\subsection{Salmo Responsorial II}
+\paragraph{Salmo Responsorial II}
 \begin{rubrica}
   Ver Missa de Profissão Religiosa, página~\pageref{subsection:missae-rituales/missa-in-professione-religiosa/psalmus-responsorius-2}.
 \end{rubrica}
 
 \AllowPageFlush
 
-\subsection[Salmo Aleluiático]{Salmo Aleluiático \textmd{C 1}}\label{subsection:missae-pro-varii-necessitatibus/pro-vocationibus/psalmus-alleluiaticus}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{dominus-illuminatio-mea.C1}
+\SectionPsalm{Aleluiático}[\Prefix/psalmus-alleluiaticus]{Salmo 26(27)}{psalmi-alleluiatici}{dominus-illuminatio-mea.C1}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:missae-pro-varii-necessitatibus/pro-vocationibus/offertorium}
-\MakeChantAntiphonPsalm{deus-adiuvat-me.8G}[1]{psalmi-ad-offertorium}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{deus-adiuvat-me.8G}[1]{Salmo 53(54)}{psalmi-ad-offertorium}
 
 \AllowPageFlush
 
-\subsection{Comunhão I}\label{subsection:missae-pro-varii-necessitatibus/pro-vocationibus/communio-1}
-\MakeChantAntiphonPsalm{introibo.4A}[1]{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Comunhão I}[\Prefix/communio-1]{introibo.4A}[1]{Salmo 42(43)}{psalmi-ad-communionem}
 
-\AllowPageBreak
+\AllowPageFlush
 
-\subsection{Comunhão II}\label{subsection:missae-pro-varii-necessitatibus/pro-vocationibus/communio-2}
-\MakeChantAntiphonPsalm{qui-mihi-ministrat.1f}{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Comunhão II}[\Prefix/communio-2]{qui-mihi-ministrat.1f}{Salmo 33(34)}{psalmi-ad-communionem}

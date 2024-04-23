@@ -1,8 +1,7 @@
 name: Petite, et accipietis;
 mode: 8;
 mode-differentia: G;
-cantus-id: 020383;
-commentary: Mt 7,7.8;
+commentary: Cantus ID 020383 cf. Mt 7,7.8;
 book: Graduale Simplex, 1975, p. 393;
 
 %%
@@ -15,6 +14,4 @@ Pé(f)ti(fg)te,(g) *(,) et(g) ac(h)ci(g)pi(f)én(gh)tis:(h) (;) quǽ(j)ri(ji)te,
 
 <nlba><c><i>T. P.</i></c> +() vo</nlba>(g)bis,(gvFD) al(f)le(fg)lú(g)ia.(g)
 
-(::)
-
-(g+)
+(::g+)

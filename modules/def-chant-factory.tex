@@ -342,6 +342,13 @@
   \MakeChantPsalm{psalmi-ad-alleluia}{#4}
 }
 
+\NewDocumentCommand \SectionNamedAlleluiaPsalm { O{} m m m m } {
+  \subsection{Aleluia #2}\IfBlankF{#1}{\label{#1}}
+  \MakeChantAlleluia{#3}
+  \subsubsection{#4}
+  \MakeChantPsalm{psalmi-ad-alleluia}{#5}
+}
+
 \NewDocumentCommand \SectionPsalm { O{} m O{} m m m } {
   \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
   \subsubsection{#4}

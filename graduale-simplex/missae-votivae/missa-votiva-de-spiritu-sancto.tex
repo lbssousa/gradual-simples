@@ -1,23 +1,23 @@
-% !TeX root = ../../a4.tex
 % chktex-file 1
+\def\Prefix{subsection:missae-votivae/missa-votiva-de-spiritu-sancto}
 
-\subsection{Entrada}\label{subsection:missae-votivae/missa-votiva-de-spiritu-sancto/introitus}
-\MakeChantAntiphonPsalm{spiritus-domini-replevit.8G}[1]{psalmi-ad-introitum}
-
-\subsection{Salmo Responsorial \textmd{E 4}}\label{subsection:missae-votivae/missa-votiva-de-spiritu-sancto/psalmus-responsorius}
-\MakeChantPsalmOneVerse{psalmi-responsorii}{exsultate-iusti-in-domino.E4}
+\SectionAntiphonPsalm{Entrada}[\Prefix/introitus]{spiritus-domini-replevit.8G}[1]{Salmo 103(104)}{psalmi-ad-introitum}
 
 \AllowPageFlush
 
-\subsection{Salmo Aleluiático \textmd{E 2 d}}\label{subsection:missae-votivae/missa-votiva-de-spiritu-sancto/psalmus-alleluiaticus}
-\MakeChantPsalmOneVerse{psalmi-alleluiatici}{deus-deorum.E2d}
+\SectionPsalmMulti{Responsorial}[\Prefix/psalmus-responsorius]{Salmo 32(33)}{psalmi-responsorii}{exsultate-iusti-in-domino.E4}{
+  {psalmus-v1}{psalmus-v1-pt},
+  {psalmus-v2}{psalmus-v2-pt}
+}
 
 \AllowPageFlush
 
-\subsection{Ofertório}\label{subsection:missae-votivae/missa-votiva-de-spiritu-sancto/offertorium}
-\MakeChantAntiphonPsalm{confirma-hoc-deus.8c}[1]{psalmi-ad-offertorium}
+\SectionPsalm{Aleluiático II}[\Prefix/psalmus-alleluiaticus-2]{Salmo 49(50)}{psalmi-alleluiatici}{deus-deorum.E2d}
 
 \AllowPageFlush
 
-\subsection{Comunhão}\label{subsection:missae-votivae/missa-votiva-de-spiritu-sancto/communio}
-\MakeChantAntiphonPsalm{factus-est-repente.8c}[1]{psalmi-ad-communionem}
+\SectionAntiphonPsalm{Ofertório}[\Prefix/offertorium]{confirma-hoc-deus.8c}[1]{Salmo 67(68)}{psalmi-ad-offertorium}
+
+\AllowPageFlush
+
+\SectionAntiphonPsalm{Comunhão}[\Prefix/communio]{factus-est-repente.8c}[1]{Salmo 77(78)}{psalmi-ad-communionem}

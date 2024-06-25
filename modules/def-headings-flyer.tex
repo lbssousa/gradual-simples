@@ -1,5 +1,14 @@
-% chktex-file 1
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[C]{\textsc{\color{gregoriocolor}\mytitle}}
+% Cria um novo estilo para o cabeçalho e rodapé da página
+\makepagestyle{gradualesimplex}
+% Configura a linha traçada abaixo do cabeçalho
+\makeheadrule{gradualesimplex}{\textwidth}{\normalrulethickness}
+% Define o formato do cabeçalho das páginas pares
+\makeevenhead{gradualesimplex}{\thepage \hfill \textsc{\color{gregoriocolor}\leftmark} \hfill \phantom{\thepage}}{}{}
+% Define o formato do cabeçalho das páginas ímpares
+\makeoddhead{gradualesimplex}{\phantom{\thepage} \hfill \textsc{\color{gregoriocolor}\rightmark} \hfill \thepage}{}{}
+% Define o formato do rodapé das páginas pares
+\makeevenfoot{gradualesimplex}{{\copyright} {\the\year} \hspace{2mm} Laércio de Sousa \hspace{4mm} \raisebox{-0.25\height}{\includegraphics[scale=1]{cc-by-sa-footer.png}} \hfill \texttt{https://linktr.ee/gradualsimples}}{}{}
+% Define o formato do rodapé das páginas ímpares
+\makeoddfoot{gradualesimplex}{{\copyright} {\the\year} \hspace{2mm} Laércio de Sousa \hspace{4mm} \raisebox{-0.25\height}{\includegraphics[scale=1]{cc-by-sa-footer.png}} \hfill \texttt{https://linktr.ee/gradualsimples}}{}{}
+% Aplica o estilo definido acima
+\pagestyle{gradualesimplex}

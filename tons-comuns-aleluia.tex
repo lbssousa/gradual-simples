@@ -1,0 +1,71 @@
+% chktex-file 1
+\documentclass[a4paper]{memoir}
+
+\usepackage[top=7mm,bottom=7mm,inner=10mm,outer=10mm,headheight=15pt,includehead,includefoot]{geometry}
+\input{modules/def-imports}
+\usepackage{multicol}
+\usepackage{array}
+
+\def\mytitle{Tons comuns para o Aleluia antes do Evangelho}
+\def\mysubtitle{}
+
+\input{modules/def-toggles}
+\input{modules/def-paper}
+\input{modules/def-headings-flyer}
+\input{modules/def-titles-flyer}
+\input{modules/def-gregorio}
+\input{modules/def-gregorio-flyer}
+\input{modules/def-chant-factory}
+
+\toggletrue{disablehyperlinks}
+
+\title{\mytitle}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+%\begin{multicols}{2}
+  \section{I}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.1g2/antiphona-euouae}
+
+  \section{II}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.2D.1/antiphona-euouae}
+  \gregorioscore{index-cantuum/antiphonae/alleluia.2D.2/antiphona-euouae}
+
+  \section{III}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.3g/antiphona-euouae}
+
+  \section{IV}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.4E.1/antiphona-euouae}
+  \gregorioscore{index-cantuum/antiphonae/alleluia.4E.2/antiphona-euouae}
+
+  \section{VI}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.6F/antiphona-euouae}
+
+  \section{VII}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.7a/antiphona-euouae}
+
+  \section{VIII}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.8c.1/antiphona-euouae}
+  \gregorioscore{index-cantuum/antiphonae/alleluia.8c.2/antiphona-euouae}
+  \gregorioscore{index-cantuum/antiphonae/alleluia.8c.3/antiphona-euouae}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.8G/antiphona-euouae}
+
+  \section{Oitava da Páscoa}
+
+  \gregorioscore{index-cantuum/antiphonae/alleluia.8/antiphona}
+%\end{multicols}
+
+\end{document}

@@ -1,23 +1,17 @@
 % chktex-file 1
-\frontmatter
+\ubook{Próprio do Tempo}
 
-\tableofcontents
+\upart{Tempo do Advento}\label{chapter:tempus-adventus}
 
-\input{graduale-simplex/praenotanda}
-
-\mainmatter
-
-\tocchapter{Tempo do Advento}\label{chapter:tempus-adventus}
-
-\tocsection{Missa I}\label{section:tempus-adventus/missa-1}
+\uchapter*{Missa I}\label{section:tempus-adventus/missa-1}
 \input{graduale-simplex/tempus-adventus/missa-1}
 
-\tocsection{Missa II}\label{section:tempus-adventus/missa-2}
+\uchapter{Missa II}\label{section:tempus-adventus/missa-2}
 \input{graduale-simplex/tempus-adventus/missa-2}
 
-\tocchapter{Tempo do Natal}\label{chapter:tempus-nativitatis}
+\upart{Tempo do Natal}\label{chapter:tempus-nativitatis}
 
-\Solemnitas{Natal do Senhor}{25 de dezembro}\label{section:tempus-nativitatis/in-nativitatis-domini}
+\Solemnitas*{Natal do Senhor}{25 de dezembro}\label{section:tempus-nativitatis/in-nativitatis-domini}
 \input{graduale-simplex/tempus-nativitatis/in-nativitatis-domini}
 
 \Festum{Sagrada Família: Jesus, Maria e José}{Domingo dentro da oitava do Natal}\label{section:tempus-nativitatis/sanctae-familiae}
@@ -34,11 +28,11 @@
 
 \appendix
 
-\tocchapter{Apêndices}\label{appendix}
+\ubook{Apêndice}\label{appendix}
 
-\tocsectioncomplex{Te Deum}{Para ser cantado no último dia do ano}{}\label{appendix:te-deum-simplex}
+\uchaptercomplex{Te Deum}{Para ser cantado no último dia do ano}\label{appendix:te-deum-simplex}
 
-\subsubsection{Tom simples}
+\usection{Tom simples}
 \begin{rubrica}
   A parte entre colchetes pode ser omitida, se for oportuno.
 \end{rubrica}
@@ -46,7 +40,7 @@
 
 \AllowPageBreak
 
-\subsubsection{Tom solene}
+\usection{Tom solene}
 \begin{rubrica}
   A parte entre colchetes pode ser omitida, se for oportuno.
 \end{rubrica}
@@ -54,7 +48,7 @@
 
 \AllowPageBreak
 
-\subsubsection{Tom conforme o costume romano}
+\usection{Tom conforme o costume romano}
 \begin{rubrica}
   A parte entre colchetes pode ser omitida, se for oportuno.
 \end{rubrica}
@@ -62,5 +56,6 @@
 
 \AllowPageBreak
 
-\tocsectioncomplex{Veni Creator Spiritus}{Para ser cantado no primeiro dia do ano}{}\label{appendix:veni-creator-spiritus}
+\uchaptercomplex{Veni Creator Spiritus}{Para ser cantado no primeiro dia do ano}\label{appendix:veni-creator-spiritus}
+
 \MakeChantHymn{hymni}{veni-creator-spiritus}

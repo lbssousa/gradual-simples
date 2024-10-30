@@ -1,12 +1,93 @@
-% !TeX root = ./a4.tex
-\titleformat{\chapter}[display]{\scshape\centering}{}{0pt}{\HUGE#1}[\clearpage]
-\titleformat{\section}[block]{\bfseries\centering}{}{0pt}{\Large#1}
-\titleformat{\subsection}[block]{\bfseries\centering}{}{0pt}{\large#1}
-\titleformat{\subsubsection}[block]{\bfseries\centering}{}{0pt}{#1}
-%\newcommand{\sectionbreak}{\clearpage}
-%\newcommand{\subsectionbreak}{\clearpage}
-\newcommand{\nobreaksubsection}[1]{%
-  %  \renewcommand{\subsectionbreak}{}
-  \subsection{#1}
-  %  \renewcommand{\subsectionbreak}{\clearpage}
+\makechapterstyle{gradualesimplex}{%
+  % Define o espaçamento anterior ao número do capítulo
+  % (1) baselineskip + AlturaCabecalhoExtra = OK
+  % (2) baselineskip + AlturaCabecalho = INSUFICIENTE
+  % (3) AlturaCabecalhoExtra + AlturaCabecalho = similar a (1)
+  % (4) baselineskip + AlturaCabecalhoExtra + AlturaCabecalho = EXAGERADO
+  \setlength{\beforechapskip}{-\baselineskip}
+  \addtolength{\beforechapskip}{-\AlturaCabecalho}
+  % Define o espaçamento entre o número e o título do capítulo
+  \setlength{\midchapskip}{-\baselineskip}
+  % Define o espaçamento posterior ao título do capítulo
+  \setlength{\afterchapskip}{\baselineskip}
+  %\renewcommand{\chapnamefont}{}
+  %\renewcommand{\chapnumfont}{}
+  \renewcommand{\booktitlefont}{\scshape\HUGE\centering}
+  \renewcommand{\printbookname}{}
+  \renewcommand{\printbooknum}{}
+  \renewcommand{\afterbookskip}{\relax}
+  \renewcommand{\parttitlefont}{\scshape\LARGE\centering}
+  \renewcommand{\printpartname}{}
+  \renewcommand{\printpartnum}{}
+  \renewcommand{\afterpartskip}{\vspace{2.5\baselineskip}}
+  \renewcommand{\chaptitlefont}{\bfseries\Large\centering}
+  \renewcommand{\printchaptername}{}
+  \renewcommand{\printchapternum}{}
+  % Define o estilo das seções
+  \setsecheadstyle{\bfseries\large\centering}
+  % Omite a numeração das seções
+  %\renewcommand{\thesection}{}
+  % Define o estilo das subseções
+  \setsubsecheadstyle{\bfseries\centering}
+  \setsubsubsecheadstyle{\bfseries\small\centering}
+  % Omite a numeração das subseções
+  %\renewcommand{\thesubsection}{}
+}
+
+\NewDocumentCommand{\ubook}{m}{%
+  \openright
+  \book*{#1}
+  \phantomsection
+  \addcontentsline{toc}{book}{#1}
+}
+
+\NewDocumentCommand{\upart}{m}{%
+  \nopartblankpage
+  \begingroup
+  \let\cleardoublepage\relax
+  \part*{#1}
+  \endgroup
+  \phantomsection
+  \addcontentsline{toc}{part}{#1}
+  \openany
+}
+
+\NewDocumentCommand{\uchapter}{s O{#3} m O{#3}}{%
+  \begingroup
+  % Evita quebra de página antes do início do capítulo
+  \IfBooleanT{#1}{\let\clearpage\relax}
+  \chapter*{#3}
+  \endgroup
+  \phantomsection
+  \addcontentsline{toc}{chapter}{#2}
+  \chaptermark{#4}
+}
+
+\NewDocumentCommand{\usection}{O{#2} m O{#2}}{%
+  \section*{#2}
+  \phantomsection
+  \addcontentsline{toc}{section}{#1}
+  \sectionmark{#3}
+}
+
+\NewDocumentCommand{\usubsection}{m}{%
+  \subsection*{#1}
+  \phantomsection
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+\NewDocumentCommand{\uchaptercomplex}{s O{#3} m O{#3} m O{}}{%
+\IfBooleanTF{#1}{\uchapter*}{\uchapter}[#2]{%
+{\normalfont\normalsize\color{gregoriocolor}#5} \\[-6pt]
+#3 \\[-6pt]
+{\normalfont\normalsize\color{gregoriocolor}#6}%
+}[#4]
+}
+
+\NewDocumentCommand{\Solemnitas}{s O{#3} m O{#3} m}{%
+  \IfBooleanTF{#1}{\uchaptercomplex*}{\uchaptercomplex}[#2]{#3}[#4]{#5}[Solenidade]%
+}
+
+\NewDocumentCommand{\Festum}{s O{#3} m O{#3} m}{%
+\IfBooleanTF{#1}{\uchaptercomplex*}{\uchaptercomplex}[#2]{#3}[#4]{#5}[Festa]%
 }

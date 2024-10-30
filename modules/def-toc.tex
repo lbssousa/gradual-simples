@@ -1,0 +1,19 @@
+% Define o estilo das partes
+\renewcommand{\cftbookfont}{\scshape\large}
+\renewcommand{\cftpartfont}{\small\color{gregoriocolor}}
+% Omite a numeração das partes
+%\renewcommand{\partnumberline}[1]{}
+% Omite a paginação das partes
+\cftpagenumbersoff{book}
+\cftpagenumbersoff{part}
+% Omite a numeração dos capítulos
+%\renewcommand{\chapternumberline}[1]{}
+% Omite a numeração das seções, subseções, etc.
+%\renewcommand{\numberline}[1]{}
+% Recua a indentação das subseções
+\setlength{\cftsubsectionindent}{\cftsectionindent}
+% Omite a indentação das seções
+\setlength{\cftsectionindent}{0pt}
+% Inclui as subseções no sumário
+%\setcounter{tocdepth}{2}
+%\setcounter{secnumdepth}{2}

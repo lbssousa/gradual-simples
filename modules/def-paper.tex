@@ -1,4 +1,3 @@
-% chktex-file 1
 % Define o tamanho do stock (papel), caso não seja um valor padrão. Para tamanhos padrão de papel (a4paper, a5paper, letter, etc.), definir preferencialmente como opção da \documentclass.
 %\setstocksize{205mm}{135mm}
 % Define o tamanho real da página em relação ao stock
@@ -10,13 +9,13 @@
 % Define a elevação do cabeçalho em relação ao topo do conteúdo da página
 \setlength{\headsep}{5mm}
 % Declara variáveis para guardar os valores iniciais da altura do cabeçalho de da separação do rodapé (distência entre o fundo do bloco de texto e a linha de base do rodapé).
-\newlength{\AlturaDoCabecalho}
-\setlength{\AlturaDoCabecalho}{\baselineskip}
-\newlength{\SeparacaoDoRodape}
-\setlength{\SeparacaoDoRodape}{\AlturaDoCabecalho}
-\addtolength{\SeparacaoDoRodape}{\headsep}
+\newlength{\AlturaCabecalho}
+\setlength{\AlturaCabecalho}{\baselineskip}
+\newlength{\SeparacaoRodape}
+\setlength{\SeparacaoRodape}{\AlturaCabecalho}
+\addtolength{\SeparacaoRodape}{\headsep}
 % Define a altura do cabeçalho e do rodapé da página
-\setheadfoot{\AlturaDoCabecalho}{\SeparacaoDoRodape}
+\setheadfoot{\AlturaCabecalho}{\SeparacaoRodape}
 % Declara variáveis para guardar os valores iniciais das margens interna e externa.
 \newlength{\MargemInterna}
 \setlength{\MargemInterna}{15mm}
@@ -27,9 +26,12 @@
 \setlength{\MargemSuperior}{10mm}
 \newlength{\MargemInferior}
 \setlength{\MargemInferior}{10mm}
-%% Descomente as duas linhas abaixo para incluir o cabeçalho no cálculo da margem superior
-\addtolength{\MargemSuperior}{\headheight}
-\addtolength{\MargemSuperior}{\headsep}
+% Declara variável para guardar a altura do cabeçalho.
+\newlength{\AlturaCabecalhoExtra}
+\setlength{\AlturaCabecalhoExtra}{\headheight}
+\addtolength{\AlturaCabecalhoExtra}{\headsep}
+%% Descomente a linha abaixo para incluir o cabeçalho no cálculo da margem superior
+\addtolength{\MargemSuperior}{\AlturaCabecalhoExtra}
 %% Descomente a linha abaixo para incluir o rodapé no cálculo da margem inferior
 \addtolength{\MargemInferior}{\footskip}
 % Define as margens horizontais (interna e externa)

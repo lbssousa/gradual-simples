@@ -303,7 +303,7 @@
 }
 
 \NewDocumentCommand \SectionAntiphon { s O{} m O{} m O{} } {
-  \subsection{Antífona \IfBooleanF{#1}{de} #3}\IfBlankF{#4}{\label{#4}}
+  \section*{Antífona \IfBooleanF{#1}{de} #3}\IfBlankF{#4}{\label{#4}}
   \MakeChantAntiphon{#5}[#6]
   \IfBlankF{#2}{%
     \begin{rubrica}
@@ -313,8 +313,8 @@
 }
 
 \NewDocumentCommand \SectionAntiphonMulti { O{} m O{} m m m m } {
-  \subsection{Antífona de #2}\IfBlankF{#3}{\label{#3}}
-  \subsubsection{#4}
+  \section*{Antífona de #2}\IfBlankF{#3}{\label{#3}}
+  \subsection*{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
       #1
@@ -324,34 +324,34 @@
 }
 
 \NewDocumentCommand \SectionAntiphonPsalm { s O{} m O{} m O{} m m O{#5} } {
-  \subsection{Antífona\IfBooleanF{#1}{ de} #3}\IfBlankF{#4}{\label{#4}}
+  \section*{Antífona\IfBooleanF{#1}{ de} #3}\IfBlankF{#4}{\label{#4}}
   \IfBlankF{#2}{%
     \begin{rubrica}
       #2
     \end{rubrica}%
   }
   \MakeChantAntiphon{#5}[#6]
-  \subsubsection{#7}
+  \subsection*{#7}
   \MakeChantPsalm{#8}{#9}
 }
 
 \NewDocumentCommand \SectionAlleluiaPsalm { O{} m m m } {
-  \subsection{Aleluia}\IfBlankF{#1}{\label{#1}}
+  \section*{Aleluia}\IfBlankF{#1}{\label{#1}}
   \MakeChantAlleluia{#2}
-  \subsubsection{#3}
+  \subsection*{#3}
   \MakeChantPsalm{psalmi-ad-alleluia}{#4}
 }
 
 \NewDocumentCommand \SectionNamedAlleluiaPsalm { O{} m m m m } {
-  \subsection{Aleluia #2}\IfBlankF{#1}{\label{#1}}
+  \section*{Aleluia #2}\IfBlankF{#1}{\label{#1}}
   \MakeChantAlleluia{#3}
-  \subsubsection{#4}
+  \subsection*{#4}
   \MakeChantPsalm{psalmi-ad-alleluia}{#5}
 }
 
 \NewDocumentCommand \SectionPsalm { O{} m O{} m m m } {
-  \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
-  \subsubsection{#4}
+  \section*{Salmo #2}\IfBlankF{#3}{\label{#3}}
+  \subsection*{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
       #1
@@ -361,8 +361,8 @@
 }
 
 \NewDocumentCommand \SectionChant { O{} m O{} m m m } {
-  \subsection{Canto #2}\IfBlankF{#3}{\label{#3}}
-  \subsubsection{#4}
+  \section*{Canto #2}\IfBlankF{#3}{\label{#3}}
+  \subsection*{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
       #1
@@ -372,8 +372,8 @@
 }
 
 \NewDocumentCommand \SectionPsalmMulti { O{} m O{} m m m m } {
-  \subsection{Salmo #2}\IfBlankF{#3}{\label{#3}}
-  \subsubsection{#4}
+  \section*{Salmo #2}\IfBlankF{#3}{\label{#3}}
+  \subsection*{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
       #1
@@ -383,8 +383,8 @@
 }
 
 \NewDocumentCommand \SectionChantMulti { O{} m O{} m m m m } {
-  \subsection{Canto #2}\IfBlankF{#3}{\label{#3}}
-  \subsubsection{#4}
+  \section*{Canto #2}\IfBlankF{#3}{\label{#3}}
+  \subsection*{#4}
   \IfBlankF{#1}{%
     \begin{rubrica}
       #1
@@ -394,7 +394,7 @@
 }
 
 \NewDocumentCommand \SectionHymnMulti { O{} m O{} m m m } {
-  \subsection{Hino #2}\IfBlankF{#3}{\label{#3}}
+  \section*{Hino #2}\IfBlankF{#3}{\label{#3}}
   \IfBlankF{#1}{%
     \begin{rubrica}
       #1
@@ -404,8 +404,8 @@
 }
 
 \NewDocumentCommand \SectionTractus { O{} m m } {
-  \subsection{Trato}\IfBlankF{#1}{\label{#1}}
-  \subsubsection{#2}
+  \section*{Trato}\IfBlankF{#1}{\label{#1}}
+  \subsection*{#2}
   \MakeChantPsalm{tractus}{#3}
 }
 
@@ -424,7 +424,7 @@
   \section{Antífona de #2}\IfBlankF{#3}{\label{#3}}
 
   \MakeChantAntiphonFlyer{#4}[#5]
-  \subsection{#6}
+  \subsection*{#6}
   \MakeChantPsalmFlyer{#7}{#8}
 }
 

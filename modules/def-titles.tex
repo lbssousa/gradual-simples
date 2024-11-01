@@ -34,60 +34,60 @@
   %\renewcommand{\thesubsection}{}
 }
 
-\NewDocumentCommand{\ubook}{m}{%
+\NewDocumentCommand{\ubook}{D(){book} m}{%
   \openright
-  \book*{#1}
+  \book*{#2}
   \phantomsection
-  \addcontentsline{toc}{book}{#1}
+  \addcontentsline{toc}{#1}{#2}
 }
 
-\NewDocumentCommand{\upart}{m}{%
+\NewDocumentCommand{\upart}{D(){part} m}{%
   \nopartblankpage
   \begingroup
   \let\cleardoublepage\relax
-  \part*{#1}
+  \part*{#2}
   \endgroup
   \phantomsection
-  \addcontentsline{toc}{part}{#1}
+  \addcontentsline{toc}{#1}{#2}
   \openany
 }
 
-\NewDocumentCommand{\uchapter}{s O{#3} m O{#3}}{%
+\NewDocumentCommand{\uchapter}{s D(){chapter} O{#4} m O{#4}}{%
   \begingroup
   % Evita quebra de página antes do início do capítulo
   \IfBooleanT{#1}{\let\clearpage\relax}
-  \chapter*{#3}
+  \chapter*{#4}
   \endgroup
   \phantomsection
-  \addcontentsline{toc}{chapter}{#2}
-  \chaptermark{#4}
+  \addcontentsline{toc}{#2}{#3}
+  \chaptermark{#5}
 }
 
-\NewDocumentCommand{\usection}{O{#2} m O{#2}}{%
-  \section*{#2}
+\NewDocumentCommand{\usection}{D(){section} O{#3} m O{#3}}{%
+  \section*{#3}
   \phantomsection
-  \addcontentsline{toc}{section}{#1}
-  \sectionmark{#3}
+  \addcontentsline{toc}{#1}{#3}
+  \sectionmark{#4}
 }
 
-\NewDocumentCommand{\usubsection}{m}{%
-  \subsection*{#1}
+\NewDocumentCommand{\usubsection}{D(){subsection} m}{%
+  \subsection*{#2}
   \phantomsection
-  \addcontentsline{toc}{subsection}{#1}
+  \addcontentsline{toc}{#1}{#2}
 }
 
-\NewDocumentCommand{\uchaptercomplex}{s O{#3} m O{#3} m O{}}{%
-\IfBooleanTF{#1}{\uchapter*}{\uchapter}[#2]{%
-{\normalfont\normalsize\color{gregoriocolor}#5} \\[-6pt]
-#3 \\[-6pt]
-{\normalfont\normalsize\color{gregoriocolor}#6}%
-}[#4]
+\NewDocumentCommand{\uchaptercomplex}{s D(){chapter} O{#4} m O{#4} m O{}}{%
+\IfBooleanTF{#1}{\uchapter*}{\uchapter}(#2)[#3]{%
+{\normalfont\normalsize\color{gregoriocolor}#6} \\[-6pt]
+#4 \\[-6pt]
+{\normalfont\normalsize\color{gregoriocolor}#7}%
+}[#5]
 }
 
-\NewDocumentCommand{\Solemnitas}{s O{#3} m O{#3} m}{%
-  \IfBooleanTF{#1}{\uchaptercomplex*}{\uchaptercomplex}[#2]{#3}[#4]{#5}[Solenidade]%
+\NewDocumentCommand{\Solemnitas}{s D(){chapter} O{#4} m O{#4} m}{%
+  \IfBooleanTF{#1}{\uchaptercomplex*}{\uchaptercomplex}(#2)[#3]{#4}[#5]{#6}[Solenidade]%
 }
 
-\NewDocumentCommand{\Festum}{s O{#3} m O{#3} m}{%
-\IfBooleanTF{#1}{\uchaptercomplex*}{\uchaptercomplex}[#2]{#3}[#4]{#5}[Festa]%
+\NewDocumentCommand{\Festum}{s D(){chapter} O{#4} m O{#4} m}{%
+  \IfBooleanTF{#1}{\uchaptercomplex*}{\uchaptercomplex}(#2)[#3]{#4}[#5]{#6}[Festa]%
 }

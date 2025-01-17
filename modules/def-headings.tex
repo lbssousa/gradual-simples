@@ -7,9 +7,11 @@
 % Define o formato do cabeçalho das páginas ímpares
 \makeoddhead{gradualesimplex}{\phantom{\thepage} \hfill \textsc{\color{gregoriocolor}\rightmark} \hfill \thepage}{}{}
 % Define o formato do rodapé das páginas pares
-\makeevenfoot{gradualesimplex}{}{}{}
+\makeevenfoot{gradualesimplex}{{\copyright} {\the\year} \hspace{2mm} Laércio de Sousa \hspace{4mm} \raisebox{-0.25\height}{\includegraphics[scale=1]{cc-by-sa-footer.png}} \hfill Conteúdo disponível em caráter experimental. Sujeito a alterações.}{}{}
 % Define o formato do rodapé das páginas ímpares
-\makeoddfoot{gradualesimplex}{}{}{}
+\makeoddfoot{gradualesimplex}{{\copyright} {\the\year} \hspace{2mm} Laércio de Sousa \hspace{4mm} \raisebox{-0.25\height}{\includegraphics[scale=1]{cc-by-sa-footer.png}} \hfill Conteúdo disponível em caráter experimental. Sujeito a alterações.}{}{}
+% Aplica o estilo definido acima
+\pagestyle{gradualesimplex}
 
 % Define o título do capítulo como marca das páginas pares no cabeçalho
 \renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}

@@ -53,6 +53,11 @@
 }
 
 \NewDocumentCommand{\uchapter}{s D(){chapter} O{#4} m O{#4}}{%
+  % #1: define se haverá ou não quebra de página antes do título
+  % #2: nome do título no sumário
+  % #3: título alternativo que aparecerá no sumário
+  % #4: título
+  % #5: título alternativo que aparecerá no cabeçalho da página
   \begingroup
   % Evita quebra de página antes do início do capítulo
   \IfBooleanT{#1}{\let\clearpage\relax}
@@ -77,8 +82,15 @@
 }
 
 \NewDocumentCommand{\uchaptercomplex}{s D(){chapter} O{#4} m O{#4} m O{}}{%
+% #1: define se haverá ou não quebra de página antes do título
+% #2: nome do título no sumário
+% #3: título alternativo que aparecerá no sumário
+% #4: título
+% #5: título alternativo que aparecerá no cabeçalho da página
+% #6: subtítulo que aparecerá acima do título
+% #7: subtítulo que aparecerá abaixo do título
 \IfBooleanTF{#1}{\uchapter*}{\uchapter}(#2)[#3]{%
-{\normalfont\normalsize\color{gregoriocolor}#6} \\[-6pt]
+\IfBlankF{#6}{\normalfont\normalsize\color{gregoriocolor}#6 \\[-6pt]}
 #4 \\[-6pt]
 {\normalfont\normalsize\color{gregoriocolor}#7}%
 }[#5]

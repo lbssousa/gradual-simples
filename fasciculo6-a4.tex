@@ -7,11 +7,12 @@
 
 \input{modules/def-toggles}
 \input{modules/def-paper}
-\input{modules/def-gregorio}
-\input{modules/def-chant-factory}
 \input{modules/def-titles}
 \input{modules/def-headings}
+\input{modules/def-toc}
 \input{modules/def-titlepage}
+\input{modules/def-gregorio}
+\input{modules/def-chant-factory}
 
 % Descomente as duas linhas abaixo para separar as versões em
 % latim e vernáculo em páginas distintas.
@@ -23,6 +24,24 @@
 \author{Laércio de Sousa}
 
 \begin{document}
+
+\pagestyle{gradualesimplex}
+
+\frontmatter
+
+\maketitle
+\input{modules/def-titlepage-back}
+\cleardoublepage
+
+\chapterstyle{gradualesimplex}
+
+\phantomsection
+\pdfbookmark{\contentsname}{toctarget}
+\hypertarget{toctarget}{\tableofcontents*}
+
+\input{graduale-simplex/praenotanda}
+
+\mainmatter
 
 \input{fasciculo-6/def-contents}
 

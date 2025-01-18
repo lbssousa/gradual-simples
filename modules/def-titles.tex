@@ -90,7 +90,7 @@
 % #6: subtítulo que aparecerá acima do título
 % #7: subtítulo que aparecerá abaixo do título
 \IfBooleanTF{#1}{\uchapter*}{\uchapter}(#2)[#3]{%
-\IfBlankF{#6}{\normalfont\normalsize\color{gregoriocolor}#6 \\[-6pt]}
+\IfBlankF{#6}{{\normalfont\normalsize\color{gregoriocolor}#6} \\[-6pt]}
 #4 \\[-6pt]
 {\normalfont\normalsize\color{gregoriocolor}#7}%
 }[#5]
